@@ -4,14 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <title>Market Dash</title>
+  <title>환율난민수용소</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="top">
-    <h1>Market Dash</h1>
+    <h1>환율난민수용소</h1>
     <span id="generated" class="muted">불러오는 중…</span>
   </header>
+  <nav class="jump" aria-label="바로가기">
+    <a href="#sec-summary">한눈에</a>
+    <a href="#sec-index">지수·금</a>
+    <a href="#sec-mood">분위기</a>
+    <a href="#sec-fx">환율</a>
+    <a href="#sec-chart">하락 추이</a>
+    <a href="#sec-five">5년 기록</a>
+    <a href="#sec-calendar">일정</a>
+    <a href="#sec-movers">종목</a>
+    <a href="#sec-sectors">업종</a>
+    <a href="#sec-news">뉴스</a>
+  </nav>
 
   <main>
     <!-- 한눈에 보기 -->
@@ -28,31 +40,18 @@
         <button role="tab" data-key="gold" aria-selected="false">금</button>
       </div>
       <div id="index-body"></div>
-      <details class="help">
-        <summary>이게 뭐예요?</summary>
-        <ul>
-          <li><b>나스닥</b>: 애플·엔비디아·마이크로소프트처럼 기술 기업이 많은 미국 시장의 지수예요.</li>
-          <li><b>S&amp;P 500</b>: 미국 대표 기업 500개를 모은 지수로, 보통 '미국 시장 전체'로 봐요.</li>
-          <li><b>금</b>: 국제 금값(뉴욕 금 선물, 1온스=31.1g 기준 달러). 불안할 때 찾는 '안전자산'이에요. 1돈 원화 가격은 국제 시세×환율로 계산한 값이라 세금·수수료가 붙는 실제 금은방 가격보다 낮아요.</li>
-          <li><b>최고점 대비</b>: 역사상 가장 높았던 날과 비교해 지금 얼마나 내려와 있는지예요.</li>
-          <li><b>원화로 환산</b>: 한국 돈으로 투자했을 때의 실제 변동이에요. 환율이 오르면 더 이득, 내리면 손해예요.</li>
-          <li><b>하락 단계</b>: 최고점에서 -10%면 '조정', -20%면 '약세장'이라고 불러요. 막대가 오른쪽으로 갈수록 많이 떨어진 거예요.</li>
-        </ul>
-      </details>
+    </section>
+
+    <!-- 시장 분위기 -->
+    <section class="card" id="sec-mood">
+      <h2>시장 분위기 <span class="muted">· 다들 겁먹었나, 들떴나?</span></h2>
+      <div id="mood-body"></div>
     </section>
 
     <!-- 3 환율 -->
     <section class="card" id="sec-fx">
       <h2>원/달러 환율</h2>
       <div id="fx-body"></div>
-      <details class="help">
-        <summary>이게 뭐예요?</summary>
-        <ul>
-          <li>1달러를 사려면 원화가 얼마나 필요한지예요. 1,356원이면 1달러 = 1,356원.</li>
-          <li><b>환율이 오르면</b>(원화 약세): 이미 가진 미국 주식은 원화로 따지면 이득, 새로 살 때는 비싸게 사요.</li>
-          <li><b>환율이 내리면</b>(원화 강세): 반대로 가진 주식의 원화 가치는 줄고, 새로 살 때는 싸게 사요.</li>
-        </ul>
-      </details>
     </section>
 
     <!-- 5 하락률 추이 -->
@@ -63,14 +62,6 @@
       <details class="table-view">
         <summary>표로 보기</summary>
         <div id="dd-table"></div>
-      </details>
-      <details class="help">
-        <summary>이게 뭐예요?</summary>
-        <ul>
-          <li>선이 <b>0%에 붙어 있으면</b> 최고점 근처라는 뜻이에요.</li>
-          <li>선이 <b>아래로 내려갈수록</b> 최고점보다 많이 떨어진 상태예요.</li>
-          <li>점선은 기준선이에요. -10%는 '조정', -20%는 '약세장'.</li>
-        </ul>
       </details>
     </section>
 
@@ -83,31 +74,12 @@
         <button role="tab" data-key="gold" aria-selected="false">금</button>
       </div>
       <div id="five-body"></div>
-      <details class="help">
-        <summary>이게 뭐예요?</summary>
-        <ul>
-          <li>차트의 <b>색칠된 구간</b>은 최고점에서 10% 넘게 떨어졌던 시기예요(최고점 → 바닥).</li>
-          <li><b>회복</b>: 바닥을 찍고 다시 예전 최고점까지 올라온 날이에요. 큰 하락일수록 회복에 오래 걸리는 경향이 있어요.</li>
-          <li><b>조정</b>은 10~20% 하락, <b>약세장급 급락</b>은 20% 넘는 하락이에요.</li>
-          <li><b>무슨 일이 있었나</b>를 누르면 그때 하락의 주요 원인을 간단히 볼 수 있어요.</li>
-          <li>과거 기록일 뿐, 앞으로도 같다는 보장은 없어요.</li>
-        </ul>
-      </details>
     </section>
 
     <!-- 미국 증시 일정 -->
     <section class="card" id="sec-calendar">
       <h2>미국 증시 일정 <span class="muted">· 미국 날짜 기준</span></h2>
       <div id="calendar-body"></div>
-      <details class="help">
-        <summary>이게 뭐예요?</summary>
-        <ul>
-          <li>미국 주식시장은 <b>한국시간 밤</b>에 열려요. 서머타임(3~11월) 22:30~다음 날 05:00, 그 외 23:30~06:00.</li>
-          <li><b>토·일요일과 미국 공휴일</b>에는 시장이 열리지 않아요(휴장).</li>
-          <li>날짜는 미국 현지 날짜예요. 예를 들어 미국 11/26(목) 휴장이면 한국시간 11/26 밤에 장이 열리지 않아요.</li>
-          <li>일정을 누르면 무슨 뜻인지 설명이 나와요.</li>
-        </ul>
-      </details>
     </section>
 
     <!-- 6 상위 종목 -->
@@ -119,46 +91,23 @@
         <button role="tab" data-key="most_active" aria-selected="false">거래 많음</button>
       </div>
       <div id="movers-body"></div>
-      <details class="help">
-        <summary>이게 뭐예요?</summary>
-        <ul>
-          <li><b>나스닥-100</b>(나스닥의 대표 기업 100개) 중에서 전날 가장 많이 오르거나 내린 종목이에요.</li>
-          <li><b>거래량</b>: 하루 동안 사고판 주식 수예요. 많을수록 사람들의 관심이 몰렸다는 뜻이에요.</li>
-          <li><b>왜?</b> 표시는 '이 종목이 왜 이만큼 움직였는지' 제목에 드러난 기사를 자동으로 고른 거예요. 못 찾으면 표시되지 않아요.</li>
-        </ul>
-      </details>
     </section>
 
     <!-- 7 섹터 -->
     <section class="card" id="sec-sectors">
       <h2>업종별 분위기 <span class="muted">· 섹터 ETF</span></h2>
       <div id="sectors-body"></div>
-      <details class="help">
-        <summary>이게 뭐예요?</summary>
-        <ul>
-          <li><b>섹터 ETF</b>: 같은 업종의 회사들을 한 바구니에 묶은 상품이에요. 업종 전체 분위기를 볼 수 있어요.</li>
-          <li><b>빨강</b>은 오른 업종, <b>파랑</b>은 내린 업종이에요. 색이 진할수록 많이 움직였어요.</li>
-          <li>예: 반도체가 빨갛고 필수소비재가 파랗다면, 돈이 반도체 쪽으로 몰린 날이에요.</li>
-        </ul>
-      </details>
     </section>
 
     <!-- 8 뉴스 -->
     <section class="card" id="sec-news">
       <h2>시장 뉴스</h2>
       <div id="news-body"></div>
-      <details class="help">
-        <summary>이게 뭐예요?</summary>
-        <ul>
-          <li>미국 뉴스가 더 빨라서 영어 제목을 받아 <b>기계번역</b>했어요. 작은 글씨가 원문이에요.</li>
-          <li><b>키워드</b>: 요즘 뉴스 제목에 자주 나온 단어예요. 시장이 무엇에 관심 있는지 보여줘요.</li>
-        </ul>
-      </details>
     </section>
   </main>
 
   <footer class="muted">
-    데이터: Yahoo Finance(yfinance), Frankfurter, 연준, RSS(Yahoo·CNBC·Google News). 시각은 한국시간.
+    데이터: Yahoo Finance(yfinance), CNN 공포·탐욕 지수, Frankfurter, 연준, RSS(Yahoo·CNBC·Google News). 시각은 한국시간.
     투자 권유가 아닌 개인 참고용이에요.
   </footer>
 

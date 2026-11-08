@@ -23,7 +23,7 @@ function el(tag, attrs = {}, ...children) {
     else if (k === "style") node.style.cssText = v;
     else node.setAttribute(k, v);
   }
-  for (const c of children.flat()) {
+  for (const c of children.flat(Infinity)) {
     if (c == null || c === false) continue;
     node.append(c instanceof Node ? c : document.createTextNode(String(c)));
   }
@@ -95,22 +95,122 @@ function setupTabs(containerId, stateKey, render) {
 }
 
 // ── 한눈에 보기 ───────────────────────────────────────
+const SVG_NS = "http://www.w3.org/2000/svg";
+function svg(tag, attrs = {}, ...children) {
+  const node = document.createElementNS(SVG_NS, tag);
+  for (const [k, v] of Object.entries(attrs)) if (v != null) node.setAttribute(k, v);
+  for (const c of children.flat(Infinity)) {
+    if (c == null || c === false) continue;
+    node.append(c instanceof Node ? c : document.createTextNode(String(c)));
+  }
+  return node;
+}
+
+/** 최근 3개월 미니 차트. points = [[날짜, 값], ...] */
+function spark(points, colorVar) {
+  const pts = (points || []).filter((p) => p[1] != null);
+  if (pts.length < 2) return null;
+  const vs = pts.map((p) => p[1]);
+  const lo = Math.min(...vs), hi = Math.max(...vs), span = hi - lo || 1;
+  const d = pts.map((p, i) =>
+    `${i ? "L" : "M"}${(i / (pts.length - 1) * 100).toFixed(2)},${(28 - (p[1] - lo) / span * 26).toFixed(2)}`).join("");
+  return svg("svg", { class: "spark", viewBox: "0 0 100 30", preserveAspectRatio: "none", "aria-hidden": "true" },
+    svg("path", { d, fill: "none", stroke: `var(${colorVar})`, "stroke-width": "1.5", "vector-effect": "non-scaling-stroke",
+      "stroke-linejoin": "round", "stroke-linecap": "round" }));
+}
+
+/** history 행([{date, close}] 또는 [[date, v]]) → 최근 3개월 [[date, v]] */
+function last3m(rows, field = "close") {
+  if (!rows?.length) return [];
+  const pairs = rows.map((r) => (Array.isArray(r) ? r : [r.date, r[field]]));
+  const from = new Date(pairs.at(-1)[0] + "T00:00:00Z");
+  from.setUTCMonth(from.getUTCMonth() - 3);
+  const f = from.toISOString().slice(0, 10);
+  return pairs.filter((r) => r[0] >= f);
+}
+
+const signed = (v, d) => `${v > 0 ? "▲ +" : v < 0 ? "▼ −" : ""}${num(Math.abs(v), d)}`;
+
+/** 맨 위 숫자 칸: 누르면 해당 카드로 이동 */
+function tile({ label, value, unit, chg, chgNeutral, chip, chipClass, points, sparkColor, go, stale }) {
+  return el("button", { class: "tile", "data-go": go, "aria-label": `${label} 자세히 보기` },
+    el("div", { class: "t-label" }, label, stale ? el("span", { class: "t-stale", title: "업데이트 실패" }, " ⚠") : null),
+    el("div", { class: "t-value" }, value, unit ? el("small", {}, unit) : null),
+    el("div", { class: "t-row" },
+      chg ? el("span", { class: chgNeutral ? "flat t-chg" : `${dir(chg.v)} t-chg` }, chg.text) : null,
+      chip ? el("span", { class: `t-chip ${chipClass || ""}` }, chip) : null),
+    spark(points, sparkColor));
+}
+
+function renderTiles() {
+  const S = state.latest.sections, H = state.history || {};
+  const tiles = [];
+  for (const a of ASSETS) {
+    const sec = S[a.key], d = sec?.data;
+    if (!d) continue;
+    const gold = d.kind === "commodity";
+    tiles.push(tile({
+      label: a.label, value: gold ? `$${num(d.close, 0)}` : num(d.close, 0),
+      chg: { v: d.change_pct, text: pct(d.change_pct) },
+      chip: d.zone ? `${d.zone.label} ${num(d.drawdown_pct, 1)}%` : null,
+      chipClass: d.drawdown_pct <= -20 ? "bear" : d.drawdown_pct <= -10 ? "corr" : "",
+      points: last3m(H[a.key]), sparkColor: a.color, go: `index:${a.key}`, stale: sec.status !== "ok",
+    }));
+  }
+  const fx = S.fx?.data;
+  if (fx) {
+    tiles.push(tile({
+      label: "원/달러 환율", value: num(fx.rate, 0), unit: "원",
+      chg: { v: fx.change_pct, text: `${signed(fx.rate - fx.prev_rate, 1)}원` },
+      points: last3m(H.usdkrw), sparkColor: "--text-2", go: "fx", stale: S.fx.status !== "ok",
+    }));
+  }
+  const fg = S.fear_greed?.data;
+  if (fg) {
+    const diff = Math.round(fg.score) - Math.round(fg.prev_close ?? fg.score);
+    tiles.push(tile({
+      label: "공포·탐욕 지수", value: Math.round(fg.score), unit: "/100",
+      chg: { v: diff, text: `전날 ${signed(diff, 0)}` }, chgNeutral: true,
+      chip: fg.zone.label, chipClass: `fg lv${fg.zone.level}`,
+      points: fg.history, sparkColor: "--text-2", go: "mood", stale: S.fear_greed.status !== "ok",
+    }));
+  }
+  const vx = S.vix?.data;
+  if (vx) {
+    tiles.push(tile({
+      label: "공포지수 VIX", value: num(vx.close, 1),
+      chg: { v: vx.change, text: `전날 ${signed(vx.change, 1)}` }, chgNeutral: true,
+      chip: vx.zone.label, chipClass: `vix lv${vx.zone.level}`,
+      points: vx.history, sparkColor: "--text-2", go: "mood", stale: S.vix.status !== "ok",
+    }));
+  }
+  return el("div", { class: "tiles" }, tiles);
+}
+
+function goTo(target) {
+  const [where, key] = target.split(":");
+  if (where === "index") {
+    state.indexKey = key;
+    for (const b of $("index-tabs").querySelectorAll("button")) b.setAttribute("aria-selected", String(b.dataset.key === key));
+    renderIndex();
+  }
+  $(`sec-${where}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 function renderSummary() {
   const S = state.latest.sections;
   const st = marketStatus();
   const items = [];
 
-  for (const { key } of ASSETS) {
-    const d = S[key]?.data;
-    if (d?.summary) items.push(el("li", {}, el("span", { class: "tag" }, d.short), d.summary.join(" ")));
-  }
+  const mood = [...(S.fear_greed?.data?.summary || []), ...(S.vix?.data?.summary || [])];
+  if (mood.length) items.push(el("li", {}, el("span", { class: "tag" }, "분위기"), mood.join(" ")));
+
   const withKrw = ASSETS.map((a) => S[a.key]?.data).filter((d) => d?.krw);
   if (withKrw.length) {
     items.push(el("li", {}, el("span", { class: "tag" }, "원화"), "한국 돈으로 투자했다면 ",
-      withKrw.map((d, i) => [i ? ", " : "", `${d.short} `, pctSpan(d.krw.change_pct)]),
-      ` (환율 ${pct(withKrw[0].krw.fx_change_pct)} 효과 포함)`));
+      withKrw.map((d, i) => [i ? " · " : "", `${d.short} `, pctSpan(d.krw.change_pct)]),
+      el("span", { class: "muted" }, ` (환율 ${pct(withKrw[0].krw.fx_change_pct)} 반영)`)));
   }
-  if (S.fx?.data?.summary) items.push(el("li", {}, el("span", { class: "tag" }, "환율"), S.fx.data.summary.join(" ")));
 
   const today = etToday();
   const limit = new Date(utcDate(today).getTime() + 7 * 864e5).toISOString().slice(0, 10);
@@ -120,13 +220,95 @@ function renderSummary() {
       soon.map((e, i) => [i ? " · " : "", el("b", {}, mdDow(e.date)), " ", e.title])));
   }
 
-  const stale = ["nasdaq", "sp500", "gold", "fx"].some((k) => S[k] && S[k].status !== "ok");
+  const stale = ["nasdaq", "sp500", "gold", "fx", "fear_greed", "vix"].some((k) => S[k] && S[k].status !== "ok");
   mount("summary-body",
     st && el("div", { class: `status ${st.open ? "open" : "closed"}` },
       el("span", { class: "dot", "aria-hidden": "true" }),
       el("div", {}, el("b", {}, st.text), el("div", { class: "sub" }, st.sub))),
+    renderTiles(),
+    el("div", { class: "sub tiles-hint" }, "칸을 누르면 자세한 설명으로 이동해요 · 작은 선은 최근 3개월 흐름"),
     el("ul", { class: "plain-list" }, items),
-    stale ? el("div", { class: "sub" }, "※ 일부 항목은 업데이트에 실패해 마지막으로 성공한 데이터 기준이에요.") : null);
+    stale ? el("div", { class: "sub" }, "⚠ 표시가 있는 칸은 업데이트에 실패해 마지막으로 성공한 데이터예요.") : null);
+
+  const body = $("summary-body");
+  if (!body.dataset.bound) {
+    body.dataset.bound = "1";
+    body.addEventListener("click", (e) => {
+      const t = e.target.closest("[data-go]");
+      if (t) goTo(t.dataset.go);
+    });
+  }
+}
+
+// ── 시장 분위기 (공포·탐욕, VIX) ──────────────────────
+// 각도 0 = 왼쪽(0점) ~ 180 = 오른쪽(100점), 위쪽 반원
+function polar(cx, cy, r, deg) {
+  return [cx - r * Math.cos(deg * Math.PI / 180), cy - r * Math.sin(deg * Math.PI / 180)];
+}
+function arcPath(cx, cy, r, a0, a1) {
+  const [x0, y0] = polar(cx, cy, r, a0), [x1, y1] = polar(cx, cy, r, a1);
+  return `M${x0.toFixed(2)},${y0.toFixed(2)} A${r},${r} 0 0 1 ${x1.toFixed(2)},${y1.toFixed(2)}`;
+}
+
+const FG_BANDS = [[0, 25], [25, 45], [45, 56], [56, 76], [76, 100]];
+function fearGreedGauge(fg) {
+  const toA = (v) => v / 100 * 180;
+  const [nx, ny] = polar(100, 100, 62, toA(Math.max(0, Math.min(100, fg.score))));
+  return svg("svg", { class: "fg-gauge", viewBox: "0 0 200 112", role: "img",
+    "aria-label": `공포·탐욕 지수 ${Math.round(fg.score)}점, ${fg.zone.label}` },
+    FG_BANDS.map(([lo, hi], i) => svg("path", { d: arcPath(100, 100, 80, toA(lo) + 1.2, toA(hi) - 1.2),
+      class: `fg-band lv${i} ${i === fg.zone.level ? "on" : ""}`, fill: "none", "stroke-width": "18" })),
+    svg("line", { x1: "100", y1: "100", x2: nx.toFixed(2), y2: ny.toFixed(2), class: "fg-needle",
+      "stroke-width": "3", "stroke-linecap": "round" }),
+    svg("circle", { cx: "100", cy: "100", r: "6", class: "fg-hub" }));
+}
+
+const VIX_BANDS = [[0, 15, "평온"], [15, 20, "보통"], [20, 30, "불안"], [30, 40, "공포"], [40, 50, "패닉"]];
+function vixBar(vx) {
+  const MAX = 50;
+  const w = (lo, hi) => `width:${(hi - lo) / MAX * 100}%`;
+  return el("div", { class: "vix-bar" },
+    el("div", { class: "vix-track", role: "meter", "aria-valuemin": "0", "aria-valuemax": String(MAX),
+      "aria-valuenow": String(vx.close), "aria-label": `VIX ${vx.close}, ${vx.zone.label}` },
+      VIX_BANDS.map(([lo, hi], i) => el("div", { class: `vix-seg lv${i} ${i === vx.zone.level ? "on" : ""}`, style: w(lo, hi) })),
+      el("div", { class: "vix-marker", style: `left:${Math.min(vx.close, MAX) / MAX * 100}%` })),
+    el("div", { class: "vix-labels" },
+      VIX_BANDS.map(([lo, hi, nm], i) => el("span", { class: i === vx.zone.level ? "on" : null, style: w(lo, hi) }, nm))));
+}
+
+function renderMood() {
+  const S = state.latest.sections;
+  const fgSec = S.fear_greed, fg = fgSec?.data;
+  const vxSec = S.vix, vx = vxSec?.data;
+  const cmp = (lbl, v) => el("div", {}, el("span", { class: "muted" }, lbl), el("b", {}, v == null ? "–" : Math.round(v)));
+
+  mount("mood-body",
+    el("div", { class: "mood-block" },
+      el("h3", {}, "공포·탐욕 지수 ", el("span", { class: "muted" }, "· CNN, 0~100점")),
+      staleBadge(fgSec) || (!fg ? el("div", { class: "stale" }, "⚠ 업데이트 실패 (표시할 데이터 없음)") : null),
+      fg ? [
+        el("div", { class: "fg-wrap" },
+          el("span", { class: "fg-end" }, "공포"),
+          el("div", { class: "fg-dial" }, fearGreedGauge(fg),
+            el("div", { class: "fg-center" },
+              el("div", { class: "fg-score" }, Math.round(fg.score)),
+              el("div", { class: `fg-label lv${fg.zone.level}` }, fg.zone.label))),
+          el("span", { class: "fg-end" }, "탐욕")),
+        el("p", { class: "plain" }, fg.zone.desc),
+        el("div", { class: "fg-cmp" }, cmp("전날", fg.prev_close), cmp("1주 전", fg.week_ago),
+          cmp("1달 전", fg.month_ago), cmp("1년 전", fg.year_ago)),
+      ] : null),
+    el("div", { class: "mood-block" },
+      el("h3", {}, "공포지수 VIX ", el("span", { class: "muted" }, "· 앞으로 30일 출렁임 예상")),
+      staleBadge(vxSec) || (!vx ? el("div", { class: "stale" }, "⚠ 업데이트 실패 (표시할 데이터 없음)") : null),
+      vx ? [
+        el("div", { class: "fx-row" },
+          el("span", { class: "value" }, num(vx.close)),
+          el("span", { class: "flat" }, `전날 ${num(vx.prev_close)} → ${signed(vx.change)} (${pct(vx.change_pct, 1)})`)),
+        vixBar(vx),
+        el("p", { class: "plain" }, `'${vx.zone.label}' — ${vx.zone.desc}`),
+        el("div", { class: "sub" }, `${ymd(vx.as_of)} 마감 기준`),
+      ] : null));
 }
 
 // ── 1·2·4 지수 ────────────────────────────────────────
@@ -184,7 +366,7 @@ function renderIndex() {
         el("small", {}, `역대 최고 ${num(d.peak.value)} (${ymd(d.peak.date)})`)),
       el("dt", {}, "원화로 환산"),
       krw),
-    d.zone ? el("div", { class: "zone-desc" }, `'${d.zone.label}' — ${d.zone.desc}`) : null,
+    d.summary ? el("p", { class: "plain" }, d.summary.join(" ")) : null,
     renderGauge(d));
 }
 
@@ -710,7 +892,7 @@ async function loadJson(path) {
 
 function renderAll() {
   $("generated").textContent = `갱신 ${kst(state.latest.generated_at)}`;
-  for (const fn of [renderSummary, renderIndex, renderFx, renderChart, renderFive, renderCalendar, renderMovers, renderSectors, renderNews]) {
+  for (const fn of [renderSummary, renderIndex, renderMood, renderFx, renderChart, renderFive, renderCalendar, renderMovers, renderSectors, renderNews]) {
     try { fn(); } catch (e) { console.error(fn.name, e); } // 한 칸 오류가 다른 칸을 막지 않게
   }
 }

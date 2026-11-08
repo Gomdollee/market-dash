@@ -317,3 +317,100 @@ footer { font-size: 12px; padding-top: 4px; padding-bottom: 28px; }
 @media (min-width: 520px) {
   .sectors { grid-template-columns: repeat(4, 1fr); }
 }
+
+/* ── 바로가기 메뉴 (위에 고정) ───────────────────── */
+.jump {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none;
+  max-width: 640px; margin: 0 auto; padding: 8px 16px;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+.jump::-webkit-scrollbar { display: none; }
+.jump a {
+  flex: none; font-size: 12px; font-weight: 600; text-decoration: none; color: var(--text-2);
+  background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 4px 10px;
+}
+.jump a:hover { color: var(--text); border-color: var(--line); }
+.card { scroll-margin-top: 52px; }
+
+/* ── 맨 위 숫자 칸 ─────────────────────────────── */
+.tiles { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 4px; }
+.tile {
+  text-align: left; font: inherit; color: var(--text); cursor: pointer;
+  background: var(--bg); border: 1px solid var(--border); border-radius: 10px;
+  padding: 9px 10px 6px; display: flex; flex-direction: column; gap: 2px; min-width: 0;
+}
+.tile:hover { border-color: var(--line); }
+.tile:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.t-label { font-size: 12px; color: var(--text-2); font-weight: 600; }
+.t-stale { color: var(--warn-text); }
+.t-value { font-size: 21px; font-weight: 700; letter-spacing: -.3px; line-height: 1.2; }
+.t-value small { font-size: 12px; font-weight: 500; color: var(--muted); margin-left: 2px; }
+.t-row { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; font-size: 12px; }
+.t-chg { font-weight: 600; }
+.t-chip {
+  font-size: 11px; font-weight: 700; border-radius: 4px; padding: 0 5px; line-height: 17px;
+  background: var(--track); color: var(--text-2); white-space: nowrap;
+}
+.t-chip.corr { background: color-mix(in srgb, var(--down) 16%, transparent); color: var(--text); }
+.t-chip.bear { background: color-mix(in srgb, var(--down) 32%, transparent); color: var(--text); }
+.spark { width: 100%; height: 26px; margin-top: 3px; display: block; }
+.tiles-hint { margin: 2px 0 6px; }
+@media (min-width: 520px) { .tiles { grid-template-columns: repeat(3, 1fr); } }
+
+/* ── 분위기 색: 공포(파랑) ↔ 탐욕(빨강), VIX는 주황 단계 ── */
+:root { --vix: #c98500; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --vix: #eda100; } }
+:root[data-theme="dark"] { --vix: #eda100; }
+.fg.lv0, .fg-label.lv0 { background: color-mix(in srgb, var(--down) 34%, transparent); color: var(--text); }
+.fg.lv1, .fg-label.lv1 { background: color-mix(in srgb, var(--down) 16%, transparent); color: var(--text); }
+.fg.lv2, .fg-label.lv2 { background: var(--track); color: var(--text); }
+.fg.lv3, .fg-label.lv3 { background: color-mix(in srgb, var(--up) 16%, transparent); color: var(--text); }
+.fg.lv4, .fg-label.lv4 { background: color-mix(in srgb, var(--up) 34%, transparent); color: var(--text); }
+.vix.lv0 { background: var(--track); }
+.vix.lv1 { background: color-mix(in srgb, var(--vix) 14%, transparent); color: var(--text); }
+.vix.lv2 { background: color-mix(in srgb, var(--vix) 28%, transparent); color: var(--text); }
+.vix.lv3 { background: color-mix(in srgb, var(--vix) 45%, transparent); color: var(--text); }
+.vix.lv4 { background: color-mix(in srgb, var(--vix) 70%, transparent); color: var(--text); }
+
+/* ── 시장 분위기 카드 ──────────────────────────── */
+.mood-block + .mood-block { border-top: 1px solid var(--border); margin-top: 14px; padding-top: 12px; }
+.mood-block h3 { font-size: 13px; margin: 0 0 8px; font-weight: 700; }
+.mood-block h3 .muted { font-weight: 400; }
+.fg-wrap { display: flex; align-items: flex-end; justify-content: center; gap: 6px; }
+.fg-end { font-size: 12px; color: var(--muted); padding-bottom: 4px; }
+.fg-dial { position: relative; width: min(260px, 70vw); }
+.fg-gauge { width: 100%; display: block; }
+.fg-band { opacity: .3; }
+.fg-band.on { opacity: 1; }
+.fg-band.lv0 { stroke: var(--down); }
+.fg-band.lv1 { stroke: color-mix(in srgb, var(--down) 55%, var(--track)); }
+.fg-band.lv2 { stroke: var(--line); }
+.fg-band.lv3 { stroke: color-mix(in srgb, var(--up) 55%, var(--track)); }
+.fg-band.lv4 { stroke: var(--up); }
+.fg-needle { stroke: var(--text); }
+.fg-hub { fill: var(--text); }
+.fg-center { text-align: center; margin-top: 2px; }
+.fg-score { font-size: 30px; font-weight: 800; line-height: 1; }
+.fg-label { display: inline-block; margin-top: 4px; font-size: 12px; font-weight: 700; border-radius: 4px; padding: 1px 7px; }
+.fg-cmp { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-top: 10px; text-align: center; font-size: 12px; }
+.fg-cmp > div { background: var(--track); border-radius: 6px; padding: 5px 2px; display: flex; flex-direction: column; }
+.fg-cmp b { font-size: 15px; }
+.vix-bar { margin-top: 10px; }
+.vix-track { position: relative; display: flex; gap: 2px; height: 12px; }
+.vix-seg { border-radius: 3px; opacity: .45; }
+.vix-seg.on { opacity: 1; }
+.vix-seg.lv0 { background: var(--track); opacity: 1; }
+.vix-seg.lv1 { background: color-mix(in srgb, var(--vix) 25%, var(--track)); }
+.vix-seg.lv2 { background: color-mix(in srgb, var(--vix) 50%, var(--track)); }
+.vix-seg.lv3 { background: color-mix(in srgb, var(--vix) 78%, var(--track)); }
+.vix-seg.lv4 { background: var(--vix); }
+.vix-marker {
+  position: absolute; top: -4px; bottom: -4px; width: 4px; margin-left: -2px;
+  background: var(--text); border-radius: 2px; box-shadow: 0 0 0 2px var(--surface);
+}
+.vix-labels { display: flex; gap: 2px; font-size: 11px; color: var(--muted); margin-top: 4px; }
+.vix-labels span { text-align: center; white-space: nowrap; overflow: hidden; }
+.vix-labels span.on { color: var(--text); font-weight: 700; }

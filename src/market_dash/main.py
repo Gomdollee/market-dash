@@ -24,14 +24,23 @@ from market_dash.calc import (
     value_on_or_before,
 )
 from market_dash.episode_notes import news_search_url, note_for
-from market_dash.explain import drawdown_zone, five_year_summary, fx_summary, index_summary, krw_summary
+from market_dash.explain import (
+    drawdown_zone,
+    fear_greed_zone,
+    five_year_summary,
+    fx_summary,
+    index_summary,
+    krw_summary,
+    mood_summary,
+    vix_zone,
+)
 from market_dash.swings import drawdown_episodes, find_swings, weekly
 from market_dash.keywords import top_keywords
 from market_dash.market_calendar import ET, rule_events, upcoming_sessions
 from market_dash.sources import events as events_src
 from market_dash.names_ko import KEYWORD_KO, TICKER_KO
 from market_dash.sources import fx as fx_src
-from market_dash.sources import market, news
+from market_dash.sources import market, news, sentiment
 from market_dash.sources.translate import Translator, prune_cache
 from market_dash.storage import FetchResult, load_json, merge_section, save_json, upsert_rows
 
@@ -164,6 +173,35 @@ def build_index(key: str, fx_series: Series | None) -> dict:
             for r in rows[-config.HISTORY_KEEP_DAYS :]
         ],
     }
+
+
+def build_fear_greed() -> dict:
+    fg = sentiment.fetch_fear_greed()
+    return {
+        **{k: (r2(v) if isinstance(v, float) else v) for k, v in fg.items() if k != "history"},
+        "zone": fear_greed_zone(fg["score"]),
+        "summary": mood_summary(fg["score"], None),
+        "history": [[d, r2(v)] for d, v in fg["history"]],
+    }
+
+
+def build_vix() -> dict:
+    closes = market.fetch_close_history(config.VIX_SYMBOL, period="6mo")
+    (d_prev, prev), (d_now, now) = closes[-2], closes[-1]
+    return {
+        "as_of": d_now,
+        "close": r2(now),
+        "prev_close": r2(prev),
+        "change": r2(now - prev),
+        "change_pct": r2(pct_change(now, prev)),
+        "zone": vix_zone(now),
+        "summary": mood_summary(None, now),
+        "history": [[d, r2(v)] for d, v in closes[-config.MOOD_KEEP_DAYS:] if d >= _days_before(d_now, 92)],
+    }
+
+
+def _days_before(iso: str, days: int) -> str:
+    return (date.fromisoformat(iso) - timedelta(days=days)).isoformat()
 
 
 def _slim_quote(q: dict) -> dict:
@@ -314,6 +352,8 @@ def run() -> int:
             rows = results[key].data.pop("_history")
             history[key] = upsert_rows(history.get(key, []), rows, config.HISTORY_KEEP_DAYS)
 
+    results["fear_greed"] = attempt("fear_greed", build_fear_greed)
+    results["vix"] = attempt("vix", build_vix)
     results["movers"] = attempt("movers", build_movers)
     results["sectors"] = attempt("sectors", build_sectors)
     results["news"] = attempt("news", build_news)

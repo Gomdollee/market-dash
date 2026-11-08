@@ -98,3 +98,50 @@ def krw_summary(subject: str, krw_pct: float, idx_pct: float, fx_pct: float) -> 
     # subject 에 조사를 포함시켜 받침과 상관없이 항상 맞게 ('나스닥 지수는', '금 값은')
     return (f"원화로 투자했다면 {subject} {sign(krw_pct)}예요 "
             f"(달러 기준 {sign(idx_pct)} + 환율 {sign(fx_pct)} 효과).")
+
+
+# ── 시장 분위기: 공포·탐욕 지수, VIX ─────────────────────
+# (상한, 이름, 설명). 값이 상한 미만이면 해당 구간. level 0=가장 공포 ~ 4=가장 탐욕
+FEAR_GREED_ZONES = [
+    (25, "극단적 공포", "다들 겁먹고 팔고 있어요. 역사적으로는 이럴 때가 싸게 살 기회였던 적도 많아요."),
+    (45, "공포", "불안한 분위기라 조심스럽게 사고파는 중이에요."),
+    (56, "중립", "겁도 욕심도 크지 않은 보통 분위기예요."),
+    (76, "탐욕", "사려는 사람이 많아 분위기가 달아올랐어요."),
+    (101, "극단적 탐욕", "너도나도 사는 과열 분위기예요. 이럴 땐 추격 매수를 조심하라는 말이 많아요."),
+]
+
+# VIX: 앞으로 30일 S&P 500 이 얼마나 출렁일지 옵션 가격으로 계산한 값. level 0=평온 ~ 4=패닉
+VIX_ZONES = [
+    (15, "평온", "시장이 아주 잔잔해요."),
+    (20, "보통", "평소 수준의 출렁임이에요 (장기 평균 약 19~20)."),
+    (30, "불안", "평소보다 크게 출렁일 거라고 보는 사람이 많아요."),
+    (40, "공포", "큰 폭의 출렁임을 걱정하는 공포 구간이에요."),
+    (float("inf"), "패닉", "금융위기·코로나 때 같은 극심한 공포 수준이에요."),
+]
+
+
+def _zone(value: float, zones: list) -> dict:
+    for level, (upper, label, desc) in enumerate(zones):
+        if value < upper:
+            return {"label": label, "desc": desc, "level": level}
+    raise ValueError(value)
+
+
+def fear_greed_zone(score: float) -> dict:
+    """0~100 점수 → 구간. 화면에 보이는 정수 점수와 이름이 어긋나지 않게 반올림 후 판정."""
+    return _zone(round(score), FEAR_GREED_ZONES)
+
+
+def vix_zone(vix: float) -> dict:
+    return _zone(round(vix, 2), VIX_ZONES)
+
+
+def mood_summary(fg_score: float | None, vix: float | None) -> list[str]:
+    lines = []
+    if fg_score is not None:
+        z = fear_greed_zone(fg_score)
+        lines.append(f"투자자 심리는 100점 만점에 {round(fg_score)}점, '{z['label']}' 상태예요.")
+    if vix is not None:
+        z = vix_zone(vix)
+        lines.append(f"공포지수(VIX)는 {vix:.1f}, '{z['label']}' 수준이에요.")
+    return lines

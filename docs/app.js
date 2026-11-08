@@ -885,6 +885,29 @@ function renderNews() {
         el("div", { class: "meta" }, [n.source, relTime(n.published)].filter(Boolean).join(" · "))))));
 }
 
+// ── 배너 (오늘의 환율 + 수용소 상태) ─────────────────
+// 환율 구간별 '수용소 상태' 문구 (재미용 표현, 숫자는 Python 이 계산한 환율 그대로)
+const CAMP = [
+  [1450, "🚨", "난민 대량 발생 · 수용소 초만원"],
+  [1400, "🚧", "수용소 만원 · 입소 대기 중"],
+  [1350, "🏕️", "오늘도 대피 중"],
+  [1300, "🌤️", "슬슬 귀가 준비"],
+  [0, "🏠", "전원 귀가 가능"],
+];
+function renderBanner() {
+  const sec = state.latest.sections.fx, d = sec?.data;
+  if (!d) return mount("banner-fx", el("span", { class: "bf-label" }, "환율 정보를 불러오지 못했어요"));
+  const [, icon, text] = CAMP.find(([min]) => d.rate >= min);
+  const diff = d.rate - d.prev_rate;
+  mount("banner-fx",
+    el("div", { class: "bf-main" },
+      el("span", { class: "bf-label" }, "오늘의 환율 · 1달러"),
+      el("span", { class: "bf-rate" }, num(d.rate, 2), el("small", {}, "원")),
+      el("span", { class: `bf-chg ${dir(diff)}` }, `${signed(diff, 1)}원 (${pct(d.change_pct)})`)),
+    el("div", { class: "bf-camp" }, el("span", { "aria-hidden": "true" }, icon), " 수용소 상태: ", el("b", {}, text),
+      sec.status !== "ok" ? el("span", { class: "bf-stale" }, " · ⚠ 업데이트 실패") : null));
+}
+
 // ── 시작 ──────────────────────────────────────────────
 async function loadJson(path) {
   const res = await fetch(`${path}?t=${Date.now()}`, { cache: "no-store" });
@@ -894,7 +917,7 @@ async function loadJson(path) {
 
 function renderAll() {
   $("generated").textContent = `갱신 ${kst(state.latest.generated_at)}`;
-  for (const fn of [renderSummary, renderIndex, renderMood, renderFx, renderChart, renderFive, renderCalendar, renderMovers, renderSectors, renderNews]) {
+  for (const fn of [renderBanner, renderSummary, renderIndex, renderMood, renderFx, renderChart, renderFive, renderCalendar, renderMovers, renderSectors, renderNews]) {
     try { fn(); } catch (e) { console.error(fn.name, e); } // 한 칸 오류가 다른 칸을 막지 않게
   }
 }

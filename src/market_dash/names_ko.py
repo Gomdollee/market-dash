@@ -1,0 +1,61 @@
+"""고정 사전: 나스닥-100 종목 한글명, 키워드 용어집.
+
+번역기 대신 고정 표를 쓰는 이유: 회사명·단어 하나는 문맥이 없어서 기계번역이 자주 틀린다.
+(예: 'fed' → '먹이다'). 표에 없으면 화면에 영어만 나온다.
+"""
+
+TICKER_KO = {
+    "AAPL": "애플", "ABNB": "에어비앤비", "ADBE": "어도비", "ADI": "아날로그디바이스",
+    "ADP": "ADP", "ADSK": "오토데스크", "AEP": "아메리칸일렉트릭파워", "ALAB": "아스테라랩스",
+    "ALNY": "앨나일람", "AMAT": "어플라이드머티리얼즈", "AMD": "AMD", "AMGN": "암젠",
+    "AMZN": "아마존", "APP": "앱러빈", "ARM": "ARM", "ASML": "ASML",
+    "AVGO": "브로드컴", "AXON": "액손", "BKNG": "부킹홀딩스", "BKR": "베이커휴즈",
+    "CCEP": "코카콜라유로퍼시픽", "CDNS": "케이던스", "CEG": "컨스텔레이션에너지", "CMCSA": "컴캐스트",
+    "COST": "코스트코", "CPRT": "코파트", "CRWD": "크라우드스트라이크", "CRWV": "코어위브",
+    "CSCO": "시스코", "CSX": "CSX", "CTAS": "신타스", "DASH": "도어대시",
+    "DDOG": "데이터독", "DXCM": "덱스컴", "EXC": "엑셀론", "FANG": "다이아몬드백에너지",
+    "FAST": "패스널", "FER": "페로비알", "FTNT": "포티넷", "GEHC": "GE헬스케어",
+    "GILD": "길리어드", "GOOGL": "알파벳", "HON": "허니웰", "HONA": "허니웰에어로스페이스",
+    "IDXX": "아이덱스", "INTC": "인텔", "INTU": "인튜이트", "ISRG": "인튜이티브서지컬",
+    "KDP": "큐리그닥터페퍼", "KLAC": "KLA", "LIN": "린데", "LITE": "루멘텀",
+    "LRCX": "램리서치", "MAR": "메리어트", "MCHP": "마이크로칩", "MDLZ": "몬델리즈",
+    "MELI": "메르카도리브레", "META": "메타", "MNST": "몬스터베버리지", "MPWR": "모놀리식파워",
+    "MRNA": "모더나", "MRVL": "마벨", "MSFT": "마이크로소프트", "MSTR": "스트래티지",
+    "MU": "마이크론", "NBIS": "네비우스", "NFLX": "넷플릭스", "NVDA": "엔비디아",
+    "NXPI": "NXP", "ODFL": "올드도미니언", "ORLY": "오라일리", "PANW": "팔로알토",
+    "PAYX": "페이첵스", "PCAR": "팩카", "PDD": "PDD홀딩스", "PEP": "펩시코",
+    "PLTR": "팔란티어", "PYPL": "페이팔", "QCOM": "퀄컴", "REGN": "리제네론",
+    "RKLB": "로켓랩", "ROP": "로퍼", "ROST": "로스스토어", "SBUX": "스타벅스",
+    "SHOP": "쇼피파이", "SNDK": "샌디스크", "SNPS": "시놉시스", "SPCX": "스페이스X",
+    "STX": "시게이트", "TER": "테라다인", "TMUS": "T모바일", "TRI": "톰슨로이터",
+    "TSLA": "테슬라", "TTWO": "테이크투", "TXN": "텍사스인스트루먼트", "VRTX": "버텍스",
+    "WDAY": "워크데이", "WDC": "웨스턴디지털", "WMT": "월마트", "XEL": "엑셀에너지",
+}
+
+KEYWORD_KO = {
+    "fed": "연준", "fomc": "FOMC", "powell": "파월", "rate": "금리", "rates": "금리",
+    "cut": "인하", "cuts": "인하", "hike": "인상", "inflation": "인플레이션", "cpi": "CPI",
+    "jobs": "고용", "payrolls": "고용지표", "unemployment": "실업", "economy": "경제",
+    "recession": "경기침체", "gdp": "GDP", "earnings": "실적", "revenue": "매출",
+    "guidance": "가이던스", "profit": "이익", "forecast": "전망", "outlook": "전망",
+    "tariff": "관세", "tariffs": "관세", "trade": "무역", "china": "중국", "trump": "트럼프",
+    "congress": "의회", "democrats": "민주당", "republicans": "공화당", "midterms": "중간선거",
+    "election": "선거", "senate": "상원", "house": "하원", "shutdown": "셧다운",
+    "tech": "기술주", "chip": "반도체", "chips": "반도체", "semiconductor": "반도체",
+    "nvidia": "엔비디아", "apple": "애플", "tesla": "테슬라", "microsoft": "마이크로소프트",
+    "amazon": "아마존", "google": "구글", "alphabet": "알파벳", "meta": "메타",
+    "oil": "유가", "gold": "금", "bitcoin": "비트코인", "crypto": "암호화폐", "dollar": "달러",
+    "treasury": "국채", "yields": "금리(국채)", "bond": "채권", "bonds": "채권",
+    "rally": "랠리", "selloff": "매도세", "sell-off": "매도세", "crash": "폭락", "rout": "급락",
+    "correction": "조정", "bubble": "거품", "record": "최고치", "rebound": "반등",
+    "investors": "투자자", "wall": "월가", "street": "월가", "s&p": "S&P", "nasdaq": "나스닥",
+    "dow": "다우", "ipo": "IPO", "merger": "합병", "deal": "거래", "ceo": "CEO",
+    "data": "데이터/지표", "spacex": "스페이스X", "berkshire": "버크셔", "buffett": "버핏",
+    "layoffs": "감원", "bank": "은행", "banks": "은행", "housing": "주택", "consumer": "소비자",
+    "energy": "에너지", "ai": "AI", "quarter": "분기", "buybacks": "자사주매입",
+    "billion": "10억달러", "trillion": "조달러", "million": "백만달러", "buy": "매수", "sell": "매도",
+    "sweep": "압승", "swept": "압승", "win": "승리", "wins": "승리", "texas": "텍사스",
+    "growth": "성장", "dividend": "배당", "valuation": "밸류에이션", "jobless": "실업수당",
+    "anthropic": "앤트로픽", "openai": "오픈AI", "palantir": "팔란티어", "amd": "AMD",
+    "intel": "인텔", "broadcom": "브로드컴", "micron": "마이크론", "netflix": "넷플릭스",
+}

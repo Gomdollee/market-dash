@@ -1,0 +1,69 @@
+# 예약 실행: 데이터 수집 → 커밋 → Pages 배포  (≈ Spring @Scheduled 배치)
+name: update-data
+
+on:
+  schedule:
+    # GitHub cron 은 UTC 기준. 실제 시작은 보통 수~수십 분 늦을 수 있음
+    - cron: "30 22 * * *" # KST 07:30 - 미국장 마감 후
+    - cron: "30 0 * * *"  # KST 09:30 - 한국 아침
+    - cron: "30 3 * * *"  # KST 12:30 - 한국 점심
+  workflow_dispatch: # Actions 탭에서 수동 실행 버튼
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      - name: 의존성 설치
+        run: uv sync --locked
+
+      - name: 테스트
+        run: uv run pytest -q
+
+      - name: 데이터 수집
+        run: uv run python -m market_dash.main
+        env:
+          # 선택: Settings → Secrets → Actions 에 DEEPL_API_KEY 를 넣으면 DeepL 로 번역 (없으면 구글)
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+
+      - name: 데이터 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data cache
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "chore: 데이터 갱신 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M') KST"
+            git pull --rebase   # 그 사이 내가 코드를 push 했을 수 있음
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

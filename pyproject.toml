@@ -1,0 +1,30 @@
+[project]
+name = "market-dash"
+version = "0.1.0"
+description = "개인용 주식·환율 대시보드 (GitHub Actions + Pages)"
+readme = "README.md"
+authors = [
+    { name = "JunWon_Lee", email = "99373291+Gomdollee@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "feedparser>=6.0.14",
+    "requests>=2.34.2",
+    "tzdata>=2026.6",
+    "yfinance>=1.8.0",
+]
+
+[project.scripts]
+market-dash = "market_dash.main:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

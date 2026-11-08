@@ -414,3 +414,7 @@ footer { font-size: 12px; padding-top: 4px; padding-bottom: 28px; }
 .vix-labels { display: flex; gap: 2px; font-size: 11px; color: var(--muted); margin-top: 4px; }
 .vix-labels span { text-align: center; white-space: nowrap; overflow: hidden; }
 .vix-labels span.on { color: var(--text); font-weight: 700; }
+.t-live {
+  margin-left: 5px; font-size: 10px; font-weight: 700; color: var(--open);
+  border: 1px solid currentColor; border-radius: 3px; padding: 0 3px; vertical-align: 1px;
+}

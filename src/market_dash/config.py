@@ -78,7 +78,11 @@ HTTP_TIMEOUT = 15
 # 시장 분위기
 VIX_SYMBOL = "^VIX"
 FEAR_GREED_URL = "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
-MOOD_KEEP_DAYS = 95  # 미니 차트용 약 3개월
+MOOD_KEEP_DAYS = 95
+
+# 급락 알림 (텔레그램). 판정 기준은 alerts.py
+ALERT_STATE_PATH = ROOT / "cache" / "alerts.json"
+PAGE_URL = "https://gomdollee.github.io/market-dash/"  # 미니 차트용 약 3개월
 
 # lang 은 키워드 집계 대상 판별용 (영문만 집계)
 MARKET_FEEDS = [

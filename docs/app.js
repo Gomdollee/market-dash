@@ -40,6 +40,8 @@ function pct(v, d = 2) {
   const arrow = v > 0 ? "▲" : v < 0 ? "▼" : "";
   return `${arrow} ${v > 0 ? "+" : ""}${nf(d).format(v)}%`.trim();
 }
+/** 장중 수집이면 '장중 · 12/09 23:30 기준', 아니면 '2026.11.06 마감 기준' */
+const basis = (d, closeWord = "마감") => (d.live ? `장중 · ${kst(d.fetched_at)} 기준` : `${ymd(d.as_of)} ${closeWord} 기준`);
 const pctSpan = (v, d) => el("span", { class: dir(v) }, pct(v, d));
 
 const kstFmt = new Intl.DateTimeFormat("ko-KR", {
@@ -132,9 +134,9 @@ function last3m(rows, field = "close") {
 const signed = (v, d) => `${v > 0 ? "▲ +" : v < 0 ? "▼ −" : ""}${num(Math.abs(v), d)}`;
 
 /** 맨 위 숫자 칸: 누르면 해당 카드로 이동 */
-function tile({ label, value, unit, chg, chgNeutral, chip, chipClass, points, sparkColor, go, stale }) {
+function tile({ label, value, unit, chg, chgNeutral, chip, chipClass, points, sparkColor, go, stale, live }) {
   return el("button", { class: "tile", "data-go": go, "aria-label": `${label} 자세히 보기` },
-    el("div", { class: "t-label" }, label, stale ? el("span", { class: "t-stale", title: "업데이트 실패" }, " ⚠") : null),
+    el("div", { class: "t-label" }, label, live ? el("span", { class: "t-live" }, "장중") : null, stale ? el("span", { class: "t-stale", title: "업데이트 실패" }, " ⚠") : null),
     el("div", { class: "t-value" }, value, unit ? el("small", {}, unit) : null),
     el("div", { class: "t-row" },
       chg ? el("span", { class: chgNeutral ? "flat t-chg" : `${dir(chg.v)} t-chg` }, chg.text) : null,
@@ -154,7 +156,7 @@ function renderTiles() {
       chg: { v: d.change_pct, text: pct(d.change_pct) },
       chip: d.zone ? `${d.zone.label} ${num(d.drawdown_pct, 1)}%` : null,
       chipClass: d.drawdown_pct <= -20 ? "bear" : d.drawdown_pct <= -10 ? "corr" : "",
-      points: last3m(H[a.key]), sparkColor: a.color, go: `index:${a.key}`, stale: sec.status !== "ok",
+      points: last3m(H[a.key]), sparkColor: a.color, go: `index:${a.key}`, stale: sec.status !== "ok", live: d.live,
     }));
   }
   const fx = S.fx?.data;
@@ -181,7 +183,7 @@ function renderTiles() {
       label: "공포지수 VIX", value: num(vx.close, 1),
       chg: { v: vx.change, text: `전날 ${signed(vx.change, 1)}` }, chgNeutral: true,
       chip: vx.zone.label, chipClass: `vix lv${vx.zone.level}`,
-      points: vx.history, sparkColor: "--text-2", go: "mood", stale: S.vix.status !== "ok",
+      points: vx.history, sparkColor: "--text-2", go: "mood", stale: S.vix.status !== "ok", live: vx.live,
     }));
   }
   return el("div", { class: "tiles" }, tiles);
@@ -307,7 +309,7 @@ function renderMood() {
           el("span", { class: "flat" }, `전날 ${num(vx.prev_close)} → ${signed(vx.change)} (${pct(vx.change_pct, 1)})`)),
         vixBar(vx),
         el("p", { class: "plain" }, `'${vx.zone.label}' — ${vx.zone.desc}`),
-        el("div", { class: "sub" }, `${ymd(vx.as_of)} 마감 기준`),
+        el("div", { class: "sub" }, basis(vx)),
       ] : null));
 }
 
@@ -357,7 +359,7 @@ function renderIndex() {
     isGold && d.gold_krw ? el("div", { class: "gold-krw" },
       "한국 돈으로 ", el("b", {}, `1돈(3.75g) 약 ${nf(1).format(d.gold_krw.per_don / 10000)}만원`),
       el("span", { class: "muted" }, ` · 1g ${nf(0).format(d.gold_krw.per_gram)}원`)) : null,
-    el("div", { class: "sub" }, `${ymd(d.as_of)} 마감 기준 · 전날(${md(d.prev_date)}) ${num(d.prev_close)}`),
+    el("div", { class: "sub" }, `${basis(d)} · 전날(${md(d.prev_date)}) ${num(d.prev_close)}`),
     el("dl", { class: "kv" },
       el("dt", {}, "최고점 대비"),
       el("dd", {},
@@ -839,7 +841,7 @@ function renderMovers() {
           el("li", {},
             el("a", { href: safeUrl(n.link), target: "_blank", rel: "noopener noreferrer" }, `↗ ${n.title_ko || n.title}`),
             n.title_ko ? el("div", { class: "orig" }, n.title) : null))) : null))),
-    el("div", { class: "sub" }, `${ymd(d.as_of)} 종가 기준 · ${d.universe} ${d.universe_count}종목`));
+    el("div", { class: "sub" }, `${basis(d, "종가")} · ${d.universe} ${d.universe_count}종목`));
 }
 
 // ── 7 섹터 ────────────────────────────────────────────
@@ -863,7 +865,7 @@ function renderSectors() {
   mount("sectors-body",
     staleBadge(sec),
     el("div", { class: "sectors" }, d.items.map(tile)),
-    el("div", { class: "sub", style: "margin-top:6px" }, `${ymd(d.as_of)} 종가 기준 · 전일 대비`));
+    el("div", { class: "sub", style: "margin-top:6px" }, `${basis(d, "종가")} · 전날 대비`));
 }
 
 // ── 8 뉴스 ────────────────────────────────────────────

@@ -36,11 +36,12 @@ from market_dash.explain import (
 )
 from market_dash.swings import drawdown_episodes, find_swings, weekly
 from market_dash.keywords import top_keywords
-from market_dash.market_calendar import ET, rule_events, upcoming_sessions
+from market_dash.alerts import detect_alerts, status_lines
+from market_dash.market_calendar import ET, KST, is_market_open, rule_events, upcoming_sessions
 from market_dash.sources import events as events_src
 from market_dash.names_ko import KEYWORD_KO, TICKER_KO
 from market_dash.sources import fx as fx_src
-from market_dash.sources import market, news, sentiment
+from market_dash.sources import market, news, sentiment, telegram
 from market_dash.sources.translate import Translator, prune_cache
 from market_dash.storage import FetchResult, load_json, merge_section, save_json, upsert_rows
 
@@ -329,6 +330,58 @@ def translate_titles(results: dict[str, FetchResult]) -> dict:
     return {"engine": tr.engine_used, "translated": done, "total": len(targets)}
 
 
+def mark_live(results: dict[str, FetchResult], now: datetime) -> None:
+    """장중 수집이면 해당 섹션에 live=True 를 붙인다 (화면에 '장중 · HH:MM' 표시용)."""
+    today_et = now.astimezone(ET).date().isoformat()
+    open_now = is_market_open(now)
+    for key in (*config.INDICES, "vix", "movers", "sectors"):
+        res = results.get(key)
+        if res and res.ok:
+            res.data["live"] = open_now and res.data.get("as_of") == today_et
+            res.data["fetched_at"] = now.isoformat(timespec="seconds")
+
+
+def alert_snapshot(results: dict[str, FetchResult], now: datetime) -> dict:
+    """이번에 새로 받은(ok) 데이터만으로 알림 판정용 스냅샷을 만든다. 실패·이전 데이터로는 알리지 않음."""
+    def when(d: dict) -> str:
+        return f"장중 {now.astimezone(KST):%H:%M}" if d.get("live") else f"{d['as_of'][5:].replace('-', '.')} 마감"
+
+    assets = {
+        k: {"name": config.INDICES[k]["short"], "as_of": d["as_of"], "close": d["close"],
+            "change_pct": d["change_pct"], "drawdown_pct": d["drawdown_pct"], "when": when(d)}
+        for k in config.INDICES if results[k].ok for d in [results[k].data]
+    }
+    vix = results.get("vix")
+    return {"assets": assets,
+            "vix": {"close": vix.data["close"], "when": when(vix.data)} if vix and vix.ok else None}
+
+
+def notify(results: dict[str, FetchResult], now: datetime) -> str:
+    """급락 알림 전송. 토큰이 없으면 아무것도 안 함. 전송 실패 시 상태를 저장하지 않아 다음 실행에 다시 시도."""
+    creds = telegram.credentials()
+    if not creds:
+        return "텔레그램 설정 없음 → 건너뜀"
+    snap = alert_snapshot(results, now)
+    state = load_json(config.ALERT_STATE_PATH, None)
+    msgs, new_state = detect_alerts(snap, state or {})
+    if state is None:
+        # 첫 연결: 지금 상태를 기준으로 삼고(이미 빠져 있는 하락은 알리지 않음) 연결 확인 메시지만
+        text = "\n".join([
+            "✅ 환율난민수용소 급락 알림이 연결됐어요.", "", "지금 상태", *status_lines(snap), "",
+            "앞으로 크게 떨어지면 알려드릴게요.", config.PAGE_URL,
+        ])
+        telegram.send(text, creds)
+        result = "연결 확인 메시지 전송"
+    elif msgs:
+        telegram.send("\n\n".join([*msgs, config.PAGE_URL]), creds)
+        result = f"알림 {len(msgs)}건 전송"
+    else:
+        result = "알릴 것 없음"
+    if new_state != state:
+        save_json(config.ALERT_STATE_PATH, new_state)
+    return result
+
+
 # ── 조립 ───────────────────────────────────────────────
 
 
@@ -360,6 +413,11 @@ def run() -> int:
     results["calendar"] = attempt(
         "calendar", lambda: build_calendar((prev_sections.get("calendar") or {}).get("data"))
     )
+
+    now = datetime.now(timezone.utc)
+    mark_live(results, now)
+    alert = attempt("alert", lambda: notify(results, now))
+    log.info("알림: %s", alert.data if alert.ok else "실패")
 
     tr_info = attempt("translate", lambda: translate_titles(results))
     if not tr_info.ok:

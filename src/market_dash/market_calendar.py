@@ -215,3 +215,12 @@ def rule_events(start: date, end: date) -> list[dict]:
 
     picked = [e for e in events if start <= e["date"] <= end]
     return sorted(picked, key=lambda e: (e["date"], e["type"]))
+
+
+def is_market_open(now: datetime) -> bool:
+    """now(시간대 포함) 가 미국 정규장 시간 안인지. 휴장·조기폐장 반영 (임시 휴장은 모름)."""
+    d = now.astimezone(ET).date()
+    if not is_trading_day(d):
+        return False
+    o, c = session_kst(d, early=d in early_closes(d.year))
+    return o <= now < c

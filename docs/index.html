@@ -45,12 +45,17 @@
   <main>
     <!-- 한눈에 보기 -->
     <section class="card summary" id="sec-summary">
-      <h2>오늘의 한눈에 보기</h2>
+      <header class="card-head" data-icon="brief" data-tone="blue">
+        <div><h2>오늘의 브리핑</h2><p class="card-sub">수용소 점호 시간 · 지금 시장을 한눈에</p></div>
+      </header>
       <div id="summary-body"></div>
     </section>
 
     <!-- 1·2·4 지수 -->
     <section class="card" id="sec-index">
+      <header class="card-head" data-icon="trend" data-tone="red">
+        <div><h2>지수·금 시세</h2><p class="card-sub">얼마나 움직였고, 최고점에서 얼마나 멀어졌나</p></div>
+      </header>
       <div class="tabs" role="tablist" id="index-tabs">
         <button role="tab" data-key="nasdaq" aria-selected="true">나스닥</button>
         <button role="tab" data-key="sp500" aria-selected="false">S&amp;P 500</button>
@@ -61,19 +66,25 @@
 
     <!-- 시장 분위기 -->
     <section class="card" id="sec-mood">
-      <h2>시장 분위기 <span class="muted">· 다들 겁먹었나, 들떴나?</span></h2>
+      <header class="card-head" data-icon="gauge" data-tone="amber">
+        <div><h2>시장 분위기</h2><p class="card-sub">다들 겁먹었나, 들떴나?</p></div>
+      </header>
       <div id="mood-body"></div>
     </section>
 
     <!-- 3 환율 -->
     <section class="card" id="sec-fx">
-      <h2>원/달러 환율</h2>
+      <header class="card-head" data-icon="fx" data-tone="green">
+        <div><h2>원/달러 환율</h2><p class="card-sub">난민 발생의 근본 원인</p></div>
+      </header>
       <div id="fx-body"></div>
     </section>
 
     <!-- 5 하락률 추이 -->
     <section class="card" id="sec-chart">
-      <h2>최고점에서 얼마나 내려왔나 <span class="muted">· 3개월</span></h2>
+      <header class="card-head" data-icon="down" data-tone="blue">
+        <div><h2>최고점에서 얼마나 내려왔나</h2><p class="card-sub">최근 3개월 · 0%가 최고점</p></div>
+      </header>
       <div id="chart-status"></div>
       <div class="chart-wrap"><canvas id="dd-chart" aria-label="나스닥, S&P 500, 금의 최고점 대비 하락률 3개월 추이" role="img"></canvas></div>
       <details class="table-view">
@@ -84,7 +95,9 @@
 
     <!-- 지난 5년 큰 오르내림 -->
     <section class="card" id="sec-five">
-      <h2>지난 5년, 크게 떨어지고 오른 기록</h2>
+      <header class="card-head" data-icon="clock" data-tone="purple">
+        <div><h2>지난 5년 큰 오르내림</h2><p class="card-sub">크게 빠졌던 때와 그 이유, 회복까지 걸린 시간</p></div>
+      </header>
       <div class="tabs" role="tablist" id="five-tabs">
         <button role="tab" data-key="nasdaq" aria-selected="true">나스닥</button>
         <button role="tab" data-key="sp500" aria-selected="false">S&amp;P 500</button>
@@ -95,13 +108,17 @@
 
     <!-- 미국 증시 일정 -->
     <section class="card" id="sec-calendar">
-      <h2>미국 증시 일정 <span class="muted">· 미국 날짜 기준</span></h2>
+      <header class="card-head" data-icon="cal" data-tone="red">
+        <div><h2>미국 증시 일정</h2><p class="card-sub">휴장·마녀의 날·FOMC·실적 · 미국 날짜 기준</p></div>
+      </header>
       <div id="calendar-body"></div>
     </section>
 
     <!-- 6 상위 종목 -->
     <section class="card" id="sec-movers">
-      <h2>많이 오르고 내린 종목</h2>
+      <header class="card-head" data-icon="movers" data-tone="amber">
+        <div><h2>오늘의 화제 종목</h2><p class="card-sub">나스닥-100에서 가장 크게 움직인 종목과 이유</p></div>
+      </header>
       <div class="tabs" role="tablist" id="mover-tabs">
         <button role="tab" data-key="gainers" aria-selected="true">많이 오름</button>
         <button role="tab" data-key="losers" aria-selected="false">많이 내림</button>
@@ -112,20 +129,29 @@
 
     <!-- 7 섹터 -->
     <section class="card" id="sec-sectors">
-      <h2>업종별 분위기 <span class="muted">· 섹터 ETF</span></h2>
+      <header class="card-head" data-icon="grid" data-tone="green">
+        <div><h2>업종별 분위기</h2><p class="card-sub">어느 업종으로 돈이 몰렸나 · 섹터 ETF</p></div>
+      </header>
       <div id="sectors-body"></div>
     </section>
 
     <!-- 8 뉴스 -->
     <section class="card" id="sec-news">
-      <h2>시장 뉴스</h2>
+      <header class="card-head" data-icon="news" data-tone="gray">
+        <div><h2>시장 뉴스</h2><p class="card-sub">미국 헤드라인 번역 · 자주 나온 키워드</p></div>
+      </header>
       <div id="news-body"></div>
     </section>
   </main>
 
-  <footer class="muted">
-    데이터: Yahoo Finance(yfinance), CNN 공포·탐욕 지수, Frankfurter, 연준, RSS(Yahoo·CNBC·Google News). 시각은 한국시간.
-    투자 권유가 아닌 개인 참고용이에요.
+  <footer class="site-foot">
+    <div class="foot-brand">
+      <svg class="logo-sm" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="var(--brand-2)"/><path d="M7 31 20 10l13 21z" fill="#fff"/><path d="M16.5 31 20 24.5l3.5 6.5z" fill="var(--brand-2)"/></svg>
+      <b>환율난민수용소</b>
+    </div>
+    <p>미국장 중 30분마다, 그 외 하루 3번 자동 갱신 · 시각은 한국시간</p>
+    <p>데이터: Yahoo Finance, CNN 공포·탐욕 지수, Frankfurter, 미국 연준, Yahoo·CNBC·Google News</p>
+    <p class="foot-warn">투자 권유가 아닌 개인 참고용이에요. 투자 판단과 책임은 본인에게 있어요.</p>
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>

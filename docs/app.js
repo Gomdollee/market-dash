@@ -908,6 +908,30 @@ function renderBanner() {
       sec.status !== "ok" ? el("span", { class: "bf-stale" }, " · ⚠ 업데이트 실패") : null));
 }
 
+// ── 카드 머리 아이콘 (24px 선 아이콘, 직접 그린 경로) ─────
+const ICONS = {
+  brief: "M9 3.5h6v3H9z M7.5 5H5v15.5h14V5h-2.5 M8.5 11h7 M8.5 15h4.5",
+  trend: "M3 17l6-6 4 4 8-8 M15 7h6v6",
+  gauge: "M3.5 16.5a8.5 8.5 0 0 1 17 0 M12 16.5l4.2-5.2 M12 16.5h.01",
+  fx: "M5 8h13l-3.5-3.5 M19 16H6l3.5 3.5",
+  down: "M3 7l6 6 4-4 8 8 M15 17h6v-6",
+  clock: "M12 3.5a8.5 8.5 0 1 0 0 17a8.5 8.5 0 0 0 0-17z M12 7.5V12l3 2",
+  cal: "M4 6h16v14H4z M4 10.5h16 M8.5 3.5v4 M15.5 3.5v4",
+  movers: "M7 18V6 M3.5 9.5L7 6l3.5 3.5 M17 6v12 M13.5 14.5L17 18l3.5-3.5",
+  grid: "M4 4h7v7H4z M13 4h7v7h-7z M4 13h7v7H4z M13 13h7v7h-7z",
+  news: "M4 5h12v14H6a2 2 0 0 1-2-2z M16 9h4v8a2 2 0 0 1-4 0 M7.5 9h5 M7.5 12.5h5 M7.5 16h3",
+};
+function injectCardIcons() {
+  for (const h of document.querySelectorAll(".card-head[data-icon]")) {
+    if (h.querySelector(".ic")) continue;
+    const d = ICONS[h.dataset.icon];
+    if (!d) continue;
+    h.prepend(el("span", { class: "ic", "aria-hidden": "true" },
+      svg("svg", { viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", "stroke-width": "2",
+        "stroke-linecap": "round", "stroke-linejoin": "round" }, svg("path", { d }))));
+  }
+}
+
 // ── 시작 ──────────────────────────────────────────────
 async function loadJson(path) {
   const res = await fetch(`${path}?t=${Date.now()}`, { cache: "no-store" });
@@ -923,6 +947,7 @@ function renderAll() {
 }
 
 async function main() {
+  injectCardIcons();
   setupTabs("index-tabs", "indexKey", renderIndex);
   setupTabs("mover-tabs", "moverKey", renderMovers);
   setupTabs("five-tabs", "fiveKey", renderFive);

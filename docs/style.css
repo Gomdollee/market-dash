@@ -454,3 +454,28 @@ footer { font-size: 12px; padding-top: 4px; padding-bottom: 28px; }
 .bf-camp { font-size: 13px; margin-top: 6px; opacity: .95; }
 .bf-camp b { font-weight: 700; }
 .bf-stale { color: #ffd166; }
+
+/* ── 카드 머리 (아이콘 + 제목 + 부제) ─────────────── */
+.card { border-radius: 16px; padding: 16px; box-shadow: 0 1px 2px rgb(0 0 0 / .04), 0 4px 14px rgb(0 0 0 / .04); }
+.card-head { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.card-head h2, .summary .card-head h2 { margin: 0; font-size: 16px; font-weight: 800; color: var(--text); letter-spacing: -.3px; line-height: 1.25; }
+.card-sub { margin: 1px 0 0; font-size: 12px; color: var(--muted); line-height: 1.35; }
+.ic {
+  flex: none; width: 36px; height: 36px; border-radius: 11px; display: grid; place-items: center;
+  color: var(--tone); background: color-mix(in srgb, var(--tone) 14%, transparent);
+}
+.ic svg { width: 20px; height: 20px; }
+.card-head[data-tone="blue"] { --tone: var(--down); }
+.card-head[data-tone="red"] { --tone: var(--up); }
+.card-head[data-tone="amber"] { --tone: var(--vix); }
+.card-head[data-tone="green"] { --tone: var(--open); }
+.card-head[data-tone="purple"] { --tone: var(--ev-fomc); }
+.card-head[data-tone="gray"] { --tone: var(--text-2); }
+.mood-block h3 { font-size: 14px; }
+
+/* ── 푸터 ──────────────────────────────────────── */
+.site-foot { max-width: 640px; margin: 18px auto 0; padding: 16px 16px 36px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--border); }
+.site-foot p { margin: 4px 0; }
+.foot-brand { display: flex; align-items: center; gap: 8px; color: var(--text); font-size: 14px; margin-bottom: 6px; }
+.logo-sm { width: 24px; height: 24px; }
+.foot-warn { color: var(--text-2); }

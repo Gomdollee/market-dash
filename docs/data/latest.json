@@ -1,28 +1,28 @@
 {
- "generated_at": "2026-11-09T01:51:40+00:00",
+ "generated_at": "2026-11-09T07:02:47+00:00",
  "sections": {
   "fx": {
    "status": "ok",
-   "attempted_at": "2026-11-09T01:51:40+00:00",
-   "last_success_at": "2026-11-09T01:51:40+00:00",
+   "attempted_at": "2026-11-09T07:02:47+00:00",
+   "last_success_at": "2026-11-09T07:02:47+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-09",
-    "rate": 1359.63,
+    "rate": 1346.88,
     "prev_rate": 1356.34,
     "prev_date": "2026-11-06",
-    "change_pct": 0.24,
+    "change_pct": -0.7,
     "summary": [
-     "환율이 3원 올랐어요 (1달러 = 1,360원).",
-     "달러가 비싸지면, 미국 주식을 원화로 따진 가치는 늘어나요."
+     "환율이 9원 내렸어요 (1달러 = 1,347원).",
+     "달러가 싸지면, 미국 주식을 원화로 따진 가치는 줄어들어요."
     ],
     "source": "Yahoo Finance"
    }
   },
   "nasdaq": {
    "status": "ok",
-   "attempted_at": "2026-11-09T01:51:40+00:00",
-   "last_success_at": "2026-11-09T01:51:40+00:00",
+   "attempted_at": "2026-11-09T07:02:47+00:00",
+   "last_success_at": "2026-11-09T07:02:47+00:00",
    "error": null,
    "data": {
     "name": "나스닥 종합",
@@ -1737,13 +1737,13 @@
      "summary": "원화로 투자했다면 나스닥 지수는 +2.31%예요 (달러 기준 +1.09% + 환율 +1.21% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-09T01:51:59+00:00"
+    "fetched_at": "2026-11-09T07:03:03+00:00"
    }
   },
   "sp500": {
    "status": "ok",
-   "attempted_at": "2026-11-09T01:51:40+00:00",
-   "last_success_at": "2026-11-09T01:51:40+00:00",
+   "attempted_at": "2026-11-09T07:02:47+00:00",
+   "last_success_at": "2026-11-09T07:02:47+00:00",
    "error": null,
    "data": {
     "name": "S&P 500",
@@ -3259,24 +3259,24 @@
      "summary": "원화로 투자했다면 S&P 500 지수는 +1.53%예요 (달러 기준 +0.31% + 환율 +1.21% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-09T01:51:59+00:00"
+    "fetched_at": "2026-11-09T07:03:03+00:00"
    }
   },
   "gold": {
    "status": "ok",
-   "attempted_at": "2026-11-09T01:51:40+00:00",
-   "last_success_at": "2026-11-09T01:51:40+00:00",
+   "attempted_at": "2026-11-09T07:02:47+00:00",
+   "last_success_at": "2026-11-09T07:02:47+00:00",
    "error": null,
    "data": {
     "name": "국제 금값",
     "short": "금",
     "kind": "commodity",
     "gold_krw": {
-     "per_don": 675123,
-     "per_gram": 180033
+     "per_don": 668856,
+     "per_gram": 178362
     },
     "five_year": {
-     "since": "2021-11-08",
+     "since": "2021-11-09",
      "weekly": [
       [
        "2021-11-12",
@@ -4319,8 +4319,12 @@
        3898.9
       ],
       [
-       "2026-11-08",
-       4128.5
+       "2026-11-06",
+       4074.9
+      ],
+      [
+       "2026-11-09",
+       4118.9
       ]
      ],
      "drawdowns": [
@@ -4393,9 +4397,9 @@
        "ongoing": true,
        "recovered": null,
        "current": {
-        "date": "2026-11-08",
-        "value": 4128.5,
-        "from_end_pct": 5.89
+        "date": "2026-11-09",
+        "value": 4118.9,
+        "from_end_pct": 5.64
        }
       },
       {
@@ -4671,42 +4675,42 @@
      "desc": "20% 이상 떨어지면 '약세장(베어마켓)'이라고 불러요. 경기 걱정이 큰 시기예요."
     },
     "summary": [
-     "금 값은 지난 거래일에 1.32% 올랐어요.",
-     "최고점보다 22.4% 낮은 '약세장' 상태예요.",
-     "'깊은 약세장' 단계(-30%)까지 7.6%p 더 떨어지면 도달해요."
+     "금 값은 지난 거래일에 1.08% 올랐어요.",
+     "최고점보다 22.6% 낮은 '약세장' 상태예요.",
+     "'깊은 약세장' 단계(-30%)까지 7.4%p 더 떨어지면 도달해요."
     ],
     "symbol": "GC=F",
-    "as_of": "2026-11-08",
+    "as_of": "2026-11-09",
     "prev_date": "2026-11-06",
-    "close": 4128.5,
+    "close": 4118.9,
     "prev_close": 4074.9,
-    "change_pct": 1.32,
+    "change_pct": 1.08,
     "peak": {
      "value": 5318.4,
      "date": "2026-01-29"
     },
-    "drawdown_pct": -22.37,
+    "drawdown_pct": -22.55,
     "gauge": {
      "prev_line": -20.0,
      "next_line": -30.0,
-     "remaining_pp": 7.63,
-     "progress": 0.2373
+     "remaining_pp": 7.45,
+     "progress": 0.2554
     },
     "krw": {
-     "change_pct": 1.32,
-     "fx_change_pct": 0.0,
-     "fx_now": 1356.34,
+     "change_pct": 0.37,
+     "fx_change_pct": -0.7,
+     "fx_now": 1346.88,
      "fx_prev": 1356.34,
-     "summary": "원화로 투자했다면 금 값은 +1.32%예요 (달러 기준 +1.32% + 환율 +0.00% 효과)."
+     "summary": "원화로 투자했다면 금 값은 +0.37%예요 (달러 기준 +1.08% + 환율 -0.70% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-09T01:51:59+00:00"
+    "fetched_at": "2026-11-09T07:03:03+00:00"
    }
   },
   "fear_greed": {
    "status": "ok",
-   "attempted_at": "2026-11-09T01:51:40+00:00",
-   "last_success_at": "2026-11-09T01:51:40+00:00",
+   "attempted_at": "2026-11-09T07:02:47+00:00",
+   "last_success_at": "2026-11-09T07:02:47+00:00",
    "error": null,
    "data": {
     "score": 22.08,
@@ -5109,8 +5113,8 @@
   },
   "vix": {
    "status": "ok",
-   "attempted_at": "2026-11-09T01:51:40+00:00",
-   "last_success_at": "2026-11-09T01:51:40+00:00",
+   "attempted_at": "2026-11-09T07:02:47+00:00",
+   "last_success_at": "2026-11-09T07:02:47+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-06",
@@ -5397,13 +5401,13 @@
      ]
     ],
     "live": false,
-    "fetched_at": "2026-11-09T01:51:59+00:00"
+    "fetched_at": "2026-11-09T07:03:03+00:00"
    }
   },
   "movers": {
    "status": "ok",
-   "attempted_at": "2026-11-09T01:51:40+00:00",
-   "last_success_at": "2026-11-09T01:51:40+00:00",
+   "attempted_at": "2026-11-09T07:02:47+00:00",
+   "last_success_at": "2026-11-09T07:02:47+00:00",
    "error": null,
    "data": {
     "universe": "나스닥-100",
@@ -5426,17 +5430,17 @@
       },
       "news": [
        {
+        "title": "RKLB Stock Climbs Overnight Ahead Of Earnings — Bulls Bet Neutron Delay Is Priced In Amid Fresh Progress",
+        "link": "https://stocktwits.com/news-articles/markets/equity/rklb-stock-earnings-bulls-neutron-delay-priced-in-fresh-progress/cNGAC9HR9e3?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-09T05:19:54+00:00",
+        "lang": "en"
+       },
+       {
         "title": "Billionaires Are Loading Up on Space Stocks: Does Rocket Lab (RKLB) Make the Cut?",
         "link": "https://finance.yahoo.com/markets/stocks/articles/billionaires-loading-space-stocks-does-214022685.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-08T21:40:22+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Why Nov. 9 Could Be a Huge Day for Rocket Lab Investors",
-        "link": "https://www.fool.com/investing/2026/11/08/why-nov-9-could-be-a-huge-day-for-rocket-lab-inves/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-08T21:05:00+00:00",
         "lang": "en"
        }
       ]
@@ -5488,17 +5492,17 @@
       },
       "news": [
        {
-        "title": "AMD or Nvidia: Which AI Chip Stock Would I Buy With $1,000 Today?",
-        "link": "https://www.fool.com/investing/2026/11/08/amd-or-nvidia-which-ai-chip-stock-would-i-buy-with/?.tsrc=rss",
+        "title": "AMD vs. Intel: Which Is the Better AI Chip Stock to Own for the Next 3 Years Following the Semiconductor Crash?",
+        "link": "https://www.fool.com/investing/2026/11/09/amd-vs-intel-which-is-the-better-ai-chip-stock-to/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-08T23:05:00+00:00",
+        "published": "2026-11-09T05:20:00+00:00",
         "lang": "en"
        },
        {
-        "title": "What Is Meta Platforms (META) Facing As Legal Risks Rise And AI Deals Expand?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-facing-legal-220633031.html?.tsrc=rss",
+        "title": "AMD, AVGO, INTC, MU: Chip Stocks Inch Higher As Investors Look Past Midterms-Led Selloff, Nvidia Controversy",
+        "link": "https://stocktwits.com/news-articles/markets/equity/amd-avgo-intc-mu-chip-stocks-inch-higher-as-investors-look-past-midterms-led-selloff-nvidia-controversy/cNGAD0CR9eR?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-08T22:06:33+00:00",
+        "published": "2026-11-09T03:34:24+00:00",
         "lang": "en"
        }
       ]
@@ -5510,13 +5514,7 @@
       "close": 391.22,
       "change_pct": 9.86,
       "volume": 11691900,
-      "reason": {
-       "title": "AppLovin (APP) Surges 12% Despite Fresh Class Action Filing",
-       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeFdQNTNCSTRTaEdfbHRnTVkzR1ktX2tScF9fWWtoR1NmQzJfck5VY3pGQ1NpVkdnQks2dklMWG1mRGI1V0VvSk1pb0tQdnI3YXhyUGVGRXBzdFBNWTJaVFFGLWF2VHAtUVctUzhjaVlXNi1BUUxnZ2l3Zlk2cHkwVG9XNVpCdktXMmNVSTlwcy0?oc=5",
-       "source": "24/7 Wall St.",
-       "published": "2026-11-07T03:08:46+00:00",
-       "lang": "en"
-      },
+      "reason": null,
       "news": [
        {
         "title": "AppLovin Shares Surge as Revenue Continues to Soar. Is It Too Late to Buy the Stock?",
@@ -5551,17 +5549,17 @@
       },
       "news": [
        {
-        "title": "SpaceX's Starlink Could Build a Nationwide Cell Network. Here's What Investors Need to Know",
-        "link": "https://www.fool.com/investing/2026/11/08/spacexs-starlink-could-build-a-nationwide-cell-net/?.tsrc=rss",
+        "title": "Elon Musk sends a strong signal to SpaceX stock investors",
+        "link": "https://www.thestreet.com/investing/stocks/elon-musk-sends-a-strong-signal-to-spacex-stock-investors?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-09T01:20:00+00:00",
+        "published": "2026-11-09T03:17:00+00:00",
         "lang": "en"
        },
        {
-        "title": "How much SpaceX stock does CEO Elon Musk actually own?",
-        "link": "https://www.thestreet.com/personalities/elon-musk-spacex-holdings?.tsrc=rss",
+        "title": "SpaceX Wants To Turn AI Compute Into A $500B Business Next Year – And Elon Musk Says NASA’s Annual Budget Is No Match",
+        "link": "https://stocktwits.com/news-articles/markets/equity/spacex-ai-compute-500b-business-elon-musk-nasa-annual-budget-no-match/cNGAv5HR9IC?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-09T00:42:41+00:00",
+        "published": "2026-11-09T02:44:26+00:00",
         "lang": "en"
        }
       ]
@@ -5617,20 +5615,19 @@
       },
       "news": [
        {
+        "title": "MCHP Q3 CY2026 deep dive: data center design wins offset by cautious outlook and supply constraints",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/mchp-q3-cy2026-deep-dive-050136638.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-09T05:01:36+00:00",
+        "lang": "en"
+       },
+       {
         "title": "The Chip Shortage Is Back, and Microchip Says AI Customers Are Crowding Everyone Out",
         "link": "https://247wallst.com/investing/2026/11/07/the-chip-shortage-is-back-and-microchip-says-ai-customers-are-crowding-everyone-out/?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-07T13:46:47+00:00",
         "lang": "en",
         "title_ko": "칩 부족이 다시 발생했으며 Microchip은 AI 고객이 모두를 붐비고 있다고 말합니다."
-       },
-       {
-        "title": "Microchip Technology (MCHP) Added AI And Space Chips As Q2 Hit $1,621.5 Million",
-        "link": "https://finance.yahoo.com/technology/ai/articles/microchip-technology-mchp-added-ai-042513167.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-07T04:25:13+00:00",
-        "lang": "en",
-        "title_ko": "Microchip Technology(MCHP), 2분기 매출 16억 2150만 달러 달성에 AI 및 우주 칩 추가"
        }
       ]
      },
@@ -5731,25 +5728,25 @@
       "change_pct": 2.78,
       "volume": 179722400,
       "reason": {
-       "title": "AI 폭락 뒤 저가 매수세 반등… 엔비디아 4%대 상승 속 나스닥 1.3%↑",
-       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5FbUEweDl1M0hMdXBNeGx6Mk5YYTlxUlNhaDFYR1Y0dmNJdjBGR1J3OGRMV3phV0lQYTVFVmxWN04zbEFaUXJuZy1nai05Vy1vN0NfWWplWmFWakxTWmxjVTZ4MmNaSk94Q3J1dWx3?oc=5",
-       "source": "국제뉴스",
-       "published": "2026-11-06T14:34:34+00:00",
+       "title": "미국증시 나스닥 1.65% 반등·다우 하락…엔비디아 6.56% 급등, 고용 호조에 금리 부담",
+       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CVGFNZkFjYUZYV3JxOVhPOFVEcGE4Sm45dVJZVmtLV2NzU05GaU5pUFREbmtKXzB4RC16bTJGZkxBR2JjckRUdG9UcWdaMTAtdzh0Q1VoUnJXOHNZR1k0NHBzMEo3MGMycVJtbWpKQVVFZw?oc=5",
+       "source": "톱스타뉴스",
+       "published": "2026-11-06T14:47:41+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "Dow Jones Futures Rise, Techs Fall As Nvidia Probes CEO Jensen Huang Spying Case",
-        "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
+        "title": "Tech stocks recover after midterms rout as Nvidia takes centre stage",
+        "link": "https://www.euronews.com/2026/11/09/tech-stocks-recover-after-midterms-rout-as-nvidia-takes-centre-stage?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-09T01:39:41+00:00",
+        "published": "2026-11-09T06:34:28+00:00",
         "lang": "en"
        },
        {
-        "title": "SpaceX's Starlink Could Build a Nationwide Cell Network. Here's What Investors Need to Know",
-        "link": "https://www.fool.com/investing/2026/11/08/spacexs-starlink-could-build-a-nationwide-cell-net/?.tsrc=rss",
+        "title": "Nvidia CEO row: Bernstein sees ‘heavy distraction’ at best, ‘ammunition’ at worst",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-ceo-row-bernstein-sees-062039338.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-09T01:20:00+00:00",
+        "published": "2026-11-09T06:20:39+00:00",
         "lang": "en"
        }
       ]
@@ -5770,17 +5767,17 @@
       },
       "news": [
        {
+        "title": "AMD, AVGO, INTC, MU: Chip Stocks Inch Higher As Investors Look Past Midterms-Led Selloff, Nvidia Controversy",
+        "link": "https://stocktwits.com/news-articles/markets/equity/amd-avgo-intc-mu-chip-stocks-inch-higher-as-investors-look-past-midterms-led-selloff-nvidia-controversy/cNGAD0CR9eR?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-09T03:34:24+00:00",
+        "lang": "en"
+       },
+       {
         "title": "The Government’s $37 Billion Intel Round Trip Is a Warning for Anyone Who Still Holds the Stock",
         "link": "https://247wallst.com/investing/2026/11/08/the-governments-37-billion-intel-round-trip-is-a-warning-for-anyone-who-still-holds-the-stock/?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-08T22:46:00+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "AMD Stock Dropped 11% Last Week. Is Intel’s PC Warning Really That Bad?",
-        "link": "https://www.tikr.com/blog/amd-stock-dropped-11-last-week-is-intels-pc-warning-really-that-bad?ref=yahoofinance&tlnk=yf-261108-jq3xv862&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-08T18:55:39+00:00",
         "lang": "en"
        }
       ]
@@ -5801,17 +5798,17 @@
       },
       "news": [
        {
-        "title": "SpaceX's Starlink Could Build a Nationwide Cell Network. Here's What Investors Need to Know",
-        "link": "https://www.fool.com/investing/2026/11/08/spacexs-starlink-could-build-a-nationwide-cell-net/?.tsrc=rss",
+        "title": "Elon Musk sends a strong signal to SpaceX stock investors",
+        "link": "https://www.thestreet.com/investing/stocks/elon-musk-sends-a-strong-signal-to-spacex-stock-investors?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-09T01:20:00+00:00",
+        "published": "2026-11-09T03:17:00+00:00",
         "lang": "en"
        },
        {
-        "title": "How much SpaceX stock does CEO Elon Musk actually own?",
-        "link": "https://www.thestreet.com/personalities/elon-musk-spacex-holdings?.tsrc=rss",
+        "title": "SpaceX Wants To Turn AI Compute Into A $500B Business Next Year – And Elon Musk Says NASA’s Annual Budget Is No Match",
+        "link": "https://stocktwits.com/news-articles/markets/equity/spacex-ai-compute-500b-business-elon-musk-nasa-annual-budget-no-match/cNGAv5HR9IC?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-09T00:42:41+00:00",
+        "published": "2026-11-09T02:44:26+00:00",
         "lang": "en"
        }
       ]
@@ -5826,17 +5823,17 @@
       "reason": null,
       "news": [
        {
-        "title": "CoreWeave Has a $104 Billion Backlog. Now It Also Has a Political Problem.",
-        "link": "https://www.barchart.com/story/news/8725027/coreweave-has-a-104-billion-backlog-now-it-also-has-a-political-problem?.tsrc=rss",
+        "title": "From CoreWeave, Nebius Earnings To Adobe MAX: Big Tech Events Investors Should Watch This Week",
+        "link": "https://stocktwits.com/news-articles/markets/equity/from-core-weave-nebius-earnings-to-adobe-max-big-tech-events-investors-should-watch-this-week/cNGrbQ1R9eB?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-08T16:30:03+00:00",
+        "published": "2026-11-09T06:37:12+00:00",
         "lang": "en"
        },
        {
-        "title": "Anthropic’s $1.5 Trillion IPO Could Expose the Biggest Risk Facing the AI Boom",
-        "link": "https://247wallst.com/investing/2026/11/08/anthropics-1-5-trillion-ipo-could-expose-the-biggest-risk-facing-the-ai-boom/?.tsrc=rss",
+        "title": "CoreWeave Stock Faces 20.7% Earnings Swing as Texas and Debt Fears Mount",
+        "link": "https://beincrypto.com/coreweave-earnings-options-swing-texas-debt/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-08T16:23:46+00:00",
+        "published": "2026-11-08T20:00:00+00:00",
         "lang": "en"
        }
       ]
@@ -5857,32 +5854,31 @@
       },
       "news": [
        {
+        "title": "MCHP Q3 CY2026 deep dive: data center design wins offset by cautious outlook and supply constraints",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/mchp-q3-cy2026-deep-dive-050136638.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-09T05:01:36+00:00",
+        "lang": "en"
+       },
+       {
         "title": "The Chip Shortage Is Back, and Microchip Says AI Customers Are Crowding Everyone Out",
         "link": "https://247wallst.com/investing/2026/11/07/the-chip-shortage-is-back-and-microchip-says-ai-customers-are-crowding-everyone-out/?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-07T13:46:47+00:00",
         "lang": "en",
         "title_ko": "칩 부족이 다시 발생했으며 Microchip은 AI 고객이 모두를 붐비고 있다고 말합니다."
-       },
-       {
-        "title": "Microchip Technology (MCHP) Added AI And Space Chips As Q2 Hit $1,621.5 Million",
-        "link": "https://finance.yahoo.com/technology/ai/articles/microchip-technology-mchp-added-ai-042513167.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-07T04:25:13+00:00",
-        "lang": "en",
-        "title_ko": "Microchip Technology(MCHP), 2분기 매출 16억 2150만 달러 달성에 AI 및 우주 칩 추가"
        }
       ]
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-09T01:51:59+00:00"
+    "fetched_at": "2026-11-09T07:03:03+00:00"
    }
   },
   "sectors": {
    "status": "ok",
-   "attempted_at": "2026-11-09T01:51:40+00:00",
-   "last_success_at": "2026-11-09T01:51:40+00:00",
+   "attempted_at": "2026-11-09T07:02:47+00:00",
+   "last_success_at": "2026-11-09T07:02:47+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-06",
@@ -5997,102 +5993,107 @@
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-09T01:51:59+00:00"
+    "fetched_at": "2026-11-09T07:03:03+00:00"
    }
   },
   "news": {
    "status": "ok",
-   "attempted_at": "2026-11-09T01:51:40+00:00",
-   "last_success_at": "2026-11-09T01:51:40+00:00",
+   "attempted_at": "2026-11-09T07:02:47+00:00",
+   "last_success_at": "2026-11-09T07:02:47+00:00",
    "error": null,
    "data": {
     "items": [
      {
-      "title": "Dow Jones Futures Rise, Techs Fall As Nvidia Probes CEO Jensen Huang Spying Case",
-      "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-09T01:39:41+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "Trump Blames Democratic Win For $3T Stock Market Rout, Promises Markets Will Come Back ‘Bigger And Stronger’",
-      "link": "https://stocktwits.com/news-articles/markets/equity/trump-blames-democratic-win-for-3-t-stock-market-rout-promises-markets-will-come-back-bigger-and-stronger/cNGAM4JR9ID?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-09T01:31:05+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "[뉴욕증시 금주전망] AI주 급락 여진 속 美 물가·코어위브 실적 주목",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1T2hkLWdBczJzc3Q5cm02WUhZeGNTdUVYRTdocVlHN2xpTkVaWENGZ1EtYUVnamMyZEx3S2NhYWFXV2QyNTZ0azNfV1QtakNHZmdqWjNlRTN6V1pBYTR2eE9sRER1R2tIVllqUg?oc=5",
-      "source": "굿모닝경제",
-      "published": "2026-11-09T01:27:34+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates",
+      "title": "Stock futures climb as investors eye AI trade, brace for more data and earnings: Live updates",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FVDc3UlZHcHBOWVJmWWs2YWxla3J5NkpsVmNlTERMM2lQNm1MdlRteDEyeUFGcGFKVHEzV0JGalFMZXlvV3o2R3dmb2dGWUh5WlpMOWxiYkdlb1c1RzB4WlNhQzRoTF9qM3lfaUlKeUhqQUFtWkdj?oc=5",
       "source": "CNBC",
-      "published": "2026-11-09T01:25:00+00:00",
+      "published": "2026-11-09T06:50:00+00:00",
       "lang": "en"
      },
      {
-      "title": "Wall St futures mixed amid AI spending concerns; inflation data awaited",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-mixed-amid-012009920.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-09T01:20:09+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "5 Stocks I am Retiring On",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-am-retiring-004943035.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-09T00:49:43+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "코스피, 美 반도체주 반등에 낙폭 축소…5000선 사수",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPUWwxUjNYdS1pRXJSbzJrZ2JnMWNRdm5NMlNpUGtGODgzN0tOaTlJekVJX294QTJzVnNvVEpTUXhRbnQ0eFo2NlRKNER2Y3N6dHpZMWlfS3pOSDVWdHVLbDRhbkhhUFVY?oc=5",
-      "source": "녹색경제신문",
-      "published": "2026-11-09T00:44:20+00:00",
+      "title": "[경제 포커스] 뉴욕 증시 출렁여도 달러는 강세… “AI 주도 美 경제로 머니무브”",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOX1FoVFBuRFoxMFNWa2hPRURfNGF3ckxtdHdzZGwzY0o0bDNWVXJVdlR4Vmc2MVFXaG9iYk9OZ3ExTE52NzFwSGUxWGdKTEROZ09OZ0R5dmRWSWh6NXNnMmtUWUJfeUp1eGlLN3lSZHdFM29FaEExUXhOME5GSzhfX3BiYkVaUdIBmgFBVV95cUxPSzNJS3E2UlpTbzE5UFltT0FOZU84VkgxWkNYVlJMT0FVdzNZbkVlMWlURms0OFpfY281dm9nMWMtZGY1LW5PeElyX0VjZkhTak9zU01hWFBNUlRIamcySDktTDhPbVZ0M2ZYbTBncTNEYVpWWTRGZ1pLak1IOS1yV3VrcGFGVzAxNmxBVm15cFptM0NHRGpzMFJR?oc=5",
+      "source": "Chosunbiz",
+      "published": "2026-11-09T06:41:00+00:00",
       "lang": "ko"
      },
      {
-      "title": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnbUREYWlKQzBiR1UzeWxwaF9EMnpDajI1aXlmMlo0aENzeGdyRzJDSEtJR0xVanhFSkN3bXE0R1FYV2VWZHdIV1A1MmFlczN4VnRZcVZ5QV9xdUlxZXVlZVl3eHRqVWxsVmE1dktHZzdnelB0ZjUwejJj?oc=5",
-      "source": "The New York Times",
-      "published": "2026-11-09T00:33:59+00:00",
+      "title": "Aktsiaselts Infortar own share acquisition transactions",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/aktsiaselts-infortar-own-share-acquisition-060000624.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-09T06:00:00+00:00",
       "lang": "en"
      },
      {
-      "title": "[주간 뉴욕증시] AI株 급락 후 반등 이어질까…물가·실적에 촉각",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rNVQ3UjlCWW9YeUdrcW5iMFVPLXgyenU3bk5NNWlqbnluMVQ2NVYtWHBMcVVXVjd2SG92c2RYa2k1b002VnkxV3oxQ2RUaDk4RFpCcmMxeDk0S08ycTY0btIBeEFVX3lxTE9jZEZvOTcyTTZSb3FORTZ3OG5qM3hxQ3ZCYk9RQURrNmpscDdBYl90aURoLTZGYUU3cnpLTmttenlBQ25sWWZyclVTZkU4V3hzMW1pRmpUNjItSXUwYkQyem1BLXFSWVBTYUxCUGhtdEV6QUdZYXVUUw?oc=5",
+      "title": "LHV Group's own share acquisition transactions",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lhv-groups-own-share-acquisition-060000781.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-09T06:00:00+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Trump Backs Jensen Huang After Nvidia CEO Confirmed His Affair",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTW1qeVhkYmM3aDRUeTNrYURGdmxLUTlrQy1ZZGRvRlRKTjB6OTNuTjVaMFE4SThDLTRXLUp3Z1E5SWh5U2xvTi1mUi1uLXNPdGlaTjNRc1BvNHh4V1ZzUk1BU3BERGJMdS1FTlpDSXhpR0liXy1OR0F3c1dKYlZYb3k3enhWTXlhb1ZWck5jS3Uyc2tLYWhzTHA4UDNfUTA?oc=5",
+      "source": "Business Insider",
+      "published": "2026-11-09T05:33:00+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Asia stocks roar back as Taiwan jumps 6%, Nvidia probe rattles AI trade",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-roar-back-taiwan-042552045.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-09T04:25:52+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Dow Jones Futures Rise As Nvidia Probes CEO Jensen Huang Spying Case",
+      "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures-rise-as.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-09T04:14:47+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "[뉴스프레소] 뉴욕증시, AI주 저가 매수세에 혼조… '젠슨 황 스캔들' - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBFUm5LbHFIWHZXQkI5MnZNQlRUTl82dDJxR3Q5cUhMbnhMZzNtZ1BPQk1HSE1idTVDb1E1eVNKR0tZOVFZZmVFQ3RHQnZ4QkJBeGc5T2JEajJSOF8xWXhRVWt2MmJ3dUdaWk0tdUpn0gFuQVVfeXFMUEVSbktscUhYdldCQjkydk1CVFROXzZ0MnFHdDlxSExueExnM21nUE9CTUdITWJ1NUNvUTV5U0pHS1k5UVlmZUVDdEdCdnhCQkF4ZzlPYkRqMlI4XzFZeFFVa3YyYnd1R1paTS11Smc?oc=5",
+      "source": "머니투데이",
+      "published": "2026-11-09T04:09:12+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "뉴욕증시, 이번 주 CPI와 AI 기업 실적이 시험대…12월 금리인상 확률 80% - 와우넷 오늘장전략",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5WVEZrVHhfYmJMVUt1Tl9TTERQeENFeVg4cnRfRENSTHh5eDBnb3FOR182bkRaaU14QllNUjFTZF9EMXlRbWcyTW5VVnhjT0RpMmxWVGVKZTlXN1FRZWNQNzhwQzJIOEVscTE5TWNMb3pxT2hqaW9F?oc=5",
+      "source": "한국경제TV",
+      "published": "2026-11-09T04:07:30+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "[올댓차이나] 홍콩 증시, 美 반도체주 강세에 반등… H주 0.22%↑",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvYkVLU0tqLXZrVGo1Zjh1SlBSSklsbnRKNURNclJxT09ZOHhvdE9fTXVodGNUNFczRWpHZTRTMGp3cWwtX2N1bV9CUE9uSkRCd0pWazQ3RmF1VHJHMnNOMzJQZGE3R0xWbkYtLWpvOU9kdGUyOXZjTtIBeEFVX3lxTFBvYkVLU0tqLXZrVGo1Zjh1SlBSSklsbnRKNURNclJxT09ZOHhvdE9fTXVodGNUNFczRWpHZTRTMGp3cWwtX2N1bV9CUE9uSkRCd0pWazQ3RmF1VHJHMnNOMzJQZGE3R0xWbkYtLWpvOU9kdGUyOXZjTg?oc=5",
       "source": "뉴시스",
-      "published": "2026-11-09T00:32:22+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "[뉴욕 마켓 브리핑] (9일)",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNZGdRMTBkQnFXd1QtV0xrMkN0bG41MlNocXkwNVVuNjBUUk9nQUZRY1g4UU5Dek9vZGtFRnljUVVFRU9fVXgta25tWm9sUGJuampqbWV3M2FHbVlkV3RqbGF5N0RIUW01eWFYc3M4V3Z3aXNh0gF0QVVfeXFMUE1kZ1ExMGRCcVd3VC1XTGsyQ3RsbjUyU2hxeTA1VW42MFRST2dBRlFjWDhRTkN6T29ka0VGeWNRVUVFT19VeC1rbm1ab2xQYm5qamptZXczYUdtWWRXdGpsYXk3REhRbTV5YVhzczhXdndpc2E?oc=5",
-      "source": "연합인포맥스",
-      "published": "2026-11-09T00:29:36+00:00",
+      "published": "2026-11-09T03:23:51+00:00",
       "lang": "ko"
      }
     ],
     "keywords": [
+     {
+      "word": "fed",
+      "count": 9,
+      "ko": "연준"
+     },
      {
       "word": "data",
       "count": 8,
       "ko": "데이터/지표"
      },
      {
-      "word": "fed",
+      "word": "billion",
       "count": 7,
-      "ko": "연준"
+      "ko": "10억달러"
      },
      {
-      "word": "billion",
+      "word": "investors",
       "count": 6,
-      "ko": "10억달러"
+      "ko": "투자자"
      },
      {
       "word": "rate",
@@ -6100,19 +6101,19 @@
       "ko": "금리"
      },
      {
-      "word": "buy",
-      "count": 5,
-      "ko": "매수"
-     },
-     {
-      "word": "california",
-      "count": 5,
+      "word": "warning",
+      "count": 6,
       "ko": null
      },
      {
-      "word": "cut",
+      "word": "democrats",
       "count": 5,
-      "ko": "인하"
+      "ko": "민주당"
+     },
+     {
+      "word": "futures",
+      "count": 5,
+      "ko": null
      },
      {
       "word": "nvidia",
@@ -6120,51 +6121,46 @@
       "ko": "엔비디아"
      },
      {
-      "word": "center",
-      "count": 4,
-      "ko": null
-     },
-     {
-      "word": "democrats",
-      "count": 4,
-      "ko": "민주당"
-     },
-     {
-      "word": "despite",
-      "count": 4,
-      "ko": null
-     },
-     {
-      "word": "futures",
-      "count": 4,
-      "ko": null
-     },
-     {
-      "word": "growth",
-      "count": 4,
-      "ko": "성장"
-     },
-     {
-      "word": "million",
-      "count": 4,
-      "ko": "백만달러"
+      "word": "street",
+      "count": 5,
+      "ko": "월가"
      },
      {
       "word": "tech",
-      "count": 4,
+      "count": 5,
       "ko": "기술주"
+     },
+     {
+      "word": "trump",
+      "count": 5,
+      "ko": "트럼프"
+     },
+     {
+      "word": "wall",
+      "count": 5,
+      "ko": "월가"
+     },
+     {
+      "word": "anthropic",
+      "count": 4,
+      "ko": "앤트로픽"
+     },
+     {
+      "word": "buy",
+      "count": 4,
+      "ko": "매수"
      }
     ],
-    "keyword_base_count": 117
+    "keyword_base_count": 118
    }
   },
   "calendar": {
    "status": "ok",
-   "attempted_at": "2026-11-09T01:51:40+00:00",
-   "last_success_at": "2026-11-09T01:51:40+00:00",
+   "attempted_at": "2026-11-09T07:02:47+00:00",
+   "last_success_at": "2026-11-09T07:02:47+00:00",
    "error": null,
    "data": {
-    "today_et": "2026-11-08",
+    "today_et": "2026-11-09",
     "start": "2026-11-01",
     "end": "2027-01-31",
     "events": [

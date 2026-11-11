@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-11T11:19:01+00:00",
+ "generated_at": "2026-11-11T20:02:18+00:00",
  "sections": {
   "fx": {
    "status": "ok",
-   "attempted_at": "2026-11-11T11:19:01+00:00",
-   "last_success_at": "2026-11-11T11:19:01+00:00",
+   "attempted_at": "2026-11-11T20:02:18+00:00",
+   "last_success_at": "2026-11-11T20:02:18+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-11",
-    "rate": 1337.32,
+    "rate": 1336.8,
     "prev_rate": 1343.84,
     "prev_date": "2026-11-10",
-    "change_pct": -0.49,
+    "change_pct": -0.52,
     "summary": [
      "환율이 7원 내렸어요 (1달러 = 1,337원).",
      "달러가 싸지면, 미국 주식을 원화로 따진 가치는 줄어들어요."
@@ -21,8 +21,8 @@
   },
   "nasdaq": {
    "status": "ok",
-   "attempted_at": "2026-11-11T11:19:01+00:00",
-   "last_success_at": "2026-11-11T11:19:01+00:00",
+   "attempted_at": "2026-11-11T20:02:18+00:00",
+   "last_success_at": "2026-11-11T20:02:18+00:00",
    "error": null,
    "data": {
     "name": "나스닥 종합",
@@ -30,7 +30,7 @@
     "kind": "index",
     "gold_krw": null,
     "five_year": {
-     "since": "2021-11-10",
+     "since": "2021-11-11",
      "weekly": [
       [
        "2021-11-12",
@@ -1077,8 +1077,8 @@
        24579.43
       ],
       [
-       "2026-11-10",
-       25065.87
+       "2026-11-11",
+       25534.15
       ]
      ],
      "drawdowns": [
@@ -1239,9 +1239,9 @@
        "ongoing": true,
        "recovered": null,
        "current": {
-        "date": "2026-11-10",
-        "value": 25065.87,
-        "from_end_pct": 3.09
+        "date": "2026-11-11",
+        "value": 25534.15,
+        "from_end_pct": 5.01
        }
       },
       {
@@ -1712,42 +1712,42 @@
      "desc": "주식시장에서 흔히 있는 정도의 출렁임이에요."
     },
     "summary": [
-     "나스닥 지수는 지난 거래일에 0.74% 내렸어요.",
-     "최고점보다 9.2% 낮은 '약한 하락' 상태예요.",
-     "'조정' 단계(-10%)까지 0.8%p 더 떨어지면 도달해요."
+     "나스닥 지수는 지난 거래일에 1.87% 올랐어요.",
+     "최고점보다 7.5% 낮은 '약한 하락' 상태예요.",
+     "'조정' 단계(-10%)까지 2.5%p 더 떨어지면 도달해요."
     ],
     "symbol": "^IXIC",
-    "as_of": "2026-11-10",
-    "prev_date": "2026-11-09",
-    "close": 25065.87,
-    "prev_close": 25253.14,
-    "change_pct": -0.74,
+    "as_of": "2026-11-11",
+    "prev_date": "2026-11-10",
+    "close": 25534.15,
+    "prev_close": 25065.87,
+    "change_pct": 1.87,
     "peak": {
      "value": 27599.79,
      "date": "2026-10-06"
     },
-    "drawdown_pct": -9.18,
+    "drawdown_pct": -7.48,
     "gauge": {
      "prev_line": 0.0,
      "next_line": -10.0,
-     "remaining_pp": 0.82,
-     "progress": 0.9181
+     "remaining_pp": 2.52,
+     "progress": 0.7484
     },
     "krw": {
-     "change_pct": -2.12,
-     "fx_change_pct": -1.38,
-     "fx_now": 1343.84,
-     "fx_prev": 1362.7,
-     "summary": "원화로 투자했다면 나스닥 지수는 -2.12%예요 (달러 기준 -0.74% + 환율 -1.38% 효과)."
+     "change_pct": 1.33,
+     "fx_change_pct": -0.52,
+     "fx_now": 1336.8,
+     "fx_prev": 1343.84,
+     "summary": "원화로 투자했다면 나스닥 지수는 +1.33%예요 (달러 기준 +1.87% + 환율 -0.52% 효과)."
     },
-    "live": false,
-    "fetched_at": "2026-11-11T11:19:21+00:00"
+    "live": true,
+    "fetched_at": "2026-11-11T20:02:36+00:00"
    }
   },
   "sp500": {
    "status": "ok",
-   "attempted_at": "2026-11-11T11:19:01+00:00",
-   "last_success_at": "2026-11-11T11:19:01+00:00",
+   "attempted_at": "2026-11-11T20:02:18+00:00",
+   "last_success_at": "2026-11-11T20:02:18+00:00",
    "error": null,
    "data": {
     "name": "S&P 500",
@@ -1755,7 +1755,7 @@
     "kind": "index",
     "gold_krw": null,
     "five_year": {
-     "since": "2021-11-10",
+     "since": "2021-11-11",
      "weekly": [
       [
        "2021-11-12",
@@ -2802,8 +2802,8 @@
        7376.86
       ],
       [
-       "2026-11-10",
-       7520.93
+       "2026-11-11",
+       7629.43
       ]
      ],
      "drawdowns": [
@@ -2882,9 +2882,9 @@
        "days": 546,
        "ongoing": true,
        "current": {
-        "date": "2026-11-10",
-        "value": 7520.93,
-        "from_end_pct": -3.81
+        "date": "2026-11-11",
+        "value": 7629.43,
+        "from_end_pct": -2.42
        }
       },
       {
@@ -3238,50 +3238,50 @@
      "desc": "사상 최고점과 거의 비슷한 수준이에요."
     },
     "summary": [
-     "S&P 500 지수는 지난 거래일에 0.38% 내렸어요.",
-     "최고점보다 3.8% 낮은 '고점 근처' 상태예요.",
-     "'조정' 단계(-10%)까지 6.2%p 더 떨어지면 도달해요."
+     "S&P 500 지수는 지난 거래일에 1.44% 올랐어요.",
+     "최고점보다 2.4% 낮은 '고점 근처' 상태예요.",
+     "'조정' 단계(-10%)까지 7.6%p 더 떨어지면 도달해요."
     ],
     "symbol": "^GSPC",
-    "as_of": "2026-11-10",
-    "prev_date": "2026-11-09",
-    "close": 7520.93,
-    "prev_close": 7549.94,
-    "change_pct": -0.38,
+    "as_of": "2026-11-11",
+    "prev_date": "2026-11-10",
+    "close": 7629.43,
+    "prev_close": 7520.93,
+    "change_pct": 1.44,
     "peak": {
      "value": 7818.93,
      "date": "2026-10-06"
     },
-    "drawdown_pct": -3.81,
+    "drawdown_pct": -2.42,
     "gauge": {
      "prev_line": 0.0,
      "next_line": -10.0,
-     "remaining_pp": 6.19,
-     "progress": 0.3811
+     "remaining_pp": 7.58,
+     "progress": 0.2424
     },
     "krw": {
-     "change_pct": -1.76,
-     "fx_change_pct": -1.38,
-     "fx_now": 1343.84,
-     "fx_prev": 1362.7,
-     "summary": "원화로 투자했다면 S&P 500 지수는 -1.76%예요 (달러 기준 -0.38% + 환율 -1.38% 효과)."
+     "change_pct": 0.91,
+     "fx_change_pct": -0.52,
+     "fx_now": 1336.8,
+     "fx_prev": 1343.84,
+     "summary": "원화로 투자했다면 S&P 500 지수는 +0.91%예요 (달러 기준 +1.44% + 환율 -0.52% 효과)."
     },
-    "live": false,
-    "fetched_at": "2026-11-11T11:19:21+00:00"
+    "live": true,
+    "fetched_at": "2026-11-11T20:02:36+00:00"
    }
   },
   "gold": {
    "status": "ok",
-   "attempted_at": "2026-11-11T11:19:01+00:00",
-   "last_success_at": "2026-11-11T11:19:01+00:00",
+   "attempted_at": "2026-11-11T20:02:18+00:00",
+   "last_success_at": "2026-11-11T20:02:18+00:00",
    "error": null,
    "data": {
     "name": "국제 금값",
     "short": "금",
     "kind": "commodity",
     "gold_krw": {
-     "per_don": 654547,
-     "per_gram": 174546
+     "per_don": 643849,
+     "per_gram": 171693
     },
     "five_year": {
      "since": "2021-11-11",
@@ -4332,7 +4332,7 @@
       ],
       [
        "2026-11-11",
-       4059.6
+       3994.8
       ]
      ],
      "drawdowns": [
@@ -4406,8 +4406,8 @@
        "recovered": null,
        "current": {
         "date": "2026-11-11",
-        "value": 4059.6,
-        "from_end_pct": 4.12
+        "value": 3994.8,
+        "from_end_pct": 2.46
        }
       },
       {
@@ -4683,46 +4683,46 @@
      "desc": "20% 이상 떨어지면 '약세장(베어마켓)'이라고 불러요. 경기 걱정이 큰 시기예요."
     },
     "summary": [
-     "금 값은 지난 거래일에 0.73% 올랐어요.",
-     "최고점보다 23.7% 낮은 '약세장' 상태예요.",
-     "'깊은 약세장' 단계(-30%)까지 6.3%p 더 떨어지면 도달해요."
+     "금 값은 지난 거래일에 0.88% 내렸어요.",
+     "최고점보다 24.9% 낮은 '약세장' 상태예요.",
+     "'깊은 약세장' 단계(-30%)까지 5.1%p 더 떨어지면 도달해요."
     ],
     "symbol": "GC=F",
     "as_of": "2026-11-11",
     "prev_date": "2026-11-10",
-    "close": 4059.6,
+    "close": 3994.8,
     "prev_close": 4030.2,
-    "change_pct": 0.73,
+    "change_pct": -0.88,
     "peak": {
      "value": 5318.4,
      "date": "2026-01-29"
     },
-    "drawdown_pct": -23.67,
+    "drawdown_pct": -24.89,
     "gauge": {
      "prev_line": -20.0,
      "next_line": -30.0,
-     "remaining_pp": 6.33,
-     "progress": 0.3669
+     "remaining_pp": 5.11,
+     "progress": 0.4887
     },
     "krw": {
-     "change_pct": 0.24,
-     "fx_change_pct": -0.49,
-     "fx_now": 1337.32,
+     "change_pct": -1.4,
+     "fx_change_pct": -0.52,
+     "fx_now": 1336.8,
      "fx_prev": 1343.84,
-     "summary": "원화로 투자했다면 금 값은 +0.24%예요 (달러 기준 +0.73% + 환율 -0.49% 효과)."
+     "summary": "원화로 투자했다면 금 값은 -1.40%예요 (달러 기준 -0.88% + 환율 -0.52% 효과)."
     },
-    "live": false,
-    "fetched_at": "2026-11-11T11:19:21+00:00"
+    "live": true,
+    "fetched_at": "2026-11-11T20:02:36+00:00"
    }
   },
   "fear_greed": {
    "status": "ok",
-   "attempted_at": "2026-11-11T11:19:01+00:00",
-   "last_success_at": "2026-11-11T11:19:01+00:00",
+   "attempted_at": "2026-11-11T20:02:18+00:00",
+   "last_success_at": "2026-11-11T20:02:18+00:00",
    "error": null,
    "data": {
-    "score": 33.86,
-    "as_of": "2026-11-11T10:58:31+00:00",
+    "score": 37.34,
+    "as_of": "2026-11-11T19:58:53+00:00",
     "prev_close": 33.46,
     "week_ago": 34.17,
     "month_ago": 43.51,
@@ -4733,7 +4733,7 @@
      "level": 1
     },
     "summary": [
-     "투자자 심리는 100점 만점에 34점, '공포' 상태예요."
+     "투자자 심리는 100점 만점에 37점, '공포' 상태예요."
     ],
     "history": [
      [
@@ -5110,33 +5110,33 @@
      ],
      [
       "2026-11-10",
-      33.86
+      37.37
      ],
      [
       "2026-11-11",
-      33.86
+      37.34
      ]
     ]
    }
   },
   "vix": {
    "status": "ok",
-   "attempted_at": "2026-11-11T11:19:01+00:00",
-   "last_success_at": "2026-11-11T11:19:01+00:00",
+   "attempted_at": "2026-11-11T20:02:18+00:00",
+   "last_success_at": "2026-11-11T20:02:18+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-11",
-    "close": 18.69,
+    "close": 17.49,
     "prev_close": 19.46,
-    "change": -0.77,
-    "change_pct": -3.96,
+    "change": -1.97,
+    "change_pct": -10.12,
     "zone": {
      "label": "보통",
      "desc": "평소 수준의 출렁임이에요 (장기 평균 약 19~20).",
      "level": 1
     },
     "summary": [
-     "공포지수(VIX)는 18.7, '보통' 수준이에요."
+     "공포지수(VIX)는 17.5, '보통' 수준이에요."
     ],
     "history": [
      [
@@ -5405,226 +5405,50 @@
      ],
      [
       "2026-11-11",
-      18.69
+      17.49
      ]
     ],
-    "live": false,
-    "fetched_at": "2026-11-11T11:19:21+00:00"
+    "live": true,
+    "fetched_at": "2026-11-11T20:02:36+00:00"
    }
   },
   "movers": {
    "status": "ok",
-   "attempted_at": "2026-11-11T11:19:01+00:00",
-   "last_success_at": "2026-11-11T11:19:01+00:00",
+   "attempted_at": "2026-11-11T20:02:18+00:00",
+   "last_success_at": "2026-11-11T20:02:18+00:00",
    "error": null,
    "data": {
     "universe": "나스닥-100",
     "universe_count": 100,
-    "as_of": "2026-11-10",
+    "as_of": "2026-11-11",
     "gainers": [
      {
-      "symbol": "TTWO",
-      "name_ko": "테이크투",
-      "date": "2026-11-10",
-      "close": 224.64,
-      "change_pct": 8.31,
-      "volume": 8433800,
+      "symbol": "CRWV",
+      "name_ko": "코어위브",
+      "date": "2026-11-11",
+      "close": 60.46,
+      "change_pct": 24.07,
+      "volume": 131279855,
       "reason": {
-       "title": "[美증시 특징주] 게임업체 테이크투인터랙티브 8% 급등…신작 GTA6 사전주문 폭발",
-       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wS1hnd0gxZjFHVW9ER3lJQ09rdzkyZ0RRdDFndm9WY08zdkdnRjduNml6YWk3X1ppZkJpendlc3Vfdkd4M3VudFQ2WkxRMVB4ZFM5RNIBWEFVX3lxTE5jZ2xhX0pKZGhnMGV0bXgxZkNoUDRQZmpBRzRuX1prRVJJUDVLY2lMT3kwWEVxM3FTVkdxUU9jNHhfMVpFTWd0dmRvU1dMWFZ1U0tWcDFrblQ?oc=5",
-       "source": "미디어펜",
-       "published": "2026-11-10T23:02:17+00:00",
+       "title": "[美특징주]코어위브, 3Q 호실적·연간 매출 전망 상향…주가 26%↑",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObk93dnI2dW5IT0V0a2hfWk5sWWJ0Z09CSUpJdzEteTA3X1pFcEMwV1R0Tjg0S3ppRWZ0bXFEOThtbnNQWnZaSW5PN2xNYWxCQjRyRDlabzBPTmRCZ2gyblFUXzRyZk5OVHFEdUVxVGQxejRxZ1J0NFdLbXBfSGpLTA?oc=5",
+       "source": "이데일리",
+       "published": "2026-11-11T18:45:40+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "Take Two Interactive (TTWO) Stock Jumps As Q2 Results Keep GTA VI Central",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-ttwo-stock-jumps-011026269.html?.tsrc=rss",
+        "title": "Why Oracle Stock Is Up Today",
+        "link": "https://www.fool.com/investing/2026/11/11/why-oracle-stock-is-up-today/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-11T01:10:26+00:00",
+        "published": "2026-11-11T19:45:01+00:00",
         "lang": "en"
        },
        {
-        "title": "Take-Two isn’t ready to ‘declare victory’ on GTA 6 before launch",
-        "link": "https://www.thestreet.com/investing/take-two-gta-6-declare-victory-preorders?.tsrc=rss",
+        "title": "CoreWeave Sees “10x as Much Qualified Demand” as Capacity as Old Nvidia Chips Reprice Higher",
+        "link": "https://www.tikr.com/blog/coreweave-sees-10x-as-much-qualified-demand-as-capacity-as-old-nvidia-chips-reprice-higher?ref=yahoofinance&tlnk=yf-261111-jpg29g6w&.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-10T21:33:00+00:00",
-        "lang": "en"
-       }
-      ]
-     },
-     {
-      "symbol": "RKLB",
-      "name_ko": "로켓랩",
-      "date": "2026-11-10",
-      "close": 62.71,
-      "change_pct": 6.54,
-      "volume": 31995500,
-      "reason": {
-       "title": "[특징주] 로켓랩 매출 성장에 우주항공주 상승",
-       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YSWhxYm9KLWV1MDg2dW5IcWgzOG4wa2ltYlhFTnh6SkFtQUZCYUgzTVp1TkJQWG40WUh0UGZvYnhzOTZrdkxHZ241MFJaR0xGci1rcWxOazNnRHJS?oc=5",
-       "source": "뉴스핌",
-       "published": "2026-11-11T01:18:00+00:00",
-       "lang": "ko"
-      },
-      "news": [
-       {
-        "title": "Is SpaceX Winding Down Falcon 9 Really “A Gift to Rocket Lab”?",
-        "link": "https://www.tikr.com/blog/is-spacex-winding-down-falcon-9-really-a-gift-to-rocket-lab?ref=yahoofinance&tlnk=yf-261111-qq6hwpf9&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-11T05:27:08+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "RKLB Vs. SPCX: Which Space Stock Has More Upside As Rocket Lab’s Iridium Deal Deepens Spectrum Feud?",
-        "link": "https://stocktwits.com/news-articles/markets/equity/rklb-vs-spcx-more-upside-rocket-lab-iridium-deal-deepens-spectrum-feud/cNGDfj5R9Jq?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-11T04:40:31+00:00",
-        "lang": "en"
-       }
-      ]
-     },
-     {
-      "symbol": "AVGO",
-      "name_ko": "브로드컴",
-      "date": "2026-11-10",
-      "close": 331.98,
-      "change_pct": 3.91,
-      "volume": 28278900,
-      "reason": {
-       "title": "[美증시 특징주] 반도체, 황 스캔들·인플레 악화에 '조정'…브로드컴만 급등",
-       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5zX3otbVlkeEM1R20yakRzLUxtRWRRbENDNEp6cjhTUjJyQkFRLWJPUDlmWTIzOGI3ZFhON29yc3FFaU5tWGw0d3E4Q3FlYlRIZGNlLQ?oc=5",
-       "source": "미디어펜",
-       "published": "2026-11-10T19:53:22+00:00",
-       "lang": "ko"
-      },
-      "news": [
-       {
-        "title": "53 ETFs Add to Broadcom (AVGO) Holdings on Monday",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/53-etfs-add-broadcom-avgo-110056345.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-11T11:00:56+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Chip Stocks Jump as CoreWeave Eases AI Fears",
-        "link": "https://finance.yahoo.com/m/f843fe4f-2311-37f4-a164-1f7822e309f0/chip-stocks-jump-as-coreweave.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-11T10:39:12+00:00",
-        "lang": "en"
-       }
-      ]
-     },
-     {
-      "symbol": "MAR",
-      "name_ko": "메리어트",
-      "date": "2026-11-10",
-      "close": 428.26,
-      "change_pct": 2.66,
-      "volume": 1334100,
-      "reason": null,
-      "news": [
-       {
-        "title": "Marriott’s Dividend Yields 0.7%. Its $4.8 Billion Cash Return Plan Changes the Math",
-        "link": "https://247wallst.com/investing/2026/11/10/marriotts-dividend-yields-0-7-its-4-8-billion-cash-return-plan-changes-the-math/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-10T17:47:11+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Bilt Introduces the Operating System for Neighborhoods, Bilt Neighborhood OS™, Connecting Businesses and Communities to Power Local Commerce",
-        "link": "https://finance.yahoo.com/small-business/articles/bilt-introduces-operating-system-neighborhoods-113000855.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-10T11:30:00+00:00",
-        "lang": "en"
-       }
-      ]
-     },
-     {
-      "symbol": "NXPI",
-      "name_ko": "NXP",
-      "date": "2026-11-10",
-      "close": 261.56,
-      "change_pct": 2.0,
-      "volume": 3375400,
-      "reason": null,
-      "news": [
-       {
-        "title": "Why Is Monolithic Power Systems Stock Going Up?",
-        "link": "https://www.trefis.com/stock/mpwr/articles/624083/why-is-monolithic-power-systems-stock-going-up/2026-11-10?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-10T14:56:38+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "What Did Texas Instruments Say Before Its Stock Took Off?",
-        "link": "https://www.trefis.com/stock/txn/articles/623991/what-did-texas-instruments-say-before-its-stock-took-off/2026-11-10?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-10T13:48:53+00:00",
-        "lang": "en"
-       }
-      ]
-     }
-    ],
-    "losers": [
-     {
-      "symbol": "MRNA",
-      "name_ko": "모더나",
-      "date": "2026-11-10",
-      "close": 250.83,
-      "change_pct": -6.75,
-      "volume": 11124700,
-      "reason": {
-       "title": "모더나 주가, 오늘 하락하는 이유는?",
-       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9VV1ZJMFRPcUh2MWRoeEhJSTNfMmdEVTJQQm1ZdklkZU9HWWZCVk5sLW9zU2JQNHJhSnczTVViZkdmQTJsdmdGU2ZZRDFBSkdJRS16cFpJVUtWbUZ4dTVxZG91SUd1TnF4R2NIYjZBRHZTSmpxMGlr?oc=5",
-       "source": "Investing.com 한국어",
-       "published": "2026-11-10T15:34:00+00:00",
-       "lang": "ko"
-      },
-      "news": [
-       {
-        "title": "Moderna to Present at Upcoming Conference in November 2026",
-        "link": "https://finance.yahoo.com/healthcare/articles/moderna-present-upcoming-conference-november-120000607.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-10T12:00:00+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "What Invesco S&P 500 Equal Weight ETF (RSP) Bought: Moderna Leads on Nov. 6",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110532032.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-10T11:05:32+00:00",
-        "lang": "en"
-       }
-      ]
-     },
-     {
-      "symbol": "NVDA",
-      "name_ko": "엔비디아",
-      "date": "2026-11-10",
-      "close": 168.89,
-      "change_pct": -5.47,
-      "volume": 426599700,
-      "reason": {
-       "title": "뉴욕증시, 물가 우려에 일제히 하락...엔비디아 5%대 급락",
-       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5VVmJIUzBERWV0dUpCUGliM0VNZjZnWjBYeWN3cGdZdGpTQnFtcENGMWVVWHhod0c5MGdUTmpaUWoyVGtkRUJvbllNSGZWQWotMEhmUG04YkQtVWxUWjhRLTc2UWlTcktHWDVsblQwdw?oc=5",
-       "source": "조세일보",
-       "published": "2026-11-10T23:15:00+00:00",
-       "lang": "ko"
-      },
-      "news": [
-       {
-        "title": "57 ETFs Add to NVIDIA (NVDA) Holdings on Nov. 9",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/57-etfs-add-nvidia-nvda-110038439.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-11T11:00:38+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Your Index Funds Will Soon Be Forced to Buy This $1.4 Trillion Company. Its Own Safety Alarm Just Went Off",
-        "link": "https://247wallst.com/investing/2026/11/11/your-index-funds-will-soon-be-forced-to-buy-this-1-4-trillion-company-its-own-safety-alarm-just-went-off/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-11T10:53:12+00:00",
+        "published": "2026-11-11T19:37:50+00:00",
         "lang": "en"
        }
       ]
@@ -5632,92 +5456,262 @@
      {
       "symbol": "NBIS",
       "name_ko": "네비우스",
-      "date": "2026-11-10",
-      "close": 134.0,
-      "change_pct": -5.27,
-      "volume": 20274800,
+      "date": "2026-11-11",
+      "close": 157.61,
+      "change_pct": 17.62,
+      "volume": 28686117,
       "reason": {
-       "title": "[美특징주]네비우스, 실적 발표 앞두고 5%하락…MS 계약 불확실성 부각",
-       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS01rNkRyQTY1dDFwR3N3R1ZzbnFXUks2OEUwTkxwVHk0RmFVTGQ3NE5WaFNsQzdQVktfaE1Da25JQ05Uc1RsOThrQjRIQmdyQ3VQTzZUSTh3YlBpc2tGWkw4VnNIRFZjMGJIT3Z6TF80S0ZfbDJENGtmcXNPTjB2bA?oc=5",
+       "title": "[美특징주]네비우스, 코어위브 실적에 훈풍…17%대 급등",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNkhRUkZNTTNFSVRvVHFnZW1vbnZZclBQTFp2RUUxd0NldE5aeEdKV2p0OElkX1EyUXpScm1DaEFFXzVSMHE4ZWZ0bFUtTHdMZV8tUERPTVZ0ZVprajdiNjlkSER0MjZtV2NFb01nckdSS0s0TGJvTnVtMXFSUVlIOQ?oc=5",
        "source": "이데일리",
-       "published": "2026-11-10T22:28:47+00:00",
+       "published": "2026-11-11T16:47:13+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "Neoclouds Like Nebius Are Much Better Investments Than Colocation Companies Like TeraWulf. Here's Why.",
-        "link": "https://www.fool.com/investing/2026/11/11/neocloud-nebius-better-investment-terawulf/?.tsrc=rss",
+        "title": "Nvidia-Backed Nebius Faces Crucial Wall Street Test",
+        "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-nebius-faces-crucial-190241774.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-11T10:40:00+00:00",
+        "published": "2026-11-11T19:02:41+00:00",
         "lang": "en"
        },
        {
-        "title": "NBIS Stock Jumps Over 11% On CoreWeave Boost: Analysts Expect Over Six-Fold Growth In Sales In Upcoming Q3 Report",
-        "link": "https://stocktwits.com/news-articles/markets/equity/nbis-stock-jumps-over-11-on-core-weave-boost-analysts-expect-over-six-fold-sales-in-upcoming-q3-report/cNGD19GR9Bc?.tsrc=rss",
+        "title": "Nebius Group Stocks Jump Nearly 17% Ahead of Thursday Results as CoreWeave Lifts AI Clouds",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nebius-group-stocks-jump-nearly-184550485.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-11T08:15:34+00:00",
+        "published": "2026-11-11T18:45:50+00:00",
         "lang": "en"
        }
       ]
      },
      {
-      "symbol": "MSTR",
-      "name_ko": "스트래티지",
-      "date": "2026-11-10",
-      "close": 121.07,
-      "change_pct": -3.6,
-      "volume": 15072400,
+      "symbol": "SNDK",
+      "name_ko": "샌디스크",
+      "date": "2026-11-11",
+      "close": 997.37,
+      "change_pct": 15.97,
+      "volume": 12945560,
       "reason": {
-       "title": "스트래티지, 6주 만에 최대 규모 비트코인 매수에도 주가 3% 하락",
-       "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxOM2pFUnN4QXNHMDlyUDBKbkRkeElKSU11eDMxX0h0M2dRcTFENUstcEU0Xy1SSURsWDU5VlAtNFVMdFhkV3BLdEFiNWVOdXA3akZ5T05fQ2FWcEJMVXY5Y25UU3pkdzM5ODUtcC1OOXY3MUJvNzl0V0w4R1N1WlJBNzlIZWhIOVl1ZXI3Z1cxeVJRYkJpYVhpMnlYbUhwWGtDUW5SaC1vb3dJOG9aRTVCN1pNUmNUSjFzQm1wT1V4dVRZSWk3emJ4bUhoWk9XUF9HbXVPc1ljUUxVZzlGdmphZmlPX2FzU25sS1BXOW1Xb0pZTkVDbFF3RDd3Q0o4V3RiS3lwUklaY0pVWGxGakZnSC1ab1lfeFlxX2hvQUdnV25pMU82VE5iSWVldGlNV21JQUNXQ0dyckJleEkxdGF1c1pkRldxaHd4MENBSnMzWmRSMTlaRFhuVGJn?oc=5",
-       "source": "Benzinga",
-       "published": "2026-11-10T03:55:21+00:00",
+       "title": "반도체지수 장중 6.12% 상승…샌디스크($SNDK) 15.4% 넘어",
+       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80dU56dFQ5WnRpNVk2aUt0dk5VUGdMZjBvMVBQZEtIQ1Z2M3F1Z3ZYMjFrSkNaSG9mRjBoSUhXNjQzeWdlejZKVGJITWcxejRnckZ2Mnp3?oc=5",
+       "source": "토큰포스트",
+       "published": "2026-11-11T18:49:36+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "MSTR Stock In Focus: MSCI Prepares First Index Review Under New Crypto Treasury Rules",
-        "link": "https://stocktwits.com/news-articles/markets/equity/mstr-stock-in-focus-msci-prepares-first-index-review-under-new-crypto-treasury-rules/cNGDjlDR9Bd?.tsrc=rss",
+        "title": "Credo Technology Stocks Climb 10.8% as AI Connectivity Names Rally",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-stocks-climb-10-185615961.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-11T09:03:31+00:00",
+        "published": "2026-11-11T18:56:15+00:00",
         "lang": "en"
        },
        {
-        "title": "Strategy (MSTR) Stock May Still Look Undervalued Following The Binance Hack",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-stock-may-still-011043968.html?.tsrc=rss",
+        "title": "Sandisk Stocks Jump 16% as Storage Rally Returns Ahead of 8-for-1 Split",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stocks-jump-16-storage-184727916.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-11T01:10:43+00:00",
+        "published": "2026-11-11T18:47:27+00:00",
         "lang": "en"
        }
       ]
      },
      {
-      "symbol": "SHOP",
-      "name_ko": "쇼피파이",
-      "date": "2026-11-10",
-      "close": 146.61,
-      "change_pct": -3.58,
-      "volume": 6622400,
+      "symbol": "MU",
+      "name_ko": "마이크론",
+      "date": "2026-11-11",
+      "close": 818.34,
+      "change_pct": 12.86,
+      "volume": 28460969,
       "reason": {
-       "title": "Shopify Inc (SHOP) 주식 움직였습니다 하락 4.96%에 11월10일: 변동 원인",
-       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdXlxaC1GdFBKVHZyYk1MTlBicU93eWpYYUp4dzc3SEEtaDZHZ3BpSm1QSjY0Tm1uYUt4MGRmZXlKUUJ2SFBVczdWQjM5VEdQYjZ4bnpTcm4zQnRYV0x2SFN0OTJGaTdZNUlIbzIwWnJKckJDb2tfWEZlNWZkT1I0OVRwSmdDODM3bWNkS045Zw?oc=5",
-       "source": "TradingKey",
-       "published": "2026-11-10T17:17:36+00:00",
+       "title": "마이크론 테크놀로지 주가, 오늘 급등한 이유는?",
+       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tMks2MFdycTN2MHJIeTBwci0zVzVxRDljYnpPRXhIbm94d1dBNkFxbXZZSlFFOVNPSHVsNHloLW9mNG8zZEZpdVdNdHN3YnNxWXZtZWZVRGl2T3pSQ1JhWjFHRDdlS3lSUml3dlpzNUdxMmdkWHpR?oc=5",
+       "source": "Investing.com 한국어",
+       "published": "2026-11-11T15:35:00+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "Shopify Inc. (SHOP) Is a Trending Stock: Facts to Know Before Betting on It",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/shopify-inc-shop-trending-stock-130001843.html?.tsrc=rss",
+        "title": "Chip Stocks Rally After Slide. These Names Are Leading The Charge Higher.",
+        "link": "https://finance.yahoo.com/m/84883771-24d1-36d3-b83b-c42cc62afe67/chip-stocks-rally-after.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-10T13:00:01+00:00",
+        "published": "2026-11-11T19:49:43+00:00",
         "lang": "en"
        },
        {
-        "title": "Shopify (SHOP) Sees $61.2 Million in Net ETF Buying on Friday",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/shopify-shop-sees-61-2-110203774.html?.tsrc=rss",
+        "title": "Micron Stock Fell 30% in a Week. Bernstein Says It Could Nearly Double",
+        "link": "https://www.tikr.com/blog/micron-stock-fell-30-in-a-week-bernstein-says-it-could-nearly-double?ref=yahoofinance&tlnk=yf-261111-vf93wfjf&.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-10T11:02:03+00:00",
+        "published": "2026-11-11T19:24:48+00:00",
+        "lang": "en"
+       }
+      ]
+     },
+     {
+      "symbol": "LITE",
+      "name_ko": "루멘텀",
+      "date": "2026-11-11",
+      "close": 660.76,
+      "change_pct": 12.84,
+      "volume": 5225216,
+      "reason": {
+       "title": "US Market Watch | Optical communication concept stocks rise broadly; Lumentum (LITE.US) surges over 12%",
+       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOai1ma1Vod3lmX3BlQXVGdWRhQWhvWnRNVHVnMEQyVVl5N0JGTlIwNS1PNzE4WFdvWUpuNkJXMWlmLUZ2MU5Bai1CQkc1ajd3NW84UHBCVFJMZU0za2hBeFNKdU5HblBFeHM5YVdNUTNfM1MzTE1nNVFpYXppb2paQkZHMjNwTWFZdEItcGcyVEVXZTRwcTdkaG1BOUI1d3ZuQkJ2WkNtVFJORWNoRXctRUFfQVcwUnpBZ0E?oc=5",
+       "source": "Moomoo",
+       "published": "2026-11-11T16:31:45+00:00",
+       "lang": "en"
+      },
+      "news": [
+       {
+        "title": "Lumentum Stocks Jump 14.85% as AI Optics Rebound Narrows Marvell Deal Gap",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/lumentum-stocks-jump-14-85-190300667.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-11T19:03:00+00:00",
+        "lang": "en"
+       },
+       {
+        "title": "Marvell Technology Stocks Surge 12.22% as AI Optics Rally Eases Lumentum Deal Doubts",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-stocks-surge-12-190144170.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-11T19:01:44+00:00",
+        "lang": "en"
+       }
+      ]
+     }
+    ],
+    "losers": [
+     {
+      "symbol": "ABNB",
+      "name_ko": "에어비앤비",
+      "date": "2026-11-11",
+      "close": 181.85,
+      "change_pct": -2.7,
+      "volume": 4245447,
+      "reason": null,
+      "news": [
+       {
+        "title": "Airbnb and Travel Stocks Fall as OpenAI Acquisition Raises New AI Threat",
+        "link": "https://finance.yahoo.com/m/c4858008-67d3-3265-bf27-e4a80959541c/airbnb-and-travel-stocks-fall.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-11T18:01:00+00:00",
+        "lang": "en"
+       },
+       {
+        "title": "Is Airbnb (ABNB) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-abnb-solid-growth-stock-164502179.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-11T16:45:02+00:00",
+        "lang": "en"
+       }
+      ]
+     },
+     {
+      "symbol": "MSFT",
+      "name_ko": "마이크로소프트",
+      "date": "2026-11-11",
+      "close": 520.19,
+      "change_pct": -2.43,
+      "volume": 18894951,
+      "reason": {
+       "title": "[美특징주]마이크로소프트, 앤트로픽 업무용 AI 경쟁 우려에 이틀째 하락",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOemJXckh6b2F1b3FONEprSHN0bHc0b0xHVU04VG0yZ2xac2cyWHczRWdhOXN2eHktb0w4V0IyS2xvWS1BdnFqWGFRVFB0R0RMRTNfVGFILTVkM0RocTRuQ0lfQmNvdVFBeV9pY2h5d0hodmhfOGMtZmYwR3VtQm1jVA?oc=5",
+       "source": "이데일리",
+       "published": "2026-11-11T18:48:15+00:00",
+       "lang": "ko"
+      },
+      "news": [
+       {
+        "title": "Amazon and Microsoft Lead the Cloud Market. One of Them Has Far Greater Upside.",
+        "link": "https://www.fool.com/investing/2026/11/11/amazon-and-microsoft-lead-the-cloud-market-one-of/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-11T19:05:00+00:00",
+        "lang": "en"
+       },
+       {
+        "title": "Nvidia-Backed Nebius Faces Crucial Wall Street Test",
+        "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-nebius-faces-crucial-190241774.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-11T19:02:41+00:00",
+        "lang": "en"
+       }
+      ]
+     },
+     {
+      "symbol": "AMZN",
+      "name_ko": "아마존",
+      "date": "2026-11-11",
+      "close": 266.49,
+      "change_pct": -1.62,
+      "volume": 25862797,
+      "reason": null,
+      "news": [
+       {
+        "title": "How does Meta solve Muse's monetization problem?",
+        "link": "https://finance.yahoo.com/video/how-does-meta-solve-muses-monetization-problem-191452841.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-11T19:14:52+00:00",
+        "lang": "en"
+       },
+       {
+        "title": "Amazon Stocks Move Lower 1.64% as Anthropic Filing Details AWS Note Conversion",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-move-lower-1-191029536.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-11T19:10:29+00:00",
+        "lang": "en"
+       }
+      ]
+     },
+     {
+      "symbol": "SPCX",
+      "name_ko": "스페이스X",
+      "date": "2026-11-11",
+      "close": 141.16,
+      "change_pct": -1.35,
+      "volume": 92272090,
+      "reason": {
+       "title": "[美특징주]티모바일, 고팔란 CEO \"스페이스X 위협 걱정 안해\" 일축",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcVZ3UUtPYjZLR0s3RlJTYjhVM1VuQ0NyMHFBR25WdVJySjFYZ2xzUXNaVk82OWNMZGxfaHh0RmVUcGVxWDM0Ql84cWZyQjZES3d3a0dCa3hzTmtvTzdZRF9ReTdIX0o1d3dHbldmZldFeE9MUFV2YmkyTm1IYWtxSA?oc=5",
+       "source": "이데일리",
+       "published": "2026-11-11T16:08:49+00:00",
+       "lang": "ko"
+      },
+      "news": [
+       {
+        "title": "Nov 13 Could Be A Huge Day For SpaceX Stock",
+        "link": "https://www.fool.com/investing/2026/11/11/nov-13-could-be-a-huge-day-for-spacex-stock/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-11T19:50:02+00:00",
+        "lang": "en"
+       },
+       {
+        "title": "Is SpaceX a Millionaire-Maker Stock?",
+        "link": "https://www.fool.com/investing/2026/11/11/is-spacex-a-millionaire-maker-stock/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-11T19:36:00+00:00",
+        "lang": "en"
+       }
+      ]
+     },
+     {
+      "symbol": "MRNA",
+      "name_ko": "모더나",
+      "date": "2026-11-11",
+      "close": 247.83,
+      "change_pct": -1.2,
+      "volume": 5046775,
+      "reason": null,
+      "news": [
+       {
+        "title": "Moderna Announces JAMA Network Open Publication of Real-World Comparative Effectiveness Data for mNEXSPIKE (COVID-19 Vaccine, mRNA) in Adults Aged 65 Years and Older",
+        "link": "https://finance.yahoo.com/healthcare/articles/moderna-announces-jama-network-open-161000734.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-11T16:10:00+00:00",
+        "lang": "en"
+       },
+       {
+        "title": "Moderna Stock Jumped 10% in 5 Sessions: Take Profits, or Buy More?",
+        "link": "https://www.tikr.com/blog/moderna-stock-jumped-10-in-5-sessions-take-profits-or-buy-more?ref=yahoofinance&tlnk=yf-261111-mw53gx88&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-11T13:39:53+00:00",
         "lang": "en"
        }
       ]
@@ -5727,61 +5721,30 @@
      {
       "symbol": "NVDA",
       "name_ko": "엔비디아",
-      "date": "2026-11-10",
-      "close": 168.89,
-      "change_pct": -5.47,
-      "volume": 426599700,
+      "date": "2026-11-11",
+      "close": 175.62,
+      "change_pct": 3.98,
+      "volume": 214435338,
       "reason": {
-       "title": "뉴욕증시, 물가 우려에 일제히 하락...엔비디아 5%대 급락",
-       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5VVmJIUzBERWV0dUpCUGliM0VNZjZnWjBYeWN3cGdZdGpTQnFtcENGMWVVWHhod0c5MGdUTmpaUWoyVGtkRUJvbllNSGZWQWotMEhmUG04YkQtVWxUWjhRLTc2UWlTcktHWDVsblQwdw?oc=5",
-       "source": "조세일보",
-       "published": "2026-11-10T23:15:00+00:00",
+       "title": "뉴욕증시 개장 전 특징주...코어위브 15% 급등·엔비디아 4% 반등…AI 관련주 일제히 강세",
+       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NTnlNamNOSTJJeV84dC1SRHBUVEV0WGFPVFVqRElyLUNyYnhid0RwZk5hRHd2dmhjOVk3WHp4WnhpUmJhd2FKOW94SkFWZXdLQzZRRlhkQmsycS1C?oc=5",
+       "source": "뉴스핌",
+       "published": "2026-11-11T13:33:00+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "57 ETFs Add to NVIDIA (NVDA) Holdings on Nov. 9",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/57-etfs-add-nvidia-nvda-110038439.html?.tsrc=rss",
+        "title": "Why Oracle Stock Is Up Today",
+        "link": "https://www.fool.com/investing/2026/11/11/why-oracle-stock-is-up-today/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-11T11:00:38+00:00",
+        "published": "2026-11-11T19:45:01+00:00",
         "lang": "en"
        },
        {
-        "title": "Your Index Funds Will Soon Be Forced to Buy This $1.4 Trillion Company. Its Own Safety Alarm Just Went Off",
-        "link": "https://247wallst.com/investing/2026/11/11/your-index-funds-will-soon-be-forced-to-buy-this-1-4-trillion-company-its-own-safety-alarm-just-went-off/?.tsrc=rss",
+        "title": "CoreWeave Sees “10x as Much Qualified Demand” as Capacity as Old Nvidia Chips Reprice Higher",
+        "link": "https://www.tikr.com/blog/coreweave-sees-10x-as-much-qualified-demand-as-capacity-as-old-nvidia-chips-reprice-higher?ref=yahoofinance&tlnk=yf-261111-jpg29g6w&.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-11T10:53:12+00:00",
-        "lang": "en"
-       }
-      ]
-     },
-     {
-      "symbol": "INTC",
-      "name_ko": "인텔",
-      "date": "2026-11-10",
-      "close": 58.13,
-      "change_pct": -2.09,
-      "volume": 100389700,
-      "reason": {
-       "title": "인텔 주가, 장중 3.4% 하락한 이유는?",
-       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9BMUplQXZIbUs0c1ZDdHV3WHladjlZOU82enYwY2tOZ3dVSXlxal82dDBodVU2TnVtazNkVTc4ZGZDdjdvSUtmMW9aSXZ0R2twNF9vcGNUc0pfa21jVGhRY1ZtTE9pTjRRNGhibUFXTEp4T2xnMG9n?oc=5",
-       "source": "Investing.com 한국어",
-       "published": "2026-11-10T18:13:00+00:00",
-       "lang": "ko"
-      },
-      "news": [
-       {
-        "title": "Intel vs. SK Hynix: Which Technology Stock Is a Better Buy?",
-        "link": "https://www.fool.com/coverage/better-buy/2026/11/10/intel-vs-sk-hynix-which-technology-stock-is-a-better-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-11T03:20:02+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Quantum Computing’s Next Winners May Not Be Quantum Stocks",
-        "link": "https://247wallst.com/investing/2026/11/10/quantum-computings-next-winners-may-not-be-quantum-stocks/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-11T02:24:42+00:00",
+        "published": "2026-11-11T19:37:50+00:00",
         "lang": "en"
        }
       ]
@@ -5789,30 +5752,61 @@
      {
       "symbol": "CRWV",
       "name_ko": "코어위브",
-      "date": "2026-11-10",
-      "close": 48.73,
-      "change_pct": -0.51,
-      "volume": 85709900,
+      "date": "2026-11-11",
+      "close": 60.46,
+      "change_pct": 24.07,
+      "volume": 131279855,
       "reason": {
-       "title": "[미국 특징주] 코어위브, 3분기 매출 예상 상회…AI 수요 우려 딛고 시간 외 2%↑",
-       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YX3JZTzNBbktlRDNWZ3dtWWFqemM5T2pyT0RmZG9nMndLcF91Y1RCeUFYd0dGbFRDTkt3RGJzZXp0Q05kZG1VUE1DTnZralFHMmU1TXY5NzZiZ3BZ?oc=5",
-       "source": "뉴스핌",
-       "published": "2026-11-10T21:39:00+00:00",
+       "title": "[美특징주]코어위브, 3Q 호실적·연간 매출 전망 상향…주가 26%↑",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObk93dnI2dW5IT0V0a2hfWk5sWWJ0Z09CSUpJdzEteTA3X1pFcEMwV1R0Tjg0S3ppRWZ0bXFEOThtbnNQWnZaSW5PN2xNYWxCQjRyRDlabzBPTmRCZ2gyblFUXzRyZk5OVHFEdUVxVGQxejRxZ1J0NFdLbXBfSGpLTA?oc=5",
+       "source": "이데일리",
+       "published": "2026-11-11T18:45:40+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "CoreWeave Earnings Trigger AI Revival on Wall Street; Asia, Europe Up",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-earnings-trigger-ai-revival-110527409.html?.tsrc=rss",
+        "title": "Why Oracle Stock Is Up Today",
+        "link": "https://www.fool.com/investing/2026/11/11/why-oracle-stock-is-up-today/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-11T11:05:27+00:00",
+        "published": "2026-11-11T19:45:01+00:00",
         "lang": "en"
        },
        {
-        "title": "Chip Stocks Jump as CoreWeave Eases AI Fears",
-        "link": "https://finance.yahoo.com/m/f843fe4f-2311-37f4-a164-1f7822e309f0/chip-stocks-jump-as-coreweave.html?.tsrc=rss",
+        "title": "CoreWeave Sees “10x as Much Qualified Demand” as Capacity as Old Nvidia Chips Reprice Higher",
+        "link": "https://www.tikr.com/blog/coreweave-sees-10x-as-much-qualified-demand-as-capacity-as-old-nvidia-chips-reprice-higher?ref=yahoofinance&tlnk=yf-261111-jpg29g6w&.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-11T10:39:12+00:00",
+        "published": "2026-11-11T19:37:50+00:00",
+        "lang": "en"
+       }
+      ]
+     },
+     {
+      "symbol": "INTC",
+      "name_ko": "인텔",
+      "date": "2026-11-11",
+      "close": 62.9,
+      "change_pct": 8.21,
+      "volume": 102765522,
+      "reason": {
+       "title": "인텔 장중 8% 상승…나스닥100도 2.1% 올라",
+       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1jYzdtNnVLd2xHYWVjcU1STDJvSlJKbFF3OWR0THRnQUtlbXJCN1hvVW5qeUh0d1IzX242RTFzMnNiamtaSmRDOGJ4eEc?oc=5",
+       "source": "이코노미블록",
+       "published": "2026-11-11T15:56:00+00:00",
+       "lang": "ko"
+      },
+      "news": [
+       {
+        "title": "Intel Stocks Climb 5.23% as SoftBank Reveals $7.4 Billion Raised Against Intel Shares",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stocks-climb-5-23-191018499.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-11T19:10:18+00:00",
+        "lang": "en"
+       },
+       {
+        "title": "Amkor's Communications Business Weakens: Can a Recovery Take Hold?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/amkors-communications-business-weakens-recovery-171900627.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-11T17:19:00+00:00",
         "lang": "en"
        }
       ]
@@ -5820,30 +5814,30 @@
      {
       "symbol": "SPCX",
       "name_ko": "스페이스X",
-      "date": "2026-11-10",
-      "close": 143.09,
-      "change_pct": 0.72,
-      "volume": 81629900,
+      "date": "2026-11-11",
+      "close": 141.16,
+      "change_pct": -1.35,
+      "volume": 92272090,
       "reason": {
-       "title": "[특징주] 스페이스X, 데이터센터에 240억달러 투자…우주항공주 들썩",
-       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sM3ZEWVZuTGZtTzNzYmJWTVA1ZzFnRzBKQUJOdnZDT3ZFb1hzTDRyQVZDbmhNU2pKUUFvb25lU0QtajZIWGFnTDRSbzJKMjg2ZDc3cUEzSXh6SV8y?oc=5",
-       "source": "뉴스핌",
-       "published": "2026-11-10T01:21:00+00:00",
+       "title": "[美특징주]티모바일, 고팔란 CEO \"스페이스X 위협 걱정 안해\" 일축",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcVZ3UUtPYjZLR0s3RlJTYjhVM1VuQ0NyMHFBR25WdVJySjFYZ2xzUXNaVk82OWNMZGxfaHh0RmVUcGVxWDM0Ql84cWZyQjZES3d3a0dCa3hzTmtvTzdZRF9ReTdIX0o1d3dHbldmZldFeE9MUFV2YmkyTm1IYWtxSA?oc=5",
+       "source": "이데일리",
+       "published": "2026-11-11T16:08:49+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "Can Cathie Wood's Ark Invest ETF Make a Comeback With Its Large SpaceX Position?",
-        "link": "https://www.fool.com/investing/2026/11/11/can-cathie-woods-ark-invest-etf-make-a-comeback-wi/?.tsrc=rss",
+        "title": "Nov 13 Could Be A Huge Day For SpaceX Stock",
+        "link": "https://www.fool.com/investing/2026/11/11/nov-13-could-be-a-huge-day-for-spacex-stock/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-11T10:31:00+00:00",
+        "published": "2026-11-11T19:50:02+00:00",
         "lang": "en"
        },
        {
-        "title": "S&P 500, Nasdaq Futures Rise Premarket — CRWV, GPRO, SPCX, NVDA, NLST Stocks In Focus",
-        "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-futures-rise-premarket-crwv-gpro-spcx-nvda-nlst-stocks-in-focus/cNGDlb9R9B7?.tsrc=rss",
+        "title": "Is SpaceX a Millionaire-Maker Stock?",
+        "link": "https://www.fool.com/investing/2026/11/11/is-spacex-a-millionaire-maker-stock/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-11T09:59:35+00:00",
+        "published": "2026-11-11T19:36:00+00:00",
         "lang": "en"
        }
       ]
@@ -5851,278 +5845,293 @@
      {
       "symbol": "AMD",
       "name_ko": "AMD",
-      "date": "2026-11-10",
-      "close": 515.21,
-      "change_pct": 1.3,
-      "volume": 46907700,
+      "date": "2026-11-11",
+      "close": 558.73,
+      "change_pct": 8.45,
+      "volume": 34749673,
       "reason": {
-       "title": "Why AMD shares are rallying on Tuesday?",
-       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSjY0NGZsX1JqcklUa1BQeklwcHNWWHRQeEt3RFpydGV3NlJrVElMWXM5VjFMeHdWX3Y3QmNvMS0tVjd1cXBPNlp5b3ZSbzhvUzRPZEJ4OHgtTTBlWGxacjduNTBVMTZodWNQNlYwb1gwRnFHVTZhcGVPMjNWQmU0OWtacnVSMUp1QjBwSVVUVVdONDloVE5sOHI2WQ?oc=5",
+       "title": "Why Intel, Broadcom and AMD shares are gaining on Wednesday?",
+       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMk5ObXBXVFBtNVR1alBuOUt3bW5lUUplanUteDdNSThLTDExZDJ0MVg5dXpLbXpIaUVXWTd5dUxNWDhNUFg0UlBxb2xVbXhGTlFlVVVPNHJQdXB2bE5BTTY2dzBfWGFWZ1V3cFBBV1FEd2g0bGpuUkpUYkdpVFZaODZUSk5IMm5CREJLN21SRzJoVUlWTTZIZFpuNTBMLWpUME5vTV9GUEdMY2VCQnI1V3hseFJqQQ?oc=5",
        "source": "TradingView",
-       "published": "2026-11-10T16:46:28+00:00",
+       "published": "2026-11-11T15:36:28+00:00",
        "lang": "en"
       },
       "news": [
        {
-        "title": "Advanced Micro Devices (AMD) Sees $709.2 Million in Net ETF Buying on Monday",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-sees-110050796.html?.tsrc=rss",
+        "title": "Chip Stocks Rally After Slide. These Names Are Leading The Charge Higher.",
+        "link": "https://finance.yahoo.com/m/84883771-24d1-36d3-b83b-c42cc62afe67/chip-stocks-rally-after.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-11T11:00:50+00:00",
+        "published": "2026-11-11T19:49:43+00:00",
         "lang": "en"
        },
        {
-        "title": "Chip Stocks Jump as CoreWeave Eases AI Fears",
-        "link": "https://finance.yahoo.com/m/f843fe4f-2311-37f4-a164-1f7822e309f0/chip-stocks-jump-as-coreweave.html?.tsrc=rss",
+        "title": "Nvidia Just Had Its Worst 5 Days Since 2022, Worse Than the DeepSeek Crash",
+        "link": "https://247wallst.com/investing/2026/11/11/nvidia-just-had-its-worst-5-days-since-2022-worse-than-the-deepseek-crash/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-11T10:39:12+00:00",
+        "published": "2026-11-11T19:27:37+00:00",
         "lang": "en"
        }
       ]
      }
     ],
-    "live": false,
-    "fetched_at": "2026-11-11T11:19:21+00:00"
+    "live": true,
+    "fetched_at": "2026-11-11T20:02:36+00:00"
    }
   },
   "sectors": {
    "status": "ok",
-   "attempted_at": "2026-11-11T11:19:01+00:00",
-   "last_success_at": "2026-11-11T11:19:01+00:00",
+   "attempted_at": "2026-11-11T20:02:18+00:00",
+   "last_success_at": "2026-11-11T20:02:18+00:00",
    "error": null,
    "data": {
-    "as_of": "2026-11-10",
+    "as_of": "2026-11-11",
     "items": [
-     {
-      "symbol": "XLF",
-      "name_ko": null,
-      "date": "2026-11-10",
-      "close": 58.29,
-      "change_pct": 0.52,
-      "volume": 29884000,
-      "name": "금융"
-     },
-     {
-      "symbol": "XLE",
-      "name_ko": null,
-      "date": "2026-11-10",
-      "close": 62.21,
-      "change_pct": 0.44,
-      "volume": 33240600,
-      "name": "에너지"
-     },
-     {
-      "symbol": "XLC",
-      "name_ko": null,
-      "date": "2026-11-10",
-      "close": 107.76,
-      "change_pct": 0.37,
-      "volume": 5941200,
-      "name": "통신"
-     },
-     {
-      "symbol": "XLV",
-      "name_ko": null,
-      "date": "2026-11-10",
-      "close": 188.88,
-      "change_pct": 0.29,
-      "volume": 8924800,
-      "name": "헬스케어"
-     },
-     {
-      "symbol": "XLP",
-      "name_ko": null,
-      "date": "2026-11-10",
-      "close": 91.03,
-      "change_pct": 0.15,
-      "volume": 11886200,
-      "name": "필수소비재"
-     },
-     {
-      "symbol": "XLY",
-      "name_ko": null,
-      "date": "2026-11-10",
-      "close": 121.05,
-      "change_pct": 0.03,
-      "volume": 7508400,
-      "name": "임의소비재"
-     },
-     {
-      "symbol": "XLI",
-      "name_ko": null,
-      "date": "2026-11-10",
-      "close": 168.73,
-      "change_pct": -0.09,
-      "volume": 5387300,
-      "name": "산업재"
-     },
      {
       "symbol": "SOXX",
       "name_ko": null,
-      "date": "2026-11-10",
-      "close": 146.59,
-      "change_pct": -0.12,
-      "volume": 36355800,
+      "date": "2026-11-11",
+      "close": 156.46,
+      "change_pct": 6.74,
+      "volume": 41051562,
       "name": "반도체"
-     },
-     {
-      "symbol": "XLRE",
-      "name_ko": null,
-      "date": "2026-11-10",
-      "close": 44.58,
-      "change_pct": -0.13,
-      "volume": 6326400,
-      "name": "부동산"
-     },
-     {
-      "symbol": "XLU",
-      "name_ko": null,
-      "date": "2026-11-10",
-      "close": 43.73,
-      "change_pct": -0.14,
-      "volume": 16364600,
-      "name": "유틸리티"
-     },
-     {
-      "symbol": "XLB",
-      "name_ko": null,
-      "date": "2026-11-10",
-      "close": 52.85,
-      "change_pct": -0.17,
-      "volume": 7940100,
-      "name": "소재"
      },
      {
       "symbol": "XLK",
       "name_ko": null,
-      "date": "2026-11-10",
-      "close": 168.91,
-      "change_pct": -1.15,
-      "volume": 10437100,
+      "date": "2026-11-11",
+      "close": 175.15,
+      "change_pct": 3.69,
+      "volume": 10411101,
       "name": "기술"
+     },
+     {
+      "symbol": "XLE",
+      "name_ko": null,
+      "date": "2026-11-11",
+      "close": 63.1,
+      "change_pct": 1.44,
+      "volume": 18295127,
+      "name": "에너지"
+     },
+     {
+      "symbol": "XLI",
+      "name_ko": null,
+      "date": "2026-11-11",
+      "close": 171.0,
+      "change_pct": 1.35,
+      "volume": 4680795,
+      "name": "산업재"
+     },
+     {
+      "symbol": "XLC",
+      "name_ko": null,
+      "date": "2026-11-11",
+      "close": 108.76,
+      "change_pct": 0.93,
+      "volume": 4059952,
+      "name": "통신"
+     },
+     {
+      "symbol": "XLF",
+      "name_ko": null,
+      "date": "2026-11-11",
+      "close": 58.62,
+      "change_pct": 0.56,
+      "volume": 13812372,
+      "name": "금융"
+     },
+     {
+      "symbol": "XLB",
+      "name_ko": null,
+      "date": "2026-11-11",
+      "close": 53.01,
+      "change_pct": 0.29,
+      "volume": 3796203,
+      "name": "소재"
+     },
+     {
+      "symbol": "XLP",
+      "name_ko": null,
+      "date": "2026-11-11",
+      "close": 91.18,
+      "change_pct": 0.16,
+      "volume": 11253898,
+      "name": "필수소비재"
+     },
+     {
+      "symbol": "XLU",
+      "name_ko": null,
+      "date": "2026-11-11",
+      "close": 43.78,
+      "change_pct": 0.11,
+      "volume": 9981755,
+      "name": "유틸리티"
+     },
+     {
+      "symbol": "XLY",
+      "name_ko": null,
+      "date": "2026-11-11",
+      "close": 121.03,
+      "change_pct": -0.02,
+      "volume": 4439349,
+      "name": "임의소비재"
+     },
+     {
+      "symbol": "XLRE",
+      "name_ko": null,
+      "date": "2026-11-11",
+      "close": 44.51,
+      "change_pct": -0.15,
+      "volume": 3134352,
+      "name": "부동산"
+     },
+     {
+      "symbol": "XLV",
+      "name_ko": null,
+      "date": "2026-11-11",
+      "close": 188.55,
+      "change_pct": -0.17,
+      "volume": 6397242,
+      "name": "헬스케어"
      }
     ],
-    "live": false,
-    "fetched_at": "2026-11-11T11:19:21+00:00"
+    "live": true,
+    "fetched_at": "2026-11-11T20:02:36+00:00"
    }
   },
   "news": {
    "status": "ok",
-   "attempted_at": "2026-11-11T11:19:01+00:00",
-   "last_success_at": "2026-11-11T11:19:01+00:00",
+   "attempted_at": "2026-11-11T20:02:18+00:00",
+   "last_success_at": "2026-11-11T20:02:18+00:00",
    "error": null,
    "data": {
     "items": [
      {
-      "title": "CoreWeave Earnings Trigger AI Revival on Wall Street; Asia, Europe Up",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-earnings-trigger-ai-revival-110527409.html?.tsrc=rss",
+      "title": "Why Oracle Stock Is Up Today",
+      "link": "https://www.fool.com/investing/2026/11/11/why-oracle-stock-is-up-today/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "published": "2026-11-11T11:05:27+00:00",
+      "published": "2026-11-11T19:45:01+00:00",
       "lang": "en"
      },
      {
-      "title": "These Stocks Are Beating the S&P 500—and Have Steady Yields",
-      "link": "https://finance.yahoo.com/m/88474ea8-9b4c-3db8-9023-bf45e5a7ff67/these-stocks-are-beating-the.html?.tsrc=rss",
+      "title": "Tesla Extends Cybertruck’s Run. Its Driving Software Matters More.",
+      "link": "https://finance.yahoo.com/m/2c17d887-bd87-396e-a44f-ad396f16f758/tesla-extends-cybertruck%E2%80%99s.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "published": "2026-11-11T11:00:00+00:00",
+      "published": "2026-11-11T19:39:00+00:00",
       "lang": "en"
      },
      {
-      "title": "Your Index Funds Will Soon Be Forced to Buy This $1.4 Trillion Company. Its Own Safety Alarm Just Went Off",
-      "link": "https://247wallst.com/investing/2026/11/11/your-index-funds-will-soon-be-forced-to-buy-this-1-4-trillion-company-its-own-safety-alarm-just-went-off/?.tsrc=rss",
+      "title": "S&P 500's Earnings Growth to Slow in 2027, 2028, UBS Says",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-apos-earnings-growth-193557535.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "published": "2026-11-11T10:53:12+00:00",
+      "published": "2026-11-11T19:35:57+00:00",
       "lang": "en"
      },
      {
-      "title": "The Stock Market Is Repeating a Pattern Not Seen in Decades, but History Says Investors Who Make This 1 Move Will Win Out",
-      "link": "https://www.fool.com/investing/2026/11/11/the-stock-market-is-repeating-a-pattern-not-seen-in-decades-but-history-says-investors-who-make-this-1-move-will-win-out/?.tsrc=rss",
+      "title": "Stocks Had Their Best Day in 3 Months and Worst in 19 Months Last Week. Here’s What the Data Says About Selling Right Now.",
+      "link": "https://www.fool.com/investing/2026/11/11/stocks-best-day-in-3-months-followed-by-worst-in-19-months/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "published": "2026-11-11T10:50:57+00:00",
+      "published": "2026-11-11T19:35:02+00:00",
       "lang": "en"
      },
      {
-      "title": "나스닥 내달부터 23시간 거래…국내 증권사도 준비 박차",
-      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNdFBsUElyZ1dVMWNQTHdOb3NyOUwtQU9YMlpSYUQ3MXpWcXh0cjd2SUd4d0JhOENRdEV1ck85LXVkblVNMXBLSjEyWmUzSEYxaTlFNTZtb0k5V1lqcEZBbHdySlM5SGVkbXBBS1hDTXRMUDVpZUJKel8yWHJDN1o5SlVTeDlXVHdPLTh3NVUwUnRYX1dGUzk4ZWVjZEt0SzhGaHhqSlRkLWIwYm9Qd1FxWHNickRob0VmUjg0UzdoTUZXZ0w1NDJsYm5PN0NObTJtR0d3QVQ1UmF3Ny1XUjhvQjRpOF9Pc0NGU0F1anBqZUc5d2tMVmI2enJvTl9wdjl2TlJjVUJ2ZTN6RWFQS2c?oc=5",
-      "source": "데일리안",
-      "published": "2026-11-11T10:18:00+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "Nasdaq futures jump as CoreWeave earnings beat drives global tech rebound: Live updates",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5tNUpWaERRaEpZWXFmM0tBRnFQQlBPVzlJUm9ldF9teW53ZjY0WHZ5X1FBdXZRWk1UR0dWRlZXX19VTDAyT2N5QVA4RzlST1FFcFpBUEVMek5OTVN1Vzk3eUNra1puWVlyVk9SMVVXX01YWm1BbUVZ?oc=5",
+      "title": "Prediction markets tied to clinical trials and drug approvals draw lawmakers' ire",
+      "link": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html",
       "source": "CNBC",
-      "published": "2026-11-11T10:09:05+00:00",
+      "published": "2026-11-11T19:16:23+00:00",
       "lang": "en"
      },
      {
-      "title": "Nvidia shares rebound 4% as Huang faces scrutiny ahead of earnings",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNalRRWWRUS0VHb2Q4Y0dhNFdWY1BzTWlqWG8yOXBwZVJtRlFOck5iZlMzcmJlTHZnRkNaZ0hNUXBrTkptb0xqU3RBSUo5V09ERzlxb095YmRmRHNZaFVYVVhUY0ZxN1E4Q0twdFhLTzA0N0lDTnpXUGl3Szc2eHVUcw?oc=5",
-      "source": "CNBC",
-      "published": "2026-11-11T10:03:29+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "Subdued sales for Singles' Day, China's online shopping festival, signal weak appetite for spending",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZldKVkFrVWlEQmhhVUpOTGNoT3lnSU1qakFBbmtUTWdTM0I4U3BKbmFNbEV3eUhXY2UwZFY2Z1V4RjRHY1lUQVhYOWMwbXp2aXNja2lpMkxNNG5FalVpWTRxQ3daTk1lWllsRXBLbjJRRlJHaTU3Wi1xNXNsSEkteW1yenZjTFozRlUwR0RUU05jNlFFbk1FbUM2eGtXZjRX?oc=5",
-      "source": "AP News",
-      "published": "2026-11-11T08:42:00+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "Anthropic Bankers Look to Increase IPO Valuation, Report Says",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUTgtOV9zN3Ywb2UycWxaSlNwOGltSV91cjMtRWdlNnJibWhnTVgtQkZkd0ZYU0NweVB5MEhaMkd6ZVNpUXlra3JiQ2ltcU4xUUUta0pPV2dqb19uWWpLZWVkanNqTnlsVEo2YmdFeGw2M2dNcGtGVHdGb1hBMTN4MFRteXhkbUctZWIxSURUQjcxczZxbmdtbGQ0d3ZLWWJCcjFQQVpwb1pjNHNzWlE?oc=5",
+      "title": "Tech Gains Boost Stocks as Bonds Slide on Fed Bets: Markets Wrap",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFpBLVFiSmhuZGxNdjZ4WUE1eEZZVzlpcElqQ3FpX2hfRVVkaVdncm5Ic3J4TFdMVTVPODFqV1dYWTJORmx5c3lTMHg1ZUtiZml2ZUVOZm1WQnlCa2lKcUt3M0tjQUsyVVNxQlVySk5TbHRqZHczYVFDTnU0OGZjMjBBWUFqZ2JpNFNhb05nX01EU3dX?oc=5",
       "source": "Bloomberg.com",
-      "published": "2026-11-11T07:59:00+00:00",
+      "published": "2026-11-11T19:10:39+00:00",
       "lang": "en"
      },
      {
-      "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
-      "link": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
-      "source": "CNBC",
-      "published": "2026-11-11T07:47:54+00:00",
+      "title": "NASA takes an all-hands-on-deck approach in its return to the Moon",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc3VFQ2tqdnlwS1N0dXllcFN1S1JDdzY1SEQyUVBTWFpFbks5Ulo4STM3RnBoQ0I5eUdBN1psRzVmQjZzZUcxTW5OOUd3N0xkTjRoeG1HOGpQUUdycmVQUFdXb29WSWtwaWluTnJSLUNEX1lIZ3VNdTZuOWV1dTE0OGFKQWwxQmg3OWh0VUpOa2ZLR3p1ZnlUeHhPYmFjcXJHLWhhaUw4UTY?oc=5",
+      "source": "Ars Technica",
+      "published": "2026-11-11T19:00:26+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEWTAxeW5RS2RldkxaeEoySTNmZWR6WF9KRnZzRExJcXdBSTlDU3F6V0V6ZVA3a3R1bTZJM01UQndVM0UyWXRNb3hwSkhWTTdzdExXMjktYlUwc1U?oc=5",
+      "source": "BBC",
+      "published": "2026-11-11T18:48:19+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "US Equity Futures Rise as AI Enthusiasm Counters Hot Inflation",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTWhFb0Z4UU5tNk9GTTVCYW9hallXVDZiRkhNMjFubzVVbmt1RXY4ekdtSFdZSTV4cEhqYkNrMlM0TW9keklFMHBOUDVzTTNhNXhJX2ZuVWRjSTFheURwb1NlU1F5b3Q0SXJWaGdzMzlEZHE5N3UzeE5jSzJIbkpoc2tqdkNKZG0zczBSYndTNm5GUFVUeEM1OHB2LUlnRktreFhueUxleGRwTWp0S1RZcWFQRQ?oc=5",
+      "source": "Bloomberg.com",
+      "published": "2026-11-11T18:42:35+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Micron Is Rebounding. Goldman Prefers These Memory Stocks.",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB2bWhjUktMQU1qZzVGbWF5ZE9XNmdGVmtUVU5EMUozbl9pNlJRZnJjOWl6N2ZLLUEwQVMyWEZpa19RT1NLMXZzbVZxTTlGd2lKMDNLa3FKSUUwQi1EQllKbndwY20zMUF3Q0tkeHFXSnUwQllJdGhiRjJKY3I2dw?oc=5",
+      "source": "Barron's",
+      "published": "2026-11-11T18:11:00+00:00",
       "lang": "en"
      }
     ],
     "keywords": [
-     {
-      "word": "billion",
-      "count": 11,
-      "ko": "10억달러"
-     },
      {
       "word": "fed",
       "count": 9,
       "ko": "연준"
      },
      {
-      "word": "nvidia",
+      "word": "coreweave",
       "count": 8,
-      "ko": "엔비디아"
+      "ko": null
      },
      {
       "word": "data",
-      "count": 7,
+      "count": 8,
       "ko": "데이터/지표"
      },
      {
       "word": "earnings",
-      "count": 7,
+      "count": 8,
       "ko": "실적"
      },
      {
-      "word": "s&p",
-      "count": 7,
-      "ko": "S&P"
+      "word": "inflation",
+      "count": 8,
+      "ko": "인플레이션"
      },
      {
-      "word": "coreweave",
+      "word": "nvidia",
+      "count": 7,
+      "ko": "엔비디아"
+     },
+     {
+      "word": "billion",
       "count": 6,
+      "ko": "10억달러"
+     },
+     {
+      "word": "nasdaq",
+      "count": 6,
+      "ko": "나스닥"
+     },
+     {
+      "word": "rally",
+      "count": 6,
+      "ko": "랠리"
+     },
+     {
+      "word": "costs",
+      "count": 5,
       "ko": null
      },
      {
-      "word": "inflation",
-      "count": 6,
-      "ko": "인플레이션"
+      "word": "hikes",
+      "count": 5,
+      "ko": null
      },
      {
       "word": "prices",
@@ -6130,43 +6139,28 @@
       "ko": null
      },
      {
-      "word": "anthropic",
-      "count": 4,
-      "ko": "앤트로픽"
+      "word": "rate",
+      "count": 5,
+      "ko": "금리"
+     },
+     {
+      "word": "tech",
+      "count": 5,
+      "ko": "기술주"
      },
      {
       "word": "center",
       "count": 4,
       "ko": null
-     },
-     {
-      "word": "ceo",
-      "count": 4,
-      "ko": "CEO"
-     },
-     {
-      "word": "debt",
-      "count": 4,
-      "ko": null
-     },
-     {
-      "word": "hits",
-      "count": 4,
-      "ko": null
-     },
-     {
-      "word": "openai",
-      "count": 4,
-      "ko": "오픈AI"
      }
     ],
-    "keyword_base_count": 115
+    "keyword_base_count": 118
    }
   },
   "calendar": {
    "status": "ok",
-   "attempted_at": "2026-11-11T11:19:01+00:00",
-   "last_success_at": "2026-11-11T11:19:01+00:00",
+   "attempted_at": "2026-11-11T20:02:18+00:00",
+   "last_success_at": "2026-11-11T20:02:18+00:00",
    "error": null,
    "data": {
     "today_et": "2026-11-11",

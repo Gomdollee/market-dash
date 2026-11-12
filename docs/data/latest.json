@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-11-12T03:16:19+00:00",
+ "generated_at": "2026-11-12T07:35:36+00:00",
  "sections": {
   "fx": {
    "status": "ok",
-   "attempted_at": "2026-11-12T03:16:19+00:00",
-   "last_success_at": "2026-11-12T03:16:19+00:00",
+   "attempted_at": "2026-11-12T07:35:36+00:00",
+   "last_success_at": "2026-11-12T07:35:36+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-12",
-    "rate": 1331.78,
+    "rate": 1333.79,
     "prev_rate": 1341.91,
     "prev_date": "2026-11-11",
-    "change_pct": -0.75,
+    "change_pct": -0.61,
     "summary": [
-     "환율이 10원 내렸어요 (1달러 = 1,332원).",
+     "환율이 8원 내렸어요 (1달러 = 1,334원).",
      "달러가 싸지면, 미국 주식을 원화로 따진 가치는 줄어들어요."
     ],
     "source": "Yahoo Finance"
@@ -21,8 +21,8 @@
   },
   "nasdaq": {
    "status": "ok",
-   "attempted_at": "2026-11-12T03:16:19+00:00",
-   "last_success_at": "2026-11-12T03:16:19+00:00",
+   "attempted_at": "2026-11-12T07:35:36+00:00",
+   "last_success_at": "2026-11-12T07:35:36+00:00",
    "error": null,
    "data": {
     "name": "나스닥 종합",
@@ -1741,13 +1741,13 @@
      "summary": "원화로 투자했다면 나스닥 지수는 +1.45%예요 (달러 기준 +1.60% + 환율 -0.14% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-12T03:16:35+00:00"
+    "fetched_at": "2026-11-12T07:35:52+00:00"
    }
   },
   "sp500": {
    "status": "ok",
-   "attempted_at": "2026-11-12T03:16:19+00:00",
-   "last_success_at": "2026-11-12T03:16:19+00:00",
+   "attempted_at": "2026-11-12T07:35:36+00:00",
+   "last_success_at": "2026-11-12T07:35:36+00:00",
    "error": null,
    "data": {
     "name": "S&P 500",
@@ -3267,24 +3267,24 @@
      "summary": "원화로 투자했다면 S&P 500 지수는 +1.16%예요 (달러 기준 +1.31% + 환율 -0.14% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-12T03:16:35+00:00"
+    "fetched_at": "2026-11-12T07:35:52+00:00"
    }
   },
   "gold": {
    "status": "ok",
-   "attempted_at": "2026-11-12T03:16:19+00:00",
-   "last_success_at": "2026-11-12T03:16:19+00:00",
+   "attempted_at": "2026-11-12T07:35:36+00:00",
+   "last_success_at": "2026-11-12T07:35:36+00:00",
    "error": null,
    "data": {
     "name": "국제 금값",
     "short": "금",
     "kind": "commodity",
     "gold_krw": {
-     "per_don": 644902,
-     "per_gram": 171974
+     "per_don": 637896,
+     "per_gram": 170106
     },
     "five_year": {
-     "since": "2021-11-11",
+     "since": "2021-11-12",
      "weekly": [
       [
        "2021-11-12",
@@ -4331,8 +4331,8 @@
        4074.9
       ],
       [
-       "2026-11-11",
-       3986.1
+       "2026-11-12",
+       3966.8
       ]
      ],
      "drawdowns": [
@@ -4405,9 +4405,9 @@
        "ongoing": true,
        "recovered": null,
        "current": {
-        "date": "2026-11-11",
-        "value": 3986.1,
-        "from_end_pct": 2.24
+        "date": "2026-11-12",
+        "value": 3966.8,
+        "from_end_pct": 1.74
        }
       },
       {
@@ -4683,50 +4683,50 @@
      "desc": "20% 이상 떨어지면 '약세장(베어마켓)'이라고 불러요. 경기 걱정이 큰 시기예요."
     },
     "summary": [
-     "금 값은 지난 거래일에 1.09% 내렸어요.",
-     "최고점보다 25.1% 낮은 '약세장' 상태예요.",
-     "'깊은 약세장' 단계(-30%)까지 4.9%p 더 떨어지면 도달해요."
+     "금 값은 지난 거래일에 0.84% 내렸어요.",
+     "최고점보다 25.4% 낮은 '약세장' 상태예요.",
+     "'깊은 약세장' 단계(-30%)까지 4.6%p 더 떨어지면 도달해요."
     ],
     "symbol": "GC=F",
-    "as_of": "2026-11-11",
-    "prev_date": "2026-11-10",
-    "close": 3986.1,
-    "prev_close": 4030.2,
-    "change_pct": -1.09,
+    "as_of": "2026-11-12",
+    "prev_date": "2026-11-11",
+    "close": 3966.8,
+    "prev_close": 4000.5,
+    "change_pct": -0.84,
     "peak": {
      "value": 5318.4,
      "date": "2026-01-29"
     },
-    "drawdown_pct": -25.05,
+    "drawdown_pct": -25.41,
     "gauge": {
      "prev_line": -20.0,
      "next_line": -30.0,
-     "remaining_pp": 4.95,
-     "progress": 0.5051
+     "remaining_pp": 4.59,
+     "progress": 0.5414
     },
     "krw": {
-     "change_pct": -1.24,
-     "fx_change_pct": -0.14,
-     "fx_now": 1341.91,
-     "fx_prev": 1343.84,
-     "summary": "원화로 투자했다면 금 값은 -1.24%예요 (달러 기준 -1.09% + 환율 -0.14% 효과)."
+     "change_pct": -1.44,
+     "fx_change_pct": -0.61,
+     "fx_now": 1333.79,
+     "fx_prev": 1341.91,
+     "summary": "원화로 투자했다면 금 값은 -1.44%예요 (달러 기준 -0.84% + 환율 -0.61% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-12T03:16:35+00:00"
+    "fetched_at": "2026-11-12T07:35:52+00:00"
    }
   },
   "fear_greed": {
    "status": "ok",
-   "attempted_at": "2026-11-12T03:16:19+00:00",
-   "last_success_at": "2026-11-12T03:16:19+00:00",
+   "attempted_at": "2026-11-12T07:35:36+00:00",
+   "last_success_at": "2026-11-12T07:35:36+00:00",
    "error": null,
    "data": {
-    "score": 36.97,
-    "as_of": "2026-11-11T23:59:59+00:00",
-    "prev_close": 33.46,
-    "week_ago": 34.17,
-    "month_ago": 43.51,
-    "year_ago": 30.46,
+    "score": 36.94,
+    "as_of": "2026-11-12T01:00:00+00:00",
+    "prev_close": 36.97,
+    "week_ago": 19.99,
+    "month_ago": 45.23,
+    "year_ago": 34.57,
     "zone": {
      "label": "공포",
      "desc": "불안한 분위기라 조심스럽게 사고파는 중이에요.",
@@ -4736,10 +4736,6 @@
      "투자자 심리는 100점 만점에 37점, '공포' 상태예요."
     ],
     "history": [
-     [
-      "2026-06-30",
-      29.97
-     ],
      [
       "2026-07-01",
       31.63
@@ -5114,15 +5110,19 @@
      ],
      [
       "2026-11-11",
-      36.97
+      36.94
+     ],
+     [
+      "2026-11-12",
+      36.94
      ]
     ]
    }
   },
   "vix": {
    "status": "ok",
-   "attempted_at": "2026-11-12T03:16:19+00:00",
-   "last_success_at": "2026-11-12T03:16:19+00:00",
+   "attempted_at": "2026-11-12T07:35:36+00:00",
+   "last_success_at": "2026-11-12T07:35:36+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-11",
@@ -5409,13 +5409,13 @@
      ]
     ],
     "live": false,
-    "fetched_at": "2026-11-12T03:16:35+00:00"
+    "fetched_at": "2026-11-12T07:35:52+00:00"
    }
   },
   "movers": {
    "status": "ok",
-   "attempted_at": "2026-11-12T03:16:19+00:00",
-   "last_success_at": "2026-11-12T03:16:19+00:00",
+   "attempted_at": "2026-11-12T07:35:36+00:00",
+   "last_success_at": "2026-11-12T07:35:36+00:00",
    "error": null,
    "data": {
     "universe": "나스닥-100",
@@ -5430,28 +5430,26 @@
       "change_pct": 24.71,
       "volume": 161569500,
       "reason": {
-       "title": "코어위브 25% 급등에 AI株 반등…나스닥 1.6% 상승",
-       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORkxHMmVmV1lFdEtwQ3ZuTWNaR1VqR0ZKdHRLdFVWRDl2WkhmeWp1aFhLdTg5WmozSUdHM1dwVVFJcFVsWEc0OW54MFJsYk02Z0VydFZCRmZnZ2VZakRqeHVjaGFjQ24wcHg5bVlCMjZiQ1FQSTJMeFdJOVJXSlNaM2YwMS1GT2ND?oc=5",
-       "source": "조선일보",
-       "published": "2026-11-11T22:20:00+00:00",
+       "title": "코어위브 25% 급등에 AI 기술주 동반 반등…엔비디아도 상승 전환",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aa0E1ZnJ1c0U3dUVHWkRCWEh0ajJkazRkSmRFYXJaUXZPWG02Vk1nMm80V2tBcU9OOEZBaFFuUzJWMVJoV3JQdHcxN3k5Z3gtTjY0LWQ1aFFubnJ4UlVQbG1ZVzh3c2dUZ2c?oc=5",
+       "source": "AI타임스",
+       "published": "2026-11-11T23:25:05+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
-        "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
+        "title": "A $133B backlog vs. a $47B debt mountain: Is CoreWeave a buy?",
+        "link": "https://finance.yahoo.com/technology/ai/articles/133b-backlog-vs-47b-debt-071555537.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T03:07:20+00:00",
-        "lang": "en",
-        "title_ko": "CoreWave가 랠리를 주도한 후 Nvidia가 CEO Huang을 축출함에 따라 Dow Jones 선물은 상승하고 Techs는 하락합니다."
+        "published": "2026-11-12T07:15:55+00:00",
+        "lang": "en"
        },
        {
-        "title": "Asian stocks extend gains but traders keep eye on Nvidia crisis",
+        "title": "Asian stocks drop as traders keep eye on Nvidia crisis",
         "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-extend-gains-traders-025559054.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T02:55:59+00:00",
-        "lang": "en",
-        "title_ko": "아시아 주식은 상승폭을 확대했지만 거래자들은 Nvidia 위기를 주시하고 있습니다."
+        "published": "2026-11-12T07:13:07+00:00",
+        "lang": "en"
        }
       ]
      },
@@ -5471,20 +5469,19 @@
       },
       "news": [
        {
+        "title": "Nebius Group (NBIS) Gets Gartner Backing Through A $13 Million AI Platform Win",
+        "link": "https://finance.yahoo.com/technology/ai/articles/nebius-group-nbis-gets-gartner-051814044.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-12T05:18:14+00:00",
+        "lang": "en"
+       },
+       {
         "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
         "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T03:07:20+00:00",
+        "published": "2026-11-12T04:08:47+00:00",
         "lang": "en",
         "title_ko": "CoreWave가 랠리를 주도한 후 Nvidia가 CEO Huang을 축출함에 따라 Dow Jones 선물은 상승하고 Techs는 하락합니다."
-       },
-       {
-        "title": "Nebius Group (NBIS) is Rocketing 15% Higher — Here’s What Could Move Shares Next",
-        "link": "https://finance.yahoo.com/technology/ai/articles/nebius-group-nbis-rocketing-15-233134155.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-11T23:31:34+00:00",
-        "lang": "en",
-        "title_ko": "Nebius Group(NBIS)은 15% 더 높은 상승세를 보이고 있습니다. 다음으로 주가를 움직일 수 있는 방법은 다음과 같습니다."
        }
       ]
      },
@@ -5504,20 +5501,19 @@
       },
       "news": [
        {
+        "title": "Micron vs. Sandisk: The AI Memory Supercycle Is Big Enough for Both, but Here's the Better Buy.",
+        "link": "https://www.fool.com/investing/2026/11/12/micron-vs-sandisk-the-ai-memory-supercycle-is-big/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-12T05:20:00+00:00",
+        "lang": "en"
+       },
+       {
         "title": "Nasdaq 100 Futures Drop As Reports Relating To Jensen Huang’s Ousting Outweigh CoreWeave’s Strong Outlook —  NVDA, TSLA, SNDK, CAPR, CRWV In Focus",
         "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-100-futures-drop-as-reports-relating-to-jensen-huang-s-ousting/cNGzQslR997?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-12T00:22:06+00:00",
         "lang": "en",
         "title_ko": "Jensen Huang의 축출 관련 보고서가 CoreWeave의 강력한 전망보다 더 중요하여 Nasdaq 100 선물 하락 - NVDA, TSLA, SNDK, CAPR, CRWV 집중"
-       },
-       {
-        "title": "Analyst Says Sandisk Corp. (SNDK) Offers More Than 100% Upside. Should You Buy?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/analyst-says-sandisk-corp-sndk-232856312.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-11T23:28:56+00:00",
-        "lang": "en",
-        "title_ko": "분석가는 Sandisk Corp.(SNDK)이 100% 이상의 상승 여력을 제공한다고 말합니다. 구매해야 할까요?"
        }
       ]
      },
@@ -5570,20 +5566,19 @@
       },
       "news": [
        {
+        "title": "Micron vs. Sandisk: The AI Memory Supercycle Is Big Enough for Both, but Here's the Better Buy.",
+        "link": "https://www.fool.com/investing/2026/11/12/micron-vs-sandisk-the-ai-memory-supercycle-is-big/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-12T05:20:00+00:00",
+        "lang": "en"
+       },
+       {
         "title": "Jensen Huang’s Future At Nvidia Hangs In Balance As Board Weighs Fallout: Analysts Warn Of Challenges Ahead",
         "link": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-s-future-at-nvidia-hangs-in-balance-as-board-reportedly-weighs-fallout-analysts-warn-of-challenges-ahead/cNGzikhR99g?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-12T02:43:31+00:00",
         "lang": "en",
         "title_ko": "Nvidia의 Jensen Huang의 미래는 이사회의 낙진 무게로 인해 균형이 유지됩니다: 분석가들은 앞으로의 도전에 대해 경고합니다"
-       },
-       {
-        "title": "5-star analyst flags surprise Micron stock catalyst after CoreWeave rally",
-        "link": "https://www.thestreet.com/investing/stocks/micron-keybanc-server-demand?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-12T02:03:00+00:00",
-        "lang": "en",
-        "title_ko": "5성급 분석가는 CoreWeave 랠리 이후 Micron 주식 촉매제를 놀라게 했습니다."
        }
       ]
      }
@@ -5599,20 +5594,19 @@
       "reason": null,
       "news": [
        {
+        "title": "Airbnb (ABNB) And The AI Travel Deal That Could Rewire Trip Booking",
+        "link": "https://finance.yahoo.com/technology/ai/articles/airbnb-abnb-ai-travel-deal-051841667.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-12T05:18:41+00:00",
+        "lang": "en"
+       },
+       {
         "title": "Airbnb vs. MercadoLibre: Which Consumer Stock Is a Better Buy for 2027?",
         "link": "https://www.fool.com/coverage/better-buy/2026/11/11/airbnb-vs-mercadolibre-which-consumer-stock-is-a-better-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-11T23:20:02+00:00",
         "lang": "en",
         "title_ko": "Airbnb vs. MercadoLibre: 2027년에는 어떤 소비재 주식이 더 나은 구매인가요?"
-       },
-       {
-        "title": "Should You Invest in Airbnb (ABNB) Based on Bullish Wall Street Views?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/invest-airbnb-abnb-based-bullish-202243348.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-11T20:22:43+00:00",
-        "lang": "en",
-        "title_ko": "낙관적인 월스트리트 전망을 바탕으로 에어비앤비(ABNB)에 투자해야 할까요?"
        }
       ]
      },
@@ -5632,20 +5626,18 @@
       },
       "news": [
        {
-        "title": "If SpaceX and Tesla Merge, Here's What a $10,000 Investment in the Combined Company Could Be Worth by 2030",
-        "link": "https://www.fool.com/investing/2026/11/11/if-spacex-and-tesla-merge-heres-what-a-10000-inves/?.tsrc=rss",
+        "title": "Prediction: $1,000 Invested in SpaceX Today Will Be Worth This Much by 2029",
+        "link": "https://www.fool.com/investing/2026/11/12/prediction-1000-invested-in-spacex-today-will-be-w/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T02:50:00+00:00",
-        "lang": "en",
-        "title_ko": "SpaceX와 Tesla가 합병하면 2030년까지 결합 회사에 대한 10,000달러의 투자 가치는 다음과 같습니다."
+        "published": "2026-11-12T06:50:00+00:00",
+        "lang": "en"
        },
        {
-        "title": "Rocket Lab CEO Says It Could Be ‘Extremely Profitable’ Without Neutron — But SpaceX Is Not The Only Reason It’s Building The Rocket",
-        "link": "https://stocktwits.com/news-articles/markets/equity/rocketlab-ceo-extremely-profitable-without-neutron-spacex-not-only-reason-building-rocket/cNGzWzzR99O?.tsrc=rss",
+        "title": "SpaceX investors confront a painful post-election reality",
+        "link": "https://www.thestreet.com/investing/spacex-ipo-price-democratic-midterm-sell-off?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T01:44:45+00:00",
-        "lang": "en",
-        "title_ko": "로켓 연구소 CEO는 중성자 없이도 '매우 수익성'이 있을 수 있다고 말합니다. 그러나 SpaceX가 로켓을 만드는 유일한 이유는 아닙니다."
+        "published": "2026-11-12T04:07:00+00:00",
+        "lang": "en"
        }
       ]
      },
@@ -5657,28 +5649,26 @@
       "change_pct": -2.26,
       "volume": 28990100,
       "reason": {
-       "title": "[美특징주]마이크로소프트, 앤트로픽 업무용 AI 경쟁 우려에 이틀째 하락",
-       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOemJXckh6b2F1b3FONEprSHN0bHc0b0xHVU04VG0yZ2xac2cyWHczRWdhOXN2eHktb0w4V0IyS2xvWS1BdnFqWGFRVFB0R0RMRTNfVGFILTVkM0RocTRuQ0lfQmNvdVFBeV9pY2h5d0hodmhfOGMtZmYwR3VtQm1jVA?oc=5",
-       "source": "이데일리",
-       "published": "2026-11-11T18:48:15+00:00",
+       "title": "마이크로소프트, 수요일 주가 2% 이상 하락한 이유",
+       "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNVUU4Q2lIUVUwRDhpVFktN3NVbm10NGwzOENGRXBBNkFOU21yOW11emk4TXdNdTl3M0RPTnVQTC1GdmkwMzlkSHlZZjVhSms2MkcyVEVzOUtHblE5ZVV6bE4xWlBjdUdTY2ZGZ1VOUWJua201QW53X0Z4aTIta0NBY09sMFFRN2J5UTI3azladS1NVWJPSTNZZTdGUEpIaTBCbkVFdExxQXJLMTV5TEw2NnlLdmtTYjAzc281cktWTjBUUzVwbW1ySG5DWk5ZeU1YRnlZb0Q1TWo2enA3bnBCbHRPNG5DNjg5N3RnOVVVUF9NVF9FVVVHZjEzcC1kcnZRS244MUZOMVZRaHQ1RVp0TkZUemNadzJCUWt3WUpaUXNfc01ab19TUTlfMVFBUF9PSW5TeFZ0aUdCZEZ2X2FRRGtxZl9XVHRtNGV3WUNUX18?oc=5",
+       "source": "Benzinga",
+       "published": "2026-11-12T03:23:22+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "Market Chatter: Microsoft Wants to Power Data Centers Without Subsidies or Higher Costs for Others",
-        "link": "https://finance.yahoo.com/technology/articles/market-chatter-microsoft-wants-power-000818359.html?.tsrc=rss",
+        "title": "Estée Lauder Companies (EL) Unveils Skin Longevity Platform, Is It Fully Priced?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/est-e-lauder-companies-el-061352255.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T00:08:18+00:00",
-        "lang": "en",
-        "title_ko": "시장의 대화: Microsoft는 보조금이나 다른 사람을 위한 더 높은 비용 없이 데이터 센터에 전력을 공급하기를 원합니다."
+        "published": "2026-11-12T06:13:52+00:00",
+        "lang": "en"
        },
        {
-        "title": "Is the AI boom hiding a jobs crisis for graduates?",
-        "link": "https://finance.yahoo.com/video/is-the-ai-boom-hiding-a-jobs-crisis-for-graduates-214503208.html?.tsrc=rss",
+        "title": "Top 3 Undervalued Stocks To Watch In November 2026",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/top-3-undervalued-stocks-watch-061056737.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-11T21:45:03+00:00",
-        "lang": "en",
-        "title_ko": "AI 붐이 졸업생들의 일자리 위기를 숨기고 있는 걸까?"
+        "published": "2026-11-12T06:10:56+00:00",
+        "lang": "en"
        }
       ]
      },
@@ -5759,28 +5749,26 @@
       "change_pct": 2.87,
       "volume": 313417400,
       "reason": {
-       "title": "뉴욕증시 개장 전 특징주...코어위브 15% 급등·엔비디아 4% 반등…AI 관련주 일제히 강세",
-       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NTnlNamNOSTJJeV84dC1SRHBUVEV0WGFPVFVqRElyLUNyYnhid0RwZk5hRHd2dmhjOVk3WHp4WnhpUmJhd2FKOW94SkFWZXdLQzZRRlhkQmsycS1C?oc=5",
-       "source": "뉴스핌",
-       "published": "2026-11-11T13:33:00+00:00",
+       "title": "엔비디아 급락에 나스닥100 선물 0.7% 하락…경쟁사 AMD는 4%대 상승 - 머니투데이",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTOVJkNU5PWWM3ZGluMDdJZUVjeTE3bTVEZ1FqN1Z6N2gwSlRKc3g3ZWNjOUY5TDl0eVU4UlBBd0UxaDdBN3ZnWl9hYTltV0ZuekJ4aC1uaXd4UlpINmItajVIZHBXdG1VUl90ZFl30gFuQVVfeXFMUFM5UmQ1Tk9ZYzdkaW4wN0llRWN5MTdtNURnUWo3Vno3aDBKVEpzeDdlY2M5RjlMOXR5VThSUEF3RTFoN0E3dmdaX2FhOW1XRm56QnhoLW5pd3hSWkg2Yi1qNUhkcFd0bVVSX3RkWXc?oc=5",
+       "source": "머니투데이",
+       "published": "2026-11-11T23:51:58+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
-        "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
+        "title": "Procter & Gamble (PG) Has Raised Its Dividend for 70 Straight Years. Here's Why I'd Buy Before 2027.",
+        "link": "https://www.fool.com/investing/2026/11/12/procter-gamble-pg-has-raised-its-dividend-70-strai/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T03:07:20+00:00",
-        "lang": "en",
-        "title_ko": "CoreWave가 랠리를 주도한 후 Nvidia가 CEO Huang을 축출함에 따라 Dow Jones 선물은 상승하고 Techs는 하락합니다."
+        "published": "2026-11-12T07:25:00+00:00",
+        "lang": "en"
        },
        {
-        "title": "Asian stocks extend gains but traders keep eye on Nvidia crisis",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-extend-gains-traders-025559054.html?.tsrc=rss",
+        "title": "Michael Burry Says Nvidia Earnings Will Be 'Great' — So Why Is He Telling NVDA Bulls To 'Get Out'?",
+        "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-nvidia-earnings-great-why-nvda-bulls-get-out/cNGznw4R99A?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T02:55:59+00:00",
-        "lang": "en",
-        "title_ko": "아시아 주식은 상승폭을 확대했지만 거래자들은 Nvidia 위기를 주시하고 있습니다."
+        "published": "2026-11-12T07:17:47+00:00",
+        "lang": "en"
        }
       ]
      },
@@ -5792,28 +5780,26 @@
       "change_pct": 24.71,
       "volume": 161569500,
       "reason": {
-       "title": "코어위브 25% 급등에 AI株 반등…나스닥 1.6% 상승",
-       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORkxHMmVmV1lFdEtwQ3ZuTWNaR1VqR0ZKdHRLdFVWRDl2WkhmeWp1aFhLdTg5WmozSUdHM1dwVVFJcFVsWEc0OW54MFJsYk02Z0VydFZCRmZnZ2VZakRqeHVjaGFjQ24wcHg5bVlCMjZiQ1FQSTJMeFdJOVJXSlNaM2YwMS1GT2ND?oc=5",
-       "source": "조선일보",
-       "published": "2026-11-11T22:20:00+00:00",
+       "title": "코어위브 25% 급등에 AI 기술주 동반 반등…엔비디아도 상승 전환",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aa0E1ZnJ1c0U3dUVHWkRCWEh0ajJkazRkSmRFYXJaUXZPWG02Vk1nMm80V2tBcU9OOEZBaFFuUzJWMVJoV3JQdHcxN3k5Z3gtTjY0LWQ1aFFubnJ4UlVQbG1ZVzh3c2dUZ2c?oc=5",
+       "source": "AI타임스",
+       "published": "2026-11-11T23:25:05+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
-        "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
+        "title": "A $133B backlog vs. a $47B debt mountain: Is CoreWeave a buy?",
+        "link": "https://finance.yahoo.com/technology/ai/articles/133b-backlog-vs-47b-debt-071555537.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T03:07:20+00:00",
-        "lang": "en",
-        "title_ko": "CoreWave가 랠리를 주도한 후 Nvidia가 CEO Huang을 축출함에 따라 Dow Jones 선물은 상승하고 Techs는 하락합니다."
+        "published": "2026-11-12T07:15:55+00:00",
+        "lang": "en"
        },
        {
-        "title": "Asian stocks extend gains but traders keep eye on Nvidia crisis",
+        "title": "Asian stocks drop as traders keep eye on Nvidia crisis",
         "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-extend-gains-traders-025559054.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T02:55:59+00:00",
-        "lang": "en",
-        "title_ko": "아시아 주식은 상승폭을 확대했지만 거래자들은 Nvidia 위기를 주시하고 있습니다."
+        "published": "2026-11-12T07:13:07+00:00",
+        "lang": "en"
        }
       ]
      },
@@ -5833,20 +5819,18 @@
       },
       "news": [
        {
-        "title": "Jensen Huang’s Future At Nvidia Hangs In Balance As Board Weighs Fallout: Analysts Warn Of Challenges Ahead",
-        "link": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-s-future-at-nvidia-hangs-in-balance-as-board-reportedly-weighs-fallout-analysts-warn-of-challenges-ahead/cNGzikhR99g?.tsrc=rss",
+        "title": "What Happens to Nvidia Stock if Jensen Huang Is Fired? History Has a Warning",
+        "link": "https://beincrypto.com/nvidia-stock-jensen-huang-fired-history/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T02:43:31+00:00",
-        "lang": "en",
-        "title_ko": "Nvidia의 Jensen Huang의 미래는 이사회의 낙진 무게로 인해 균형이 유지됩니다: 분석가들은 앞으로의 도전에 대해 경고합니다"
+        "published": "2026-11-12T06:15:48+00:00",
+        "lang": "en"
        },
        {
-        "title": "Warren Buffett’s 1991 Playbook Points The Path Forward As Nvidia Reportedly Prepares To Oust Jensen Huang. Buffett Said He Could Forgive Losses, But There Was One Thing He Would Be Ruthless About",
-        "link": "https://247wallst.com/investing/2026/11/11/warren-buffetts-1991-playbook-points-the-path-forward-as-nvidia-reportedly-prepares-to-oust-jensen-huang-buffett-said-he-could-forgive-losses-but-there-was-one-thing-he-would-be-ruthless-about/?.tsrc=rss",
+        "title": "NVDA Fallout Pressures Tech Trade As Investors Turn To Cerebras, Applied Materials For Chip Demand Cues",
+        "link": "https://stocktwits.com/news-articles/markets/equity/nvda-fallout-pressures-tech-trade-as-investors-turn-to-cerebras-applied-materials-for-chip-demand-cues/cNGzlg3R99l?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T02:26:06+00:00",
-        "lang": "en",
-        "title_ko": "Warren Buffett의 1991년 플레이북은 Nvidia가 Jensen Huang을 축출할 준비를 하는 동안 앞으로 나아갈 길을 제시합니다. 버핏은 손실을 용서할 수 있다고 말했지만 그가 무자비하게 대할 한 가지가 있었습니다."
+        "published": "2026-11-12T05:06:03+00:00",
+        "lang": "en"
        }
       ]
      },
@@ -5866,20 +5850,18 @@
       },
       "news": [
        {
-        "title": "If SpaceX and Tesla Merge, Here's What a $10,000 Investment in the Combined Company Could Be Worth by 2030",
-        "link": "https://www.fool.com/investing/2026/11/11/if-spacex-and-tesla-merge-heres-what-a-10000-inves/?.tsrc=rss",
+        "title": "Prediction: $1,000 Invested in SpaceX Today Will Be Worth This Much by 2029",
+        "link": "https://www.fool.com/investing/2026/11/12/prediction-1000-invested-in-spacex-today-will-be-w/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T02:50:00+00:00",
-        "lang": "en",
-        "title_ko": "SpaceX와 Tesla가 합병하면 2030년까지 결합 회사에 대한 10,000달러의 투자 가치는 다음과 같습니다."
+        "published": "2026-11-12T06:50:00+00:00",
+        "lang": "en"
        },
        {
-        "title": "Rocket Lab CEO Says It Could Be ‘Extremely Profitable’ Without Neutron — But SpaceX Is Not The Only Reason It’s Building The Rocket",
-        "link": "https://stocktwits.com/news-articles/markets/equity/rocketlab-ceo-extremely-profitable-without-neutron-spacex-not-only-reason-building-rocket/cNGzWzzR99O?.tsrc=rss",
+        "title": "SpaceX investors confront a painful post-election reality",
+        "link": "https://www.thestreet.com/investing/spacex-ipo-price-democratic-midterm-sell-off?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T01:44:45+00:00",
-        "lang": "en",
-        "title_ko": "로켓 연구소 CEO는 중성자 없이도 '매우 수익성'이 있을 수 있다고 말합니다. 그러나 SpaceX가 로켓을 만드는 유일한 이유는 아닙니다."
+        "published": "2026-11-12T04:07:00+00:00",
+        "lang": "en"
        }
       ]
      },
@@ -5899,32 +5881,30 @@
       },
       "news": [
        {
-        "title": "Jensen Huang’s Future At Nvidia Hangs In Balance As Board Weighs Fallout: Analysts Warn Of Challenges Ahead",
-        "link": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-s-future-at-nvidia-hangs-in-balance-as-board-reportedly-weighs-fallout-analysts-warn-of-challenges-ahead/cNGzikhR99g?.tsrc=rss",
+        "title": "Nvidia faces governance risks; watch these 2 chip stocks for buy opportunities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-faces-governance-risks-watch-061429709.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T02:43:31+00:00",
-        "lang": "en",
-        "title_ko": "Nvidia의 Jensen Huang의 미래는 이사회의 낙진 무게로 인해 균형이 유지됩니다: 분석가들은 앞으로의 도전에 대해 경고합니다"
+        "published": "2026-11-12T06:14:29+00:00",
+        "lang": "en"
        },
        {
-        "title": "Meet Ian Buck: The NVIDIA Executive Insiders Believe Is the One Man Who Can Replace Jensen Huang",
-        "link": "https://247wallst.com/investing/2026/11/11/meet-ian-buck-the-nvidia-executive-insiders-believe-is-the-one-man-who-can-replace-jensen-huang/?.tsrc=rss",
+        "title": "Advanced Micro Devices vs. Marvell Technology: Which Artificial Intelligence Stock Is a Better Buy Going into 2027?",
+        "link": "https://www.fool.com/coverage/better-buy/2026/11/11/advanced-micro-devices-vs-marvell-technology-which-artificial-intelligence-stock-is-a-better-buy-going-into-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T01:11:50+00:00",
-        "lang": "en",
-        "title_ko": "Ian Buck을 만나보세요: NVIDIA 경영진은 Jensen Huang을 대체할 수 있는 유일한 사람이라고 믿습니다."
+        "published": "2026-11-12T03:52:24+00:00",
+        "lang": "en"
        }
       ]
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-12T03:16:35+00:00"
+    "fetched_at": "2026-11-12T07:35:52+00:00"
    }
   },
   "sectors": {
    "status": "ok",
-   "attempted_at": "2026-11-12T03:16:19+00:00",
-   "last_success_at": "2026-11-12T03:16:19+00:00",
+   "attempted_at": "2026-11-12T07:35:36+00:00",
+   "last_success_at": "2026-11-12T07:35:36+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-11",
@@ -6039,96 +6019,91 @@
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-12T03:16:35+00:00"
+    "fetched_at": "2026-11-12T07:35:52+00:00"
    }
   },
   "news": {
    "status": "ok",
-   "attempted_at": "2026-11-12T03:16:19+00:00",
-   "last_success_at": "2026-11-12T03:16:19+00:00",
+   "attempted_at": "2026-11-12T07:35:36+00:00",
+   "last_success_at": "2026-11-12T07:35:36+00:00",
    "error": null,
    "data": {
     "items": [
      {
-      "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
-      "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-12T03:07:20+00:00",
-      "lang": "en",
-      "title_ko": "CoreWave가 랠리를 주도한 후 Nvidia가 CEO Huang을 축출함에 따라 Dow Jones 선물은 상승하고 Techs는 하락합니다."
-     },
-     {
-      "title": "Susquehanna Financial names its AI-era winners: 9 IT stocks to watch",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/susquehanna-financial-names-ai-era-025606869.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-12T02:56:06+00:00",
-      "lang": "en",
-      "title_ko": "Susquehanna Financial이 AI 시대의 승자로 선정: 주목해야 할 9개 IT 주식"
-     },
-     {
-      "title": "뉴욕증시, 코어위브 실적에 AI주 반등…나스닥 1.6% 상승",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBnR1V2NC1FYmNIenFkWWFpWXJRV3ZBLXN3MEI3OWJYZld5UXoxSEs4VEowZ3FGXzVHNGZYSlhPM0s5TEt3SmpBWjlDSjdlb2VOaUdQUzVnMTQ?oc=5",
-      "source": "우리경제신문",
-      "published": "2026-11-12T02:33:33+00:00",
+      "title": "'젠슨 황 없는 엔비디아' 위기감…AI 산업·뉴욕증시 덮치나",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VZ19BZ2ZNSS1JRnhIVEpUaXd4ZHQxclNlaFAzcThGMGJmRVZTeFBRNFpPSi1BcWJ2amlLbTNDcVVmNWx3Q0RKcVNNdnFfdlVaNDJ1X1ZMVWY?oc=5",
+      "source": "뉴스1",
+      "published": "2026-11-12T07:13:31+00:00",
       "lang": "ko"
      },
      {
-      "title": "Warren Buffett’s 1991 Playbook Points The Path Forward As Nvidia Reportedly Prepares To Oust Jensen Huang. Buffett Said He Could Forgive Losses, But There Was One Thing He Would Be Ruthless About",
-      "link": "https://247wallst.com/investing/2026/11/11/warren-buffetts-1991-playbook-points-the-path-forward-as-nvidia-reportedly-prepares-to-oust-jensen-huang-buffett-said-he-could-forgive-losses-but-there-was-one-thing-he-would-be-ruthless-about/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-12T02:26:06+00:00",
-      "lang": "en",
-      "title_ko": "Warren Buffett의 1991년 플레이북은 Nvidia가 Jensen Huang을 축출할 준비를 하는 동안 앞으로 나아갈 길을 제시합니다. 버핏은 손실을 용서할 수 있다고 말했지만 그가 무자비하게 대할 한 가지가 있었습니다."
-     },
-     {
-      "title": "뉴욕증시, 코어위브 ‘깜짝 실적’에 반등...나스닥 1.60%↑",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zYTZWSGFnV0lLaXNVM2hlQ3UzdmJsU25zekZOWmNoZ0NBcjByTkVDdXlDS1V5ZVBzTDJ5MS13d1ZxTkpPVmhBV3lnbWdJUGtFOUNKcElMeUVLX2llNXpSeA?oc=5",
-      "source": "메트로신문",
-      "published": "2026-11-12T02:09:38+00:00",
+      "title": "코스피, 뉴욕증시 AI·반도체주 강세에도 장 초반 5360선 공방",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6Y0hZM2ttUWQyN3A2UldsNEY2NnVrRmlkaGFCZlVDTDZrc2FZSDdPbFpTeWdCV1FyT1ZmSW1URmdsc0diZXZDeUZqUTdmOFRMdWgzc2V2OHVKZzl0UW9weGtyRkdNUjk5MlE?oc=5",
+      "source": "서울파이낸스",
+      "published": "2026-11-12T06:59:45+00:00",
       "lang": "ko"
      },
      {
-      "title": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV0NCNjVPR0M2THpMdkhiTW5jZUlmVXJzNHk4YjZYeWtGZHc3Vk81V3czUXBBVjktcXlSLWs3MFdyWkRtcmRpV1BmY1hKckhyU3RYWEdsTWlGcnhFVFVNakRLLWZvREpURHJnRVVSdmZEcHJWU2p5YWJZX1pEWGRWRDB1aw?oc=5",
+      "title": "What Happens to Nvidia Stock if Jensen Huang Is Fired? History Has a Warning",
+      "link": "https://beincrypto.com/nvidia-stock-jensen-huang-fired-history/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-12T06:15:48+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63172206/stock-market-will-sp-500-open-up-or-down-today-76?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-12T06:00:43+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "“젠슨 황 해임설에 뉴욕증시 휘청”…후임에 크레스·스루지 물망",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRk9IX0d3MDQzd3FIenlWUmdpRU1FeWVFbU12Y2J6RHRETG5GT2xZWVNkLUp4RzF2cWZXcDRYdW9QelJNemNwd0lrcTNVN2VSd2lqOTVGdjJIc3I2T0cxazJkQ0hPRFRNT2fSAW5BVV95cUxPb0RUcnNuVW9mZHZkY2VNc2t1UHBoMnNUN0F6MmlkYVZnbDRFNXEzcTdodzI4eHQ0SW8xaUQ4RVloRUZtMDZDdkxvUFl6XzBnNThkWDVnQTZicl9aUi1RQkFDN3Y2QTVTVWJzS01kQQ?oc=5",
+      "source": "파이낸셜투데이",
+      "published": "2026-11-12T05:26:29+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "美 CPI 충격에 뉴욕증시 하락…긴축 우려에 기술주 급락",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YZXFTMEVuQmlPZE9za2ZqRmt0WFlDX0dKa0lpOFlZcmtXcHBYSy0yejBpZzB4TVNxaWpqM3haLXJyOE9LdDNMdXN3WWZsQk4xdXJkSTlKX3NJXzV6VFZMejBqS2QxSmlDTXd1cQ?oc=5",
+      "source": "센머니",
+      "published": "2026-11-12T05:21:00+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "NVDA Fallout Pressures Tech Trade As Investors Turn To Cerebras, Applied Materials For Chip Demand Cues",
+      "link": "https://stocktwits.com/news-articles/markets/equity/nvda-fallout-pressures-tech-trade-as-investors-turn-to-cerebras-applied-materials-for-chip-demand-cues/cNGzlg3R99l?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-12T05:06:03+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Schwab's Dividend ETF Pays About 3%. Here's What $5,000 in It Could Be Worth by 2030.",
+      "link": "https://www.fool.com/investing/2026/11/11/schwab-s-dividend-etf-pays-about-3-here-s-what-usd5-000-in-it-could-be-worth-by-2030/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-12T04:43:02+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "코어위브 ‘깜짝 실적’에 AI주 반등…뉴욕증시 3대 지수 일제 상승",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBtZkpOLW9ZYnhKS2ZiNVVsYXVLV29QeWZVSkh2V3NuWmlvT2VWbGQtQkZtNEF2QmVsOGVkOGkwcEdhUENFSndKcUp5bjNnZFkzcFJzRlNTWHJrZHVleGdsR2xuNG85SUpIM3Rn0gFvQVVfeXFMT2lRMWlaRjduYmtQbWZLUXlkS2hxcEdYdk9WZnAtMU1XSldvV2I3ZnJvS0tCM0RxM0RtNk43ZVNZT1RWUjd5OTlvMVVLMjctSmJiMWx4ZVczTlBQYXhRVmt1eDllZ1JhdVZGbXlraGRZ?oc=5",
+      "source": "더퍼블릭",
+      "published": "2026-11-12T04:30:19+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "Nvidia’s Board Is Weighing Jensen Huang’s Future",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SV0s4M3NYaTUtT2tIVWpBRHdfTk51cUIxcE0tLU9LV3M1akRWMTRheE9qY3BCa0pRVDR0MGhxaGVIcERRakZ0LWxJUWtpeFk4aW50TlRLVWt0NUEwSzVBVWFoZGNMQ0NEUWl4eUZyR3h0YmpHRjNfVk1n?oc=5",
       "source": "The New York Times",
-      "published": "2026-11-12T01:57:34+00:00",
-      "lang": "en",
-      "title_ko": "Jensen Huang은 자신에게 보고하는 Nvidia 경영진과 관계가 있다고 말했습니다."
-     },
-     {
-      "title": "코어위브 호실적에 AI 우려 완화… 뉴욕증시 일제히 상승 마감",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9EekhKYkFoNTJTUVZzaUVqTlJrZW1VUlZ3SXVKamo2OVhYa1pXaDJLQTZ4NkhiOWJqdXhaZy1hTDZyRHdkbnE4M01HemlZTEVuUmdSLU80enpzWjVTX2EtbWp0UEFGWU1X?oc=5",
-      "source": "주간동아",
-      "published": "2026-11-12T01:44:14+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "Why Azenta Stock Crushed it on Wednesday",
-      "link": "https://www.fool.com/investing/2026/11/11/why-azenta-stock-crushed-it-on-wednesday/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-12T01:43:19+00:00",
-      "lang": "en",
-      "title_ko": "왜 Azenta 주식이 수요일에 무너졌습니까?"
-     },
-     {
-      "title": "[뉴욕 증시] 코어위브 훈풍에 3대 지수 일제히 상승 … 엔비디아도 2.9% ↑",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tQ2NfTmVvcWVmSlJyMFFDUFZRNkxsdGcyZEp0ZDNjTG1HNzZnR3dIZ1IzcFJhYUJybkN6eGxoX19OMEhGUHVtNU9waDlKckRLbVJBa2NYZllfNWYtTk51SkEtcnhXdXppU0ZGbjNRdTEtZw?oc=5",
-      "source": "한양경제",
-      "published": "2026-11-12T01:20:22+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "[글로벌 마켓 리포트 11월 12일]",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZQ2l6dkJzX3VORGdxWTZMUEtWSmdpQ1JMZG1UYk5xdTNOMlFSYkRzT3BpMkJBUDBPSktqYjR6YnkxSWYwQ3dXZm55S09vV3EzWXQwYmF2cktoYWV5?oc=5",
-      "source": "뉴스핌",
-      "published": "2026-11-12T01:08:00+00:00",
-      "lang": "ko"
+      "published": "2026-11-12T04:19:06+00:00",
+      "lang": "en"
      }
     ],
     "keywords": [
      {
       "word": "nvidia",
-      "count": 14,
+      "count": 15,
       "ko": "엔비디아"
      },
      {
@@ -6143,13 +6118,23 @@
      },
      {
       "word": "jensen",
-      "count": 8,
+      "count": 9,
       "ko": null
      },
      {
       "word": "ceo",
       "count": 6,
       "ko": "CEO"
+     },
+     {
+      "word": "china",
+      "count": 6,
+      "ko": "중국"
+     },
+     {
+      "word": "futures",
+      "count": 6,
+      "ko": null
      },
      {
       "word": "prices",
@@ -6162,6 +6147,11 @@
       "ko": "10억달러"
      },
      {
+      "word": "center",
+      "count": 5,
+      "ko": null
+     },
+     {
       "word": "data",
       "count": 5,
       "ko": "데이터/지표"
@@ -6172,46 +6162,31 @@
       "ko": null
      },
      {
-      "word": "center",
-      "count": 4,
+      "word": "nasdaq",
+      "count": 5,
+      "ko": "나스닥"
+     },
+     {
+      "word": "warns",
+      "count": 5,
       "ko": null
      },
      {
-      "word": "coreweave",
-      "count": 4,
-      "ko": null
-     },
-     {
-      "word": "earnings",
-      "count": 4,
-      "ko": "실적"
-     },
-     {
-      "word": "fall",
-      "count": 4,
-      "ko": null
-     },
-     {
-      "word": "futures",
-      "count": 4,
-      "ko": null
-     },
-     {
-      "word": "higher",
+      "word": "costs",
       "count": 4,
       "ko": null
      }
     ],
-    "keyword_base_count": 119
+    "keyword_base_count": 118
    }
   },
   "calendar": {
    "status": "ok",
-   "attempted_at": "2026-11-12T03:16:19+00:00",
-   "last_success_at": "2026-11-12T03:16:19+00:00",
+   "attempted_at": "2026-11-12T07:35:36+00:00",
+   "last_success_at": "2026-11-12T07:35:36+00:00",
    "error": null,
    "data": {
-    "today_et": "2026-11-11",
+    "today_et": "2026-11-12",
     "start": "2026-11-01",
     "end": "2027-01-31",
     "events": [
@@ -6320,12 +6295,6 @@
     "warnings": [],
     "sessions": [
      {
-      "date": "2026-11-10",
-      "open": "2026-11-10T23:30:00+09:00",
-      "close": "2026-11-11T06:00:00+09:00",
-      "early": false
-     },
-     {
       "date": "2026-11-11",
       "open": "2026-11-11T23:30:00+09:00",
       "close": "2026-11-12T06:00:00+09:00",
@@ -6407,6 +6376,12 @@
       "date": "2026-12-01",
       "open": "2026-12-01T23:30:00+09:00",
       "close": "2026-12-02T06:00:00+09:00",
+      "early": false
+     },
+     {
+      "date": "2026-12-02",
+      "open": "2026-12-02T23:30:00+09:00",
+      "close": "2026-12-03T06:00:00+09:00",
       "early": false
      }
     ]

@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-11-13T02:50:21+00:00",
+ "generated_at": "2026-11-13T07:05:47+00:00",
  "sections": {
   "fx": {
    "status": "ok",
-   "attempted_at": "2026-11-13T02:50:21+00:00",
-   "last_success_at": "2026-11-13T02:50:21+00:00",
+   "attempted_at": "2026-11-13T07:05:47+00:00",
+   "last_success_at": "2026-11-13T07:05:47+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-13",
-    "rate": 1331.08,
+    "rate": 1335.28,
     "prev_rate": 1336.26,
     "prev_date": "2026-11-12",
-    "change_pct": -0.39,
+    "change_pct": -0.07,
     "summary": [
-     "환율이 5원 내렸어요 (1달러 = 1,331원).",
+     "환율이 1.0원 내렸어요 (1달러 = 1,335원).",
      "달러가 싸지면, 미국 주식을 원화로 따진 가치는 줄어들어요."
     ],
     "source": "Yahoo Finance"
@@ -21,8 +21,8 @@
   },
   "nasdaq": {
    "status": "ok",
-   "attempted_at": "2026-11-13T02:50:21+00:00",
-   "last_success_at": "2026-11-13T02:50:21+00:00",
+   "attempted_at": "2026-11-13T07:05:47+00:00",
+   "last_success_at": "2026-11-13T07:05:47+00:00",
    "error": null,
    "data": {
     "name": "나스닥 종합",
@@ -1741,13 +1741,13 @@
      "summary": "원화로 투자했다면 나스닥 지수는 -0.81%예요 (달러 기준 -0.39% + 환율 -0.42% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-13T02:50:43+00:00"
+    "fetched_at": "2026-11-13T07:06:04+00:00"
    }
   },
   "sp500": {
    "status": "ok",
-   "attempted_at": "2026-11-13T02:50:21+00:00",
-   "last_success_at": "2026-11-13T02:50:21+00:00",
+   "attempted_at": "2026-11-13T07:05:47+00:00",
+   "last_success_at": "2026-11-13T07:05:47+00:00",
    "error": null,
    "data": {
     "name": "S&P 500",
@@ -3267,29 +3267,25 @@
      "summary": "원화로 투자했다면 S&P 500 지수는 -0.77%예요 (달러 기준 -0.35% + 환율 -0.42% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-13T02:50:43+00:00"
+    "fetched_at": "2026-11-13T07:06:04+00:00"
    }
   },
   "gold": {
    "status": "ok",
-   "attempted_at": "2026-11-13T02:50:21+00:00",
-   "last_success_at": "2026-11-13T02:50:21+00:00",
+   "attempted_at": "2026-11-13T07:05:47+00:00",
+   "last_success_at": "2026-11-13T07:05:47+00:00",
    "error": null,
    "data": {
     "name": "국제 금값",
     "short": "금",
     "kind": "commodity",
     "gold_krw": {
-     "per_don": 631103,
-     "per_gram": 168294
+     "per_don": 627807,
+     "per_gram": 167415
     },
     "five_year": {
-     "since": "2021-11-12",
+     "since": "2021-11-13",
      "weekly": [
-      [
-       "2021-11-12",
-       1868.5
-      ],
       [
        "2021-11-19",
        1851.6
@@ -4331,8 +4327,8 @@
        4074.9
       ],
       [
-       "2026-11-12",
-       3917.3
+       "2026-11-13",
+       3899.7
       ]
      ],
      "drawdowns": [
@@ -4342,11 +4338,11 @@
         "value": 5318.4
        },
        "bottom": {
-        "date": "2026-10-30",
-        "value": 3898.9
+        "date": "2026-11-12",
+        "value": 3885.3
        },
-       "depth_pct": -26.69,
-       "fall_days": 274,
+       "depth_pct": -26.95,
+       "fall_days": 287,
        "recovered": null,
        "label": "약세장급 급락",
        "note": {
@@ -4358,7 +4354,7 @@
          "10월 말엔 주식 급락 때 현금을 마련하려는 매도까지 겹쳤어요."
         ]
        },
-       "news_url": "https://news.google.com/search?q=%EA%B8%88%EA%B0%92%20%EA%B8%89%EB%9D%BD%20after%3A2026-01-29%20before%3A2026-10-31&hl=ko&gl=KR&ceid=KR:ko"
+       "news_url": "https://news.google.com/search?q=%EA%B8%88%EA%B0%92%20%EA%B8%89%EB%9D%BD%20after%3A2026-01-29%20before%3A2026-11-13&hl=ko&gl=KR&ceid=KR:ko"
       },
       {
        "peak": {
@@ -4397,17 +4393,17 @@
         "value": 4697.8
        },
        "end": {
-        "date": "2026-10-30",
-        "value": 3898.9
+        "date": "2026-11-12",
+        "value": 3885.3
        },
-       "change_pct": -17.01,
-       "days": 67,
+       "change_pct": -17.3,
+       "days": 80,
        "ongoing": true,
        "recovered": null,
        "current": {
-        "date": "2026-11-12",
-        "value": 3917.3,
-        "from_end_pct": 0.47
+        "date": "2026-11-13",
+        "value": 3899.7,
+        "from_end_pct": 0.37
        }
       },
       {
@@ -4589,7 +4585,7 @@
      ],
      "summary": [
       "지난 5년 동안 금 값은 최고점보다 10% 넘게 떨어진 적이 2번 있었어요.",
-      "가장 크게 떨어진 건 2026.01~2026.10의 -26.7%예요.",
+      "가장 크게 떨어진 건 2026.01~2026.11의 -26.9%예요.",
       "그 하락은 아직 최고점을 회복하지 못했어요."
      ],
      "long_ago": [
@@ -4683,50 +4679,50 @@
      "desc": "20% 이상 떨어지면 '약세장(베어마켓)'이라고 불러요. 경기 걱정이 큰 시기예요."
     },
     "summary": [
-     "금 값은 지난 거래일에 2.08% 내렸어요.",
-     "최고점보다 26.3% 낮은 '약세장' 상태예요.",
-     "'깊은 약세장' 단계(-30%)까지 3.7%p 더 떨어지면 도달해요."
+     "금 값은 지난 거래일에 0.37% 올랐어요.",
+     "최고점보다 26.7% 낮은 '약세장' 상태예요.",
+     "'깊은 약세장' 단계(-30%)까지 3.3%p 더 떨어지면 도달해요."
     ],
     "symbol": "GC=F",
-    "as_of": "2026-11-12",
-    "prev_date": "2026-11-11",
-    "close": 3917.3,
-    "prev_close": 4000.5,
-    "change_pct": -2.08,
+    "as_of": "2026-11-13",
+    "prev_date": "2026-11-12",
+    "close": 3899.7,
+    "prev_close": 3885.3,
+    "change_pct": 0.37,
     "peak": {
      "value": 5318.4,
      "date": "2026-01-29"
     },
-    "drawdown_pct": -26.34,
+    "drawdown_pct": -26.68,
     "gauge": {
      "prev_line": -20.0,
      "next_line": -30.0,
-     "remaining_pp": 3.66,
-     "progress": 0.6344
+     "remaining_pp": 3.32,
+     "progress": 0.6675
     },
     "krw": {
-     "change_pct": -2.49,
-     "fx_change_pct": -0.42,
-     "fx_now": 1336.26,
-     "fx_prev": 1341.91,
-     "summary": "원화로 투자했다면 금 값은 -2.49%예요 (달러 기준 -2.08% + 환율 -0.42% 효과)."
+     "change_pct": 0.3,
+     "fx_change_pct": -0.07,
+     "fx_now": 1335.28,
+     "fx_prev": 1336.26,
+     "summary": "원화로 투자했다면 금 값은 +0.30%예요 (달러 기준 +0.37% + 환율 -0.07% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-13T02:50:43+00:00"
+    "fetched_at": "2026-11-13T07:06:04+00:00"
    }
   },
   "fear_greed": {
    "status": "ok",
-   "attempted_at": "2026-11-13T02:50:21+00:00",
-   "last_success_at": "2026-11-13T02:50:21+00:00",
+   "attempted_at": "2026-11-13T07:05:47+00:00",
+   "last_success_at": "2026-11-13T07:05:47+00:00",
    "error": null,
    "data": {
-    "score": 39.94,
-    "as_of": "2026-11-12T23:59:58+00:00",
-    "prev_close": 36.97,
-    "week_ago": 19.99,
-    "month_ago": 45.23,
-    "year_ago": 34.57,
+    "score": 39.83,
+    "as_of": "2026-11-13T01:00:00+00:00",
+    "prev_close": 39.83,
+    "week_ago": 24.35,
+    "month_ago": 45.6,
+    "year_ago": 24.54,
     "zone": {
      "label": "공포",
      "desc": "불안한 분위기라 조심스럽게 사고파는 중이에요.",
@@ -4736,10 +4732,6 @@
      "투자자 심리는 100점 만점에 40점, '공포' 상태예요."
     ],
     "history": [
-     [
-      "2026-07-01",
-      31.63
-     ],
      [
       "2026-07-02",
       32.54
@@ -5114,15 +5106,19 @@
      ],
      [
       "2026-11-12",
-      39.94
+      39.83
+     ],
+     [
+      "2026-11-13",
+      39.83
      ]
     ]
    }
   },
   "vix": {
    "status": "ok",
-   "attempted_at": "2026-11-13T02:50:21+00:00",
-   "last_success_at": "2026-11-13T02:50:21+00:00",
+   "attempted_at": "2026-11-13T07:05:47+00:00",
+   "last_success_at": "2026-11-13T07:05:47+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-12",
@@ -5409,13 +5405,13 @@
      ]
     ],
     "live": false,
-    "fetched_at": "2026-11-13T02:50:43+00:00"
+    "fetched_at": "2026-11-13T07:06:04+00:00"
    }
   },
   "movers": {
    "status": "ok",
-   "attempted_at": "2026-11-13T02:50:21+00:00",
-   "last_success_at": "2026-11-13T02:50:21+00:00",
+   "attempted_at": "2026-11-13T07:05:47+00:00",
+   "last_success_at": "2026-11-13T07:05:47+00:00",
    "error": null,
    "data": {
     "universe": "나스닥-100",
@@ -5438,17 +5434,17 @@
       },
       "news": [
        {
+        "title": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields",
+        "link": "https://finance.yahoo.com/m/4a3dff17-3e8e-33ca-823f-8ac12eff6a4a/dow-jones-futures-rise-after.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-13T03:56:41+00:00",
+        "lang": "en"
+       },
+       {
         "title": "Why Are Advanced Micro Devices (AMD) Shares Drawing Fresh AI Attention?",
         "link": "https://finance.yahoo.com/markets/stocks/articles/why-advanced-micro-devices-amd-232725137.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-12T23:27:25+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Can Huang's Exit Create Chip Competition",
-        "link": "https://finance.yahoo.com/video/huangs-exit-create-chip-competition-230039379.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-12T23:00:39+00:00",
         "lang": "en"
        }
       ]
@@ -5469,17 +5465,17 @@
       },
       "news": [
        {
-        "title": "5 Best Growth Stocks for the Next 5 Years",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-growth-stocks-next-231119066.html?.tsrc=rss",
+        "title": "Broadcom Stock Just Jumped More Than 20% in 4 Days. It Has Done That Only 6 Other Times Since 2009.",
+        "link": "https://www.fool.com/investing/2026/11/13/broadcom-stock-just-jumped-more-than-20-in-4-days-it-has-done-that-only-6-other-times-since-2009/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T23:11:19+00:00",
+        "published": "2026-11-13T06:24:02+00:00",
         "lang": "en"
        },
        {
-        "title": "Can Huang's Exit Create Chip Competition",
-        "link": "https://finance.yahoo.com/video/huangs-exit-create-chip-competition-230039379.html?.tsrc=rss",
+        "title": "Cathie Wood Sees Nvidia’s CAGR Slowing To 25% From 50% Over The Next Five Years: ‘You’ve Got Powerful Forces Like Elon Musk’",
+        "link": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-nvidia-five-year-annual-return-tesla-elson-musk/cNbbALkR9Om?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-12T23:00:39+00:00",
+        "published": "2026-11-13T05:02:53+00:00",
         "lang": "en"
        }
       ]
@@ -5531,17 +5527,17 @@
       },
       "news": [
        {
-        "title": "Should You Buy Alphabet Stock Now That Google Will Let Customers Run Its AI Chips in Their Own Data Centers?",
-        "link": "https://www.fool.com/investing/2026/11/12/should-you-buy-alphabet-stock-now-that-google-will-let-customers-run-its-ai-chips-in-their-own-data-centers/?.tsrc=rss",
+        "title": "3 Undervalued Stocks To Own In November 2026",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-undervalued-stocks-own-november-043427585.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-13T02:04:02+00:00",
+        "published": "2026-11-13T04:34:27+00:00",
         "lang": "en"
        },
        {
-        "title": "TeraWulf Stock Fell 24% in a Month. Lucid Capital Still Sees 67% Upside",
-        "link": "https://www.tikr.com/blog/terawulf-stock-fell-24-in-a-month-lucid-capital-still-sees-67-upside?ref=yahoofinance&tlnk=yf-261112-6xjf7mcf&.tsrc=rss",
+        "title": "Michael Burry Sees A ‘Mechanical Bid’ Under NVDA Stock – Even As He Questions Nvidia’s Succession Plan And Asia Sales",
+        "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-mechanical-bid-nvda-stock-questions-nvidia-succession-plan-asia-sales/cNbbpPXR9O1?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-13T00:23:55+00:00",
+        "published": "2026-11-13T04:13:14+00:00",
         "lang": "en"
        }
       ]
@@ -5562,17 +5558,17 @@
       },
       "news": [
        {
-        "title": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields; SpaceX-Tesla Merger Deal Close",
-        "link": "https://finance.yahoo.com/m/4a3dff17-3e8e-33ca-823f-8ac12eff6a4a/dow-jones-futures-rise-after.html?.tsrc=rss",
+        "title": "VerifyMe Inc (VRME) Q3 2026 Earnings Call Highlights: RWA Platform Drives 86% of Revenue as ...",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/verifyme-inc-vrme-q3-2026-050437010.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-13T02:44:44+00:00",
+        "published": "2026-11-13T05:04:37+00:00",
         "lang": "en"
        },
        {
-        "title": "Musk gives Cybertruck a reprieve, but many will still get refunds",
-        "link": "https://www.thestreet.com/retail/tesla-cybertruck-refunds-musk-production-extension?.tsrc=rss",
+        "title": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields",
+        "link": "https://finance.yahoo.com/m/4a3dff17-3e8e-33ca-823f-8ac12eff6a4a/dow-jones-futures-rise-after.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-13T01:03:00+00:00",
+        "published": "2026-11-13T03:56:41+00:00",
         "lang": "en"
        }
       ]
@@ -5688,17 +5684,17 @@
       },
       "news": [
        {
-        "title": "CoreWeave stock sinks nearly 7% after Nvidia CEO Jensen Huang resigns",
-        "link": "https://www.thestreet.com/investing/stocks/coreweave-stock-sinks-nearly-7-after-nvidia-ceo-jensen-huang-resigns?.tsrc=rss",
+        "title": "Cathie Wood Boosts Bets On 2 AI Firms Amid Nvidia’s Huang Upheaval — Here’s How Her Trading Week Unfolded",
+        "link": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-bets-2-ai-firms-nvidia-huang-upheaval-how-trading-week-unfolded/cNbbpHTR9Ol?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-13T01:22:01+00:00",
+        "published": "2026-11-13T04:41:47+00:00",
         "lang": "en"
        },
        {
-        "title": "Nebius stock crashes 20% as $45 billion AI gamble raises fears",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/nebius-stock-crashes-20-45-000617517.html?.tsrc=rss",
+        "title": "CoreWeave stuns Wall Street as Nvidia scandal deepens",
+        "link": "https://www.thestreet.com/investing/stocks/coreweave-stuns-wall-street-as-nvidia-scandal-deepens?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-13T00:06:17+00:00",
+        "published": "2026-11-13T04:33:00+00:00",
         "lang": "en"
        }
       ]
@@ -5719,17 +5715,17 @@
       },
       "news": [
        {
+        "title": "Bitcoin drops below $70k as crypto appetite sours",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-drops-below-70k-crypto-043421543.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-13T04:34:21+00:00",
+        "lang": "en"
+       },
+       {
         "title": "Europe’s largest asset manager doubles down on MicroStrategy amid MSCI setback",
         "link": "https://www.thestreet.com/crypto/markets/europes-largest-asset-manager-doubles-down-on-microstrategy-amid-msci-setback?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-12T22:25:25+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Strategy Made $19.5 Billion in Profit. So Why Is MSCI Removing It From Stock Indexes?",
-        "link": "https://decrypt.co/383204/why-msci-removing-bitcoin-treasury-strategy-stock-indexes?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-12T21:26:03+00:00",
         "lang": "en"
        }
       ]
@@ -5752,17 +5748,17 @@
       },
       "news": [
        {
-        "title": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields; SpaceX-Tesla Merger Deal Close",
-        "link": "https://finance.yahoo.com/m/4a3dff17-3e8e-33ca-823f-8ac12eff6a4a/dow-jones-futures-rise-after.html?.tsrc=rss",
+        "title": "Jensen Huang's exit sends Bitcoin to 12-week low",
+        "link": "https://www.thestreet.com/crypto/markets/jensen-huang-exit-sends-bitcoin-12-week-low?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-13T02:44:44+00:00",
+        "published": "2026-11-13T06:46:45+00:00",
         "lang": "en"
        },
        {
-        "title": "Why Did AAPL, COST, JNJ Stocks Hit 52-Week Highs Today?",
-        "link": "https://stocktwits.com/news-articles/markets/equity/why-did-aapl-cost-jnj-stocks-hit-52-week-highs-today/cNbbnh2R9Og?.tsrc=rss",
+        "title": "China AI stocks tumble as Nvidia fallout fuels fears of tighter U.S. chip curbs",
+        "link": "https://finance.yahoo.com/technology/ai/articles/china-ai-stocks-tumble-nvidia-064035259.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-13T02:32:55+00:00",
+        "published": "2026-11-13T06:40:35+00:00",
         "lang": "en"
        }
       ]
@@ -5783,17 +5779,17 @@
       },
       "news": [
        {
-        "title": "CoreWeave stock sinks nearly 7% after Nvidia CEO Jensen Huang resigns",
-        "link": "https://www.thestreet.com/investing/stocks/coreweave-stock-sinks-nearly-7-after-nvidia-ceo-jensen-huang-resigns?.tsrc=rss",
+        "title": "Cathie Wood Boosts Bets On 2 AI Firms Amid Nvidia’s Huang Upheaval — Here’s How Her Trading Week Unfolded",
+        "link": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-bets-2-ai-firms-nvidia-huang-upheaval-how-trading-week-unfolded/cNbbpHTR9Ol?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-13T01:22:01+00:00",
+        "published": "2026-11-13T04:41:47+00:00",
         "lang": "en"
        },
        {
-        "title": "Nebius stock crashes 20% as $45 billion AI gamble raises fears",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/nebius-stock-crashes-20-45-000617517.html?.tsrc=rss",
+        "title": "CoreWeave stuns Wall Street as Nvidia scandal deepens",
+        "link": "https://www.thestreet.com/investing/stocks/coreweave-stuns-wall-street-as-nvidia-scandal-deepens?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-13T00:06:17+00:00",
+        "published": "2026-11-13T04:33:00+00:00",
         "lang": "en"
        }
       ]
@@ -5814,10 +5810,10 @@
       },
       "news": [
        {
-        "title": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields; SpaceX-Tesla Merger Deal Close",
+        "title": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields",
         "link": "https://finance.yahoo.com/m/4a3dff17-3e8e-33ca-823f-8ac12eff6a4a/dow-jones-futures-rise-after.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-13T02:44:44+00:00",
+        "published": "2026-11-13T03:56:41+00:00",
         "lang": "en"
        },
        {
@@ -5845,17 +5841,17 @@
       },
       "news": [
        {
+        "title": "Adobe And 2 More Undervalued Tech Stocks To Watch",
+        "link": "https://finance.yahoo.com/technology/articles/adobe-2-more-undervalued-tech-021250861.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-13T02:12:50+00:00",
+        "lang": "en"
+       },
+       {
         "title": "Applied Materials’ Beat Gets a Lukewarm Reception as Nvidia Fallout Lingers",
         "link": "https://finance.yahoo.com/m/7ef83d64-c59b-35c1-a8d3-c7aa31d7993c/applied-materials%E2%80%99-beat-gets.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-12T22:21:00+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Nvidia, AMD, CoreWeave, Nebius, Tesla, and More Stocks That Explain Today’s Market",
-        "link": "https://finance.yahoo.com/m/923c0fbe-6605-3913-952c-4b295e62fcac/nvidia%2C-amd%2C-coreweave%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-12T21:35:00+00:00",
         "lang": "en"
        }
       ]
@@ -5893,13 +5889,13 @@
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-13T02:50:43+00:00"
+    "fetched_at": "2026-11-13T07:06:04+00:00"
    }
   },
   "sectors": {
    "status": "ok",
-   "attempted_at": "2026-11-13T02:50:21+00:00",
-   "last_success_at": "2026-11-13T02:50:21+00:00",
+   "attempted_at": "2026-11-13T07:05:47+00:00",
+   "last_success_at": "2026-11-13T07:05:47+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-12",
@@ -6014,91 +6010,91 @@
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-13T02:50:43+00:00"
+    "fetched_at": "2026-11-13T07:06:04+00:00"
    }
   },
   "news": {
    "status": "ok",
-   "attempted_at": "2026-11-13T02:50:21+00:00",
-   "last_success_at": "2026-11-13T02:50:21+00:00",
+   "attempted_at": "2026-11-13T07:05:47+00:00",
+   "last_success_at": "2026-11-13T07:05:47+00:00",
    "error": null,
    "data": {
     "items": [
      {
-      "title": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields; SpaceX-Tesla Merger Deal Close",
-      "link": "https://finance.yahoo.com/m/4a3dff17-3e8e-33ca-823f-8ac12eff6a4a/dow-jones-futures-rise-after.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-13T02:44:44+00:00",
+      "title": "[증시시황] '젠슨 황 퇴진' 엔비디아 경영에 어떤 변화가…뉴욕 증시 'AI 관련주' 약세, 국내 반도체 주가는?",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82S3NQUEExY25vd3ZwRFpCRE95ZV9qNXJvekxXMUZIenNJZWRsZkdRYWYwMnJIaU14dldvTFRSeWJSZUc5UEJlUmU2QW05SXZjVXVkMlNRT0ZZZjBDSVhlMEQ4U1p2RXp6eVHSAWZBVV95cUxNZHZaOG9GejhkXzlsYi1EcFQ4dDl1dW1kOUhwbk4xZmJVdXE1OGRLcVRYSmlhWGJNdVBPc3h5LXZ6XzNvNW5wc2dleS1nUjAyVE1SRWNUb1JIMmhrUG5GZXQ5UWk0QXc?oc=5",
+      "source": "SBS 뉴스",
+      "published": "2026-11-13T06:59:17+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "코스피, 젠슨 황 사임·美증시 약세에도 2%대 상승 출발···5480선 회복",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1rVmljMnQ5UkFkTUpRSFJOY3BLcWhtckF2MUotMEQydTBsUHBtQ25yVmlqdmhqY2RXb0VQWDNVWHRNLVVhQmxDRGs4blgwNFpaa290TVFuazFySWN5TTVza01XZS05azA5N3c?oc=5",
+      "source": "서울파이낸스",
+      "published": "2026-11-13T06:32:36+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "Stock futures edge lower after markets slide amid Nvidia woes: Live updates",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1DUGhtX3RkQk1tTVc3WFZQOGhSalVKd2RzNks0R1dHRlFMSUd1bUhOeVVmNTQxS09JQjhaaTBQVWVnY3RBblNRRlc3a21TVEJJUnZmVm9pYmJMSVNWazl5bU9lZkdyOVpSSXhoSUlfeEx1ZUdvakVR0gF8QVVfeXFMUEZVRDFwUjNBQ01QTjdQX0h5WXU5R3BqdDZwVFJiNU9obl9qYk1lWC1XTWUxbDhFaGR4V2x0cERQdDAyNFlJQk1fNXBqdFItb3FaTDdyV2R6WklkbExBZHNnQ3k1WFR4X0FaeGpRM09SZHprem0zajZXbEx6Vg?oc=5",
+      "source": "CNBC",
+      "published": "2026-11-13T06:31:00+00:00",
       "lang": "en"
      },
      {
-      "title": "‘젠슨 황 퇴진’ 엔비디아발 기술주 충격에 유가 변수까지...뉴욕증시 일제히 뒷걸음",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zR0V1MTRtSFlwQ3V4U3B3N1hXOVNGSzhrQUFxQ3ByY2t0Z1JpdVVHV2hMN1dhV0FyODFnajdnQ3RjZ2dYcUZxMElUUU8ycG1xUmZYOUx6Ml9fX2tNWVBOUVdrRVNPSEtZS1NV0gFvQVVfeXFMTkc0WmdvaTNiYmNuLWNTOWxHY0dTU3Uxd2F1NFY2S1J3SkZ4NXFzY3FhQWVHNk9DekV2R0Z6OWR6d0l0UGZHaGNraWp1RWtqaEUyQ2hUUHk3OTBrT2ZwQl9KNGNZWV9RMEU3aUZEYUhN?oc=5",
-      "source": "더퍼블릭",
-      "published": "2026-11-13T02:25:07+00:00",
-      "lang": "ko"
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63229873/stock-market-will-sp-500-open-up-or-down-today-77?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-13T06:26:11+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Microsoft outage live updates: What to know as Outlook, 365 and other apps remain down",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcHViWEtYaGk5Uy1kTHhvMllyWWJPUWV4ak1LSFIySjNvYlBVbzNmRjZiZlFSNXN0Vmt3b1FrcEJUTjRZRVNYc1Zab2hrbXhFWjBaandFWFdjNUFBWkJHRHlDMlpDREVYemlEa2FGRUNUcGw4RGxXcUE5QXQyaVhpVHItWDk5dEtTbFBfYk41QzdqNkVIemQ1Z01ndVVzazFPU3VVa1pmLWZndnlHUlFPQmgzWWY?oc=5",
+      "source": "ABC7 Los Angeles",
+      "published": "2026-11-13T05:58:00+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "RedCloud Announces Effective Date of Reverse Share Split",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/redcloud-announces-effective-date-reverse-050500469.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-13T05:05:00+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Better U.S. Bank ETF: State Street's KBE vs. First Trust's FTXO",
+      "link": "https://www.fool.com/coverage/etfs/2026/11/12/better-u-s-bank-etf-state-street-s-kbe-vs-first-trust-s-ftxo/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-13T05:03:41+00:00",
+      "lang": "en"
      },
      {
       "title": "Federal Reserve to Forgo Rate Decision at October 2027 Meeting",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWkZiVk1uU2k5a1RQRGUxdFBJMEcxSVhtWEJfR0s3Q3E3T185OXRrZHRZMDVsQlhTdVpIbVlfQnNPem4zbGlTMDR6elFDRlM3RzhETUhCVzlTTDJvWmtfQzctcUFhRXZsVmxpVjBQUXpXTkRUTThQNVJwQV9YX19qaTZGVGswRGF1N2d0dktsZW5DVHlFWVNENmtQaERZYm5ZTmREdm8tMzVjX3ZCQUdqbTFCbWktdw?oc=5",
       "source": "WSJ",
-      "published": "2026-11-13T01:57:25+00:00",
+      "published": "2026-11-13T04:32:36+00:00",
       "lang": "en"
      },
      {
-      "title": "엔비디아 4.3% 급락…젠슨 황 사임·유가 급등에 뉴욕증시 하락",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE04QjRDN1Y0MksyanNjaEQydzRHUFQ2dU9DNFZHSzRGYWI4aXNQUG51RW1fMXVXdlFvQXZUQ2lRd1hHRU12WVlSNg?oc=5",
-      "source": "씬짜오베트남",
-      "published": "2026-11-13T01:55:09+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "Column | Jensen Huang’s leather jackets are juvenile delinquent drag",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb2dPWm9iR0M5NTN1YUw0a3Y4S2xXdjZOOXFhS3d5am8wQm5MQWM3RHlCV1o4ZGhseGZHb0tZbVJRRkFzdjhUSE4zYW9feFZVZHZURjYxNWJEbGpyQjZtSmtTRHpkWkVvT2RZcGdoMzJHZlJQNm9maXg2QTFzVC1Rbmk1ODhINWlhMzZlUGpfejBueW9lZ19tTnc3bEpBVnBoRDB2SkxqSGhmVEk?oc=5",
-      "source": "The Washington Post",
-      "published": "2026-11-13T01:54:11+00:00",
+      "title": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields",
+      "link": "https://finance.yahoo.com/m/4a3dff17-3e8e-33ca-823f-8ac12eff6a4a/dow-jones-futures-rise-after.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-13T03:56:41+00:00",
       "lang": "en"
      },
      {
-      "title": "How the Jensen Huang affair changes the outlook for U.S.-China relations",
-      "link": "https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-us-china-relations.html",
-      "source": "CNBC",
-      "published": "2026-11-13T01:48:50+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "뉴욕증시, 젠슨 황 사임 충격에 동반 하락…나스닥 0.39%↓",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9tbURXRTBoSl9PUTdFQmltaEpLYkhLeGNTbXJEVmRtQVFBcXNOMnpUMllDakdxLVdlTEZ6aldSM0g4RXBKQjBTOGdCLW1GQ3RjOFFFMTNJX2U?oc=5",
-      "source": "우리경제신문",
-      "published": "2026-11-13T01:47:13+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "Stocks Weather Nvidia, Surging Yields; Tesla-SpaceX Deal Close?",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSHdBUXNwWlkwRldKTGNVWW9NWkFaSzVQaEx4RTRQYUNiVnQ2bGVPMGc0cmM4OVRGTUlmdG4yTlRXWm1QRTh1TE9lRTdLYmVsSGxaanBjUzZLOG9uQ1RNaWRodms3Zk9DTHJTVDdXV2l2aTFicWxDeXhxYXVCcFktd2VQRThkVUFkejFJUzJGb2EwazRCSVVQMFh2c3d0ZTNxeVplUVlsUHBVMm9xTlU5bVFHblVWa2ttR0RHSUN3c2ZVX1RsVlN2SkMyQTZsVlItaGZsWQ?oc=5",
-      "source": "Investor's Business Daily",
-      "published": "2026-11-13T01:30:00+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ2pMWDA4Sl9yT1B2anJmMndlT3pCSnNTcFdQRGdza2kxOUc1MDVqRURoRDZoVDM1VEN0SmpMNGJFcFRqdHVjOFY5blNPVF8xQVZhOE0zdk84ZnlobGFGSVNsYlEzNkVDbDlNa3hEdk94NXJpbkdjR1hwU1p1bDBxcUxFeFcyWm15b2tSZHMxU1I?oc=5",
-      "source": "The New York Times",
-      "published": "2026-11-13T01:28:40+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "Is Outlook down? Widespread outage hits Microsoft email and other apps",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdjBxWnNWYzRSQjgwSzBLV3JlWGtoZ01DTGFwSHphbVl0UXJucXp1amNkU0t5NjZyS2xhRDhIcTRoU3ZvT3FvQlRxZTdrY2xWMXdWOFZiQWtIdW9JOU1pY21TWHdkbnJ2Q3VVdEZIa2VZNGlqZFlhUGloNjcxclBlR2dVVnNMcVhXX2JLTjBKNlRIckRBaWdlOHRhdDkwZFdITDdhMGRETHpuOVY5WjRlNTFwanE?oc=5",
-      "source": "NPR",
-      "published": "2026-11-13T01:26:24+00:00",
+      "title": "The downfall of Jensen Huang",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRlBZMEhVQzRCSXVHeERpUHl6bXFFcmVWQ281TVJWMjRlU1ptOVJtYThTejV0RGY5V29lSHNUengydW96cWZEUDZlcUVKU2ZPQlRISmlJZFNPeGhBbU1fRlZ4OFlYc0xZR3J6SzVFLWNCX2luUWg3VzAtQ21GZVM5OUF1R1M?oc=5",
+      "source": "Financial Times",
+      "published": "2026-11-13T03:49:03+00:00",
       "lang": "en"
      }
     ],
     "keywords": [
      {
       "word": "nvidia",
-      "count": 17,
+      "count": 14,
       "ko": "엔비디아"
      },
      {
@@ -6107,81 +6103,81 @@
       "ko": null
      },
      {
-      "word": "ceo",
-      "count": 8,
-      "ko": "CEO"
-     },
-     {
       "word": "jensen",
-      "count": 8,
-      "ko": null
-     },
-     {
-      "word": "calls",
-      "count": 7,
+      "count": 10,
       "ko": null
      },
      {
       "word": "fed",
-      "count": 7,
+      "count": 8,
       "ko": "연준"
      },
      {
-      "word": "exit",
-      "count": 6,
-      "ko": null
-     },
-     {
-      "word": "october",
-      "count": 5,
-      "ko": null
-     },
-     {
-      "word": "prices",
-      "count": 5,
-      "ko": null
-     },
-     {
-      "word": "rate",
-      "count": 5,
-      "ko": "금리"
-     },
-     {
-      "word": "rates",
-      "count": 5,
-      "ko": "금리"
-     },
-     {
       "word": "trump",
-      "count": 5,
+      "count": 7,
       "ko": "트럼프"
      },
      {
-      "word": "affair",
-      "count": 4,
-      "ko": null
+      "word": "ceo",
+      "count": 6,
+      "ko": "CEO"
+     },
+     {
+      "word": "rate",
+      "count": 6,
+      "ko": "금리"
      },
      {
       "word": "bank",
-      "count": 4,
+      "count": 5,
       "ko": "은행"
      },
      {
       "word": "billion",
-      "count": 4,
+      "count": 5,
       "ko": "10억달러"
+     },
+     {
+      "word": "calls",
+      "count": 5,
+      "ko": null
+     },
+     {
+      "word": "futures",
+      "count": 5,
+      "ko": null
+     },
+     {
+      "word": "hikes",
+      "count": 5,
+      "ko": null
+     },
+     {
+      "word": "quarter",
+      "count": 5,
+      "ko": "분기"
+     },
+     {
+      "word": "china",
+      "count": 4,
+      "ko": "중국"
+     },
+     {
+      "word": "data",
+      "count": 4,
+      "ko": "데이터/지표"
      }
     ],
-    "keyword_base_count": 109
+    "keyword_base_count": 119
    }
   },
   "calendar": {
    "status": "ok",
-   "attempted_at": "2026-11-13T02:50:21+00:00",
-   "last_success_at": "2026-11-13T02:50:21+00:00",
+   "attempted_at": "2026-11-13T07:05:47+00:00",
+   "last_success_at": "2026-11-13T07:05:47+00:00",
    "error": null,
    "data": {
-    "today_et": "2026-11-12",
+    "today_et": "2026-11-13",
     "start": "2026-11-01",
     "end": "2027-01-31",
     "events": [
@@ -6290,12 +6286,6 @@
     "warnings": [],
     "sessions": [
      {
-      "date": "2026-11-11",
-      "open": "2026-11-11T23:30:00+09:00",
-      "close": "2026-11-12T06:00:00+09:00",
-      "early": false
-     },
-     {
       "date": "2026-11-12",
       "open": "2026-11-12T23:30:00+09:00",
       "close": "2026-11-13T06:00:00+09:00",
@@ -6377,6 +6367,12 @@
       "date": "2026-12-02",
       "open": "2026-12-02T23:30:00+09:00",
       "close": "2026-12-03T06:00:00+09:00",
+      "early": false
+     },
+     {
+      "date": "2026-12-03",
+      "open": "2026-12-03T23:30:00+09:00",
+      "close": "2026-12-04T06:00:00+09:00",
       "early": false
      }
     ]

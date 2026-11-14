@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-14T06:54:43+00:00",
+ "generated_at": "2026-11-14T10:45:34+00:00",
  "sections": {
   "fx": {
    "status": "ok",
-   "attempted_at": "2026-11-14T06:54:43+00:00",
-   "last_success_at": "2026-11-14T06:54:43+00:00",
+   "attempted_at": "2026-11-14T10:45:34+00:00",
+   "last_success_at": "2026-11-14T10:45:34+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-14",
@@ -21,8 +21,8 @@
   },
   "nasdaq": {
    "status": "ok",
-   "attempted_at": "2026-11-14T06:54:43+00:00",
-   "last_success_at": "2026-11-14T06:54:43+00:00",
+   "attempted_at": "2026-11-14T10:45:34+00:00",
+   "last_success_at": "2026-11-14T10:45:34+00:00",
    "error": null,
    "data": {
     "name": "나스닥 종합",
@@ -1737,13 +1737,13 @@
      "summary": "원화로 투자했다면 나스닥 지수는 -1.09%예요 (달러 기준 -0.91% + 환율 -0.19% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-14T06:54:57+00:00"
+    "fetched_at": "2026-11-14T10:45:48+00:00"
    }
   },
   "sp500": {
    "status": "ok",
-   "attempted_at": "2026-11-14T06:54:43+00:00",
-   "last_success_at": "2026-11-14T06:54:43+00:00",
+   "attempted_at": "2026-11-14T10:45:34+00:00",
+   "last_success_at": "2026-11-14T10:45:34+00:00",
    "error": null,
    "data": {
     "name": "S&P 500",
@@ -3259,13 +3259,13 @@
      "summary": "원화로 투자했다면 S&P 500 지수는 -0.59%예요 (달러 기준 -0.40% + 환율 -0.19% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-14T06:54:57+00:00"
+    "fetched_at": "2026-11-14T10:45:48+00:00"
    }
   },
   "gold": {
    "status": "ok",
-   "attempted_at": "2026-11-14T06:54:43+00:00",
-   "last_success_at": "2026-11-14T06:54:43+00:00",
+   "attempted_at": "2026-11-14T10:45:34+00:00",
+   "last_success_at": "2026-11-14T10:45:34+00:00",
    "error": null,
    "data": {
     "name": "국제 금값",
@@ -4700,13 +4700,13 @@
      "summary": "원화로 투자했다면 금 값은 -0.16%예요 (달러 기준 +0.03% + 환율 -0.19% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-14T06:54:57+00:00"
+    "fetched_at": "2026-11-14T10:45:48+00:00"
    }
   },
   "fear_greed": {
    "status": "ok",
-   "attempted_at": "2026-11-14T06:54:43+00:00",
-   "last_success_at": "2026-11-14T06:54:43+00:00",
+   "attempted_at": "2026-11-14T10:45:34+00:00",
+   "last_success_at": "2026-11-14T10:45:34+00:00",
    "error": null,
    "data": {
     "score": 38.6,
@@ -5109,8 +5109,8 @@
   },
   "vix": {
    "status": "ok",
-   "attempted_at": "2026-11-14T06:54:43+00:00",
-   "last_success_at": "2026-11-14T06:54:43+00:00",
+   "attempted_at": "2026-11-14T10:45:34+00:00",
+   "last_success_at": "2026-11-14T10:45:34+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-13",
@@ -5397,13 +5397,13 @@
      ]
     ],
     "live": false,
-    "fetched_at": "2026-11-14T06:54:57+00:00"
+    "fetched_at": "2026-11-14T10:45:48+00:00"
    }
   },
   "movers": {
    "status": "ok",
-   "attempted_at": "2026-11-14T06:54:43+00:00",
-   "last_success_at": "2026-11-14T06:54:43+00:00",
+   "attempted_at": "2026-11-14T10:45:34+00:00",
+   "last_success_at": "2026-11-14T10:45:34+00:00",
    "error": null,
    "data": {
     "universe": "나스닥-100",
@@ -5571,17 +5571,17 @@
       },
       "news": [
        {
+        "title": "Nebius CEO: Customer Prepayments Now Cover “More Than 100%” of New Capacity, Up From 50%",
+        "link": "https://www.tikr.com/blog/nebius-ceo-customer-prepayments-now-cover-more-than-100-of-new-capacity-up-from-50?ref=yahoofinance&tlnk=yf-261114-8r5hpg4f&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-14T10:11:58+00:00",
+        "lang": "en"
+       },
+       {
         "title": "Nebius says customers will cover 75-85% of 2027 CapEx",
         "link": "https://finance.yahoo.com/video/nebius-says-customers-will-cover-75-85-of-2027-capex-214240610.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-13T21:42:40+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Why Management Is Cautious About One Nebius (NBIS) Number",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/why-management-cautious-one-nebius-213254975.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-13T21:32:54+00:00",
         "lang": "en"
        }
       ]
@@ -5633,17 +5633,17 @@
       },
       "news": [
        {
+        "title": "Is Cisco Systems a Buy After Its Latest Earnings Report?",
+        "link": "https://www.fool.com/investing/2026/11/14/is-cisco-systems-a-buy-after-its-latest-earnings-report/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-14T08:20:02+00:00",
+        "lang": "en"
+       },
+       {
         "title": "Nvidia, AMD, Microsoft, Cerebras, Cisco, Modine, and More Stocks That Explain Today’s Market",
         "link": "https://finance.yahoo.com/m/fa0293c5-bebc-3c34-924d-04a0b56c1b18/nvidia%2C-amd%2C-microsoft%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-13T21:40:00+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Earnings week scorecard: beats rewarded selectively as AI-infrastructure names pull back",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-week-scorecard-beats-rewarded-203315112.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-13T20:33:15+00:00",
         "lang": "en"
        }
       ]
@@ -5664,17 +5664,17 @@
       },
       "news": [
        {
+        "title": "Nebius CEO: Customer Prepayments Now Cover “More Than 100%” of New Capacity, Up From 50%",
+        "link": "https://www.tikr.com/blog/nebius-ceo-customer-prepayments-now-cover-more-than-100-of-new-capacity-up-from-50?ref=yahoofinance&tlnk=yf-261114-8r5hpg4f&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-14T10:11:58+00:00",
+        "lang": "en"
+       },
+       {
         "title": "CoreWeave (CRWV) Faces Fresh Risk After A Key Supplier Leadership Shock",
         "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-crwv-faces-fresh-risk-042335689.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-14T04:23:35+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "CoreWeave Has $22.4 Billion in OpenAI Contracts. Could OpenAI’s Cash Burn Threaten Its Growth?",
-        "link": "https://www.tikr.com/blog/coreweave-has-22-4-billion-in-openai-contracts-could-openais-cash-burn-threaten-its-growth?ref=yahoofinance&tlnk=yf-261113-r59xp433&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-14T00:39:09+00:00",
         "lang": "en"
        }
       ]
@@ -5728,17 +5728,17 @@
       },
       "news": [
        {
-        "title": "SoftBank (TSE:9434) Leads $500 Million Agile Robots Funding Round",
-        "link": "https://finance.yahoo.com/technology/ai/articles/softbank-tse-9434-leads-500-062035919.html?.tsrc=rss",
+        "title": "Eric Balchunas Calls Nvidia-Driven Market Sell-Off The '280th Nervous Breakdown,' Sees Bitcoin Base In The $60K",
+        "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/eric-balchunas-calls-nvidia-driven-market-sell-off-the-280th-nervous-breakdown-sees-bitcoin-base-in-the-60-k/cNbPE5cR9QS?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-14T06:20:35+00:00",
+        "published": "2026-11-14T10:23:02+00:00",
         "lang": "en"
        },
        {
-        "title": "Nvidia Fallout Puts WPP Stock And Crisis Advisory Firms In Focus",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-fallout-puts-wpp-stock-061455897.html?.tsrc=rss",
+        "title": "Nvidia, Alphabet, Microsoft, and Micron Are All Buying Anthropic’s IPO. Should You Buy Too?",
+        "link": "https://www.fool.com/investing/2026/11/14/nvidia-alphabet-microsoft-and-micron-are-buying-anthropic-ipo/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-14T06:14:55+00:00",
+        "published": "2026-11-14T10:22:02+00:00",
         "lang": "en"
        }
       ]
@@ -5751,7 +5751,7 @@
       "change_pct": -2.52,
       "volume": 102322800,
       "reason": {
-       "title": "인텔 주가, 오늘 하락하는 이유는? By Investing.com",
+       "title": "인텔 주가, 오늘 하락하는 이유는?",
        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAya0xVQWdkOW1na2N6ZlNvNlBtTGlIU1NyclFYWi16MEc1bDJkSzM4M016RURHZmdmZGF4T1BNdXBTUUxOVnhGMnE2WVZCakd6dGZmYjdhUWFNZ045SmZQYWdxaEhGaDRKY2gxYVZqQnlwaHVkVmlv?oc=5",
        "source": "Investing.com 한국어",
        "published": "2026-11-13T15:18:00+00:00",
@@ -5790,17 +5790,17 @@
       },
       "news": [
        {
+        "title": "Nebius CEO: Customer Prepayments Now Cover “More Than 100%” of New Capacity, Up From 50%",
+        "link": "https://www.tikr.com/blog/nebius-ceo-customer-prepayments-now-cover-more-than-100-of-new-capacity-up-from-50?ref=yahoofinance&tlnk=yf-261114-8r5hpg4f&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-14T10:11:58+00:00",
+        "lang": "en"
+       },
+       {
         "title": "CoreWeave (CRWV) Faces Fresh Risk After A Key Supplier Leadership Shock",
         "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-crwv-faces-fresh-risk-042335689.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-14T04:23:35+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "CoreWeave Has $22.4 Billion in OpenAI Contracts. Could OpenAI’s Cash Burn Threaten Its Growth?",
-        "link": "https://www.tikr.com/blog/coreweave-has-22-4-billion-in-openai-contracts-could-openais-cash-burn-threaten-its-growth?ref=yahoofinance&tlnk=yf-261113-r59xp433&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-14T00:39:09+00:00",
         "lang": "en"
        }
       ]
@@ -5812,20 +5812,26 @@
       "close": 139.11,
       "change_pct": -0.59,
       "volume": 77314900,
-      "reason": null,
+      "reason": {
+       "title": "스페이스X, 시간외 2% 하락…스타십 부스터 회수 실패",
+       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xMDVNS0wyRDUwaC1fRTZvZWoxbXBRNUxvOEdzOHZSV2V2ZkFqZEZOVlBCay1MOWdEY3BVYTVCQ19mZEhCNVpjMC1MS05fMXNo?oc=5",
+       "source": "블루밍비트",
+       "published": "2026-11-14T01:44:04+00:00",
+       "lang": "ko"
+      },
       "news": [
+       {
+        "title": "Prediction: 2 Stocks That Will Be Worth More Than SpaceX 5 Years From Now",
+        "link": "https://www.fool.com/investing/2026/11/14/prediction-2-stocks-that-will-be-worth-more-than-s/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-14T09:25:00+00:00",
+        "lang": "en"
+       },
        {
         "title": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; SpaceX Starship Flight 15 Booster Diverts.",
         "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-14T00:41:41+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "SpaceX’s Starship Just Did Something for Only the 2nd Time. Saturday Could Be Even Bigger.",
-        "link": "https://www.fool.com/investing/2026/11/13/spacex-s-starship-just-did-something-for-only-the-2nd-time-saturday-could-be-even-bigger/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-14T00:35:01+00:00",
         "lang": "en"
        }
       ]
@@ -5840,30 +5846,30 @@
       "reason": null,
       "news": [
        {
+        "title": "Does Keurig Dr Pepper (KDP) Look Fully Valued After Its 38% Run?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/does-keurig-dr-pepper-kdp-081026676.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-14T08:10:26+00:00",
+        "lang": "en"
+       },
+       {
         "title": "Keurig Dr Pepper (KDP) Raises $2b In Equity, Is The Stock Fully Valued?",
         "link": "https://finance.yahoo.com/markets/stocks/articles/keurig-dr-pepper-kdp-raises-061204170.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-14T06:12:04+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Keurig Dr Pepper Shares Decline 1.1% Premarket Following Pricing of $2 Billion Share Offering",
-        "link": "https://investorshub.advfn.com/market-news/article/39942/keurig-dr-pepper-shares-decline-1-1-premarket-following-pricing-of-2-billion-share-offering?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-13T11:09:00+00:00",
         "lang": "en"
        }
       ]
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-14T06:54:57+00:00"
+    "fetched_at": "2026-11-14T10:45:48+00:00"
    }
   },
   "sectors": {
    "status": "ok",
-   "attempted_at": "2026-11-14T06:54:43+00:00",
-   "last_success_at": "2026-11-14T06:54:43+00:00",
+   "attempted_at": "2026-11-14T10:45:34+00:00",
+   "last_success_at": "2026-11-14T10:45:34+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-13",
@@ -5978,29 +5984,64 @@
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-14T06:54:57+00:00"
+    "fetched_at": "2026-11-14T10:45:48+00:00"
    }
   },
   "news": {
    "status": "ok",
-   "attempted_at": "2026-11-14T06:54:43+00:00",
-   "last_success_at": "2026-11-14T06:54:43+00:00",
+   "attempted_at": "2026-11-14T10:45:34+00:00",
+   "last_success_at": "2026-11-14T10:45:34+00:00",
    "error": null,
    "data": {
     "items": [
+     {
+      "title": "FedEx Was Down to Its Last $5,000 When Its Founder, a Marine Who Served Two Tours in Vietnam, Flew to Las Vegas and Sat Down at a Blackjack Table. He Came Back With $27,000, and the Planes Kept Flying",
+      "link": "https://247wallst.com/investing/2026/11/14/fedex-was-down-to-its-last-5000-when-its-founder-a-marine-who-served-two-tours-in-vietnam-flew-to-las-vegas-and-sat-down-at-a-blackjack-table-he-came-back-with-27000-and-the-planes-kept-flying/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-14T10:37:00+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Live updates: SpaceX lifts off, aiming to make history in Starship’s 15th test",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcGhfR3lVM2ZfMmw3dHhUdms0VlU4d2JVTGpBTzdiV2FpVTAxLUFtSW5JNXZSMEFkS0pXM1gtNEdvVzY0TDdzUlVNaWNpTk5qdHFkR0R5WHlBOE53ZGZMRW9hdkUtSHBFa3ZmcU16VFVnNElhV24wRHdCYk9DbWtMMEV0SVlYSjRHcjVrLVJ3?oc=5",
+      "source": "CNN",
+      "published": "2026-11-14T10:20:00+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Prediction: Nov. 18 Will Be a Massive Day for the Stock Market",
+      "link": "https://www.fool.com/investing/2026/11/14/prediction-nov-18-will-be-a-massive-day-for-the-stock-market/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-14T09:30:02+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "New Inflation Data Offers Terrible News for President Donald Trump's Economy and the AI-Driven Bull Market",
+      "link": "https://www.fool.com/investing/2026/11/14/new-inflation-data-offers-terrible-news-donald-trump-economy-and-ai-driven-bull-market/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-14T09:26:02+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "‘65% of the S&P Is Basically AI’: Eisman’s Warning as Ramsey Tells Disabled Veteran His $500,000 Is ‘Safe’",
+      "link": "https://247wallst.com/personal-finance/2026/11/14/65-of-the-sp-is-basically-ai-eismans-warning-as-ramsey-tells-disabled-veteran-his-500000-is-safe/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-14T09:04:18+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "What to Know About Friday’s Nationwide Ground Stop",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ3ZnWGY2YWY1TW9QakM0dTdtNFRBcW9qVDc3aGJlV25yb0Q3S0szQ2otUy1IREYyWGgyMllrQW1xY2RRQlJMRlhnRHFEVFlwcFJyQ0FMLWFVTFdwbzdQVzRXR3FQc0lTQlFodFlzcnFkRk13emQ0Z05KRVQwa2lhbkVSS2FvZw?oc=5",
+      "source": "The New York Times",
+      "published": "2026-11-14T06:54:00+00:00",
+      "lang": "en"
+     },
      {
       "title": "뉴욕증시에 전용 K-ETF 상장…K뷰티, 월스트리트 새 투자 테마로",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5jNDMzRktoRko0QTlMSVN0djhTZ2lDZUJWaVBBaDNEWGw0TjlQbklHX3FmNERrMzRZZEk5Mm5qZ0FXSndzVUlkUGNuYkNFUllFTHFz0gFYQVVfeXFMUGNnTXFjME1wbmNIajF0eFBYdXM5VlpXd3dBVmc3cHRLOHJRa1hYXzVkZDg1QWVHNVUzQVdvcWV6c2VBaDd6dDNOZnUzNGFJalZSVUstUTRGMA?oc=5",
       "source": "SBS Biz",
       "published": "2026-11-14T06:18:00+00:00",
       "lang": "ko"
-     },
-     {
-      "title": "Live updates: SpaceX lifts off, aiming to make history in Starship’s 15th test",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcGhfR3lVM2ZfMmw3dHhUdms0VlU4d2JVTGpBTzdiV2FpVTAxLUFtSW5JNXZSMEFkS0pXM1gtNEdvVzY0TDdzUlVNaWNpTk5qdHFkR0R5WHlBOE53ZGZMRW9hdkUtSHBFa3ZmcU16VFVnNElhV24wRHdCYk9DbWtMMEV0SVlYSjRHcjVrLVJ3?oc=5",
-      "source": "CNN",
-      "published": "2026-11-14T05:49:00+00:00",
-      "lang": "en"
      },
      {
       "title": "Behind Jensen Huang’s spy scandal, a shadow war for Trump’s ear on China",
@@ -6010,69 +6051,29 @@
       "lang": "en"
      },
      {
-      "title": "College football teams scrambling to find alternate travel plans after FAA lifts ground-stop order",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONV9HVkdIcU93bVBJd1hqV0xzNjBhY3VmaEd2bjNKb2J4cjVDU1hZbzFKMzVsZFEzSWJ5T0RuNjBVT3U0V05EWmJCdmV4LTB5ekFtZF9jZ0hIai1QS2F6N1NBTnR6V0FPb1hnZ2h4MmtVa0tQM1VJeDcxeUs1Rm9VdGJCUEpKekZZSTNlOUZaNFk2QUxJMHFBN1dkT1d2aVA0a1hZSml6cw?oc=5",
-      "source": "CBS Sports",
-      "published": "2026-11-14T04:41:15+00:00",
+      "title": "Ari Emanuel Blames FAA Issues On Pete Buttigieg",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZXhlWWZ2dzlwcVpOTWdiTHJlWDJRVXJHc1pGcnc3WjMzbkZJY0Fld0pQVnMzNi1ySkhER3ZjTHJZUjk3R3dpSFEzMGFFV1hVZ0ZQY3JHbGZ5ZnY2QVVRSG1GZGRzX25LRmxodGNpUng5Q0x4SGxNVzdkbGJCbTNwRWEyZmhDcHRENG1lRUp3?oc=5",
+      "source": "Deadline",
+      "published": "2026-11-14T04:55:00+00:00",
       "lang": "en"
      },
      {
-      "title": "뉴욕증시, 엔비디아 여파에 혼조 마감…“다우 0.10%↑·나스닥 0.91%↓”",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85dUFQWDA4S0lzX2lBWVRPbGZONFp1VWRidXo0dzFYZlZrdXAyRDRxTmlPWHoteVZjOGJscnFEbE93MVluYXNDZU1sWC1PQTRaTHVsUEZJeHhVWGtxR0hnaHBYMnd0RzRtWXfSAW5BVV95cUxPU05kYmVBUFVrVTBjc1pCbXhEU3Vzd0N5a3k2bUg2S2VmeFBWR01rWk12RU0xUklMMGRIcElQMmU1ank5MGI4VnYyV2FueVlncE5BaVYxZW1VN19uSmhncWNsM05JcEFOaEtqYVdPdw?oc=5",
-      "source": "파이낸셜투데이",
-      "published": "2026-11-14T04:16:47+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "반도체주 투매에 나스닥 0.91%↓…애플은 장중 사상 최고가",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tMU02LTBWNFo4RDJ4aHZMWHIzb0xNUmxDNmlrM3ZFb1hsSy1hMEhqM0dzcERvV0owNWFiRWE5NEhLOXB4QXhVazJWdDJvdlZmdTNDamtac1lQM3VvaFg0TEF1ZEExRGw0V0E?oc=5",
-      "source": "콕스뉴스",
-      "published": "2026-11-14T03:45:55+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "[해외시황] 뉴욕증시, 엔비디아發 불확실성 지속에 '혼조'…나스닥 0.91%↓",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UZEN5U2hucFpGTEo5aDdLeEVTZTQ0ak5Kdm1iSGVkemhiSVFrRkdHTmdQeG5uUXB1VnQ3cXNFNFVleWwzQW5xYWNTWlZkMFpjXzRjOFRteVhiVUU0U2lXUjl5WnZ1aGYyY3ZlVw?oc=5",
-      "source": "프라임경제",
-      "published": "2026-11-14T03:10:55+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "뉴욕증시 혼조…반도체주 약세에 나스닥 0.9%↓",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zclVlQW1uZmNJVHA1X2JoaU4xaFBmc19GRmU1QUJ0cHBYVXFPRU5vSmphLXZWMGJhQkFLeWtmQmRVS3RJcXE2cGstSDQ2WlZUSWY0RW92QWZZaHd6X1VmWm9lU190ZVhkbjMyTmJ2YWc?oc=5",
-      "source": "코리아리포트",
-      "published": "2026-11-14T02:54:44+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "뉴욕증시 기술주 약세 속 혼조···국제유가도 ‘널뛰기’",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wbzlyTjhQTVl3WnNJRC1qUTR3T19WTmNwSjJyeVhLdGpERl9JTVZsbExYSC1MVGQ1RkpnUXFLdWlSMkZQaXdxaTRrTjZTaVZjeTZYRm9YWlpscU01THhUR0lsaw?oc=5",
-      "source": "에너지경제신문",
-      "published": "2026-11-14T02:45:43+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "This Week, the FAA Rolled Out AI Air Traffic Management. Then It Grounded Flights Nationwide",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPS1JGMmk4ckVUM0Qza2Q5U18xRndmeEx3ZlFhWERQdVFrZVVDNFdnS2ZneWxRTVdEZDdpc2l4UVkxTm5naWM0a3I2eTZQdVN0QUtNLVoycUJIamRNQ0E4dU5mTmlwVXg3UnA5U3BpSlNSSWNNSzZteV82dU9Hb2RCZzZ6cmROekpkdGpSR2NoTGpZT0JkLW5OdHhuQmNHdFVZOEdjbUc3VzQwTU5fdEhHRFVTZWJXcEVMQTBOM080NExUZGR4c0pObHln?oc=5",
-      "source": "Inc.com",
-      "published": "2026-11-14T02:13:59+00:00",
+      "title": "How the Microsoft outage impacted courts and governments",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1yUnhQZ1hSOVFGajVoZXJDcE1TbWhCa2RJU0ExblA5WElCZVczWnh0VlpBdXljcnlDM2cxZWh1dW50ZXQ1M3pTWE4tamZGMWk2X2VXZmVETC1pd1M0WDBYQXo2Ri16QlVrVnFMdjBpamUxdVdaNWVLMjhn?oc=5",
+      "source": "Axios",
+      "published": "2026-11-14T04:50:40+00:00",
       "lang": "en"
      }
     ],
     "keywords": [
      {
       "word": "nvidia",
-      "count": 20,
+      "count": 16,
       "ko": "엔비디아"
      },
      {
       "word": "huang",
-      "count": 12,
-      "ko": null
-     },
-     {
-      "word": "jensen",
-      "count": 10,
+      "count": 9,
       "ko": null
      },
      {
@@ -6082,8 +6083,13 @@
      },
      {
       "word": "trump",
-      "count": 7,
+      "count": 8,
       "ko": "트럼프"
+     },
+     {
+      "word": "jensen",
+      "count": 7,
+      "ko": null
      },
      {
       "word": "billion",
@@ -6091,27 +6097,37 @@
       "ko": "10억달러"
      },
      {
-      "word": "ceo",
-      "count": 6,
-      "ko": "CEO"
-     },
-     {
       "word": "china",
       "count": 6,
       "ko": "중국"
      },
      {
-      "word": "scandal",
-      "count": 6,
-      "ko": null
-     },
-     {
       "word": "inflation",
-      "count": 5,
+      "count": 6,
       "ko": "인플레이션"
      },
      {
       "word": "prices",
+      "count": 6,
+      "ko": null
+     },
+     {
+      "word": "ceo",
+      "count": 5,
+      "ko": "CEO"
+     },
+     {
+      "word": "data",
+      "count": 5,
+      "ko": "데이터/지표"
+     },
+     {
+      "word": "earnings",
+      "count": 5,
+      "ko": "실적"
+     },
+     {
+      "word": "scandal",
       "count": 5,
       "ko": null
      },
@@ -6124,25 +6140,15 @@
       "word": "anthropic",
       "count": 4,
       "ko": "앤트로픽"
-     },
-     {
-      "word": "data",
-      "count": 4,
-      "ko": "데이터/지표"
-     },
-     {
-      "word": "earnings",
-      "count": 4,
-      "ko": "실적"
      }
     ],
-    "keyword_base_count": 106
+    "keyword_base_count": 102
    }
   },
   "calendar": {
    "status": "ok",
-   "attempted_at": "2026-11-14T06:54:43+00:00",
-   "last_success_at": "2026-11-14T06:54:43+00:00",
+   "attempted_at": "2026-11-14T10:45:34+00:00",
+   "last_success_at": "2026-11-14T10:45:34+00:00",
    "error": null,
    "data": {
     "today_et": "2026-11-14",

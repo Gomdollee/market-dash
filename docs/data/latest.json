@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-15T07:00:45+00:00",
+ "generated_at": "2026-11-15T11:21:17+00:00",
  "sections": {
   "fx": {
    "status": "ok",
-   "attempted_at": "2026-11-15T07:00:45+00:00",
-   "last_success_at": "2026-11-15T07:00:45+00:00",
+   "attempted_at": "2026-11-15T11:21:17+00:00",
+   "last_success_at": "2026-11-15T11:21:17+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-15",
@@ -21,8 +21,8 @@
   },
   "nasdaq": {
    "status": "ok",
-   "attempted_at": "2026-11-15T07:00:45+00:00",
-   "last_success_at": "2026-11-15T07:00:45+00:00",
+   "attempted_at": "2026-11-15T11:21:17+00:00",
+   "last_success_at": "2026-11-15T11:21:17+00:00",
    "error": null,
    "data": {
     "name": "나스닥 종합",
@@ -1737,13 +1737,13 @@
      "summary": "원화로 투자했다면 나스닥 지수는 -1.09%예요 (달러 기준 -0.91% + 환율 -0.19% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-15T07:00:56+00:00"
+    "fetched_at": "2026-11-15T11:21:30+00:00"
    }
   },
   "sp500": {
    "status": "ok",
-   "attempted_at": "2026-11-15T07:00:45+00:00",
-   "last_success_at": "2026-11-15T07:00:45+00:00",
+   "attempted_at": "2026-11-15T11:21:17+00:00",
+   "last_success_at": "2026-11-15T11:21:17+00:00",
    "error": null,
    "data": {
     "name": "S&P 500",
@@ -3259,13 +3259,13 @@
      "summary": "원화로 투자했다면 S&P 500 지수는 -0.59%예요 (달러 기준 -0.40% + 환율 -0.19% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-15T07:00:56+00:00"
+    "fetched_at": "2026-11-15T11:21:30+00:00"
    }
   },
   "gold": {
    "status": "ok",
-   "attempted_at": "2026-11-15T07:00:45+00:00",
-   "last_success_at": "2026-11-15T07:00:45+00:00",
+   "attempted_at": "2026-11-15T11:21:17+00:00",
+   "last_success_at": "2026-11-15T11:21:17+00:00",
    "error": null,
    "data": {
     "name": "국제 금값",
@@ -4700,13 +4700,13 @@
      "summary": "원화로 투자했다면 금 값은 -0.16%예요 (달러 기준 +0.03% + 환율 -0.19% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-15T07:00:56+00:00"
+    "fetched_at": "2026-11-15T11:21:30+00:00"
    }
   },
   "fear_greed": {
    "status": "ok",
-   "attempted_at": "2026-11-15T07:00:45+00:00",
-   "last_success_at": "2026-11-15T07:00:45+00:00",
+   "attempted_at": "2026-11-15T11:21:17+00:00",
+   "last_success_at": "2026-11-15T11:21:17+00:00",
    "error": null,
    "data": {
     "score": 38.6,
@@ -5109,8 +5109,8 @@
   },
   "vix": {
    "status": "ok",
-   "attempted_at": "2026-11-15T07:00:45+00:00",
-   "last_success_at": "2026-11-15T07:00:45+00:00",
+   "attempted_at": "2026-11-15T11:21:17+00:00",
+   "last_success_at": "2026-11-15T11:21:17+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-13",
@@ -5397,13 +5397,13 @@
      ]
     ],
     "live": false,
-    "fetched_at": "2026-11-15T07:00:56+00:00"
+    "fetched_at": "2026-11-15T11:21:30+00:00"
    }
   },
   "movers": {
    "status": "ok",
-   "attempted_at": "2026-11-15T07:00:45+00:00",
-   "last_success_at": "2026-11-15T07:00:45+00:00",
+   "attempted_at": "2026-11-15T11:21:17+00:00",
+   "last_success_at": "2026-11-15T11:21:17+00:00",
    "error": null,
    "data": {
     "universe": "나스닥-100",
@@ -5602,17 +5602,17 @@
       },
       "news": [
        {
-        "title": "AMD Has Two Big Catalysts Lined Up For 2027 — And Nvidia Should Be Watching, Says IO Fund",
-        "link": "https://stocktwits.com/news-articles/markets/equity/amd-two-big-catalysts-2027-nvidia-watching/cNbEERhR9Q8?.tsrc=rss",
+        "title": "Anthropic Just Delivered Great News for AMD Investors and Bad News for Nvidia",
+        "link": "https://www.fool.com/investing/2026/11/15/anthropic-just-delivered-great-news-for-amd-investors-and-bad-news-for-nvidia/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-15T05:53:25+00:00",
+        "published": "2026-11-15T10:40:02+00:00",
         "lang": "en"
        },
        {
-        "title": "Nvidia Fell While AMD and Broadcom Jumped. Here’s What History Says Happens Next to All 3  Stocks.",
-        "link": "https://www.fool.com/investing/2026/11/14/nvidia-fell-while-amd-and-broadcom-jumped-here-s-what-history-says-happens-next-to-all-3-stocks/?.tsrc=rss",
+        "title": "Street Calls of the Week",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/street-calls-week-103003191.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-14T21:55:02+00:00",
+        "published": "2026-11-15T10:30:03+00:00",
         "lang": "en"
        }
       ]
@@ -5633,17 +5633,17 @@
       },
       "news": [
        {
+        "title": "Cisco Raised Its Earnings Outlook 8%. The Stock Fell 6% Anyway",
+        "link": "https://www.tikr.com/blog/cisco-raised-its-earnings-outlook-8-the-stock-fell-6-anyway?ref=yahoofinance&tlnk=yf-261115-rphhjfjq&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-15T08:25:54+00:00",
+        "lang": "en"
+       },
+       {
         "title": "Cisco Just Raised Its AI Forecast Again. Is it a Buy?",
         "link": "https://www.fool.com/investing/2026/11/14/cisco-just-raised-its-ai-forecast-again-is-it-a-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-14T13:11:01+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Is Cisco Systems a Buy After Its Latest Earnings Report?",
-        "link": "https://www.fool.com/investing/2026/11/14/is-cisco-systems-a-buy-after-its-latest-earnings-report/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-14T08:20:02+00:00",
         "lang": "en"
        }
       ]
@@ -5655,26 +5655,20 @@
       "close": 53.13,
       "change_pct": -6.13,
       "volume": 79832700,
-      "reason": {
-       "title": "Is CRWV Stock (CRWV) a Buy After Thursday’s 7% Sell-Off?",
-       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUXB3cS1wU05xSkx5RUxGaURwUjljRDkzWk9SQnljMkFaVjl3Q1E5MTlDYUlGRG5QN3hyT3huX0JjN1lNOWJpMktUbUZabEtJUVpzd1lfQ19hMU13RGRuVzJKMUVGNm5oWHNZT1RWVkV1Z1Y2YjNtTzNoRzVuS3RCZU9Ga1dIVkxP?oc=5",
-       "source": "TipRanks",
-       "published": "2026-11-13T10:09:28+00:00",
-       "lang": "en"
-      },
+      "reason": null,
       "news": [
+       {
+        "title": "AMD Soars 19% in a Week on Oppenheimer’s Upgrade and Nvidia’s Turmoil: “Demand Is Higher Than Supply”",
+        "link": "https://www.tikr.com/blog/amd-soars-19-in-a-week-on-oppenheimers-upgrade-and-nvidias-turmoil-demand-is-higher-than-supply?ref=yahoofinance&tlnk=yf-261115-c7c62rvw&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-15T02:31:34+00:00",
+        "lang": "en"
+       },
        {
         "title": "Micron Technology (MU) Has More Than 75% Of 2027 Output Committed",
         "link": "https://finance.yahoo.com/technology/articles/micron-technology-mu-more-75-230900121.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-14T23:09:00+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Is CoreWeave Stock a Buy After Its Latest Earnings?",
-        "link": "https://www.fool.com/investing/2026/11/14/is-coreweave-stock-a-buy-after-its-latest-earnings/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-14T21:07:02+00:00",
         "lang": "en"
        }
       ]
@@ -5728,17 +5722,17 @@
       },
       "news": [
        {
-        "title": "Nvidia's Jensen Huang Is 'Irreplaceable' And Worth $1 Trillion To The Story, Says Dan Ives Amid Support From Elon Musk, Gavin Baker And Others",
-        "link": "https://stocktwits.com/news-articles/markets/equity/nvidia-jensen-huang-worth-1-trillion-dan-ives-elon-musk-support/cNbEIBvR9QY?.tsrc=rss",
+        "title": "Bloom Energy Is Down 43% From Its High. Should You Buy the Dip?",
+        "link": "https://www.fool.com/investing/2026/11/15/bloom-energy-is-down-43-from-its-high-should-you-buy-the-dip/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-15T06:39:09+00:00",
+        "published": "2026-11-15T11:13:02+00:00",
         "lang": "en"
        },
        {
-        "title": "AMD Has Two Big Catalysts Lined Up For 2027 — And Nvidia Should Be Watching, Says IO Fund",
-        "link": "https://stocktwits.com/news-articles/markets/equity/amd-two-big-catalysts-2027-nvidia-watching/cNbEERhR9Q8?.tsrc=rss",
+        "title": "Nvidia's first post-Jensen earnings and Anthropic's IPO: What to watch this week",
+        "link": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-15T05:53:25+00:00",
+        "published": "2026-11-15T11:00:00+00:00",
         "lang": "en"
        }
       ]
@@ -5781,26 +5775,20 @@
       "close": 53.13,
       "change_pct": -6.13,
       "volume": 79832700,
-      "reason": {
-       "title": "Is CRWV Stock (CRWV) a Buy After Thursday’s 7% Sell-Off?",
-       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUXB3cS1wU05xSkx5RUxGaURwUjljRDkzWk9SQnljMkFaVjl3Q1E5MTlDYUlGRG5QN3hyT3huX0JjN1lNOWJpMktUbUZabEtJUVpzd1lfQ19hMU13RGRuVzJKMUVGNm5oWHNZT1RWVkV1Z1Y2YjNtTzNoRzVuS3RCZU9Ga1dIVkxP?oc=5",
-       "source": "TipRanks",
-       "published": "2026-11-13T10:09:28+00:00",
-       "lang": "en"
-      },
+      "reason": null,
       "news": [
+       {
+        "title": "AMD Soars 19% in a Week on Oppenheimer’s Upgrade and Nvidia’s Turmoil: “Demand Is Higher Than Supply”",
+        "link": "https://www.tikr.com/blog/amd-soars-19-in-a-week-on-oppenheimers-upgrade-and-nvidias-turmoil-demand-is-higher-than-supply?ref=yahoofinance&tlnk=yf-261115-c7c62rvw&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-15T02:31:34+00:00",
+        "lang": "en"
+       },
        {
         "title": "Micron Technology (MU) Has More Than 75% Of 2027 Output Committed",
         "link": "https://finance.yahoo.com/technology/articles/micron-technology-mu-more-75-230900121.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-14T23:09:00+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Is CoreWeave Stock a Buy After Its Latest Earnings?",
-        "link": "https://www.fool.com/investing/2026/11/14/is-coreweave-stock-a-buy-after-its-latest-earnings/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-14T21:07:02+00:00",
         "lang": "en"
        }
       ]
@@ -5863,13 +5851,13 @@
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-15T07:00:56+00:00"
+    "fetched_at": "2026-11-15T11:21:30+00:00"
    }
   },
   "sectors": {
    "status": "ok",
-   "attempted_at": "2026-11-15T07:00:45+00:00",
-   "last_success_at": "2026-11-15T07:00:45+00:00",
+   "attempted_at": "2026-11-15T11:21:17+00:00",
+   "last_success_at": "2026-11-15T11:21:17+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-13",
@@ -5984,85 +5972,85 @@
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-15T07:00:56+00:00"
+    "fetched_at": "2026-11-15T11:21:30+00:00"
    }
   },
   "news": {
    "status": "ok",
-   "attempted_at": "2026-11-15T07:00:45+00:00",
-   "last_success_at": "2026-11-15T07:00:45+00:00",
+   "attempted_at": "2026-11-15T11:21:17+00:00",
+   "last_success_at": "2026-11-15T11:21:17+00:00",
    "error": null,
    "data": {
     "items": [
      {
-      "title": "엔비디아 실적·앤트로픽 상장 겹친다…뉴욕증시 'AI 빅위크'",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mNDRqTmtCNzU2aGFlbTNuanVDTnNRY2VndnZNZ1FRdVRYdjB1OXpmY3pRWk5nM0dLTUtHQmVQcjNUQ1ZCZGl3SUxtUmQ4cFlBOWlYZXpUeEpXbGZEbzNGNmVuUkxfcHY0?oc=5",
-      "source": "www.ebn.co.kr",
-      "published": "2026-11-15T06:05:27+00:00",
+      "title": "K뷰티 열풍, 미국 증시까지 확산…한국 화장품 기업 투자 ETF 상장",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdmFLamJSMXFlOXI3Z2sxQmh6T1lXZzJWeVMwc0xzQXJpMllOa096TXNqOUxQUVhJUVRrcGlGMlBEVndzS3BlNldCdXJfbnp4OGhabjhwTDRsMkJTVlhKcG9mWHVsYkdMSXJtbUEzME1JdVN5SUQwWHk3TEZBT0o5VDlpWkVBdw?oc=5",
+      "source": "뷰티트래블뉴스",
+      "published": "2026-11-15T11:13:35+00:00",
       "lang": "ko"
      },
      {
-      "title": "Could everything be broken? Grounded jets, Microsoft outage, AI chaos make some wonder",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbUFCdzU3WWxqWDJyOThxR0pfSENwbHdjWE50LVZfX0xSUUZFZnpTemtWN2RRckNlOW56TnZwT2pmUHpPYnU0cGtiaUJ4aFpzLXZ4OHN0a3UxVEpNenFlc0VETFE2UDJkdy1Ld0ZSU2V2MHJxNE9WN3VFMjA2U1lLRThOdE5kSWk2UVdpektzb00yV3ZjUjhOeWpiNA?oc=5",
-      "source": "AP News",
-      "published": "2026-11-15T05:38:00+00:00",
+      "title": "Consumer Alert: Urgent Park Outside Recall Issued for Nearly 721K BMW Vehicles",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HcWM2OUppWHA1TFJOVm1WTTNZVm9wNUpEdnNrSDR0TVdEY21HTlVRczNZaVdaUnVST1kzbTctQURMZk1ZZkgwZUFEdmlqeGZ1SGlHRzdkVGlIazZtVWhUM1llbXFBV0MyZl9WaGpfekNBWFcxQkE4?oc=5",
+      "source": "NHTSA | National Highway Traffic Safety Administration (.gov)",
+      "published": "2026-11-15T11:04:51+00:00",
       "lang": "en"
      },
      {
-      "title": "FAA was warned for years about repair risks leading to nationwide ground stop",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdGhEX0dMOEdKd2dQcXJYV1NJVnZKeUFMTlMyRmVMWXFkZHhaU3hDR0NCM201VTZQRXc0QXNERjdBdGdyX3ZXU3ZlbU42WjR4MW5qLWh1WGtCdk9UVXdlaUlQMTJkS1FuWHhDcUt0MlNmQlRRYTdDSTh0Z3I0RTAwaGlYdzByVG05WE1uZjdyeWhiQlYtRmRRSkwtOVR0WS14X1VOZ25JZzVHMFFJNEhMUW9YWWtKVTM3cG5McHJDbjJGWWFfMTZV?oc=5",
-      "source": "The Washington Post",
-      "published": "2026-11-15T04:37:00+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "Dow Jones Futures Loom, Bitcoin Dives In Shaky Market Rally; Nvidia Earnings, Anthropic IPO Ahead",
-      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-loom%2C.html?.tsrc=rss",
+      "title": "Nvidia's first post-Jensen earnings and Anthropic's IPO: What to watch this week",
+      "link": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "published": "2026-11-15T04:05:44+00:00",
+      "published": "2026-11-15T11:00:00+00:00",
       "lang": "en"
      },
      {
-      "title": "UPS plane, Copa Airlines jet collide at Miami International Airport, officials say",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekEzQ21XR2ljd25BdEtWV0Q2dHUyc1RGRllwS2l1NEllVV96Y0UyVHptaFd1cGlzbk1TZndqc3RIOWFoSnNZVWg2X0xSSEFmVXU5RXY3QkEyUm5OWXBlQzJSZVQ3YlVIT2M3eGlFazZBSTNIS1dhSEhleUdFejlPRUNtOEpZNUlVVDJMRFU3QldXNGpyWVJkMUdjcDJyaWtE?oc=5",
-      "source": "CBS News",
-      "published": "2026-11-15T03:16:00+00:00",
+      "title": "European stocks face 10% underperformance risk as rally loses momentum",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-face-10-underperformance-104622060.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-15T10:46:22+00:00",
       "lang": "en"
      },
      {
-      "title": "이번주(11/16~20일) 증시일정 _ 맛보기",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTWtJLWtjTFV5dXh1YktpQnhRZ1dLVVFka25xc3hQME53dk5jcG03TUU2OG1NZEpzUllwUXFFWlJWazM1dGlzZTktZ2xSSzhxNVc4bmFneHhfM0piYlYyOXphc1c0aE5QMmVDaXFWY1FrN20zWGVsRW1Ld3Rfc3ZDa2VXajdic3lGZy1r?oc=5",
-      "source": "네이버 프리미엄콘텐츠",
-      "published": "2026-11-15T02:48:00+00:00",
+      "title": "A New Congress Takes Office in January. Here's What It Means for Your Investing Strategy.",
+      "link": "https://www.fool.com/investing/2026/11/15/a-new-congress-takes-office-in-january-heres-what/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-15T10:04:00+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WRVRId0ZUcVRGRlNaOFhjRE5vUUVQWnZ6OElxc0llcUVsaXAxbDFxdXJocTh6UTc2OGN6VnZuN2sxMnZROVhnaU1aTWVVUlZLbU1KRzFYT2ljczNYTV9FTVQxWnFrS2xNdDdZQ2FHejNDUjh2d29PbHRROA?oc=5",
+      "source": "WSJ",
+      "published": "2026-11-15T09:48:00+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "President Donald Trump Claims, \"Tariffs Don't Cause Inflation, They Cause Wealth\" -- but Economic Data Says Otherwise",
+      "link": "https://www.fool.com/investing/2026/11/15/donald-trump-claims-tariffs-dont-cause-inflation-they-cause-wealth-economic-data-says-otherwise/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-15T09:26:02+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "[뉴욕채권-주간] 인플레 위기감 짙어진 연준…'AI 테마' 향방도 주목 |",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mLTRzbjBScXRNcEdIenZGcTlteE5tTndmc05YNElacldzUmt2bVdUNEUyU0RWaF9VZE5uYnBoU29ubXkwcGlDOWNCZzJQRTdVR2RsNEpqdFVBRkFINkUxTk1uRGhybEpsTVN1WmZOakY0eXNE?oc=5",
+      "source": "연합인포맥스",
+      "published": "2026-11-15T08:47:52+00:00",
       "lang": "ko"
      },
      {
-      "title": "IRS raises 401(k) contribution limit by $1,000 for 2027 as retirement savings caps increase",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOY3IwclZvTHQ3Tmw1eG40c3B2RnNIRUpLVVBTLXBveEd2WWQ0eFFxek42YzZoaWlZM0EzTldNd1JSS0pUSlNXY2w3VHlSMzdnV0l2RFlVWE45dU11MWhNS05fV3hLd1JNa1JNWXJVbEhKcFZPUmtCeGhqUUg3RFp2WGxubHpFMHJFOHhuNHVzLUZmWk9WemN1Rmx1TFFnVmgteXY3eWVsQzYwVlg5am1QZVNiU2VWcjRQOXhBZmpBa9IBxAFBVV95cUxPRmk4dWotc00wbTZwLWU0TnBFdmJkSno4VmMzMWRwa2c5ZE5pTGZOOElIOUtBRkY3NEZpWWZLMTBueDRuVDZiTEY5MEp2RmV5bTVOdU42TllFemU1bTBhTXE2WWZJWndfalJHc05hOHZiMjg0d3V1U0pWZWpZb0d6VnhGTm5qVHVDUEZiN1oxT3dNM1R0aXJKeVN0ZTFMTkFKZGJEUTNOWTdvbzREZmtBak1BWE9nWlpXYWxGdl9QZVNDRmVE?oc=5",
-      "source": "Fox Business",
-      "published": "2026-11-15T02:32:22+00:00",
-      "lang": "en"
+      "title": "[뉴욕환시-주간] 매파 연준 속 맥 못추는 유로…日 '160엔' 개입 경계감 |",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kQXdGZ093YUdhb1h6RG9ORDVIWWR4X2xYUEU2SFVNeFNoLXFtU1ZFOHhxdGVqS0FWYVRuZk4tckV6MEhCQ3BDSUczejl5eEdycjAzMEZaUHNuTkRuUDBBbTdPTFhpbkxnS0VqdGFpbEVqR0Uz?oc=5",
+      "source": "연합인포맥스",
+      "published": "2026-11-15T08:47:52+00:00",
+      "lang": "ko"
      },
      {
-      "title": "Broadcom Jumped as Nvidia Fell. This Is What Has Investors Excited.",
-      "link": "https://www.fool.com/investing/2026/11/14/broadcom-jumped-as-nvidia-fell-this-is-what-has-investors-excited/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-15T02:20:02+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "Italy fines Meta $887m for accessing Android users’ photos and videos",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTW9mbXFBUUVjX2R6d19QWTBrWlFiSE96OFVjeGx1elljZGJnYkdLbnhlRy11d1BObUpPN0Vvam40bTBieFJwdGNhY0NrWE5iMG1FT3E3SnFQU0FiMm13ZmZzX0xYQXA5aG1od3FHanp1U2pWVnY1eTZ3VFR0WmYyc0VVNFVXVGIwdkFJVWdwNl85dEpIS1dFWmR4NXNfOU1tc2pZRlFtTElMV25lMU9hYWV0Njh3RUtuaGc?oc=5",
-      "source": "The Guardian",
-      "published": "2026-11-15T02:02:00+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "Bitcoin price analysis: BTC continues to decline Saturday, entering 'deep value zone'",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPREhQQTJ6T1M4cmdyMzU2SUhaYWszWDZOOWp0TzJ1M240RnY3RjI4OEpCQmlHR0pFbU1FekdXMXE1dzVjVHJlZ2ZMUjdOYXZIem5JY01DQ3JyYnIyUWxnZWNoR25TTG9DdExHNjNGMTdSNzJLZ3pKQ0JJeWxzMjV5cUlid3JkR0czV3ZmWlRnWXZ5QVBaSFJYZmltaU1Caks4NkdPTHo2bjE?oc=5",
-      "source": "CoinDesk",
-      "published": "2026-11-15T02:01:00+00:00",
-      "lang": "en"
+      "title": "뉴욕증시 혼조 마감…엔비디아 2% 하락, 기술주 약세 지속",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2ZUtmOG9Zay1WSEZMU0ZObFYzQ3BkdEtMVEtMU3hVY0Q3UGxyS3I3ZnJESUJzbktWRVQ2akxPUEpGN3czZU40RnBnSVd5aktXaDM4Ym9aTE9TaVpMTGRpcDJEcWwyaWlFMnlxVg?oc=5",
+      "source": "뉴시안",
+      "published": "2026-11-15T08:26:04+00:00",
+      "lang": "ko"
      }
     ],
     "keywords": [
@@ -6073,18 +6061,13 @@
      },
      {
       "word": "huang",
-      "count": 9,
+      "count": 10,
       "ko": null
      },
      {
       "word": "jensen",
-      "count": 8,
+      "count": 9,
       "ko": null
-     },
-     {
-      "word": "ceo",
-      "count": 7,
-      "ko": "CEO"
      },
      {
       "word": "fed",
@@ -6092,24 +6075,14 @@
       "ko": "연준"
      },
      {
-      "word": "trump",
-      "count": 7,
-      "ko": "트럼프"
+      "word": "anthropic",
+      "count": 5,
+      "ko": "앤트로픽"
      },
      {
-      "word": "million",
-      "count": 6,
-      "ko": "백만달러"
-     },
-     {
-      "word": "prices",
-      "count": 6,
-      "ko": null
-     },
-     {
-      "word": "s&p",
-      "count": 6,
-      "ko": "S&P"
+      "word": "earnings",
+      "count": 5,
+      "ko": "실적"
      },
      {
       "word": "inflation",
@@ -6117,14 +6090,19 @@
       "ko": "인플레이션"
      },
      {
-      "word": "anthropic",
-      "count": 4,
-      "ko": "앤트로픽"
+      "word": "prices",
+      "count": 5,
+      "ko": null
      },
      {
-      "word": "billion",
+      "word": "trump",
+      "count": 5,
+      "ko": "트럼프"
+     },
+     {
+      "word": "ceo",
       "count": 4,
-      "ko": "10억달러"
+      "ko": "CEO"
      },
      {
       "word": "company",
@@ -6132,12 +6110,22 @@
       "ko": null
      },
      {
-      "word": "earnings",
+      "word": "data",
       "count": 4,
-      "ko": "실적"
+      "ko": "데이터/지표"
      },
      {
       "word": "hikes",
+      "count": 4,
+      "ko": null
+     },
+     {
+      "word": "ipo",
+      "count": 4,
+      "ko": "IPO"
+     },
+     {
+      "word": "low",
       "count": 4,
       "ko": null
      }
@@ -6147,8 +6135,8 @@
   },
   "calendar": {
    "status": "ok",
-   "attempted_at": "2026-11-15T07:00:45+00:00",
-   "last_success_at": "2026-11-15T07:00:45+00:00",
+   "attempted_at": "2026-11-15T11:21:17+00:00",
+   "last_success_at": "2026-11-15T11:21:17+00:00",
    "error": null,
    "data": {
     "today_et": "2026-11-15",

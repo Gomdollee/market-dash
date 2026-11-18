@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-11-18T03:48:15+00:00",
+ "generated_at": "2026-11-18T07:51:37+00:00",
  "sections": {
   "fx": {
    "status": "ok",
-   "attempted_at": "2026-11-18T03:48:15+00:00",
-   "last_success_at": "2026-11-18T03:48:15+00:00",
+   "attempted_at": "2026-11-18T07:51:37+00:00",
+   "last_success_at": "2026-11-18T07:51:37+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-18",
-    "rate": 1329.68,
+    "rate": 1331.17,
     "prev_rate": 1335.67,
     "prev_date": "2026-11-17",
-    "change_pct": -0.45,
+    "change_pct": -0.34,
     "summary": [
-     "환율이 6원 내렸어요 (1달러 = 1,330원).",
+     "환율이 4원 내렸어요 (1달러 = 1,331원).",
      "달러가 싸지면, 미국 주식을 원화로 따진 가치는 줄어들어요."
     ],
     "source": "Yahoo Finance"
@@ -21,8 +21,8 @@
   },
   "nasdaq": {
    "status": "ok",
-   "attempted_at": "2026-11-18T03:48:15+00:00",
-   "last_success_at": "2026-11-18T03:48:15+00:00",
+   "attempted_at": "2026-11-18T07:51:37+00:00",
+   "last_success_at": "2026-11-18T07:51:37+00:00",
    "error": null,
    "data": {
     "name": "나스닥 종합",
@@ -1741,13 +1741,13 @@
      "summary": "원화로 투자했다면 나스닥 지수는 -0.56%예요 (달러 기준 -0.74% + 환율 +0.18% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-18T03:48:35+00:00"
+    "fetched_at": "2026-11-18T07:51:57+00:00"
    }
   },
   "sp500": {
    "status": "ok",
-   "attempted_at": "2026-11-18T03:48:15+00:00",
-   "last_success_at": "2026-11-18T03:48:15+00:00",
+   "attempted_at": "2026-11-18T07:51:37+00:00",
+   "last_success_at": "2026-11-18T07:51:37+00:00",
    "error": null,
    "data": {
     "name": "S&P 500",
@@ -3267,24 +3267,24 @@
      "summary": "원화로 투자했다면 S&P 500 지수는 -0.85%예요 (달러 기준 -1.03% + 환율 +0.18% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-18T03:48:35+00:00"
+    "fetched_at": "2026-11-18T07:51:57+00:00"
    }
   },
   "gold": {
    "status": "ok",
-   "attempted_at": "2026-11-18T03:48:15+00:00",
-   "last_success_at": "2026-11-18T03:48:15+00:00",
+   "attempted_at": "2026-11-18T07:51:37+00:00",
+   "last_success_at": "2026-11-18T07:51:37+00:00",
    "error": null,
    "data": {
     "name": "국제 금값",
     "short": "금",
     "kind": "commodity",
     "gold_krw": {
-     "per_don": 611580,
-     "per_gram": 163088
+     "per_don": 604737,
+     "per_gram": 161263
     },
     "five_year": {
-     "since": "2021-11-17",
+     "since": "2021-11-18",
      "weekly": [
       [
        "2021-11-19",
@@ -4331,8 +4331,8 @@
        3886.3
       ],
       [
-       "2026-11-17",
-       3797.8
+       "2026-11-18",
+       3768.0
       ]
      ],
      "drawdowns": [
@@ -4342,11 +4342,11 @@
         "value": 5318.4
        },
        "bottom": {
-        "date": "2026-11-17",
-        "value": 3797.8
+        "date": "2026-11-18",
+        "value": 3768.0
        },
-       "depth_pct": -28.59,
-       "fall_days": 292,
+       "depth_pct": -29.15,
+       "fall_days": 293,
        "recovered": null,
        "label": "약세장급 급락",
        "note": {
@@ -4358,7 +4358,7 @@
          "10월 말엔 주식 급락 때 현금을 마련하려는 매도까지 겹쳤어요."
         ]
        },
-       "news_url": "https://news.google.com/search?q=%EA%B8%88%EA%B0%92%20%EA%B8%89%EB%9D%BD%20after%3A2026-01-29%20before%3A2026-11-18&hl=ko&gl=KR&ceid=KR:ko"
+       "news_url": "https://news.google.com/search?q=%EA%B8%88%EA%B0%92%20%EA%B8%89%EB%9D%BD%20after%3A2026-01-29%20before%3A2026-11-19&hl=ko&gl=KR&ceid=KR:ko"
       },
       {
        "peak": {
@@ -4397,16 +4397,16 @@
         "value": 4697.8
        },
        "end": {
-        "date": "2026-11-17",
-        "value": 3797.8
+        "date": "2026-11-18",
+        "value": 3768.0
        },
-       "change_pct": -19.16,
-       "days": 85,
+       "change_pct": -19.79,
+       "days": 86,
        "ongoing": true,
        "recovered": null,
        "current": {
-        "date": "2026-11-17",
-        "value": 3797.8,
+        "date": "2026-11-18",
+        "value": 3768.0,
         "from_end_pct": 0.0
        }
       },
@@ -4589,7 +4589,7 @@
      ],
      "summary": [
       "지난 5년 동안 금 값은 최고점보다 10% 넘게 떨어진 적이 2번 있었어요.",
-      "가장 크게 떨어진 건 2026.01~2026.11의 -28.6%예요.",
+      "가장 크게 떨어진 건 2026.01~2026.11의 -29.1%예요.",
       "그 하락은 아직 최고점을 회복하지 못했어요."
      ],
      "long_ago": [
@@ -4683,50 +4683,50 @@
      "desc": "20% 이상 떨어지면 '약세장(베어마켓)'이라고 불러요. 경기 걱정이 큰 시기예요."
     },
     "summary": [
-     "금 값은 지난 거래일에 1.43% 내렸어요.",
-     "최고점보다 28.6% 낮은 '약세장' 상태예요.",
-     "'깊은 약세장' 단계(-30%)까지 1.4%p 더 떨어지면 도달해요."
+     "금 값은 지난 거래일에 2.49% 내렸어요.",
+     "최고점보다 29.2% 낮은 '약세장' 상태예요.",
+     "'깊은 약세장' 단계(-30%)까지 0.8%p 더 떨어지면 도달해요."
     ],
     "symbol": "GC=F",
-    "as_of": "2026-11-17",
-    "prev_date": "2026-11-16",
-    "close": 3797.8,
-    "prev_close": 3853.0,
-    "change_pct": -1.43,
+    "as_of": "2026-11-18",
+    "prev_date": "2026-11-17",
+    "close": 3768.0,
+    "prev_close": 3864.2,
+    "change_pct": -2.49,
     "peak": {
      "value": 5318.4,
      "date": "2026-01-29"
     },
-    "drawdown_pct": -28.59,
+    "drawdown_pct": -29.15,
     "gauge": {
      "prev_line": -20.0,
      "next_line": -30.0,
-     "remaining_pp": 1.41,
-     "progress": 0.8591
+     "remaining_pp": 0.85,
+     "progress": 0.9152
     },
     "krw": {
-     "change_pct": -1.25,
-     "fx_change_pct": 0.18,
-     "fx_now": 1335.67,
-     "fx_prev": 1333.25,
-     "summary": "원화로 투자했다면 금 값은 -1.25%예요 (달러 기준 -1.43% + 환율 +0.18% 효과)."
+     "change_pct": -2.82,
+     "fx_change_pct": -0.34,
+     "fx_now": 1331.17,
+     "fx_prev": 1335.67,
+     "summary": "원화로 투자했다면 금 값은 -2.82%예요 (달러 기준 -2.49% + 환율 -0.34% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-18T03:48:35+00:00"
+    "fetched_at": "2026-11-18T07:51:57+00:00"
    }
   },
   "fear_greed": {
    "status": "ok",
-   "attempted_at": "2026-11-18T03:48:15+00:00",
-   "last_success_at": "2026-11-18T03:48:15+00:00",
+   "attempted_at": "2026-11-18T07:51:37+00:00",
+   "last_success_at": "2026-11-18T07:51:37+00:00",
    "error": null,
    "data": {
-    "score": 25.23,
-    "as_of": "2026-11-17T23:59:42+00:00",
-    "prev_close": 31.02,
-    "week_ago": 37.37,
+    "score": 25.17,
+    "as_of": "2026-11-18T01:00:00+00:00",
+    "prev_close": 25.23,
+    "week_ago": 35.94,
     "month_ago": 18.21,
-    "year_ago": 11.64,
+    "year_ago": 8.9,
     "zone": {
      "label": "공포",
      "desc": "불안한 분위기라 조심스럽게 사고파는 중이에요.",
@@ -4736,10 +4736,6 @@
      "투자자 심리는 100점 만점에 25점, '공포' 상태예요."
     ],
     "history": [
-     [
-      "2026-07-07",
-      39.77
-     ],
      [
       "2026-07-08",
       38.63
@@ -5114,15 +5110,19 @@
      ],
      [
       "2026-11-17",
-      25.23
+      25.17
+     ],
+     [
+      "2026-11-18",
+      25.17
      ]
     ]
    }
   },
   "vix": {
    "status": "ok",
-   "attempted_at": "2026-11-18T03:48:15+00:00",
-   "last_success_at": "2026-11-18T03:48:15+00:00",
+   "attempted_at": "2026-11-18T07:51:37+00:00",
+   "last_success_at": "2026-11-18T07:51:37+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-17",
@@ -5409,13 +5409,13 @@
      ]
     ],
     "live": false,
-    "fetched_at": "2026-11-18T03:48:35+00:00"
+    "fetched_at": "2026-11-18T07:51:57+00:00"
    }
   },
   "movers": {
    "status": "ok",
-   "attempted_at": "2026-11-18T03:48:15+00:00",
-   "last_success_at": "2026-11-18T03:48:15+00:00",
+   "attempted_at": "2026-11-18T07:51:37+00:00",
+   "last_success_at": "2026-11-18T07:51:37+00:00",
    "error": null,
    "data": {
     "universe": "나스닥-100",
@@ -5500,17 +5500,17 @@
       },
       "news": [
        {
-        "title": "SpaceX CFO Sees No ‘Magic Wand’ For Anthropic’s Data Center Plans — And GTA 6 Is Stealing Some Of Its IPO Thunder",
-        "link": "https://stocktwits.com/news-articles/markets/equity/spacex-no-magic-wand-anthropic-data-center-plans-gta-6-stealing-ipo-thunder/cNbXFXiR9hn?.tsrc=rss",
+        "title": "SpaceX vs. Anthropic: Here’s Which Mega-IPO Stock I’d Buy After Anthropic Goes Public.",
+        "link": "https://www.fool.com/investing/2026/11/18/spacex-vs-anthropic-here-s-which-mega-ipo-stock-i-d-buy-after-anthropic-goes-public/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-18T03:18:23+00:00",
+        "published": "2026-11-18T06:29:02+00:00",
         "lang": "en"
        },
        {
-        "title": "A Rocket Failure Just Cost Amazon 40 Internet Satellites. It's Good News for SpaceX, but I'd Still Want a Lower Stock Price.",
-        "link": "https://www.fool.com/investing/2026/11/17/a-rocket-failure-just-cost-amazon-40-internet-satellites-it-s-good-news-for-spacex-but-i-d-still-want-a-lower-stock-price/?.tsrc=rss",
+        "title": "Tesla-SpaceX Merger Is 'Almost Inconceivable' to Avoid, Says Elon Musk Biographer — 'You'll Know More' on Dec. 3",
+        "link": "https://finance.yahoo.com/technology/articles/tesla-spacex-merger-almost-inconceivable-043006339.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-18T03:06:02+00:00",
+        "published": "2026-11-18T04:30:06+00:00",
         "lang": "en"
        }
       ]
@@ -5522,7 +5522,13 @@
       "close": 559.97,
       "change_pct": 2.56,
       "volume": 4758500,
-      "reason": null,
+      "reason": {
+       "title": "Lumentum (NASDAQ:LITE) Shares Up 2.6% - Should You Buy?",
+       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUGE1cjdfMWw0cGwtVG41ZFJaOFhFVjZRaEc4MnBlT2o1OFo1bHVkMmg5SG96N2FTdXRqMDg4VXBkT1VabThRbmNpazVjUENkcE9SMGxtSEtvMTBxcDZ4Q0RTcGFKUzIyclh5TDhBY05DUVdJd3dCZlJ1NWc4OGRBY3p6LUJib1hENDhjdWtrVnQtYnF2TXZkaDRfdVZUdlpkem9mOUY0TDJQNFMt?oc=5",
+       "source": "MarketBeat",
+       "published": "2026-11-17T22:47:46+00:00",
+       "lang": "en"
+      },
       "news": [
        {
         "title": "Marvell Just Made a Massive Move Against Broadcom. How to Play MRVL Stock Now.",
@@ -5551,7 +5557,7 @@
        "title": "브로드컴, 화요일 주가 2.5% 상승한 이유는?",
        "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQVEM1NmhTa1k1eWZFTFhMOUVERTc5elo1Q3hjTHJxU0VjMnFFaUM2UGxoZXEwR1lNT3VBX2ttaHpyTmx5SzM3blFVamxnSUVXU2ZYR18yQlFtRmYtTHVZWjE0WTJ2bEdOYkVlVFVvcnUtX3huTXR1NnlDekxYUUg5ZktVUXNhbGxqQkdrVExySXVzejRWWkQySkE1Vl8ybGluYmpxdlpZQk1ENjdiMy13UnFDZVFpWkFWYVhXTVRCaXhPMnJiQlNQTVR1YXBkZER4OTd3Y2ViMEtLRXNoa3BDYkxuNW0wTk0wNk5EQk92a2Z3S3NhdldiWGE1MjhJNXlPVFpwbmU0bUV1Z1A4VEtwWEdydw?oc=5",
        "source": "Benzinga",
-       "published": "2026-11-18T00:56:15+00:00",
+       "published": "2026-11-18T01:00:33+00:00",
        "lang": "ko"
       },
       "news": [
@@ -5559,7 +5565,7 @@
         "title": "Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead",
         "link": "https://finance.yahoo.com/m/3b22ed8c-00c3-32f8-89f5-91bc21ccb366/dow-jones-futures%3A-techs-rise.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-18T03:41:52+00:00",
+        "published": "2026-11-18T05:32:31+00:00",
         "lang": "en"
        },
        {
@@ -5581,10 +5587,10 @@
       "change_pct": -7.17,
       "volume": 3250400,
       "reason": {
-       "title": "Intuit falls 7.17% in Tuesday's session",
-       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9IVmQ0Y0pPLUltWWpXTllsSkppcEJhSFc5NFVMRnJNdDMxWXJObG11ZmRYTk1FUm5yUGZGZVM3TUFiOWhnaXNhQjRHME5nc1pvSXhKd3Jtb3lrSWE0OGlmUGc1MDNPUlNTZU13dXpQSEJxSzliSklRcw?oc=5",
-       "source": "Global Banking & Finance Review",
-       "published": "2026-11-17T23:15:12+00:00",
+       "title": "Intuit stock drops 7% ahead of earnings as Claude's bank-linked finance tool raises TurboTax fears",
+       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ29xRlU2OFdzUlFzUmtzTFVuQXRSVUUwZ1NxR1dOd1FiUExwcm1BZHYyZzE4dlRqQzg0M25NSEVjMUdRQldRQ2FYSXpqYjNXdHJZd1dacDlEUWpfSFRXYVg3SVJYWlFiOGFNZWZYLXVhQ3ZYcTVuVW5KaXhCc2o3SnI1OFNpSUNQOEtxQlBUaHdNNy05RzQtSXdlRXk3QmYyVV9EbnZPblFwN3lmUWREZTc0NlVIVVdHY2JaTWRRUjlQZw?oc=5",
+       "source": "Startup Fortune",
+       "published": "2026-11-18T07:46:33+00:00",
        "lang": "en"
       },
       "news": [
@@ -5620,17 +5626,17 @@
       },
       "news": [
        {
+        "title": "Strategy Spends Far More On STRC Buybacks Than Bitcoin, Peter Schiff Asks Whether Saylor Will Sell BTC To Fund Them",
+        "link": "https://stocktwits.com/news-articles/markets/equity/strategy-spends-far-more-on-strc-buybacks-than-bitcoin-peter-schiff-asks-saylor-sell-btc/cNbXMUuR9hU?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-18T07:24:57+00:00",
+        "lang": "en"
+       },
+       {
         "title": "Strategy Sinks 6% as Bitcoin Slides; Saylor Says Cash Covers “3.4 Years of Interest and Dividends”",
         "link": "https://www.tikr.com/blog/strategy-sinks-6-as-bitcoin-slides-saylor-says-cash-covers-3-4-years-of-interest-and-dividends?ref=yahoofinancedividend&tlnk=yf-261117-7r4g8j63&.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-17T21:15:48+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Strategy Is Down 28% in a Month. Can MSTR Stock Hit Cantor Fitzgerald’s $208 Target by 2030?",
-        "link": "https://247wallst.com/investing/2026/11/17/strategy-is-down-28-in-a-month-can-mstr-stock-hit-cantor-fitzgeralds-208-target-by-2030/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-17T17:56:27+00:00",
         "lang": "en"
        }
       ]
@@ -5651,17 +5657,17 @@
       },
       "news": [
        {
-        "title": "ServiceNow Has Lost About $59 Billion in Value in 14 Trading Days, Since a Report Where Revenue Beat",
-        "link": "https://247wallst.com/investing/2026/11/17/servicenow-has-lost-about-59-billion-in-value-in-14-trading-days-since-a-report-where-revenue-beat/?.tsrc=rss",
+        "title": "Workday Expands Payroll to Seven New Markets, Making It Easier for Global Organizations to Pay Employees",
+        "link": "https://finance.yahoo.com/technology/ai/articles/workday-expands-payroll-seven-markets-070000871.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-17T22:51:22+00:00",
+        "published": "2026-11-18T07:00:00+00:00",
         "lang": "en"
        },
        {
-        "title": "Workday (WDAY) Registers a Bigger Fall Than the Market: Important Facts to Note",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/workday-wday-registers-bigger-fall-214503504.html?.tsrc=rss",
+        "title": "Workday Introduces Workday GO for Financials, Giving Growing Companies Financial Software They Won't Outgrow",
+        "link": "https://finance.yahoo.com/technology/articles/workday-introduces-workday-financials-giving-070000310.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-17T21:45:03+00:00",
+        "published": "2026-11-18T07:00:00+00:00",
         "lang": "en"
        }
       ]
@@ -5728,17 +5734,17 @@
       "reason": null,
       "news": [
        {
-        "title": "Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead",
-        "link": "https://finance.yahoo.com/m/3b22ed8c-00c3-32f8-89f5-91bc21ccb366/dow-jones-futures%3A-techs-rise.html?.tsrc=rss",
+        "title": "Down 36% in a month at 48x P/E: Is Marvell a dip or a trap?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/down-36-month-48x-p-072339117.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-18T03:41:52+00:00",
+        "published": "2026-11-18T07:23:39+00:00",
         "lang": "en"
        },
        {
-        "title": "Asia tech shares turn mixed after Nvidia beat as China chip curbs cloud optimism",
-        "link": "https://finance.yahoo.com/technology/articles/asia-tech-shares-turn-mixed-032547363.html?.tsrc=rss",
+        "title": "UnitedHealth Is Targeting 13% to 16% Long-Term Earnings Growth. Where Will the Stock Be in 5 Years?",
+        "link": "https://www.fool.com/investing/2026/11/18/unitedhealth-is-targeting-13-to-16-long-term-earni/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-18T03:25:47+00:00",
+        "published": "2026-11-18T07:20:00+00:00",
         "lang": "en"
        }
       ]
@@ -5759,17 +5765,17 @@
       },
       "news": [
        {
+        "title": "Down 36% in a month at 48x P/E: Is Marvell a dip or a trap?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/down-36-month-48x-p-072339117.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-18T07:23:39+00:00",
+        "lang": "en"
+       },
+       {
         "title": "Intel Stock Has Given Back About 60% Since June. Is It a Buy Now?",
         "link": "https://www.fool.com/investing/2026/11/17/intel-stock-has-given-back-about-60-since-june-is-it-a-buy-now/?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-17T21:57:01+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "Nvidia, Intel, Salesforce, SpaceX, Anthropic, Sandisk, Home Depot, and More That Explain Today’s Market",
-        "link": "https://finance.yahoo.com/m/5d4c8ff4-57bc-3350-b217-681441a4f8b3/nvidia%2C-intel%2C-salesforce%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-17T21:46:00+00:00",
         "lang": "en"
        }
       ]
@@ -5790,17 +5796,17 @@
       },
       "news": [
        {
-        "title": "SpaceX CFO Sees No ‘Magic Wand’ For Anthropic’s Data Center Plans — And GTA 6 Is Stealing Some Of Its IPO Thunder",
-        "link": "https://stocktwits.com/news-articles/markets/equity/spacex-no-magic-wand-anthropic-data-center-plans-gta-6-stealing-ipo-thunder/cNbXFXiR9hn?.tsrc=rss",
+        "title": "SpaceX vs. Anthropic: Here’s Which Mega-IPO Stock I’d Buy After Anthropic Goes Public.",
+        "link": "https://www.fool.com/investing/2026/11/18/spacex-vs-anthropic-here-s-which-mega-ipo-stock-i-d-buy-after-anthropic-goes-public/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-18T03:18:23+00:00",
+        "published": "2026-11-18T06:29:02+00:00",
         "lang": "en"
        },
        {
-        "title": "A Rocket Failure Just Cost Amazon 40 Internet Satellites. It's Good News for SpaceX, but I'd Still Want a Lower Stock Price.",
-        "link": "https://www.fool.com/investing/2026/11/17/a-rocket-failure-just-cost-amazon-40-internet-satellites-it-s-good-news-for-spacex-but-i-d-still-want-a-lower-stock-price/?.tsrc=rss",
+        "title": "Tesla-SpaceX Merger Is 'Almost Inconceivable' to Avoid, Says Elon Musk Biographer — 'You'll Know More' on Dec. 3",
+        "link": "https://finance.yahoo.com/technology/articles/tesla-spacex-merger-almost-inconceivable-043006339.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-18T03:06:02+00:00",
+        "published": "2026-11-18T04:30:06+00:00",
         "lang": "en"
        }
       ]
@@ -5821,17 +5827,17 @@
       },
       "news": [
        {
-        "title": "Nvidia Signals AI Financing Flywheel Will Continue, But ‘Disciplined’: Analyst Calls Neoclouds Its ‘Biggest Sustained Bet’ As NBIS, IREN, MRVL Rally",
-        "link": "https://stocktwits.com/news-articles/markets/equity/nvidia-signals-ai-financing-flywheel-will-continue-but-disciplined-analyst-calls-neoclouds-its-biggest-sustained-bet-as-nbis-iren-mrvl-rally/cNbXVSvR9hZ?.tsrc=rss",
+        "title": "Nvidia’s earnings call names two former crypto miners",
+        "link": "https://www.thestreet.com/crypto/investing/nvidias-earnings-call-names-two-former-crypto-miners?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-18T02:47:19+00:00",
+        "published": "2026-11-18T04:16:31+00:00",
         "lang": "en"
        },
        {
-        "title": "Nvidia earnings special coverage: \"The street wants to believe in Nvidia after Jensen\"",
-        "link": "https://finance.yahoo.com/video/nvidia-earnings-special-coverage-the-street-wants-to-believe-in-nvidia-after-jensen-233044562.html?.tsrc=rss",
+        "title": "Jensen Told Cloud Executives He “Could Just Give All This Capacity to Elon.” Bad News for CoreWeave",
+        "link": "https://www.tikr.com/blog/jensen-told-cloud-executives-he-could-just-give-all-this-capacity-to-elon-bad-news-for-coreweave?ref=yahoofinance&tlnk=yf-261117-gw4w2m4c&.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-17T23:30:44+00:00",
+        "published": "2026-11-18T03:45:48+00:00",
         "lang": "en"
        }
       ]
@@ -5844,38 +5850,38 @@
       "change_pct": 0.05,
       "volume": 38499300,
       "reason": {
-       "title": "[글로벌 특징주] 아마존·구글·메타 로비에도 美, 中 데이터센터 장비 차단 강행",
-       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CVGFuT0FmT1dJYlJ5SV9hd3NTSktaYWlHODdPbkdOU2VyYmhBYmJ5eHZmQmplVE5mNkRENS1hdXRKcm5ONloxUnIwUlZmLWp4ekltU2gxNWpBNTFU?oc=5",
+       "title": "[미국 특징주] 아마존, 인도 재생에너지에 70억달러 추가 투자",
+       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5ZmFsaklGQlJua3ctVGRQV0VFNlhRVkVfcUstcVJLM2V6b0VVTnRSNTlIM2dqMmh6dUk1YnFKa0llUVBKV2lmdjczVXJzU3RFRWgxalNCeXpTSmR4?oc=5",
        "source": "뉴스핌",
-       "published": "2026-11-17T15:20:00+00:00",
+       "published": "2026-11-18T04:34:00+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "A Rocket Failure Just Cost Amazon 40 Internet Satellites. It's Good News for SpaceX, but I'd Still Want a Lower Stock Price.",
-        "link": "https://www.fool.com/investing/2026/11/17/a-rocket-failure-just-cost-amazon-40-internet-satellites-it-s-good-news-for-spacex-but-i-d-still-want-a-lower-stock-price/?.tsrc=rss",
+        "title": "Kevin O’Leary Warns Anthropic IPO Investors To ‘Understand’ What They’re Betting On: ‘May Not Make Money Until 2030’",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/kevin-o-leary-warns-anthropic-064430752.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-18T03:06:02+00:00",
+        "published": "2026-11-18T06:44:30+00:00",
         "lang": "en"
        },
        {
-        "title": "Uber Riders in Vegas Can Now Get Driverless Zoox Robotaxi",
-        "link": "https://finance.yahoo.com/technology/articles/uber-riders-vegas-now-driverless-023011406.html?.tsrc=rss",
+        "title": "Elon Musk Ally Jason Calacanis Wants United Airlines To ‘Wreck’ Delta’s ‘Painfully Slow WiFi’ Amid Starlink Supremacy Debate",
+        "link": "https://stocktwits.com/news-articles/markets/equity/elon-musk-ally-jason-calacanis-united-airlines-delta-slow-wifi-starlink-supremacy-debate/cNbXABvR9hM?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-18T02:30:11+00:00",
+        "published": "2026-11-18T05:45:41+00:00",
         "lang": "en"
        }
       ]
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-18T03:48:35+00:00"
+    "fetched_at": "2026-11-18T07:51:57+00:00"
    }
   },
   "sectors": {
    "status": "ok",
-   "attempted_at": "2026-11-18T03:48:15+00:00",
-   "last_success_at": "2026-11-18T03:48:15+00:00",
+   "attempted_at": "2026-11-18T07:51:37+00:00",
+   "last_success_at": "2026-11-18T07:51:37+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-17",
@@ -5990,122 +5996,113 @@
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-18T03:48:35+00:00"
+    "fetched_at": "2026-11-18T07:51:57+00:00"
    }
   },
   "news": {
    "status": "ok",
-   "attempted_at": "2026-11-18T03:48:15+00:00",
-   "last_success_at": "2026-11-18T03:48:15+00:00",
+   "attempted_at": "2026-11-18T07:51:37+00:00",
+   "last_success_at": "2026-11-18T07:51:37+00:00",
    "error": null,
    "data": {
     "items": [
      {
-      "title": "Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead",
-      "link": "https://finance.yahoo.com/m/3b22ed8c-00c3-32f8-89f5-91bc21ccb366/dow-jones-futures%3A-techs-rise.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-18T03:41:52+00:00",
+      "title": "Stock futures rise as Nvidia gains on earnings beat and solid outlook: Live updates",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwTDVScDA1ZzNHQi1GT1RaRFVzYTJPa2lHVVJyVzR6RlhfaGZNbG5Va1BFblNtYm54eG82YWl4dlA3SkltcC1WSmdCVEUtMlVKNXlCVDNVcG8wRnBaNkc0UVctakctUDdZUDJsNEp4dWN0Z0Vsczlv0gF8QVVfeXFMT014TXpKZ2hKbVhJT0dVekl1Z2tCbjE3MnMtLWhMUG1DaUc3UUd0emE1R2xPd2pDZXMzVXhGbHFVRmdWRm1iRWJnejN6YjJJYlpDWkxJOVhDS3RuRGUyQkhHZ2wzSzJJdnVrNDVqcHQxb2ZXVkUwSVRJcjE4RA?oc=5",
+      "source": "CNBC",
+      "published": "2026-11-18T07:40:28+00:00",
       "lang": "en"
      },
      {
-      "title": "Three things to watch as Trump, Xi and Putin meet in China",
-      "link": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+      "title": "Putin says EU is losing industry, falling behind competition ahead of meeting with Trump, Xi",
+      "link": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html",
       "source": "CNBC",
-      "published": "2026-11-18T03:25:32+00:00",
+      "published": "2026-11-18T07:17:11+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "삼성전자·SK하이닉스 동반 상승 마감…미 증시 하락 속 반도체주 강세",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PdFRYZGwtNi11MjhNemVnLTIyaV9NeEt6Mk9DcEphbkZ3RTlHWWQ4Zi1wYm5RaW5JME5iaEpKOUR3WlozTkpBb29SUll2YVZpYlRqWTZjY2c5QlVicmpOV3lTemtSaFlFUHpQQ0NLTGZXMnM?oc=5",
+      "source": "스페셜타임스",
+      "published": "2026-11-18T07:04:14+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "뉴욕증시 하락도 뒤집은 엔비디아…코스피, 하루 만에 5000선 복귀",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iZTRPSnVkUzlSM2ZEVlk5cmFGVE1zR2JDWU9CWWlGdzRNd3RDaGpHSEN4dGJGMldxdXpxUEVhUk1kU2gxYjhKTDdmT2FwYmpxdWhuQkM4TVN0UdIBVEFVX3lxTE1CbkgtWll0SmthRGs3OVBQRHlaMkRsQXdpam1ia2x3QnFEYVFnc0pfU2ZfYmRSQWNsRkVVcXRqd3FlbEFmMC01U2RIdlo4elZGM0ZCZA?oc=5",
+      "source": "더팩트",
+      "published": "2026-11-18T06:48:55+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "Leukemia vaccine passes key trial, adding to breakthrough year for cancer drugs",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQX2g0R1N2YjdZbGhhdmduT1VCa2RmZ0pScWhETjVaYTRUOUszXzRuYnM3SldxSWVuX0VnVG56TW5MVDdWM3ZQUEVDb3RKazJHVFBMYjMzWnhFdXFHRm5hSWpvRDdBYmF2aEhjNFNnZ2t2NjFsSk5RbnVYVEFldEg4RURQRDJpbnd5OVUteklQUGdaQi0tNEkzWV9vMzJoQ2hUQzY3SUJ6Qm9EcFkxdjZueW93a1ZzWndRUHBTNkJn?oc=5",
+      "source": "The Washington Post",
+      "published": "2026-11-18T06:38:13+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63376257/stock-market-will-sp-500-open-up-or-down-today-80?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-18T06:37:13+00:00",
+      "lang": "en",
+      "title_ko": "주식시장: 오늘 S&P 500이 상승할 것인가, 하락할 것인가?"
+     },
+     {
+      "title": "FAA oversaw and signed off on repair work before nationwide ground stop",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOenpFMDBkbl9rLU03MFp3ME5qVDh5QWRIT0Y0RFBCS01kZS1aTzlIVmRUbGZHZEpQb0F0eXEtNTlKQVlWSTRhYU10NVZYQW1tUHZXbjRmVEMwS3dkeDc4d3l3c2EwVzhyWXVHdktSd0FmQ2lleDJOZkZHVTBPSGZyRnRrWENYLUtDWVVyaXMtbHRiUzB0Ri1VNnRRVGlCSlNsMHBNSUlFT1JRbUhKLVNqTXlhbVBGMEJnSDN4SlV0Zw?oc=5",
+      "source": "The Washington Post",
+      "published": "2026-11-18T06:23:31+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Can Anthropic’s IPO Burn NVDA Stock Bears? Jim Cramer Thinks So — Jeff Bezos Weighs In On Jensen Huang’s Successor",
+      "link": "https://stocktwits.com/news-articles/markets/equity/can-anthropic-ipo-burn-nvda-bears-jim-cramer-jeff-bezos-weighs-jensen-huang-successor/cNbXs4oR9hv?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-18T06:19:08+00:00",
       "lang": "en"
      },
      {
       "title": "JPMorgan is working on AI agent transactions that don’t involve humans",
       "link": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html",
       "source": "CNBC",
-      "published": "2026-11-18T03:17:55+00:00",
+      "published": "2026-11-18T06:18:11+00:00",
       "lang": "en"
      },
      {
-      "title": "Leukemia vaccine passes key trial, adding to breakthrough year for cancer drugs",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQX2g0R1N2YjdZbGhhdmduT1VCa2RmZ0pScWhETjVaYTRUOUszXzRuYnM3SldxSWVuX0VnVG56TW5MVDdWM3ZQUEVDb3RKazJHVFBMYjMzWnhFdXFHRm5hSWpvRDdBYmF2aEhjNFNnZ2t2NjFsSk5RbnVYVEFldEg4RURQRDJpbnd5OVUteklQUGdaQi0tNEkzWV9vMzJoQ2hUQzY3SUJ6Qm9EcFkxdjZueW93a1ZzWndRUHBTNkJn?oc=5",
-      "source": "The Washington Post",
-      "published": "2026-11-18T03:10:05+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "Nvidia Reports Faster Growth, Says Jensen Huang Won’t Return as CEO",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOERUMkVEZEttRVd6TG92RVVFUzc4RU10anVtbFoxeV9RN1VneDJiUkc5NXpVWWNhM09PUWhGMHNHcmJNeTU0WTltdjA1TE5BbUtvOWx1QU4ySmJJc2lPWmoydVJld09sOER4Rk4xRE9QbXpKSVMzNE9ldENzQWZWVGZGRlY?oc=5",
-      "source": "WSJ",
-      "published": "2026-11-18T02:54:00+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "\"We will remain thoughtful\": Nvidia says it will continue to backstop AI ecosystem",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUWN3cy1RSFFyUGNyT3FrY0o4QmdrVWhHN0d3cXN3MlVuU2lFN282RGRWTkhWbTFvTlFMd2Q5bzhyTE1qWnVzMjBnWlpjeVp1LVlCeENTNkplU1NickVnTXpLVWNDQUVweXhrSmR5X0ZnUTFtZ09oeUktRDVkaDQ3VHVXSG8?oc=5",
-      "source": "Axios",
-      "published": "2026-11-18T02:07:40+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "Nvidia rejects Jensen Huang’s offer to return as CEO despite pressure from Silicon Valley",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObnhLd21OYlROQnV3Z2ZRc29BZlRubWM4T2tVN3d3ektLVUdiMXNSS1dhclFQNVZrUEVrdG5rUHFUY0ozQWJJRjFFVlFvVjJ0SC15eEdoUm1JUEdwY2FZdTgyNmNDQnozOWRXSGJBRlVHaC13M09mZ0U3em9hYkp2V1BFWHJvR2ViRFZGcEk5RE8yTWNwUmM5dlhBMC1oMGYzYzE3TXl5akNYTGlOb2c?oc=5",
-      "source": "AP News",
-      "published": "2026-11-18T01:46:00+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "AAA forecasts slight drop in Thanksgiving travel, in part due to higher costs",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNakloc1hteXBIelJLam9idXpvcWY2SmNFN0hWS3kwMzBmSVZiUmktYUVvNkVnOEdISVdGdDNNbktnWXNHUmpOSlJ4S2ZORVpBaTVQLTVpT2dndlJKVFJzUlAwNVVpTFpiTWYtbVFZMlNXQ0YxWVlvd0lkZGQ5NWJhM2w0WGwzc0VSLWRWVGdKSzFKTllPSTRlM0ZLTVBtWUE?oc=5",
-      "source": "The Washington Post",
-      "published": "2026-11-18T01:45:00+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "Do not eat these breakfast items, says USDA health alert",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORUhqeW1RaHBUalQ1WmU2X2RWQWVWNm5CUVg5YXFLaEJlSDl3TC1aVjctM2xLdy1EbWtmT0gzVjdqWnV3azIyUEtRMFh3X25BM2htUzlxaUttMlQyZi1XTlJZTURmUmdnQjRXWEQ5MWN0aG1PZmhUU29WZlJXRkU4Y0lJcl85LXZleV9qNTJ3Qk1Za0RMQllaTGNMbjZoQURMaV94SmNrbldzSGRCeGZ3VjBhWlVIVUN0N1ZoQll3VWtZbDdlb0NPcE1uT3RnY3ZhUldackpvbw?oc=5",
-      "source": "USA Today",
-      "published": "2026-11-18T01:44:00+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "How Everyday Investors Are Playing the Nvidia Drama",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa1BmbUdFUGFtbUNUSHVkRmt2WWFGWFRZZS1uZkUyMHdDblJJeW1xZjdlcWVsRW1ldTZPR2FINEVrTHdVSkdud1FrcHRTT1RkRXJyYWlNdFZNZHVrOFZDcXA5Nl9Ucm5raUZBbzZBQVh1ejhXRUp2VTdKYVM1ak0tQzFyX3hHNy00VTVPeVF1c1IxNlBWcVNaZWYwcw?oc=5",
-      "source": "WSJ",
-      "published": "2026-11-18T01:12:00+00:00",
+      "title": "Three things to watch as Trump, Xi and Putin meet in China",
+      "link": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+      "source": "CNBC",
+      "published": "2026-11-18T06:04:39+00:00",
       "lang": "en"
      }
     ],
     "keywords": [
      {
       "word": "nvidia",
-      "count": 23,
+      "count": 22,
       "ko": "엔비디아"
      },
      {
-      "word": "huang",
-      "count": 9,
-      "ko": null
-     },
-     {
-      "word": "jensen",
-      "count": 9,
-      "ko": null
-     },
-     {
-      "word": "ceo",
-      "count": 8,
-      "ko": "CEO"
-     },
-     {
       "word": "fed",
-      "count": 8,
+      "count": 9,
       "ko": "연준"
      },
      {
-      "word": "earnings",
-      "count": 7,
-      "ko": "실적"
+      "word": "huang",
+      "count": 8,
+      "ko": null
      },
      {
-      "word": "billion",
-      "count": 6,
-      "ko": "10억달러"
+      "word": "bank",
+      "count": 7,
+      "ko": "은행"
+     },
+     {
+      "word": "jensen",
+      "count": 7,
+      "ko": null
      },
      {
       "word": "china",
@@ -6118,14 +6115,29 @@
       "ko": "트럼프"
      },
      {
-      "word": "bank",
+      "word": "anthropic",
       "count": 5,
-      "ko": "은행"
+      "ko": "앤트로픽"
      },
      {
-      "word": "nasdaq",
+      "word": "earnings",
       "count": 5,
-      "ko": "나스닥"
+      "ko": "실적"
+     },
+     {
+      "word": "futures",
+      "count": 5,
+      "ko": null
+     },
+     {
+      "word": "outages",
+      "count": 5,
+      "ko": null
+     },
+     {
+      "word": "billion",
+      "count": 4,
+      "ko": "10억달러"
      },
      {
       "word": "high",
@@ -6133,31 +6145,26 @@
       "ko": null
      },
      {
-      "word": "jpmorgan",
+      "word": "ipo",
       "count": 4,
-      "ko": null
+      "ko": "IPO"
      },
      {
-      "word": "nov",
+      "word": "nasdaq",
       "count": 4,
-      "ko": null
-     },
-     {
-      "word": "openai",
-      "count": 4,
-      "ko": "오픈AI"
+      "ko": "나스닥"
      }
     ],
-    "keyword_base_count": 99
+    "keyword_base_count": 90
    }
   },
   "calendar": {
    "status": "ok",
-   "attempted_at": "2026-11-18T03:48:15+00:00",
-   "last_success_at": "2026-11-18T03:48:15+00:00",
+   "attempted_at": "2026-11-18T07:51:37+00:00",
+   "last_success_at": "2026-11-18T07:51:37+00:00",
    "error": null,
    "data": {
-    "today_et": "2026-11-17",
+    "today_et": "2026-11-18",
     "start": "2026-11-01",
     "end": "2027-01-31",
     "events": [
@@ -6266,12 +6273,6 @@
     "warnings": [],
     "sessions": [
      {
-      "date": "2026-11-16",
-      "open": "2026-11-16T23:30:00+09:00",
-      "close": "2026-11-17T06:00:00+09:00",
-      "early": false
-     },
-     {
       "date": "2026-11-17",
       "open": "2026-11-17T23:30:00+09:00",
       "close": "2026-11-18T06:00:00+09:00",
@@ -6353,6 +6354,12 @@
       "date": "2026-12-07",
       "open": "2026-12-07T23:30:00+09:00",
       "close": "2026-12-08T06:00:00+09:00",
+      "early": false
+     },
+     {
+      "date": "2026-12-08",
+      "open": "2026-12-08T23:30:00+09:00",
+      "close": "2026-12-09T06:00:00+09:00",
       "early": false
      }
     ]

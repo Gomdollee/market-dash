@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-11-20T07:39:43+00:00",
+ "generated_at": "2026-11-20T11:59:22+00:00",
  "sections": {
   "fx": {
    "status": "ok",
-   "attempted_at": "2026-11-20T07:39:43+00:00",
-   "last_success_at": "2026-11-20T07:39:43+00:00",
+   "attempted_at": "2026-11-20T11:59:22+00:00",
+   "last_success_at": "2026-11-20T11:59:22+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-20",
-    "rate": 1333.69,
+    "rate": 1339.58,
     "prev_rate": 1330.4,
     "prev_date": "2026-11-19",
-    "change_pct": 0.25,
+    "change_pct": 0.69,
     "summary": [
-     "환율이 3원 올랐어요 (1달러 = 1,334원).",
+     "환율이 9원 올랐어요 (1달러 = 1,340원).",
      "달러가 비싸지면, 미국 주식을 원화로 따진 가치는 늘어나요."
     ],
     "source": "Yahoo Finance"
@@ -21,8 +21,8 @@
   },
   "nasdaq": {
    "status": "ok",
-   "attempted_at": "2026-11-20T07:39:43+00:00",
-   "last_success_at": "2026-11-20T07:39:43+00:00",
+   "attempted_at": "2026-11-20T11:59:22+00:00",
+   "last_success_at": "2026-11-20T11:59:22+00:00",
    "error": null,
    "data": {
     "name": "나스닥 종합",
@@ -1741,13 +1741,13 @@
      "summary": "원화로 투자했다면 나스닥 지수는 -2.45%예요 (달러 기준 -2.25% + 환율 -0.20% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-20T07:40:03+00:00"
+    "fetched_at": "2026-11-20T11:59:34+00:00"
    }
   },
   "sp500": {
    "status": "ok",
-   "attempted_at": "2026-11-20T07:39:43+00:00",
-   "last_success_at": "2026-11-20T07:39:43+00:00",
+   "attempted_at": "2026-11-20T11:59:22+00:00",
+   "last_success_at": "2026-11-20T11:59:22+00:00",
    "error": null,
    "data": {
     "name": "S&P 500",
@@ -3267,21 +3267,21 @@
      "summary": "원화로 투자했다면 S&P 500 지수는 -2.21%예요 (달러 기준 -2.02% + 환율 -0.20% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-20T07:40:03+00:00"
+    "fetched_at": "2026-11-20T11:59:34+00:00"
    }
   },
   "gold": {
    "status": "ok",
-   "attempted_at": "2026-11-20T07:39:43+00:00",
-   "last_success_at": "2026-11-20T07:39:43+00:00",
+   "attempted_at": "2026-11-20T11:59:22+00:00",
+   "last_success_at": "2026-11-20T11:59:22+00:00",
    "error": null,
    "data": {
     "name": "국제 금값",
     "short": "금",
     "kind": "commodity",
     "gold_krw": {
-     "per_don": 571375,
-     "per_gram": 152367
+     "per_don": 578824,
+     "per_gram": 154353
     },
     "five_year": {
      "since": "2021-11-20",
@@ -4328,7 +4328,7 @@
       ],
       [
        "2026-11-20",
-       3553.4
+       3583.9
       ]
      ],
      "drawdowns": [
@@ -4339,9 +4339,9 @@
        },
        "bottom": {
         "date": "2026-11-20",
-        "value": 3553.4
+        "value": 3583.9
        },
-       "depth_pct": -33.19,
+       "depth_pct": -32.61,
        "fall_days": 295,
        "recovered": null,
        "label": "약세장급 급락",
@@ -4394,15 +4394,15 @@
        },
        "end": {
         "date": "2026-11-20",
-        "value": 3553.4
+        "value": 3583.9
        },
-       "change_pct": -24.36,
+       "change_pct": -23.71,
        "days": 88,
        "ongoing": true,
        "recovered": null,
        "current": {
         "date": "2026-11-20",
-        "value": 3553.4,
+        "value": 3583.9,
         "from_end_pct": 0.0
        }
       },
@@ -4585,7 +4585,7 @@
      ],
      "summary": [
       "지난 5년 동안 금 값은 최고점보다 10% 넘게 떨어진 적이 2번 있었어요.",
-      "가장 크게 떨어진 건 2026.01~2026.11의 -33.2%예요.",
+      "가장 크게 떨어진 건 2026.01~2026.11의 -32.6%예요.",
       "그 하락은 아직 최고점을 회복하지 못했어요."
      ],
      "long_ago": [
@@ -4679,46 +4679,46 @@
      "desc": "역사적으로도 드문 큰 하락이에요."
     },
     "summary": [
-     "금 값은 지난 거래일에 3.58% 내렸어요.",
-     "최고점보다 33.2% 낮은 '깊은 약세장' 상태예요.",
-     "'역사적 폭락' 단계(-40%)까지 6.8%p 더 떨어지면 도달해요."
+     "금 값은 지난 거래일에 2.76% 내렸어요.",
+     "최고점보다 32.6% 낮은 '깊은 약세장' 상태예요.",
+     "'역사적 폭락' 단계(-40%)까지 7.4%p 더 떨어지면 도달해요."
     ],
     "symbol": "GC=F",
     "as_of": "2026-11-20",
     "prev_date": "2026-11-19",
-    "close": 3553.4,
+    "close": 3583.9,
     "prev_close": 3685.5,
-    "change_pct": -3.58,
+    "change_pct": -2.76,
     "peak": {
      "value": 5318.4,
      "date": "2026-01-29"
     },
-    "drawdown_pct": -33.19,
+    "drawdown_pct": -32.61,
     "gauge": {
      "prev_line": -30.0,
      "next_line": -40.0,
-     "remaining_pp": 6.81,
-     "progress": 0.3187
+     "remaining_pp": 7.39,
+     "progress": 0.2613
     },
     "krw": {
-     "change_pct": -3.35,
-     "fx_change_pct": 0.25,
-     "fx_now": 1333.69,
+     "change_pct": -2.09,
+     "fx_change_pct": 0.69,
+     "fx_now": 1339.58,
      "fx_prev": 1330.4,
-     "summary": "원화로 투자했다면 금 값은 -3.35%예요 (달러 기준 -3.58% + 환율 +0.25% 효과)."
+     "summary": "원화로 투자했다면 금 값은 -2.09%예요 (달러 기준 -2.76% + 환율 +0.69% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-20T07:40:03+00:00"
+    "fetched_at": "2026-11-20T11:59:34+00:00"
    }
   },
   "fear_greed": {
    "status": "ok",
-   "attempted_at": "2026-11-20T07:39:43+00:00",
-   "last_success_at": "2026-11-20T07:39:43+00:00",
+   "attempted_at": "2026-11-20T11:59:22+00:00",
+   "last_success_at": "2026-11-20T11:59:22+00:00",
    "error": null,
    "data": {
-    "score": 18.59,
-    "as_of": "2026-11-20T01:00:00+00:00",
+    "score": 16.77,
+    "as_of": "2026-11-20T11:40:01+00:00",
     "prev_close": 18.68,
     "week_ago": 37.37,
     "month_ago": 28.74,
@@ -4729,7 +4729,7 @@
      "level": 0
     },
     "summary": [
-     "투자자 심리는 100점 만점에 19점, '극단적 공포' 상태예요."
+     "투자자 심리는 100점 만점에 17점, '극단적 공포' 상태예요."
     ],
     "history": [
      [
@@ -5106,39 +5106,35 @@
      ],
      [
       "2026-11-19",
-      18.59
+      16.77
      ],
      [
       "2026-11-20",
-      18.59
+      16.77
      ]
     ]
    }
   },
   "vix": {
    "status": "ok",
-   "attempted_at": "2026-11-20T07:39:43+00:00",
-   "last_success_at": "2026-11-20T07:39:43+00:00",
+   "attempted_at": "2026-11-20T11:59:22+00:00",
+   "last_success_at": "2026-11-20T11:59:22+00:00",
    "error": null,
    "data": {
-    "as_of": "2026-11-19",
-    "close": 28.44,
-    "prev_close": 24.56,
-    "change": 3.88,
-    "change_pct": 15.8,
+    "as_of": "2026-11-20",
+    "close": 29.9,
+    "prev_close": 28.44,
+    "change": 1.46,
+    "change_pct": 5.13,
     "zone": {
      "label": "불안",
      "desc": "평소보다 크게 출렁일 거라고 보는 사람이 많아요.",
      "level": 2
     },
     "summary": [
-     "공포지수(VIX)는 28.4, '불안' 수준이에요."
+     "공포지수(VIX)는 29.9, '불안' 수준이에요."
     ],
     "history": [
-     [
-      "2026-08-19",
-      14.89
-     ],
      [
       "2026-08-20",
       16.01
@@ -5402,16 +5398,20 @@
      [
       "2026-11-19",
       28.44
+     ],
+     [
+      "2026-11-20",
+      29.9
      ]
     ],
     "live": false,
-    "fetched_at": "2026-11-20T07:40:03+00:00"
+    "fetched_at": "2026-11-20T11:59:34+00:00"
    }
   },
   "movers": {
    "status": "ok",
-   "attempted_at": "2026-11-20T07:39:43+00:00",
-   "last_success_at": "2026-11-20T07:39:43+00:00",
+   "attempted_at": "2026-11-20T11:59:22+00:00",
+   "last_success_at": "2026-11-20T11:59:22+00:00",
    "error": null,
    "data": {
     "universe": "나스닥-100",
@@ -5434,20 +5434,19 @@
       },
       "news": [
        {
+        "title": "What Does PDD Holdings (PDD) Face After EU Charges Over Illegal Products?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/does-pdd-holdings-pdd-face-081312953.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-20T08:13:12+00:00",
+        "lang": "en"
+       },
+       {
         "title": "PDD Holdings (PDD) Is Making a Big Move. Here’s What’s Happening",
         "link": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-pdd-making-big-024534781.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-20T02:45:34+00:00",
         "lang": "en",
         "title_ko": "PDD홀딩스(PDD)가 큰 움직임을 보이고 있다. 무슨 일이 일어나고 있나요?"
-       },
-       {
-        "title": "PDD earnings analysis: questions answered and next catalysts",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/pdd-earnings-analysis-questions-answered-210021782.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-19T21:00:21+00:00",
-        "lang": "en",
-        "title_ko": "PDD 수익 분석: 질문에 대한 답변 및 다음 촉매제"
        }
       ]
      },
@@ -5467,20 +5466,20 @@
       },
       "news": [
        {
+        "title": "What JPMorgan U.S. Tech Leaders ETF (JTEK) Bought: Meta Leads on Wednesday",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-u-tech-leaders-etf-110432251.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-20T11:04:32+00:00",
+        "lang": "en",
+        "title_ko": "JPMorgan U.S. Tech Leaders ETF(JTEK)가 매입한 것: 수요일의 Meta Leads"
+       },
+       {
         "title": "Palo Alto (PANW) Is Turning Heads Again. Here’s Why",
         "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-panw-turning-heads-022336090.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-20T02:23:36+00:00",
         "lang": "en",
         "title_ko": "팔로알토(PANW)가 다시 주목받고 있다. 이유는 다음과 같습니다"
-       },
-       {
-        "title": "Palo Alto Networks (PANW) Stock Jumps As Q1 Results Boost ARR Confidence",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-stock-231511575.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-19T23:15:11+00:00",
-        "lang": "en",
-        "title_ko": "Palo Alto Networks(PANW) 주가는 1분기 결과가 ARR 신뢰도를 높이면서 급등했습니다."
        }
       ]
      },
@@ -5533,20 +5532,20 @@
       },
       "news": [
        {
+        "title": "What JPMorgan U.S. Tech Leaders ETF (JTEK) Bought: Meta Leads on Wednesday",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-u-tech-leaders-etf-110432251.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-20T11:04:32+00:00",
+        "lang": "en",
+        "title_ko": "JPMorgan U.S. Tech Leaders ETF(JTEK)가 매입한 것: 수요일의 Meta Leads"
+       },
+       {
         "title": "CrowdStrike (CRWD) Brings Apple Device Automation Into Falcon Foundry Through A New Tie Up",
         "link": "https://finance.yahoo.com/technology/articles/crowdstrike-crwd-brings-apple-device-051725940.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-20T05:17:25+00:00",
         "lang": "en",
         "title_ko": "CrowdStrike(CRWD), 새로운 제휴를 통해 Apple 장치 자동화를 Falcon Foundry에 도입"
-       },
-       {
-        "title": "Why CrowdStrike Holdings Stock Flew While the Market Flopped Today",
-        "link": "https://www.fool.com/investing/2026/11/19/why-crowdstrike-holdings-stock-flew-while-the-market-flopped-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-20T01:27:55+00:00",
-        "lang": "en",
-        "title_ko": "오늘 시장이 폭락하는 동안 CrowdStrike Holdings 주식이 폭등한 이유"
        }
       ]
      },
@@ -5558,12 +5557,11 @@
       "change_pct": 2.09,
       "volume": 1741600,
       "reason": {
-       "title": "Is It Too Early To Buy Axon Enterprise Stock?",
-       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLW9fdThCNW9BaWtLZWMwdXN0SGN0MVB1WkkwdmZTNUh1YVE5UWpBRHE4cFB6dndlNWhqNEN6aHo3cUhpVmo0SzIyWlp4VndGWWxGYzVhSjB4d2VyczdScjdBX3RDU2hMRG9fQVZhb3NLX3pyNDFRUE9iU01fMUFSWTVmLVdXVl9HcFMyT01hQ0VFRkhtTmVackZB?oc=5",
-       "source": "Yahoo Finance",
-       "published": "2026-11-19T22:07:16+00:00",
-       "lang": "en",
-       "title_ko": "Axon Enterprise 주식을 구매하기에는 너무 이르나요?"
+       "title": "Axon Enterprise, Inc. (AXON) Stock Price, News, Quote & History",
+       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FaFY2blB3Sm1pMS1PY0ZEYlVlaENiTHZ3UXB2YnZPUGhaQm40SHdVdFVzVEtPeXp0cTRGcVZMYTJrY2pvd0N1MWVYS3d0RDdnYnc?oc=5",
+       "source": "Yahoo! Finance Canada",
+       "published": "2026-11-20T09:22:21+00:00",
+       "lang": "en"
       },
       "news": [
        {
@@ -5603,20 +5601,20 @@
       },
       "news": [
        {
-        "title": "CRWV, IREN, NBIS Stocks Extend Neocloud Selloff As Anthropic IPO Rally Fades - Michael Burry Takes A Victory Lap",
+        "title": "IREN Has Lost 70% in a Year. Bernstein Still Sees $55",
+        "link": "https://www.tikr.com/blog/iren-has-lost-70-in-a-year-bernstein-still-sees-55?ref=yahoofinance&tlnk=yf-261120-64g3hhvm&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-20T08:20:18+00:00",
+        "lang": "en",
+        "title_ko": "IREN은 1년 만에 70%를 잃었습니다. Bernstein은 여전히 ​​55달러를 보고 있습니다."
+       },
+       {
+        "title": "CRWV, IREN, NBIS Stocks Extend Neocloud Selloff As Anthropic IPO Rally Fades – Michael Burry Takes A Victory Lap",
         "link": "https://stocktwits.com/news-articles/markets/equity/crwv-iren-nbis-stocks-extend-neocloud-selloff-as-anthropic-ipo-rally-fades-michael-burry-takes-a-victory-lap/cNbSEj6R9KJ?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-20T06:21:09+00:00",
         "lang": "en",
-        "title_ko": "CRWV, IREN, NBIS 주식은 인류 IPO 랠리가 사라지면서 Neocloud 매도를 확장합니다 - Michael Burry가 승리를 거두었습니다."
-       },
-       {
-        "title": "Michael Burry Says He Warned on AI With NVIDIA and CoreWeave: Big Short Déjà Vu?",
-        "link": "https://beincrypto.com/michael-burry-warned-nvidia-coreweave-nebius/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-20T02:19:22+00:00",
-        "lang": "en",
-        "title_ko": "Michael Burry는 NVIDIA와 CoreWeave를 통해 AI에 대해 경고했다고 말합니다: Big Short Déjà Vu?"
+        "title_ko": "인류의 IPO 랠리가 사라지면서 CRWV, IREN, NBIS 주식은 Neocloud 매도를 연장합니다. Michael Burry가 승리를 거두었습니다."
        }
       ]
      },
@@ -5636,20 +5634,20 @@
       },
       "news": [
        {
-        "title": "Dow Jones Futures: Techs Slide, Anthropic Retreats After Ugly Market Reversal To New Lows",
-        "link": "https://finance.yahoo.com/m/9e02231d-41cd-31ac-b37f-993325b8a4ca/dow-jones-futures%3A-techs.html?.tsrc=rss",
+        "title": "Social Buzz: Wallstreetbets Stocks Mostly Lower Pre-Bell Friday; Sandisk, AMD to Decline",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mostly-113227780.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-20T04:09:46+00:00",
+        "published": "2026-11-20T11:32:27+00:00",
         "lang": "en",
-        "title_ko": "다우존스 선물: 기술주 하락, 추악한 시장이 신저점으로 반전한 후 인류는 후퇴"
+        "title_ko": "Social Buzz: Wallstreetbets Stocks Mostly Lower Pre-Bell Friday; 샌디스크, AMD 하락"
        },
        {
-        "title": "Dan Ives Calls Tech Selloff a Panic Moment but Anthropic IPO Shows Proof of Demand",
-        "link": "https://beincrypto.com/dan-ives-anthropic-ipo-tech-selloff/?.tsrc=rss",
+        "title": "AMD Trades at Triple Nvidia's Forward P/E as Regulatory Risks Mount",
+        "link": "https://finance.yahoo.com/technology/articles/amd-trades-triple-nvidias-forward-112653297.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-20T04:00:00+00:00",
+        "published": "2026-11-20T11:26:53+00:00",
         "lang": "en",
-        "title_ko": "Dan Ives는 기술 매각을 패닉 순간이라고 부르지만 Anthropic IPO는 수요 증명을 보여줍니다."
+        "title_ko": "AMD는 규제 위험이 증가함에 따라 트리플 Nvidia의 전방 P/E에서 거래합니다."
        }
       ]
      },
@@ -5669,20 +5667,20 @@
       },
       "news": [
        {
-        "title": "CRWV, IREN, NBIS Stocks Extend Neocloud Selloff As Anthropic IPO Rally Fades - Michael Burry Takes A Victory Lap",
+        "title": "CoreWeave Gains $350 Million Computing Commitment as Debt Concerns Persist",
+        "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-gains-350-million-computing-113603215.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-20T11:36:03+00:00",
+        "lang": "en",
+        "title_ko": "CoreWeave는 부채 문제가 지속됨에 따라 3억 5천만 달러의 컴퓨팅 투자를 확보했습니다."
+       },
+       {
+        "title": "CRWV, IREN, NBIS Stocks Extend Neocloud Selloff As Anthropic IPO Rally Fades – Michael Burry Takes A Victory Lap",
         "link": "https://stocktwits.com/news-articles/markets/equity/crwv-iren-nbis-stocks-extend-neocloud-selloff-as-anthropic-ipo-rally-fades-michael-burry-takes-a-victory-lap/cNbSEj6R9KJ?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-20T06:21:09+00:00",
         "lang": "en",
-        "title_ko": "CRWV, IREN, NBIS 주식은 인류 IPO 랠리가 사라지면서 Neocloud 매도를 확장합니다 - Michael Burry가 승리를 거두었습니다."
-       },
-       {
-        "title": "Why Is CoreWeave (CRWV) Facing New Supply Chain Risk From A US Ban?",
-        "link": "https://finance.yahoo.com/technology/ai/articles/why-coreweave-crwv-facing-supply-061626242.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-20T06:16:26+00:00",
-        "lang": "en",
-        "title_ko": "CoreWeave(CRWV)가 미국 금지로 인해 새로운 공급망 위험에 직면한 이유는 무엇입니까?"
+        "title_ko": "인류의 IPO 랠리가 사라지면서 CRWV, IREN, NBIS 주식은 Neocloud 매도를 연장합니다. Michael Burry가 승리를 거두었습니다."
        }
       ]
      },
@@ -5771,20 +5769,19 @@
       },
       "news": [
        {
-        "title": "$500 Invested in GE Aerospace (GE) Stock Today Could Be Worth This Much in 3 Years",
-        "link": "https://www.fool.com/investing/2026/11/20/500-invested-in-ge-aerospace-ge-stock-today-could/?.tsrc=rss",
+        "title": "Jensen Huang's Sudden Resignation Has Created a Flash Sale For These 3 AI Stocks",
+        "link": "https://www.fool.com/investing/2026/11/20/jensen-huang-sudden-resignation-created-flash-sale-ai-stocks/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-20T07:25:00+00:00",
-        "lang": "en",
-        "title_ko": "현재 GE Aerospace(GE) 주식에 500달러 투자하면 3년 안에 이만큼 가치가 있을 수 있습니다."
+        "published": "2026-11-20T11:50:02+00:00",
+        "lang": "en"
        },
        {
-        "title": "Elon Musk’s Dream Meets Wall Street Reality: SpaceX Lenders Don’t Want Nvidia Chips Leaving Earth",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-dream-meets-wall-062433324.html?.tsrc=rss",
+        "title": "3 Warren Buffett Rules That Make Nvidia Stock a Buy at Today's Price",
+        "link": "https://www.fool.com/investing/2026/11/20/3-warren-buffett-rules-that-make-nvidia-stock-a-buy-at-today-s-price/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-20T06:24:33+00:00",
+        "published": "2026-11-20T11:35:02+00:00",
         "lang": "en",
-        "title_ko": "Elon Musk의 꿈이 월스트리트 현실을 만나다: SpaceX 대출 기관은 Nvidia 칩이 지구를 떠나는 것을 원하지 않습니다"
+        "title_ko": "엔비디아 주식을 오늘의 가격으로 매수하게 만드는 워렌 버핏의 3가지 규칙"
        }
       ]
      },
@@ -5804,20 +5801,19 @@
       },
       "news": [
        {
-        "title": "AI sell-off: These sectors held firm as tech slumped in Oct, Nov",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ai-sell-off-sectors-held-044523371.html?.tsrc=rss",
+        "title": "Capital Group Core Equity (CGUS) Buys $25.4 Million More Intel on Nov. 18",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/capital-group-core-equity-cgus-110426396.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-20T04:45:23+00:00",
-        "lang": "en",
-        "title_ko": "AI 매각: 이들 부문은 10월과 11월의 기술 침체에도 불구하고 굳건하게 유지되었습니다."
+        "published": "2026-11-20T11:04:26+00:00",
+        "lang": "en"
        },
        {
-        "title": "Shots Fired: Hunterbrook Shorts AMD Over China. Its China and Hong Kong Billing Share Is Nearly 2.5x Nvidia’s",
-        "link": "https://www.tikr.com/blog/shots-fired-hunterbrook-shorts-amd-over-china-its-china-and-hong-kong-billing-share-is-nearly-2-5x-nvidias?ref=yahoofinance&tlnk=yf-261119-fh8ffhc8&.tsrc=rss",
+        "title": "When Nvidia Falls 30%, How Far Does AMD Fall?",
+        "link": "https://www.trefis.com/stock/amd/articles/627166/when-nvidia-falls-30-how-far-does-amd-fall/2026-11-20?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-19T22:37:49+00:00",
+        "published": "2026-11-20T11:01:10+00:00",
         "lang": "en",
-        "title_ko": "발사된 발사: Hunterbrook은 중국에 대해 AMD를 반바지로 몰아넣었습니다. 중국과 홍콩의 청구 점유율은 Nvidia의 거의 2.5배입니다."
+        "title_ko": "Nvidia가 30% 하락하면 AMD는 어디까지 하락할까요?"
        }
       ]
      },
@@ -5831,20 +5827,20 @@
       "reason": null,
       "news": [
        {
-        "title": "AI sell-off: These sectors held firm as tech slumped in Oct, Nov",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ai-sell-off-sectors-held-044523371.html?.tsrc=rss",
+        "title": "Social Buzz: Wallstreetbets Stocks Mostly Lower Pre-Bell Friday; Sandisk, AMD to Decline",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mostly-113227780.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-20T04:45:23+00:00",
+        "published": "2026-11-20T11:32:27+00:00",
         "lang": "en",
-        "title_ko": "AI 매각: 이들 부문은 10월과 11월의 기술 침체에도 불구하고 굳건하게 유지되었습니다."
+        "title_ko": "Social Buzz: Wallstreetbets Stocks Mostly Lower Pre-Bell Friday; 샌디스크, AMD 하락"
        },
        {
-        "title": "Down More Than 40% in the Past Month, Here’s How You Should Play Sandisk Stock",
-        "link": "https://www.barchart.com/story/news/8923559/down-more-than-40-in-the-past-month-heres-how-you-should-play-sandisk-stock?.tsrc=rss",
+        "title": "SNDK Stock Falls Overnight: NAND Price Forecast Turns Bearish For 2027, According To TrendForce",
+        "link": "https://stocktwits.com/news-articles/markets/equity/sndk-stock-falls-overnight-nand-price-forecast-turns-bearish-for-2027-according-to-trend-force/cNbSJomR9Kh?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-19T19:45:33+00:00",
+        "published": "2026-11-20T08:19:23+00:00",
         "lang": "en",
-        "title_ko": "지난 달 40% 이상 하락한 Sandisk 주식을 플레이하는 방법은 다음과 같습니다."
+        "title_ko": "SNDK 주가 밤새 하락: TrendForce에 따르면 NAND 가격 예측은 2027년 약세로 전환"
        }
       ]
      },
@@ -5865,20 +5861,19 @@
       },
       "news": [
        {
-        "title": "SpaceX Holds Its Orbit As Space Stocks Fall Back To Earth — Inside A Rough Week For FLY, ASTS, RKLB And RDW",
-        "link": "https://stocktwits.com/news-articles/markets/equity/spacex-holds-orbit-space-stocks-fall-back-earth-rough-week-fly-asts-rklb-rdw/cNbS4SbR9KQ?.tsrc=rss",
+        "title": "iShares A.I. Innovation and Tech Active ETF (BAI) Buys $14.3 Million More AMD on Nov. 18",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-innovation-tech-active-etf-110443799.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-20T06:58:31+00:00",
+        "published": "2026-11-20T11:04:43+00:00",
         "lang": "en",
-        "title_ko": "SpaceX는 우주 주식이 지구로 떨어지면서 궤도를 유지합니다. FLY, ASTS, RKLB 및 RDW의 힘든 한 주 안에"
+        "title_ko": "아이셰어즈(iShares) AI Innovation and Tech Active ETF (BAI) Buys $14.3 Million More AMD on Nov. 18"
        },
        {
-        "title": "Elon Musk’s Dream Meets Wall Street Reality: SpaceX Lenders Don’t Want Nvidia Chips Leaving Earth",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-dream-meets-wall-062433324.html?.tsrc=rss",
+        "title": "Tesla Stock Gets An HSBC Upgrade — But Analyst Says Strategic Logic Of TSLA-SPCX Merger Is ‘Limited’",
+        "link": "https://stocktwits.com/news-articles/markets/equity/tesla-stock-gets-an-hsbc-upgrade-but-analyst-says-strategic-logic-of-tsla-spcx-merger-is-limited/cNbSgTfR9Ko?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-20T06:24:33+00:00",
-        "lang": "en",
-        "title_ko": "Elon Musk의 꿈이 월스트리트 현실을 만나다: SpaceX 대출 기관은 Nvidia 칩이 지구를 떠나는 것을 원하지 않습니다"
+        "published": "2026-11-20T11:02:42+00:00",
+        "lang": "en"
        }
       ]
      },
@@ -5898,32 +5893,32 @@
       },
       "news": [
        {
-        "title": "CRWV, IREN, NBIS Stocks Extend Neocloud Selloff As Anthropic IPO Rally Fades - Michael Burry Takes A Victory Lap",
+        "title": "CoreWeave Gains $350 Million Computing Commitment as Debt Concerns Persist",
+        "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-gains-350-million-computing-113603215.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-20T11:36:03+00:00",
+        "lang": "en",
+        "title_ko": "CoreWeave는 부채 문제가 지속됨에 따라 3억 5천만 달러의 컴퓨팅 투자를 확보했습니다."
+       },
+       {
+        "title": "CRWV, IREN, NBIS Stocks Extend Neocloud Selloff As Anthropic IPO Rally Fades – Michael Burry Takes A Victory Lap",
         "link": "https://stocktwits.com/news-articles/markets/equity/crwv-iren-nbis-stocks-extend-neocloud-selloff-as-anthropic-ipo-rally-fades-michael-burry-takes-a-victory-lap/cNbSEj6R9KJ?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-20T06:21:09+00:00",
         "lang": "en",
-        "title_ko": "CRWV, IREN, NBIS 주식은 인류 IPO 랠리가 사라지면서 Neocloud 매도를 확장합니다 - Michael Burry가 승리를 거두었습니다."
-       },
-       {
-        "title": "Why Is CoreWeave (CRWV) Facing New Supply Chain Risk From A US Ban?",
-        "link": "https://finance.yahoo.com/technology/ai/articles/why-coreweave-crwv-facing-supply-061626242.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-20T06:16:26+00:00",
-        "lang": "en",
-        "title_ko": "CoreWeave(CRWV)가 미국 금지로 인해 새로운 공급망 위험에 직면한 이유는 무엇입니까?"
+        "title_ko": "인류의 IPO 랠리가 사라지면서 CRWV, IREN, NBIS 주식은 Neocloud 매도를 연장합니다. Michael Burry가 승리를 거두었습니다."
        }
       ]
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-20T07:40:03+00:00"
+    "fetched_at": "2026-11-20T11:59:34+00:00"
    }
   },
   "sectors": {
    "status": "ok",
-   "attempted_at": "2026-11-20T07:39:43+00:00",
-   "last_success_at": "2026-11-20T07:39:43+00:00",
+   "attempted_at": "2026-11-20T11:59:22+00:00",
+   "last_success_at": "2026-11-20T11:59:22+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-19",
@@ -6038,137 +6033,118 @@
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-20T07:40:03+00:00"
+    "fetched_at": "2026-11-20T11:59:34+00:00"
    }
   },
   "news": {
    "status": "ok",
-   "attempted_at": "2026-11-20T07:39:43+00:00",
-   "last_success_at": "2026-11-20T07:39:43+00:00",
+   "attempted_at": "2026-11-20T11:59:22+00:00",
+   "last_success_at": "2026-11-20T11:59:22+00:00",
    "error": null,
    "data": {
     "items": [
      {
-      "title": "SpaceX Holds Its Orbit As Space Stocks Fall Back To Earth — Inside A Rough Week For FLY, ASTS, RKLB And RDW",
-      "link": "https://stocktwits.com/news-articles/markets/equity/spacex-holds-orbit-space-stocks-fall-back-earth-rough-week-fly-asts-rklb-rdw/cNbS4SbR9KQ?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-20T06:58:31+00:00",
-      "lang": "en",
-      "title_ko": "SpaceX는 우주 주식이 지구로 떨어지면서 궤도를 유지합니다. FLY, ASTS, RKLB 및 RDW의 힘든 한 주 안에"
-     },
-     {
-      "title": "[뉴욕증시] 앤트로픽 상장 '차익 실현 기회로', AI 투심 '아직'···'전강후약' 2%대 반락",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wYjZ6MEVYM3B3aGFIanRQeGNydnhZRXNEcDVOSmdCclRJRTlWWGFhbFB3VlFZelplOGxkZ0JEdWVlUnk1ZEtRcVF4VFdORWd1aENhcE5jTHlScXhWNklMMVBiMk1XZG9FSXc?oc=5",
-      "source": "서울파이낸스",
-      "published": "2026-11-20T06:53:29+00:00",
+      "title": "뉴욕증시 프리뷰, 주가 선물 일제 하락…앤스로픽 상장에도 AI주 매도세 진정 안 돼",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5lQWF1ZHlVSVpVR3gzVXJ2OHpFQWNtVEtnMWVtblBpUEpqb1VXN2U3cF94cVotNGhaekhhenNGVHV2bm9iMUgzTWNBcGhMVnVNN2V6STM0SHNzdWRy?oc=5",
+      "source": "뉴스핌",
+      "published": "2026-11-20T11:54:00+00:00",
       "lang": "ko"
      },
      {
-      "title": "This Unstoppable ETF Is Up by Double Digits in 2026. Here's Where I Think It's Headed in 2027.",
-      "link": "https://www.fool.com/investing/2026/11/20/this-unstoppable-etf-is-up-double-digits-in-2026-here-s-where-i-think-it-s-headed-in-2027/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-20T06:30:02+00:00",
-      "lang": "en",
-      "title_ko": "이 멈출 수 없는 ETF는 2026년에 두 자릿수 상승률을 기록했습니다. 제가 생각하는 2027년의 방향은 다음과 같습니다."
-     },
-     {
-      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63464111/stock-market-will-sp-500-open-up-or-down-today-82?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-20T06:05:08+00:00",
-      "lang": "en",
-      "title_ko": "주식시장: 오늘 S&P 500이 상승할 것인가, 하락할 것인가?"
-     },
-     {
-      "title": "Anthropic Defies Tech Rout On Debut — Tom Lee Sees ‘Big Payoff’ Ahead And Says Cisco’s Wild 1997 Ride Shows Why",
-      "link": "https://stocktwits.com/news-articles/markets/equity/anthropic-defies-tech-rout-debut-tom-lee-big-payoff-cisco-1997-ride/cNbS5vFR9K4?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-20T05:18:58+00:00",
-      "lang": "en",
-      "title_ko": "Anthropic, 데뷔 후 기술 대패에 도전 - Tom Lee는 앞으로 '큰 보상'을 예상하고 Cisco의 Wild 1997 Ride가 그 이유를 보여준다고 말합니다."
-     },
-     {
-      "title": "뉴욕증시, 앤트로픽 상장에도 일제히 하락…다우 2.19%↓ 5만선 아래로 - 와우넷 오늘장전략",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5aVHg5QmVxMnlzX3NZLXhQTG9yZGdwZDhrdW5qa3lGQng5c1NkNHk3cWQ5dUZ5STlIdGJJVWNwTjVuU1R1SW9tWHNuaFRkVnFrc0hhM2NXeUFsV1hCUWY4aEhybzZhajQ0WU1tdlluWE5XaXVuYVZj?oc=5",
-      "source": "한국경제TV",
-      "published": "2026-11-20T04:15:58+00:00",
+      "title": "[뉴욕증시마감] 공모가 대비 17% 뛴 앤트로픽 데뷔에도 뉴욕증시 2%대 급락… 다우 5만 선 붕괴 배경은?",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ldkRhZHdjbklUbExSSEVtR0VTeDd3dTliLWVvX2pBMW52a2lhaW1DbHJEWER2TFlkcmwwaHFrSjFTcUt6RktJU0h0Wm43UmxUQnQxSjlJNEhoNU5haEdiQkV3c1NXamc?oc=5",
+      "source": "CBC뉴스",
+      "published": "2026-11-20T11:50:00+00:00",
       "lang": "ko"
      },
      {
-      "title": "S&P500 선물, 앤트로픽 상장 후 AI주 불안에 하락…美 국채금리↓",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9pSnhhNXJXRm5oZzlBOHl1MVF1M1dJYzR2RGZIUE9zWndSQ2JCdHIyU0E3TEVkYlZ1Tk9aTG9qbkxUWjREQ0ZkelNRY0xUR2NoeE14RlhTVlVXclV0RG4yNFpyVlNLSzJGMWh0TjdHZ2g?oc=5",
-      "source": "연합인포맥스",
-      "published": "2026-11-20T03:29:26+00:00",
-      "lang": "ko"
+      "title": "Dow Jones Futures: Techs Fall, Anthropic Tumbles After Ugly Market Reversal To New Lows",
+      "link": "https://finance.yahoo.com/m/9e02231d-41cd-31ac-b37f-993325b8a4ca/dow-jones-futures%3A-techs.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-20T11:47:44+00:00",
+      "lang": "en"
      },
      {
-      "title": "앤트로픽 ‘세기의 IPO’도 못 살렸다…코스피 급락에 매도 사이드카 발동",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DbUlicFBOTEdadlh5aktOSmVQVTNSY1Y2Nkg1T3ZSaDBZM0NFU3ZtWV9US0x1S0hjYTZUWF9FaU1hNV9IblhSZDVRbHJVQUFoaUJRR1BWeWxzRDN0b3Rtbk00bE1OWTZ1Q2FKbDFaMNIBc0FVX3lxTE1CUHdlZnNsdEJ3Vkx5VHJ0VV9xdlRHWjE1aXRvWGhoSmtMLVBrbnJ6c1JGejVyaEttdUxpTlJfTldieW1vQnZ3dVE5QmJKZ09oNU9KX1lzVzFVM2trSDJodUFqcWRGM0xpMXl0MGtRMGF4RjA?oc=5",
-      "source": "시사저널",
-      "published": "2026-11-20T03:14:49+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "Cyberattack may have exposed Chase Bank and Mastercard customer data",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOWw5Ml9NYmZNeTNiSlV4QUhBc0JuTzY1ZEVBX295eW5xYVlIeGpGY3J5Ulc0UEhvSW9iQnFtVVZNQ2p0UFdoLUJPTHh2OVNvTFlhRVlVV0ZMdU5rcE5pdzZtV0pYVnlDUENlNWlSMUhUbzBueWxIcHpEdWtJUmlXbjVhN1ZKOXFIa09HMGNsdTZtS01TbXJDdFBfTlVocDAxXzhsNkRiVzVQVWRRS3NZQmc0aFI?oc=5",
-      "source": "The Washington Post",
-      "published": "2026-11-20T03:08:47+00:00",
+      "title": "Can Nucor Stock Shrug Off Its Raw Materials Slip?",
+      "link": "https://www.trefis.com/stock/nue/articles/627311/can-nucor-stock-shrug-off-its-raw-materials-slip/2026-11-20?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-20T11:40:22+00:00",
       "lang": "en",
-      "title_ko": "사이버 공격으로 인해 Chase Bank 및 Mastercard 고객 데이터가 노출되었을 수 있습니다."
+      "title_ko": "Nucor 주식이 원자재 미끄러짐을 피할 수 있습니까?"
      },
      {
-      "title": "앤트로픽 올랐지만 뉴욕증시 부진…\"AI 수익성 우려가 더 컸다\" - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51NjV4VTNnbDk4T0pSNGRWYmsyTU1oeFhuNWdKNTRaLUlkZVFoc3g2X0JYX2lJV3FCaDJLVGNCbTIxZi15Y3MwRXZCWnJvQWh4STVJa0FUSDRMbWl3T05KcTVvbk92WnY30gFuQVVfeXFMUFViN1ZIWjFyVTdUNjVQbkpXZnFCSXY5QzAwMGlCendfV21wREZtTFU4WWliS1I0WEFaSDBsRkV6QUtrTzZsZVg3SmtyalUwQncySkNrUURncXB3OExhOVc0U0d1ZzBUUUVhQWtXQmc?oc=5",
-      "source": "머니투데이",
-      "published": "2026-11-20T02:47:03+00:00",
+      "title": "What Have UPS Stock Holders Really Earned?",
+      "link": "https://www.trefis.com/stock/ups/articles/627308/what-have-ups-stock-holders-really-earned/2026-11-20?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-20T11:40:22+00:00",
+      "lang": "en",
+      "title_ko": "UPS 주주들은 실제로 무엇을 얻었습니까?"
+     },
+     {
+      "title": "If You Had Invested $5,000 in Amazon Stock 20 Years Ago, Here's How Much You'd Have Today",
+      "link": "https://www.fool.com/investing/2026/11/20/if-youd-invested-5000-in-company-name-stock-20-years-ago-heres-how-much-youd-have-today/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-20T11:40:02+00:00",
+      "lang": "en",
+      "title_ko": "20년 전에 Amazon 주식에 5,000달러를 투자했다면 현재 얼마를 갖게 될지 알려드립니다."
+     },
+     {
+      "title": "Nasdaq futures drop as Anthropic falls one day after debut, chip stocks decline: Live updates",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tY1RiS3BadWcwVVMwU2oteTAzRVdyVEpSeUwtUGJOU3RZV3BmOEJQRmtrT25udndSRVUxRDVpSkRCLUdCS2lDc3dTRm9Ja19qNzh3MlNXVDVDM0UwQXItVWgyMUJnaV9xY2RlWEJmbnBCWWE1ZEdz0gF8QVVfeXFMUDFCSzhsWkpPUEpfV1BiOTNJUkJCbGNwaFVlUmtCcm42WTNmaXF6RVdpbnNwcWJOV1V6QWRtSjVMdFBuLU5kSmFwM0Q5S0ZQOVdPdVVlMGh3dVQyQnAtY0lXcU9xbjN0NE5pYUU1MEM5cU1WN25lc3pYUmpJaQ?oc=5",
+      "source": "CNBC",
+      "published": "2026-11-20T11:31:44+00:00",
+      "lang": "en",
+      "title_ko": "나스닥 선물은 데뷔 하루 만에 Anthropic이 하락하고 칩 주식이 하락하면서 하락합니다: 라이브 업데이트"
+     },
+     {
+      "title": "Stock Market Today: Anthropic Stock Drops Premarket as Tech Rout Intensifies",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObDJaNXRFdFZIWkwxWDRYUVg1U0N3MmpzMHN5aFlMd0ZJTGdBN3lhamZQSGpqbUY2UERnTGhKeVhzYUtsY0Q4V280cDR3WU9qNGtTVm0tdFIzZ0xXTFFxM0NFUjNhSkJLeHhfMG96Wi0xYVBxT2wzQVJPNXdCUEx3MF91QU5ZT2s?oc=5",
+      "source": "WSJ",
+      "published": "2026-11-20T11:27:00+00:00",
+      "lang": "en",
+      "title_ko": "오늘의 주식 시장: 기술 대패가 심화됨에 따라 인류 주식은 시판 전 하락합니다."
+     },
+     {
+      "title": "Treasury yields are sharply lower as investors flee to safe havens",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56cmNjcGpHN0dNOXd4NmdpWVJ2Z1R6NUhmRDlXUExPNnVTcU12MnNlSUF4c2FFWmcyRkh3a0k1b0lsZWpIbTM0NzhfOHhpMkhNaWVnSGJ3eTlpVElJNWxzei15VFAycmFfdjVtTTROSDNsUi1aNGtZ0gF8QVVfeXFMTVB4bFI5cDFDUEJCM1RXQnU0UUpxZmh3cHN2ZVY5Rkx6X3dwTjltTy1tR1puQm5kOGF0bzdxMUNqUXd2ZVRQc1VJbkNsVURINk1LXzY4VGQyZmJFSjZuVldEVDlWZlpkZ2RpZGJ5ZE5QUzY5Sm0yeXRBNWNMOQ?oc=5",
+      "source": "CNBC",
+      "published": "2026-11-20T10:21:03+00:00",
+      "lang": "en",
+      "title_ko": "투자자들이 안전한 피난처로 빠져나가면서 국채수익률은 급락했다."
+     },
+     {
+      "title": "앤트로픽 상장 급락했던 지수, 약세 지속",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yUXp2WnE4bEQ4elRvbm1XWEdxNFB1NV9MUUZ1eW5saUtWcXg1ZnZwZnBhbWxJcHNfY1hDb3Zpbk1ScFVfOVBvaHhZaXd0Qm9RZ1BmTkYwOTNraDFhY0FUYzNzTlY1dFVWOGJ5TWo0a0tCSzVOTGxoaNIBeEFVX3lxTE12TWdNSDlaXzFPa1VOTXlZbmc0NW9rdE95ZmVlYWFVRUgwRnFoQXZlb0xaLU4wSXJiV3lpWGI3d0xOTDY4aWh1MG91VkYtQm8yV0p0c3dqV29IaWRrVko1NUl5aU1TUmE3UER1bUJlRFF5XzFhOUU5LQ?oc=5",
+      "source": "MBC 뉴스",
+      "published": "2026-11-20T08:03:52+00:00",
       "lang": "ko"
      }
     ],
     "keywords": [
      {
       "word": "nvidia",
-      "count": 14,
+      "count": 16,
       "ko": "엔비디아"
      },
      {
       "word": "anthropic",
-      "count": 13,
+      "count": 11,
       "ko": "앤트로픽"
      },
      {
-      "word": "china",
+      "word": "fed",
       "count": 10,
+      "ko": "연준"
+     },
+     {
+      "word": "china",
+      "count": 8,
       "ko": "중국"
      },
      {
       "word": "trump",
-      "count": 9,
-      "ko": "트럼프"
-     },
-     {
-      "word": "fed",
       "count": 8,
-      "ko": "연준"
-     },
-     {
-      "word": "debut",
-      "count": 7,
-      "ko": null
-     },
-     {
-      "word": "billion",
-      "count": 6,
-      "ko": "10억달러"
-     },
-     {
-      "word": "ceo",
-      "count": 6,
-      "ko": "CEO"
-     },
-     {
-      "word": "tech",
-      "count": 6,
-      "ko": "기술주"
+      "ko": "트럼프"
      },
      {
       "word": "bank",
@@ -6176,19 +6152,19 @@
       "ko": "은행"
      },
      {
-      "word": "huang",
+      "word": "billion",
       "count": 5,
-      "ko": null
+      "ko": "10억달러"
      },
      {
-      "word": "street",
+      "word": "ceo",
       "count": 5,
-      "ko": "월가"
+      "ko": "CEO"
      },
      {
-      "word": "wall",
+      "word": "tech",
       "count": 5,
-      "ko": "월가"
+      "ko": "기술주"
      },
      {
       "word": "hike",
@@ -6196,18 +6172,38 @@
       "ko": "인상"
      },
      {
+      "word": "huang",
+      "count": 4,
+      "ko": null
+     },
+     {
+      "word": "inflation",
+      "count": 4,
+      "ko": "인플레이션"
+     },
+     {
       "word": "ipo",
       "count": 4,
       "ko": "IPO"
+     },
+     {
+      "word": "jensen",
+      "count": 4,
+      "ko": null
+     },
+     {
+      "word": "putin",
+      "count": 4,
+      "ko": null
      }
     ],
-    "keyword_base_count": 118
+    "keyword_base_count": 114
    }
   },
   "calendar": {
    "status": "ok",
-   "attempted_at": "2026-11-20T07:39:43+00:00",
-   "last_success_at": "2026-11-20T07:39:43+00:00",
+   "attempted_at": "2026-11-20T11:59:22+00:00",
+   "last_success_at": "2026-11-20T11:59:22+00:00",
    "error": null,
    "data": {
     "today_et": "2026-11-20",

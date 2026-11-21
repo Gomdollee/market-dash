@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-21T07:37:43+00:00",
+ "generated_at": "2026-11-21T11:33:15+00:00",
  "sections": {
   "fx": {
    "status": "ok",
-   "attempted_at": "2026-11-21T07:37:43+00:00",
-   "last_success_at": "2026-11-21T07:37:43+00:00",
+   "attempted_at": "2026-11-21T11:33:15+00:00",
+   "last_success_at": "2026-11-21T11:33:15+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-20",
@@ -21,8 +21,8 @@
   },
   "nasdaq": {
    "status": "ok",
-   "attempted_at": "2026-11-21T07:37:43+00:00",
-   "last_success_at": "2026-11-21T07:37:43+00:00",
+   "attempted_at": "2026-11-21T11:33:15+00:00",
+   "last_success_at": "2026-11-21T11:33:15+00:00",
    "error": null,
    "data": {
     "name": "나스닥 종합",
@@ -1722,13 +1722,13 @@
      "summary": "원화로 투자했다면 나스닥 지수는 -4.97%예요 (달러 기준 -5.28% + 환율 +0.33% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-21T07:37:57+00:00"
+    "fetched_at": "2026-11-21T11:37:12+00:00"
    }
   },
   "sp500": {
    "status": "ok",
-   "attempted_at": "2026-11-21T07:37:43+00:00",
-   "last_success_at": "2026-11-21T07:37:43+00:00",
+   "attempted_at": "2026-11-21T11:33:15+00:00",
+   "last_success_at": "2026-11-21T11:33:15+00:00",
    "error": null,
    "data": {
     "name": "S&P 500",
@@ -3276,13 +3276,13 @@
      "summary": "원화로 투자했다면 S&P 500 지수는 -3.38%예요 (달러 기준 -3.70% + 환율 +0.33% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-21T07:37:57+00:00"
+    "fetched_at": "2026-11-21T11:37:12+00:00"
    }
   },
   "gold": {
    "status": "ok",
-   "attempted_at": "2026-11-21T07:37:43+00:00",
-   "last_success_at": "2026-11-21T07:37:43+00:00",
+   "attempted_at": "2026-11-21T11:33:15+00:00",
+   "last_success_at": "2026-11-21T11:33:15+00:00",
    "error": null,
    "data": {
     "name": "국제 금값",
@@ -4717,13 +4717,13 @@
      "summary": "원화로 투자했다면 금 값은 -4.30%예요 (달러 기준 -4.62% + 환율 +0.33% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-21T07:37:57+00:00"
+    "fetched_at": "2026-11-21T11:37:12+00:00"
    }
   },
   "fear_greed": {
    "status": "ok",
-   "attempted_at": "2026-11-21T07:37:43+00:00",
-   "last_success_at": "2026-11-21T07:37:43+00:00",
+   "attempted_at": "2026-11-21T11:33:15+00:00",
+   "last_success_at": "2026-11-21T11:33:15+00:00",
    "error": null,
    "data": {
     "score": 9.67,
@@ -5126,8 +5126,8 @@
   },
   "vix": {
    "status": "ok",
-   "attempted_at": "2026-11-21T07:37:43+00:00",
-   "last_success_at": "2026-11-21T07:37:43+00:00",
+   "attempted_at": "2026-11-21T11:33:15+00:00",
+   "last_success_at": "2026-11-21T11:33:15+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-20",
@@ -5414,13 +5414,13 @@
      ]
     ],
     "live": false,
-    "fetched_at": "2026-11-21T07:37:57+00:00"
+    "fetched_at": "2026-11-21T11:37:12+00:00"
    }
   },
   "movers": {
    "status": "ok",
-   "attempted_at": "2026-11-21T07:37:43+00:00",
-   "last_success_at": "2026-11-21T07:37:43+00:00",
+   "attempted_at": "2026-11-21T11:33:15+00:00",
+   "last_success_at": "2026-11-21T11:33:15+00:00",
    "error": null,
    "data": {
     "universe": "나스닥-100",
@@ -5461,29 +5461,21 @@
       "close": 127.95,
       "change_pct": 1.52,
       "volume": 42631700,
-      "reason": {
-       "title": "[미국 특징주] 월마트, 美 기술 장애에 생수·프로판 가스 사재기",
-       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0zcjZDNGZqV0RrLWktaEVXOEZ3VFdLX0VvQzlKZTZLVkRNNWFmZ0haQnRTNlUwRkdpdnpIcVF6S0RWbUhhMkM3LWNhaklBV3VLNDVtVXZuR3o1anZ3?oc=5",
-       "source": "뉴스핌",
-       "published": "2026-11-20T04:46:00+00:00",
-       "lang": "ko"
-      },
+      "reason": null,
       "news": [
        {
-        "title": "Synchrony Financial Puts Lending Discipline First, Sees Walmart as Growth Opportunity",
-        "link": "https://www.marketbeat.com/instant-alerts/event-synchrony-financial-puts-lending-discipline-first-sees-walmart-as-growth-opportunity-2026-11-20/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+        "title": "Walmart Has Paid Investors a Growing Dividend for 53 Straight Years. Here's What $10,000 Starts You With.",
+        "link": "https://www.fool.com/investing/2026/11/21/walmart-has-paid-investors-a-growing-dividend-for/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-21T01:12:10+00:00",
-        "lang": "en",
-        "title_ko": "싱크로니 파이낸셜(Synchrony Financial)은 대출 규율을 최우선으로 생각하며 월마트를 성장 기회로 보고 있습니다."
+        "published": "2026-11-21T10:40:00+00:00",
+        "lang": "en"
        },
        {
-        "title": "Walmart has a surprising update on grocery prices",
-        "link": "https://www.thestreet.com/retail/walmart-has-a-surprising-update-on-grocery-prices?.tsrc=rss",
+        "title": "Here’s How Many Shares of Walmart You Need for $250 in Yearly Dividends",
+        "link": "https://www.fool.com/investing/2026/11/21/heres-how-many-shares-of-walmart-youd-need-for-250-in-yearly-dividends/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-21T00:17:00+00:00",
-        "lang": "en",
-        "title_ko": "월마트는 식료품 가격에 대한 놀라운 업데이트를 가지고 있습니다"
+        "published": "2026-11-21T10:20:02+00:00",
+        "lang": "en"
        }
       ]
      },
@@ -5577,14 +5569,7 @@
       "close": 81.31,
       "change_pct": -16.11,
       "volume": 49539900,
-      "reason": {
-       "title": "Nebius Group slides 14% amid tech selloff (NBIS:NASDAQ)",
-       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNallPemc4MDZMZ1U2Tm5CWVJLeVE4ekEzVDlQYWRUSXlSVjhYT2Z1cjIzVnVpYWNiYlpGajFueEthTHNMUVdFRDFybHUtcnI5NEY4bWhrMUVrNi1XR0JmandRTEQwaUdnaVBjMDhlRThMQTJpLTR0QXBJQzNkU0steGVoQWFWV0ZwV3VCUTFZQQ?oc=5",
-       "source": "Seeking Alpha",
-       "published": "2026-11-20T19:27:47+00:00",
-       "lang": "en",
-       "title_ko": "Nebius Group은 기술 매각으로 인해 14% 하락했습니다. (NBIS:NASDAQ)"
-      },
+      "reason": null,
       "news": [
        {
         "title": "Michael Burry Says He Tried to Warn You About Nebius. The Stock Just Crashed 16% and Is 72% Below Its Record",
@@ -5611,14 +5596,7 @@
       "close": 180.35,
       "change_pct": -14.77,
       "volume": 7924300,
-      "reason": {
-       "title": "Astera Labs falls 14.77% in Friday's session",
-       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yeDFyRTFUdkxSc2xwSGlpaVQxMzVyWDJGR2t3VWVWS1ZIYjNwQWxmMkxQTEd3X1ZDX1lLb0RGeE1BMlp2QUNCLUJTNnMwVHNwWmh2c3I5VnFUSWNiVDg5aU5MXzZsdnNSeHpDZjZOM25SQjc5X09Rbm1oWEdDY1E?oc=5",
-       "source": "Global Banking & Finance Review",
-       "published": "2026-11-20T22:21:26+00:00",
-       "lang": "en",
-       "title_ko": "Astera Labs는 금요일 세션에서 14.77% 하락했습니다."
-      },
+      "reason": null,
       "news": [
        {
         "title": "An $11 Billion Fund Just Bought These 3 Stocks",
@@ -5645,15 +5623,15 @@
       "close": 152.2,
       "change_pct": -14.09,
       "volume": 10619600,
-      "reason": {
-       "title": "Arm Holdings slumps 14% amid broad technology selloff (ARM:NASDAQ)",
-       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWlE1cEFtMGVRUGRncG5BTHUwa05pSFJyVTB1VS15aWJmSDRaQWhzNk1hWjNMMXlYd1FKQ3hwUkhBWEs1WEVUNFRsTW43MWxaQXlHcW02S0d3SFZyVFlJNVFOLVlJTFdkaEVsX1c2d3cyelBtdzZyeUlEeWNlTDV6emhDRjZUaDBqU2hfSmhabGdNZG9TRWo0WHlBMHU5RVU?oc=5",
-       "source": "Seeking Alpha",
-       "published": "2026-11-20T21:16:15+00:00",
-       "lang": "en",
-       "title_ko": "Arm Holdings는 광범위한 기술 매각으로 인해 14% 하락했습니다(ARM:NASDAQ)."
-      },
+      "reason": null,
       "news": [
+       {
+        "title": "SoftBank Falls 14%, and 72% of Arm’s Shares Sit Pledged Behind Its Loans",
+        "link": "https://www.tikr.com/blog/softbank-falls-14-and-72-of-arms-shares-sit-pledged-behind-its-loans?ref=yahoofinance&tlnk=yf-261121-m4r44cf9&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-21T10:17:47+00:00",
+        "lang": "en"
+       },
        {
         "title": "Arm (ARM) Stock Looks Undervalued Despite Rich Sales Expectations",
         "link": "https://finance.yahoo.com/markets/stocks/articles/arm-arm-stock-looks-undervalued-021442325.html?.tsrc=rss",
@@ -5661,14 +5639,6 @@
         "published": "2026-11-21T02:14:42+00:00",
         "lang": "en",
         "title_ko": "Arm(ARM) 주식은 풍부한 판매 기대에도 불구하고 저평가된 것으로 보인다"
-       },
-       {
-        "title": "Prediction: Nvidia Stock Will Do This in the 6 Months After a New CEO Takes Over, According to History",
-        "link": "https://www.fool.com/investing/2026/11/20/prediction-nvidia-stock-will-do-this-in-the-6-months-after-a-new-ceo-takes-over-according-to-history/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-21T00:02:51+00:00",
-        "lang": "en",
-        "title_ko": "예측: 역사에 따르면 Nvidia 주식은 새로운 CEO가 취임한 후 6개월 안에 이 일을 할 것입니다."
        }
       ]
      },
@@ -5679,29 +5649,21 @@
       "close": 125.53,
       "change_pct": -14.01,
       "volume": 626373200,
-      "reason": {
-       "title": "엔비디아, SEC 회계 조사에 주가 14% 폭락…시총 4위 추락",
-       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iT0s1dlpmU1VqMjhsQmlzd25GRW8yME45eElDQWFDS0dpVFhGMHhIQ003dkxETFFkZnBBSC0wZHBmSTZOU3dFZjR5bmczR2FfcVN0dGpsMUQzR292UHpLSmk1MkZ3bi1GYVE?oc=5",
-       "source": "AI타임스",
-       "published": "2026-11-21T01:32:11+00:00",
-       "lang": "ko"
-      },
+      "reason": null,
       "news": [
        {
-        "title": "Should You Forget SpaceX Stock?",
-        "link": "https://www.fool.com/investing/2026/11/21/should-you-forget-spacex-stock/?.tsrc=rss",
+        "title": "Zcash Just Dropped Below $1,000 for the First Time Since September. Is This a Buy-the-Dip Opportunity?",
+        "link": "https://www.fool.com/investing/2026/11/21/zcash-just-dropped-below-1000-for-the-first-time-since-september-is-this-a-buy-the-dip-opportunity/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-21T07:25:02+00:00",
-        "lang": "en",
-        "title_ko": "SpaceX 주식을 잊어야 할까요?"
+        "published": "2026-11-21T11:23:02+00:00",
+        "lang": "en"
        },
        {
-        "title": "Split $3,000 Across These 3 Value Stocks and Ignore Them Until 2031",
-        "link": "https://www.fool.com/investing/2026/11/21/split-3000-across-these-3-value-stocks-and-ignore-them-until-2031/?.tsrc=rss",
+        "title": "What Is Net Interest Margin? 2 Bank Stocks Where It's Rising",
+        "link": "https://www.fool.com/investing/2026/11/21/what-is-net-interest-margin-2-bank-stocks-where-it-s-rising/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-21T06:59:02+00:00",
-        "lang": "en",
-        "title_ko": "이 3개의 가치주에 $3,000를 분할하고 2031년까지 무시합니다."
+        "published": "2026-11-21T11:20:02+00:00",
+        "lang": "en"
        }
       ]
      },
@@ -5741,29 +5703,21 @@
       "close": 125.53,
       "change_pct": -14.01,
       "volume": 626373200,
-      "reason": {
-       "title": "엔비디아, SEC 회계 조사에 주가 14% 폭락…시총 4위 추락",
-       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iT0s1dlpmU1VqMjhsQmlzd25GRW8yME45eElDQWFDS0dpVFhGMHhIQ003dkxETFFkZnBBSC0wZHBmSTZOU3dFZjR5bmczR2FfcVN0dGpsMUQzR292UHpLSmk1MkZ3bi1GYVE?oc=5",
-       "source": "AI타임스",
-       "published": "2026-11-21T01:32:11+00:00",
-       "lang": "ko"
-      },
+      "reason": null,
       "news": [
        {
-        "title": "Should You Forget SpaceX Stock?",
-        "link": "https://www.fool.com/investing/2026/11/21/should-you-forget-spacex-stock/?.tsrc=rss",
+        "title": "Zcash Just Dropped Below $1,000 for the First Time Since September. Is This a Buy-the-Dip Opportunity?",
+        "link": "https://www.fool.com/investing/2026/11/21/zcash-just-dropped-below-1000-for-the-first-time-since-september-is-this-a-buy-the-dip-opportunity/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-21T07:25:02+00:00",
-        "lang": "en",
-        "title_ko": "SpaceX 주식을 잊어야 할까요?"
+        "published": "2026-11-21T11:23:02+00:00",
+        "lang": "en"
        },
        {
-        "title": "Split $3,000 Across These 3 Value Stocks and Ignore Them Until 2031",
-        "link": "https://www.fool.com/investing/2026/11/21/split-3000-across-these-3-value-stocks-and-ignore-them-until-2031/?.tsrc=rss",
+        "title": "What Is Net Interest Margin? 2 Bank Stocks Where It's Rising",
+        "link": "https://www.fool.com/investing/2026/11/21/what-is-net-interest-margin-2-bank-stocks-where-it-s-rising/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-21T06:59:02+00:00",
-        "lang": "en",
-        "title_ko": "이 3개의 가치주에 $3,000를 분할하고 2031년까지 무시합니다."
+        "published": "2026-11-21T11:20:02+00:00",
+        "lang": "en"
        }
       ]
      },
@@ -5774,13 +5728,7 @@
       "close": 51.28,
       "change_pct": -7.97,
       "volume": 207757700,
-      "reason": {
-       "title": "인텔 주가, 오늘 하락하는 이유는?",
-       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51RmU1ZndsSkxsbWlYMjJHei1LUFcweVBLU0p6bkFRaVYwZXlQSEhOemlkbFY0UjloNHNVUGJDaWdPTzl1c2pkZDhjLUxoT21HQVB6aFBmZHdkTGFYM1NoRTlhTFloOVBRdjNpU0ZKblRnMmRDYVVJ?oc=5",
-       "source": "Investing.com 한국어",
-       "published": "2026-11-20T18:19:00+00:00",
-       "lang": "ko"
-      },
+      "reason": null,
       "news": [
        {
         "title": "Could Jensen Huang Land At Nvidia Rival Intel?",
@@ -5807,14 +5755,15 @@
       "close": 127.79,
       "change_pct": -7.69,
       "volume": 124025300,
-      "reason": {
-       "title": "스페이스X 주가가 오늘 하락하는 이유는?",
-       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5BSFZGcUhlMHZ3bGZkU0pSdzdRdjJkaWRnZUozWmxzYlRkaGttRElKcUNhVENvX29GRng0UWhVdG42bzF0MzJoc1RfN2lQV2pxcWxuTmhZa2p1WWRVVDBiaEp2VlVLMTJnTDhRVW9WT3FjLW5ZcjM0?oc=5",
-       "source": "Investing.com 한국어",
-       "published": "2026-11-20T15:39:00+00:00",
-       "lang": "ko"
-      },
+      "reason": null,
       "news": [
+       {
+        "title": "Could SpaceX Be the Ultimate Winner of the Nvidia-Jensen Huang Split?",
+        "link": "https://www.fool.com/investing/2026/11/21/could-spacex-be-the-ultimate-winner-of-the-nvidia-and-jensen-huang-split/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-21T09:20:02+00:00",
+        "lang": "en"
+       },
        {
         "title": "Should You Forget SpaceX Stock?",
         "link": "https://www.fool.com/investing/2026/11/21/should-you-forget-spacex-stock/?.tsrc=rss",
@@ -5822,14 +5771,6 @@
         "published": "2026-11-21T07:25:02+00:00",
         "lang": "en",
         "title_ko": "SpaceX 주식을 잊어야 할까요?"
-       },
-       {
-        "title": "Jim Cramer sends strong signal to SpaceX, Anthropic stock investors",
-        "link": "https://www.thestreet.com/investing/stocks/cramer-spacex-anthropic-compute-deal?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-21T02:03:00+00:00",
-        "lang": "en",
-        "title_ko": "Jim Cramer는 Anthropic 주식 투자자인 SpaceX에 강력한 신호를 보냅니다."
        }
       ]
      },
@@ -5840,13 +5781,7 @@
       "close": 94.39,
       "change_pct": -2.71,
       "volume": 119852712,
-      "reason": {
-       "title": "[美특징주]샌디스크, 8대 1 주식분할에 주가 급락 오인…AI 매도세는 지속",
-       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT3BRNnlTZzEyOGZMSVM3RnhYMm4tNWlyZERRSGxOeGRqUW1SSTNnZzFtZ0ZCZUowWE4zNTl3T0xjbE1IVFhmZHNxelg3YkJOMlRRUFl2SjZGOFo1a2FsNmN1b3BQYTVwZXNCMV9YMElJTlB2TVVpdlBreG1Yb3M1bQ?oc=5",
-       "source": "이데일리",
-       "published": "2026-11-20T12:44:16+00:00",
-       "lang": "ko"
-      },
+      "reason": null,
       "news": [
        {
         "title": "Sandisk (SNDK) Implements 8 For 1 Stock Split",
@@ -5873,13 +5808,7 @@
       "close": 342.56,
       "change_pct": -1.9,
       "volume": 80464200,
-      "reason": {
-       "title": "[미국 특징주] 애플 아이폰 카메라 앱 총괄 임원 은퇴...후임 선임 없이 조직 재편",
-       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Jb1VydVlTV1NId0liVng1M29BR0Y3NF92RHhSQnRqdHFycGtUajQ1Q3hzWGRHandzQkQyTTVVNTFGbGROanNEaEVfaGlDa0hhWXJnRVVESUxhb2xh?oc=5",
-       "source": "뉴스핌",
-       "published": "2026-11-20T00:00:00+00:00",
-       "lang": "ko"
-      },
+      "reason": null,
       "news": [
        {
         "title": "Startup sues Apple in India over tap-to-share contacts feature",
@@ -5901,13 +5830,13 @@
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-21T07:37:57+00:00"
+    "fetched_at": "2026-11-21T11:37:12+00:00"
    }
   },
   "sectors": {
    "status": "ok",
-   "attempted_at": "2026-11-21T07:37:43+00:00",
-   "last_success_at": "2026-11-21T07:37:43+00:00",
+   "attempted_at": "2026-11-21T11:33:15+00:00",
+   "last_success_at": "2026-11-21T11:33:15+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-20",
@@ -6022,46 +5951,57 @@
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-21T07:37:57+00:00"
+    "fetched_at": "2026-11-21T11:37:12+00:00"
    }
   },
   "news": {
    "status": "ok",
-   "attempted_at": "2026-11-21T07:37:43+00:00",
-   "last_success_at": "2026-11-21T07:37:43+00:00",
+   "attempted_at": "2026-11-21T11:33:15+00:00",
+   "last_success_at": "2026-11-21T11:33:15+00:00",
    "error": null,
    "data": {
     "items": [
      {
-      "title": "Could You Have Spotted Monolithic Power Stock's 52% Run?",
-      "link": "https://www.trefis.com/stock/mpwr/articles/627264/could-you-have-spotted-monolithic-power-stocks-52-run/2026-11-20?.tsrc=rss",
+      "title": "Prediction: This International ETF Will Double Your Money in the Next 7 Years",
+      "link": "https://www.fool.com/investing/2026/11/21/prediction-this-international-etf-will-double-your-money-in-the-next-7-years/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "published": "2026-11-21T06:32:47+00:00",
-      "lang": "en",
-      "title_ko": "모놀리식 전력주(Monolithic Power Stock)의 52% 상승을 발견할 수 있었습니까?"
+      "published": "2026-11-21T11:09:02+00:00",
+      "lang": "en"
      },
      {
-      "title": "Has Buying The Dips In Vistra Stock Paid Off?",
-      "link": "https://www.trefis.com/stock/vst/articles/627175/has-buying-the-dips-in-vistra-stock-paid-off/2026-11-20?.tsrc=rss",
+      "title": "Your 401(k) is full of AI. How to deal with the volatility",
+      "link": "https://www.cnn.com/2026/11/21/business/ai-stocks-volatility-investing?.tsrc=rss",
       "source": "Yahoo Finance",
-      "published": "2026-11-21T06:32:47+00:00",
-      "lang": "en",
-      "title_ko": "Vistra 주식의 하락세가 성과를 거두었습니까?"
+      "published": "2026-11-21T11:00:15+00:00",
+      "lang": "en"
      },
      {
-      "title": "Is Marriott Stock Worth 41x Earnings Next To Booking?",
-      "link": "https://www.trefis.com/stock/mar/articles/627178/is-marriott-stock-worth-41x-earnings-next-to-booking/2026-11-20?.tsrc=rss",
+      "title": "Merck Sinks 9.5% in a Week as It Scraps a Blood Cancer Drug and Healthcare Sells Off. Time to Buy?",
+      "link": "https://www.tikr.com/blog/merck-sinks-9-5-in-a-week-as-it-scraps-a-blood-cancer-drug-and-healthcare-sells-off-time-to-buy?ref=yahoofinance&tlnk=yf-261121-6539mg9r&.tsrc=rss",
       "source": "Yahoo Finance",
-      "published": "2026-11-21T06:32:47+00:00",
-      "lang": "en",
-      "title_ko": "메리어트 주식은 예약 다음으로 수익의 41배 가치가 있나요?"
+      "published": "2026-11-21T10:15:40+00:00",
+      "lang": "en"
      },
      {
-      "title": "'AI 거품론'에 美증시 대폭락…앤트로픽은 공모가 위협",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TZmJVXzR3a0plRmd6WEVtV1MyUGkydmlEaFptUGRGSjdXNUhyVDY0b2pvbUhDRHhRZkF0dGp0c2tuSndsZ1Q3TTdPQkJDTU9tOUI5bFlSSm5mQ2ZhQXh2V3lidmFRM0JKdEx3T0ZxZncwSFQ5?oc=5",
-      "source": "연합뉴스 한민족센터",
-      "published": "2026-11-21T06:26:47+00:00",
-      "lang": "ko"
+      "title": "Lemtech Holdings And 2 AI Penny Stocks To Watch",
+      "link": "https://finance.yahoo.com/technology/ai/articles/lemtech-holdings-2-ai-penny-100642222.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-21T10:06:42+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "This Dividend ETF Could Supercharge Your Passive Income. Here's How.",
+      "link": "https://www.fool.com/investing/2026/11/21/this-dividend-etf-could-supercharge-your-passive-income-heres-how/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-21T10:04:02+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "President Donald Trump's Economy and the AI-Driven Stock Market Are in Trouble, Thanks to a Newly Identified Source of Inflation",
+      "link": "https://www.fool.com/investing/2026/11/21/donald-trump-economy-ai-driven-stock-market-in-trouble-newly-identified-source-of-inflation/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-21T09:26:02+00:00",
+      "lang": "en"
      },
      {
       "title": "How China is using summits to expand its global influence",
@@ -6072,94 +6012,48 @@
       "title_ko": "중국이 글로벌 영향력 확대를 위해 정상회담을 활용하는 방법"
      },
      {
-      "title": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZl83aFlGaHFEUVczbnRQYTJCbmhiWUFic2RBN0JLeVJrUy1GOG5TZDRtSzVDQ3JzT1otb3dqZlQ0X1JXc0I3Wm1CMzB2Ul9MZGlGbFVvOHEyVlo4V1NxUU5sQ0FoMTNkTUJkaXlCSFYwcE5rZGtyb2hwTkNYcVNJcGtMSzdqRFlQejUzTjFuei1PX2ZPcU5ZRw?oc=5",
-      "source": "AP News",
-      "published": "2026-11-21T04:55:00+00:00",
+      "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
+      "link": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
+      "source": "CNBC",
+      "published": "2026-11-20T21:10:48+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+      "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+      "source": "CNBC",
+      "published": "2026-11-20T19:59:03+00:00",
       "lang": "en",
-      "title_ko": "인류학자는 AI의 도움으로 수학 문제의 성배를 해결했다고 주장합니다."
+      "title_ko": "AI 매각으로 2026년 주식 예측 시장 전망 어두워"
      },
      {
-      "title": "AI 매도 폭탄에 미 증시 급락…월가 \"과매도\" vs \"바닥 확정 이르다\"",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdms3ZTU5X2I0U3QxM3RyWXF1TktzbHlnREtXOHI1cE9JMUgxLTZIWm1fYUxGY3BRWnZIVldYRWpJdjhIaFhDbEdmWGphTndXOVpaNnBZdnhZQVl4VTFlMi15dlB6eWU4NHBaYnlUbEZKcGVvQjlDZ1dGaldpamRyZlZaSEpQUkRLNExnczZB?oc=5",
-      "source": "네이버 프리미엄콘텐츠",
-      "published": "2026-11-21T04:49:00+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "Bitcoin (BTC) tanks below $57,000, wiping out $2.4 billion in crypto bets",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVXQyRVlCTU5XNjdyZDVyTnNOVTUzVGlyWHAxYk5CUm9tME1VTllrVWNaREZHVkpzRVhYX1Q0ajZMUjBiUUloMTFvNGdxRFVlNlRYVkplVEJ1em4waFRfTFVCQXRPRlBhT29NSndpNGRDcVdtbW9Cdkl2NjQxZW1NSGVRcmJhbVFMSTlveGVwOGFSdWRnUXhVUi1UVmNwTjhqTjUtUDB4Q1VIR0duRjNyLW9MN0FFQmZSbFJGeE5kVHE?oc=5",
-      "source": "CoinDesk",
-      "published": "2026-11-21T04:24:00+00:00",
-      "lang": "en",
-      "title_ko": "비트코인(BTC)이 57,000달러 아래로 떨어져 암호화폐 베팅에서 24억 달러가 손실되었습니다."
-     },
-     {
-      "title": "If the Nasdaq's Correction Turns Into a Bear Market, This Is the First Stock I'll Buy",
-      "link": "https://www.fool.com/investing/2026/11/20/if-the-nasdaq-s-correction-turns-into-a-bear-market-this-is-the-first-stock-i-ll-buy/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-21T04:17:02+00:00",
-      "lang": "en",
-      "title_ko": "나스닥의 조정이 약세장으로 변한다면 이것이 내가 매수할 첫 번째 주식이다"
-     },
-     {
-      "title": "비트코인, 8000만원선 붕괴…AI발 위험회피에 '극단적 공포'",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXejY2a2Zzb3U3MkozOWVZdG9TTmhvNEtKU3ZzR2REYko0eXlZTGtRRVJhNWx2N2l3QmppOFFqRGNwcHBCdElQRkRmVUNQODVwX2stVE9XR0FQdktORjMxOdIBeEFVX3lxTE5fbDRKRVRYUlBIRm84VlYxMElTclRaY19EWXgzQWRyTGVJX0xwVk9jSndsNTE4VkkyZmFBU2tsaGd3Z0x3Zl9OZ3h1RUliejBZNWRDcVhGNHY2NHZ1Z1FIYnljN1FCdFd2WjNoQW55b3NQSTNMbWxOTQ?oc=5",
-      "source": "뉴시스",
-      "published": "2026-11-21T03:58:41+00:00",
-      "lang": "ko"
+      "title": "The bull market has a new problem. The 'smart money' is selling",
+      "link": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html",
+      "source": "CNBC",
+      "published": "2026-11-20T14:15:29+00:00",
+      "lang": "en"
      }
     ],
     "keywords": [
      {
-      "word": "nvidia",
-      "count": 15,
-      "ko": "엔비디아"
-     },
-     {
-      "word": "trump",
-      "count": 10,
-      "ko": "트럼프"
-     },
-     {
       "word": "china",
-      "count": 9,
+      "count": 8,
       "ko": "중국"
      },
      {
       "word": "fed",
-      "count": 8,
+      "count": 7,
       "ko": "연준"
      },
      {
-      "word": "huang",
+      "word": "trump",
+      "count": 7,
+      "ko": "트럼프"
+     },
+     {
+      "word": "nvidia",
       "count": 6,
-      "ko": null
-     },
-     {
-      "word": "jensen",
-      "count": 6,
-      "ko": null
-     },
-     {
-      "word": "tech",
-      "count": 6,
-      "ko": "기술주"
-     },
-     {
-      "word": "anthropic",
-      "count": 5,
-      "ko": "앤트로픽"
-     },
-     {
-      "word": "correction",
-      "count": 5,
-      "ko": "조정"
-     },
-     {
-      "word": "s&p",
-      "count": 5,
-      "ko": "S&P"
+      "ko": "엔비디아"
      },
      {
       "word": "bank",
@@ -6167,14 +6061,9 @@
       "ko": "은행"
      },
      {
-      "word": "billion",
+      "word": "inflation",
       "count": 4,
-      "ko": "10억달러"
-     },
-     {
-      "word": "officials",
-      "count": 4,
-      "ko": null
+      "ko": "인플레이션"
      },
      {
       "word": "putin",
@@ -6182,18 +6071,53 @@
       "ko": null
      },
      {
-      "word": "territory",
-      "count": 4,
+      "word": "buy",
+      "count": 3,
+      "ko": "매수"
+     },
+     {
+      "word": "central",
+      "count": 3,
       "ko": null
+     },
+     {
+      "word": "correction",
+      "count": 3,
+      "ko": "조정"
+     },
+     {
+      "word": "etf",
+      "count": 3,
+      "ko": null
+     },
+     {
+      "word": "meeting",
+      "count": 3,
+      "ko": null
+     },
+     {
+      "word": "tech",
+      "count": 3,
+      "ko": "기술주"
+     },
+     {
+      "word": "affair",
+      "count": 2,
+      "ko": null
+     },
+     {
+      "word": "deal",
+      "count": 2,
+      "ko": "거래"
      }
     ],
-    "keyword_base_count": 102
+    "keyword_base_count": 48
    }
   },
   "calendar": {
    "status": "ok",
-   "attempted_at": "2026-11-21T07:37:43+00:00",
-   "last_success_at": "2026-11-21T07:37:43+00:00",
+   "attempted_at": "2026-11-21T11:33:15+00:00",
+   "last_success_at": "2026-11-21T11:33:15+00:00",
    "error": null,
    "data": {
     "today_et": "2026-11-21",

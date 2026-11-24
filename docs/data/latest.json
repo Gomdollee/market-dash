@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-24T06:16:59+00:00",
+ "generated_at": "2026-11-24T10:18:42+00:00",
  "sections": {
   "fx": {
    "status": "ok",
-   "attempted_at": "2026-11-24T06:16:59+00:00",
-   "last_success_at": "2026-11-24T06:16:59+00:00",
+   "attempted_at": "2026-11-24T10:18:42+00:00",
+   "last_success_at": "2026-11-24T10:18:42+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-24",
-    "rate": 1342.58,
+    "rate": 1342.71,
     "prev_rate": 1344.31,
     "prev_date": "2026-11-23",
-    "change_pct": -0.13,
+    "change_pct": -0.12,
     "summary": [
      "환율이 2원 내렸어요 (1달러 = 1,343원).",
      "달러가 싸지면, 미국 주식을 원화로 따진 가치는 줄어들어요."
@@ -21,8 +21,8 @@
   },
   "nasdaq": {
    "status": "ok",
-   "attempted_at": "2026-11-24T06:16:59+00:00",
-   "last_success_at": "2026-11-24T06:16:59+00:00",
+   "attempted_at": "2026-11-24T10:18:42+00:00",
+   "last_success_at": "2026-11-24T10:18:42+00:00",
    "error": null,
    "data": {
     "name": "나스닥 종합",
@@ -1726,13 +1726,13 @@
      "summary": "원화로 투자했다면 나스닥 지수는 +7.27%예요 (달러 기준 +6.51% + 환율 +0.71% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-24T06:17:14+00:00"
+    "fetched_at": "2026-11-24T10:18:56+00:00"
    }
   },
   "sp500": {
    "status": "ok",
-   "attempted_at": "2026-11-24T06:16:59+00:00",
-   "last_success_at": "2026-11-24T06:16:59+00:00",
+   "attempted_at": "2026-11-24T10:18:42+00:00",
+   "last_success_at": "2026-11-24T10:18:42+00:00",
    "error": null,
    "data": {
     "name": "S&P 500",
@@ -3284,21 +3284,21 @@
      "summary": "원화로 투자했다면 S&P 500 지수는 +5.48%예요 (달러 기준 +4.73% + 환율 +0.71% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-24T06:17:14+00:00"
+    "fetched_at": "2026-11-24T10:18:56+00:00"
    }
   },
   "gold": {
    "status": "ok",
-   "attempted_at": "2026-11-24T06:16:59+00:00",
-   "last_success_at": "2026-11-24T06:16:59+00:00",
+   "attempted_at": "2026-11-24T10:18:42+00:00",
+   "last_success_at": "2026-11-24T10:18:42+00:00",
    "error": null,
    "data": {
     "name": "국제 금값",
     "short": "금",
     "kind": "commodity",
     "gold_krw": {
-     "per_don": 586515,
-     "per_gram": 156404
+     "per_don": 586086,
+     "per_gram": 156290
     },
     "five_year": {
      "since": "2021-11-24",
@@ -4349,7 +4349,7 @@
       ],
       [
        "2026-11-24",
-       3623.4
+       3620.4
       ]
      ],
      "drawdowns": [
@@ -4423,8 +4423,8 @@
        "recovered": null,
        "current": {
         "date": "2026-11-24",
-        "value": 3623.4,
-        "from_end_pct": 3.07
+        "value": 3620.4,
+        "from_end_pct": 2.99
        }
       },
       {
@@ -4700,46 +4700,46 @@
      "desc": "역사적으로도 드문 큰 하락이에요."
     },
     "summary": [
-     "금 값은 지난 거래일에 0.77% 내렸어요.",
+     "금 값은 지난 거래일에 0.85% 내렸어요.",
      "최고점보다 31.9% 낮은 '깊은 약세장' 상태예요.",
      "'역사적 폭락' 단계(-40%)까지 8.1%p 더 떨어지면 도달해요."
     ],
     "symbol": "GC=F",
     "as_of": "2026-11-24",
     "prev_date": "2026-11-23",
-    "close": 3623.4,
+    "close": 3620.4,
     "prev_close": 3651.4,
-    "change_pct": -0.77,
+    "change_pct": -0.85,
     "peak": {
      "value": 5318.4,
      "date": "2026-01-29"
     },
-    "drawdown_pct": -31.87,
+    "drawdown_pct": -31.93,
     "gauge": {
      "prev_line": -30.0,
      "next_line": -40.0,
-     "remaining_pp": 8.13,
-     "progress": 0.187
+     "remaining_pp": 8.07,
+     "progress": 0.1927
     },
     "krw": {
-     "change_pct": -0.89,
-     "fx_change_pct": -0.13,
-     "fx_now": 1342.58,
+     "change_pct": -0.97,
+     "fx_change_pct": -0.12,
+     "fx_now": 1342.71,
      "fx_prev": 1344.31,
-     "summary": "원화로 투자했다면 금 값은 -0.89%예요 (달러 기준 -0.77% + 환율 -0.13% 효과)."
+     "summary": "원화로 투자했다면 금 값은 -0.97%예요 (달러 기준 -0.85% + 환율 -0.12% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-24T06:17:14+00:00"
+    "fetched_at": "2026-11-24T10:18:56+00:00"
    }
   },
   "fear_greed": {
    "status": "ok",
-   "attempted_at": "2026-11-24T06:16:59+00:00",
-   "last_success_at": "2026-11-24T06:16:59+00:00",
+   "attempted_at": "2026-11-24T10:18:42+00:00",
+   "last_success_at": "2026-11-24T10:18:42+00:00",
    "error": null,
    "data": {
-    "score": 16.97,
-    "as_of": "2026-11-24T01:00:00+00:00",
+    "score": 16.46,
+    "as_of": "2026-11-24T10:02:16+00:00",
     "prev_close": 16.97,
     "week_ago": 25.95,
     "month_ago": 16.69,
@@ -4750,7 +4750,7 @@
      "level": 0
     },
     "summary": [
-     "투자자 심리는 100점 만점에 17점, '극단적 공포' 상태예요."
+     "투자자 심리는 100점 만점에 16점, '극단적 공포' 상태예요."
     ],
     "history": [
      [
@@ -5127,33 +5127,33 @@
      ],
      [
       "2026-11-23",
-      16.97
+      16.64
      ],
      [
       "2026-11-24",
-      16.97
+      16.46
      ]
     ]
    }
   },
   "vix": {
    "status": "ok",
-   "attempted_at": "2026-11-24T06:16:59+00:00",
-   "last_success_at": "2026-11-24T06:16:59+00:00",
+   "attempted_at": "2026-11-24T10:18:42+00:00",
+   "last_success_at": "2026-11-24T10:18:42+00:00",
    "error": null,
    "data": {
-    "as_of": "2026-11-23",
-    "close": 26.62,
-    "prev_close": 35.89,
-    "change": -9.27,
-    "change_pct": -25.83,
+    "as_of": "2026-11-24",
+    "close": 27.81,
+    "prev_close": 26.62,
+    "change": 1.19,
+    "change_pct": 4.47,
     "zone": {
      "label": "불안",
      "desc": "평소보다 크게 출렁일 거라고 보는 사람이 많아요.",
      "level": 2
     },
     "summary": [
-     "공포지수(VIX)는 26.6, '불안' 수준이에요."
+     "공포지수(VIX)는 27.8, '불안' 수준이에요."
     ],
     "history": [
      [
@@ -5419,16 +5419,20 @@
      [
       "2026-11-23",
       26.62
+     ],
+     [
+      "2026-11-24",
+      27.81
      ]
     ],
     "live": false,
-    "fetched_at": "2026-11-24T06:17:14+00:00"
+    "fetched_at": "2026-11-24T10:18:56+00:00"
    }
   },
   "movers": {
    "status": "ok",
-   "attempted_at": "2026-11-24T06:16:59+00:00",
-   "last_success_at": "2026-11-24T06:16:59+00:00",
+   "attempted_at": "2026-11-24T10:18:42+00:00",
+   "last_success_at": "2026-11-24T10:18:42+00:00",
    "error": null,
    "data": {
     "universe": "나스닥-100",
@@ -5451,17 +5455,17 @@
       },
       "news": [
        {
-        "title": "Nvidia Stock Just Had Its Best Day in Over a Decade. I'd Still Buy It Now.",
-        "link": "https://www.fool.com/investing/2026/11/24/nvidia-stock-just-had-its-best-day-in-over-a-decade-i-d-still-buy-it-now/?.tsrc=rss",
+        "title": "US targets chip smuggling to China after Huang's return to scandal-hit Nvidia",
+        "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-reinstates-jensen-huang-ceo-141738492.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-24T06:03:02+00:00",
+        "published": "2026-11-24T10:08:05+00:00",
         "lang": "en"
        },
        {
-        "title": "Jensen Huang is back at Nvidia. What does it mean for Europe's AI stocks?",
-        "link": "https://www.euronews.com/2026/11/24/jensen-huang-is-back-at-nvidia-what-does-it-mean-for-europes-ai-stocks?.tsrc=rss",
+        "title": "AI market whipsaw puts Kevin Warsh's rate-hike strategy to the test",
+        "link": "https://finance.yahoo.com/economy/policy/article/ai-market-whipsaw-puts-kevin-warshs-rate-hike-strategy-to-the-test-100000273.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-24T05:52:50+00:00",
+        "published": "2026-11-24T10:00:00+00:00",
         "lang": "en"
        }
       ]
@@ -5514,17 +5518,17 @@
       },
       "news": [
        {
-        "title": "CoreWeave Inc. (CRWV) Just Turned the Tables. What Changed?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-inc-crwv-just-turned-031501579.html?.tsrc=rss",
+        "title": "CRWV, NBIS And IREN Rally In A ‘Good Day’ For Neoclouds — Databricks Co-Founder Flags Security Gaps At ‘Top’ Neoclouds",
+        "link": "https://stocktwits.com/news-articles/markets/equity/crwv-nbis-iren-rally-good-day-neoclouds-databricks-co-founder-security-gaps-top-neoclouds/cNbsRgYR9kB?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-24T03:15:01+00:00",
+        "published": "2026-11-24T08:23:57+00:00",
         "lang": "en"
        },
        {
-        "title": "Dead Cat Bounce? AI Stocks Climb 20%+, but IREN, Applied Digital Stay Down 50%+",
-        "link": "https://beincrypto.com/ai-stocks-dead-cat-bounce-iren/?.tsrc=rss",
+        "title": "Leopold Aschenbrenner Sold His $745 Million CoreWeave Stake Last Quarter. It’s Down 45% Since Sept. 30",
+        "link": "https://www.tikr.com/blog/leopold-aschenbrenner-sold-his-745-million-coreweave-stake-last-quarter-its-down-45-since-sept-30?ref=yahoofinance&tlnk=yf-261124-88h66jmm&.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-24T03:05:00+00:00",
+        "published": "2026-11-24T08:07:28+00:00",
         "lang": "en"
        }
       ]
@@ -5545,20 +5549,19 @@
       },
       "news": [
        {
+        "title": "CRWV, NBIS And IREN Rally In A ‘Good Day’ For Neoclouds — Databricks Co-Founder Flags Security Gaps At ‘Top’ Neoclouds",
+        "link": "https://stocktwits.com/news-articles/markets/equity/crwv-nbis-iren-rally-good-day-neoclouds-databricks-co-founder-security-gaps-top-neoclouds/cNbsRgYR9kB?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-24T08:23:57+00:00",
+        "lang": "en"
+       },
+       {
         "title": "SpaceX Is “Following the Exact Same Pattern That Meta Followed” After Its IPO, per Steve Jurvetson. Time to Buy?",
         "link": "https://www.tikr.com/blog/spacex-is-following-the-exact-same-pattern-that-meta-followed-after-its-ipo-per-steve-jurvetson-time-to-buy?ref=yahoofinance&tlnk=yf-261123-gjp9pmgx&.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-23T23:27:25+00:00",
         "lang": "en",
         "title_ko": "SpaceX는 IPO 이후 \"메타가 따랐던 것과 똑같은 패턴을 따르고 있다\"고 Steve Jurvetson이 말했습니다. 구매할 시간인가요?"
-       },
-       {
-        "title": "Gavin Baker: “At Least Three Companies” Want to Replace Nvidia as AI’s Central Bank. Good News for CoreWeave",
-        "link": "https://www.tikr.com/blog/gavin-baker-at-least-three-companies-want-to-replace-nvidia-as-ais-central-bank-good-news-for-coreweave?ref=yahoofinance&tlnk=yf-261123-37w799jj&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-23T20:30:44+00:00",
-        "lang": "en",
-        "title_ko": "개빈 베이커: \"최소 3개 회사\"가 엔비디아를 AI 중앙은행으로 대체하고 싶어합니다. CoreWeave에 좋은 소식"
        }
       ]
      },
@@ -5578,17 +5581,17 @@
       },
       "news": [
        {
-        "title": "Watch these chip stocks for bargain buys after Nvidia’s post-reinstatement rally",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/watch-chip-stocks-bargain-buys-040218865.html?.tsrc=rss",
+        "title": "AI’s most powerful CEO is back. But how long will the market confidence last?",
+        "link": "https://www.cnn.com/2026/11/24/investing/nvidia-jensen-huang-ai-financing-boom?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-24T04:02:18+00:00",
+        "published": "2026-11-24T09:00:15+00:00",
         "lang": "en"
        },
        {
-        "title": "Dow, Nasdaq and Bitcoin Jump on Huang's Return, but Why Did Bitcoin Reverse?",
-        "link": "https://beincrypto.com/bitcoin-reversal-huang-return-nasdaq/?.tsrc=rss",
+        "title": "Black Friday Comes to Tech Stocks: 3 Artificial Intelligence (AI) Names I’d Buy on Sale",
+        "link": "https://www.fool.com/investing/2026/11/24/black-friday-comes-to-tech-stocks-3-artificial-intelligence-ai-names-id-buy-on-sale/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-24T02:00:00+00:00",
+        "published": "2026-11-24T07:54:02+00:00",
         "lang": "en"
        }
       ]
@@ -5603,25 +5606,25 @@
       "change_pct": -8.92,
       "volume": 42313300,
       "reason": {
-       "title": "[美특징주]크라우드스트라이크, 지스케일러 439억달러 인수…주가 11%↓",
-       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQamkzTjVzd1JJYzVOOXpNc25rQjJ3MzdSVURUZjhVRHdUb0ktcjhDSW50S0h6NzdjNU9YSDN4dXgzN01yQ3RIcGt2SUtlLU5xQUFCM0d4empKZ0lJdmtuWml2U0FGT3EwZXdWUS03WFNNM3FzOVVOalJTVGhDblJTQg?oc=5",
-       "source": "이데일리",
-       "published": "2026-11-23T20:04:17+00:00",
-       "lang": "ko"
+       "title": "CrowdStrike Stock Price Forecast: Plunges 9% After Zscaler Acquisition, CRWD Risks Another 14% Drop",
+       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPT3ZUcUdwLXVHLUs4NFBUa2h3WmM2dEtPRnc3XzV5UEFsQVRZY0QzQjVGU01FaC1ZeDJSVC1PUkhPRWlXamtwajd2TUxnZHF0cGFXUjNmVzZrLTE0OXNXT1E0MThMT3FUV1diQlhDb2NTcXJzUmt3bm5RQVpuVDV0cUFmVFJfRDdwWENuWlh0ZllacE1FOUpPVjJLY21ST1pHOXB0aVNiams2aDRDSjc2XzM1X0NrVVVvcXNyb05MZVNmTENrb1pj?oc=5",
+       "source": "TradingKey",
+       "published": "2026-11-24T06:32:07+00:00",
+       "lang": "en"
       },
       "news": [
+       {
+        "title": "CrowdStrike Agreed to Buy Zscaler, Which Trades at a “50% Discount” to Its History",
+        "link": "https://www.tikr.com/blog/crowdstrike-agreed-to-buy-zscaler-which-trades-at-a-50-discount-to-its-history?ref=yahoofinance&tlnk=yf-261124-h782977j&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-24T08:43:07+00:00",
+        "lang": "en"
+       },
        {
         "title": "Why Did Palo Alto Networks Stock Fall?",
         "link": "https://www.trefis.com/stock/panw/articles/627845/why-is-palo-alto-networks-stock-falling/2026-11-23?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-24T05:06:42+00:00",
-        "lang": "en"
-       },
-       {
-        "title": "CrowdStrike CEO Sees $185B Opportunity, Says Zscaler Deal Will Create A ‘Winning Combination’ Amid Rising AI Threats",
-        "link": "https://stocktwits.com/news-articles/markets/equity/crowdstrike-zscaler-185b-opportunity-ceo-winning-combination/cNbruzKR9jx?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-24T03:46:03+00:00",
         "lang": "en"
        }
       ]
@@ -5751,17 +5754,17 @@
       },
       "news": [
        {
-        "title": "Nvidia Stock Just Had Its Best Day in Over a Decade. I'd Still Buy It Now.",
-        "link": "https://www.fool.com/investing/2026/11/24/nvidia-stock-just-had-its-best-day-in-over-a-decade-i-d-still-buy-it-now/?.tsrc=rss",
+        "title": "US targets chip smuggling to China after Huang's return to scandal-hit Nvidia",
+        "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-reinstates-jensen-huang-ceo-141738492.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-24T06:03:02+00:00",
+        "published": "2026-11-24T10:08:05+00:00",
         "lang": "en"
        },
        {
-        "title": "Jensen Huang is back at Nvidia. What does it mean for Europe's AI stocks?",
-        "link": "https://www.euronews.com/2026/11/24/jensen-huang-is-back-at-nvidia-what-does-it-mean-for-europes-ai-stocks?.tsrc=rss",
+        "title": "AI market whipsaw puts Kevin Warsh's rate-hike strategy to the test",
+        "link": "https://finance.yahoo.com/economy/policy/article/ai-market-whipsaw-puts-kevin-warshs-rate-hike-strategy-to-the-test-100000273.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-24T05:52:50+00:00",
+        "published": "2026-11-24T10:00:00+00:00",
         "lang": "en"
        }
       ]
@@ -5842,19 +5845,18 @@
       },
       "news": [
        {
-        "title": "Not Starlink. Not Starship. This SpaceX Business Could Be Worth $80 Billion on Its Own.",
-        "link": "https://www.fool.com/investing/2026/11/24/not-starlink-not-starship-this-spacex-business-could-be-worth-usd80-billion-on-its-own/?.tsrc=rss",
+        "title": "Tesla And SpaceX Reportedly Name 5 Directors To Lead Merger Discussions — Investor Says Talks Are Moving At ‘Warp Speed’",
+        "link": "https://stocktwits.com/news-articles/markets/equity/tesla-spacex-5-directors-lead-merger-discussions-investor-talks-warp-speed/cNbsbrxR9ke?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-24T05:50:02+00:00",
+        "published": "2026-11-24T08:00:14+00:00",
         "lang": "en"
        },
        {
-        "title": "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally",
-        "link": "https://finance.yahoo.com/m/be493228-4ecf-338d-9017-054d3d6efc36/dow-jones-futures%3A-tech.html?.tsrc=rss",
+        "title": "SpaceX, Tesla directors negotiate potential $3.5 trillion merger, FT reports",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-directors-negotiate-potential-062339987.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-24T03:27:54+00:00",
-        "lang": "en",
-        "title_ko": "다우존스 선물: Jensen Huang의 복귀로 기술주, Nvidia 스냅백; 엘론 머스크가 이끄는 SpaceX, Tesla Rally"
+        "published": "2026-11-24T06:23:39+00:00",
+        "lang": "en"
        }
       ]
      },
@@ -5874,30 +5876,30 @@
       },
       "news": [
        {
-        "title": "CoreWeave Inc. (CRWV) Just Turned the Tables. What Changed?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-inc-crwv-just-turned-031501579.html?.tsrc=rss",
+        "title": "CRWV, NBIS And IREN Rally In A ‘Good Day’ For Neoclouds — Databricks Co-Founder Flags Security Gaps At ‘Top’ Neoclouds",
+        "link": "https://stocktwits.com/news-articles/markets/equity/crwv-nbis-iren-rally-good-day-neoclouds-databricks-co-founder-security-gaps-top-neoclouds/cNbsRgYR9kB?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-24T03:15:01+00:00",
+        "published": "2026-11-24T08:23:57+00:00",
         "lang": "en"
        },
        {
-        "title": "Dead Cat Bounce? AI Stocks Climb 20%+, but IREN, Applied Digital Stay Down 50%+",
-        "link": "https://beincrypto.com/ai-stocks-dead-cat-bounce-iren/?.tsrc=rss",
+        "title": "Leopold Aschenbrenner Sold His $745 Million CoreWeave Stake Last Quarter. It’s Down 45% Since Sept. 30",
+        "link": "https://www.tikr.com/blog/leopold-aschenbrenner-sold-his-745-million-coreweave-stake-last-quarter-its-down-45-since-sept-30?ref=yahoofinance&tlnk=yf-261124-88h66jmm&.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-24T03:05:00+00:00",
+        "published": "2026-11-24T08:07:28+00:00",
         "lang": "en"
        }
       ]
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-24T06:17:14+00:00"
+    "fetched_at": "2026-11-24T10:18:56+00:00"
    }
   },
   "sectors": {
    "status": "ok",
-   "attempted_at": "2026-11-24T06:16:59+00:00",
-   "last_success_at": "2026-11-24T06:16:59+00:00",
+   "attempted_at": "2026-11-24T10:18:42+00:00",
+   "last_success_at": "2026-11-24T10:18:42+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-23",
@@ -6012,112 +6014,112 @@
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-24T06:17:14+00:00"
+    "fetched_at": "2026-11-24T10:18:56+00:00"
    }
   },
   "news": {
    "status": "ok",
-   "attempted_at": "2026-11-24T06:16:59+00:00",
-   "last_success_at": "2026-11-24T06:16:59+00:00",
+   "attempted_at": "2026-11-24T10:18:42+00:00",
+   "last_success_at": "2026-11-24T10:18:42+00:00",
    "error": null,
    "data": {
     "items": [
      {
-      "title": "Asia markets jump as Nvidia boss Jensen Huang reinstated after spy scandal",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SeXJDYXotaGotTjIxUGJLUUtpcWFwbkhISVpNQ0MxYzFmRmF3ZDVfSFdtWW1XVjI3QUtjeC1qVnhhRmFmU2NmVDlhcmNURjR0VVVPcEp3?oc=5",
-      "source": "BBC",
-      "published": "2026-11-24T06:00:32+00:00",
+      "title": "US targets chip smuggling to China after Huang's return to scandal-hit Nvidia",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-reinstates-jensen-huang-ceo-141738492.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-24T10:08:05+00:00",
       "lang": "en"
      },
      {
-      "title": "미 증시, 젠슨 황 복귀에 급반등…엔비디아 주가, 개장 초 33% 폭등",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9SWUNINGtXSWNTSS1MUUlFZXBTMWlpNHhzYmZ5WkxFdHJuOEpKX0ZCRzRHQ3M2OHphYWtqV1NueWhIX1NzU0hWQ0RGUGVBRnJyNzQza0lCRjdYR1NxZXZXMk4wcGo5U0RWZjR6VVNvd3M1MmpUUFJN?oc=5",
-      "source": "한겨레",
-      "published": "2026-11-24T05:36:00+00:00",
+      "title": "The Buffett Indicator Is More Than 70 Points Above Its Dot-Com Peak. Here’s What That Means for Long-Term Investors.",
+      "link": "https://www.fool.com/investing/2026/11/24/the-buffett-indicator-is-more-than-70-points-above-its-dot-com-peak-heres-what-that-means-for-long-term-investors/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-24T10:05:02+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Sterling today: Pound edges higher after dollar-led slide as rally risks overshoot",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/sterling-today-pound-edges-higher-100214344.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-24T10:02:14+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "Stock futures rise as traders see whether Nvidia can extend rally from Jensen Huang’s return: Live updates",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11bVhzTUlmU0hLLW0wRklRekw2eURvelhVMlZ3YThhUm5kNkctUE81eHlyNkRVQkRqTkc1enU3TWZZT0RKY2I1YWNTTmVpaDZkdlJYRGtqYkhFSGViT2NQN1A2MEVxNXEwbkNRMXlaejlRbzhtY2g4?oc=5",
+      "source": "CNBC",
+      "published": "2026-11-24T09:33:32+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "US Futures Mixed After Monday’s Nvidia-Led Chip Rally — ZM, HPE, AMD, BABA In Focus",
+      "link": "https://stocktwits.com/news-articles/markets/equity/us-futures-mixed-after-monday-s-nvidia-led-chip-rally-zm-hpe-amd-baba-in-focus/cNbs23VR9kf?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-24T09:30:16+00:00",
+      "lang": "en"
+     },
+     {
+      "title": "미국 AI투심 되살린 '황의 귀환' … 금리인상·순환금융 불씨는 지속",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EVkVZOVpEdTF4ZHRzRFVadnpYcDN2amRkUk1Zd0tIZnd5dGhsRFptRWhmR1RVMGVCVGZla1dCdTZ0amRka1lMVEdsdk9rRjdKVGc?oc=5",
+      "source": "매일경제",
+      "published": "2026-11-24T08:30:53+00:00",
       "lang": "ko"
      },
      {
-      "title": "3 AI Infrastructure Stocks Retail Investors Are Watching After Nvidia Shares Jump",
-      "link": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-retail-052634911.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-24T05:26:34+00:00",
+      "title": "Sanofi strikes $41bn deal to buy US biotech Insmed",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYTNRampBR19XOHhYbVAyU3dfbDF1UDF1OWl4QUZyUVJvUTZoXzVaOUFwV2hsb2V3YjVKTlVTa1E5b3oxUXlPWDE4WDFpdzB5c21vS1Q3aFdLLVpVTUl5RXdueUNBcVJiOVZjcUNUR0dVTm8xa2hhQVFrYTk0d09Na1Q3TzI?oc=5",
+      "source": "Financial Times",
+      "published": "2026-11-24T08:30:37+00:00",
       "lang": "en"
      },
      {
-      "title": "Can Agnico Eagle Stock Bounce Off $151 Again?",
-      "link": "https://www.trefis.com/stock/aem/articles/627858/can-agnico-eagle-stock-bounce-off-151-again/2026-11-23?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-24T05:06:42+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "The Dates That Matter Most For Verizon Shareholders",
-      "link": "https://www.trefis.com/stock/vz/articles/627590/the-dates-that-matter-most-for-verizon-shareholders/2026-11-23?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-24T05:06:42+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "The 10-Year Topped 5% For The First Time Since 2007. What Happened Next?",
-      "link": "https://www.trefis.com/stock/spy/articles/627401/the-10-year-topped-5-for-the-first-time-since-2007-what-happened-next/2026-11-23?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-24T05:06:42+00:00",
-      "lang": "en"
-     },
-     {
-      "title": "뉴욕증시, AI주 폭락 딛고 급반등…나스닥 6.51% 폭등",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRVWpGX0hXSXpYQmRILS12UnNlQ1NMZ1o0cFFzdUdsX0h2YkNWUDh3YVptdWp4bm04djROTG95SHpmYVJtVXRaNS1Vc0pTV1ZuenpuVUxteHQ2VnpSVHZnN05SamVmbWtGQUw4VzA0bU8?oc=5",
-      "source": "https://www.thedailyeconomy.kr/",
-      "published": "2026-11-24T04:54:38+00:00",
+      "title": "젠슨 황 돌아오자 주가 폭등… 글로벌 증시 웃었다",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiVlF2S292dWE0NjhhVC1NMFU2X1RUckk2Vkg0bGxUMHd1N1RPOGJkSjRGc0lYZGcyNnNXV0c1dWlnaUt3dWl4dG5vck5YT05pOV9SdDdvamdtOHRxc1hvY3FB?oc=5",
+      "source": "매일신문",
+      "published": "2026-11-24T07:59:42+00:00",
       "lang": "ko"
      },
      {
-      "title": "뉴욕증시 급등 원·달러 환율 1344원대",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6bHBBNm9ONXhvNUJod1VTYk80dGJvVXlTWDZOUmcyYWxzelNYeWlqY01hb0JlVkVOSHFQZlBvc2ZGcXRxR0dZOFpJdWpLOU1NRWE3cW1LNFJSM0pHTVNyZVNjWEZzSnlQUW5KR1NWUdIBdEFVX3lxTFBSWldYczg4a2RXZmhqNzFpUHQtTjU3TS1xYW9nUFBBWVE3cjdQN0xzRXMtYVRvSUtNQ0hFOFNGVGg0REFYR1drdm5MT29NUzB1SE5YOFVuUXVXVFhId3JyZXZ1cnEwemw5MkhRV0dkNXRDWGxM?oc=5",
-      "source": "뉴스클레임",
-      "published": "2026-11-24T04:36:56+00:00",
+      "title": "‘검은 가죽 재킷’ 벗은 젠슨 황 “두 번째엔 더 나은 CEO”",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5xNTlDWnF6N0ZNWHhCdllybS0tNXVPVDlQLXV5N1hLRmZ5Rm93YTJLYk5KYmMyRHA3NW5zQ1lVdmF0cV9Pei00S1d3Wk9vdFY5bEFFdlRwTWlqdGxORFNMUG56cTFmOVNRdldTVlZvVHBKSW9Q?oc=5",
+      "source": "부산일보",
+      "published": "2026-11-24T07:51:06+00:00",
       "lang": "ko"
      },
      {
-      "title": "[뉴스프레소] 뉴욕증시 급반등, 나스닥 5.6% 급등… 결국 젠슨 황이었나 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lZ0hXR045Wmk5am9QbU5zZk1HUFNPdlhScjY3dU9uTXNEODhKZVFyc1duVms1Yk1tTFlLeVFCM2NsdExMM2J4VVJ6R3YwQ0VIZ3psZEpJY0g4c1NES3QxaDNYckkzNldO0gFuQVVfeXFMTnE3Q0lRYnBlUnZnVXNGQjB6WFQzUnBfemUtUEU5RHRPTF9Nc2tUcVdHUUpHbFZJMmlKZV95SVg5aGRoeHVOXzBqQ2hfTVcySFk1N3V4NkFzX2YwSW11UXhoZGpVQVROTnkzMS1UOEE?oc=5",
-      "source": "머니투데이",
-      "published": "2026-11-24T04:29:55+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "[뉴욕증시] 젠슨 황 전격 복귀에 도파민 폭발…필리 14%↑ |",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0VjFaeEU4TkNqVEtONXQ5M1VvalU0SmhnMTJfT01LQmJqUk8tMU91c0FIRVVkZmhxWWpSTXZkeXhONmtNSnRQbEZIb0hKb25ZNzZjczlXUS1kNV9pVF9mLWpLYVFabGRWenExVzkwRVNQa2dq?oc=5",
-      "source": "연합인포맥스",
-      "published": "2026-11-24T03:58:30+00:00",
+      "title": "젠슨 황 CEO 복귀에 뉴욕증시 폭등으로 화답...월가 \"GPU 예수가 부활했다\"",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mOXdqT3c3cWQyVGhOeFM4aXRVYXZkQWp4ak9tVjd2cEZjdjN4RDR5Wmx5bnZPdGJSck1iekdNVU1MbFJ2UkpJc2VkbTFGVjNiSXNhNUtGZ0pzeUllQTBwZU9ITzRFWmphQkVhRQ?oc=5",
+      "source": "생생비즈플러스",
+      "published": "2026-11-24T07:49:33+00:00",
       "lang": "ko"
      }
     ],
     "keywords": [
      {
       "word": "nvidia",
-      "count": 21,
+      "count": 24,
       "ko": "엔비디아"
      },
      {
+      "word": "china",
+      "count": 11,
+      "ko": "중국"
+     },
+     {
       "word": "huang",
-      "count": 15,
+      "count": 11,
       "ko": null
      },
      {
       "word": "trump",
-      "count": 12,
+      "count": 11,
       "ko": "트럼프"
      },
      {
-      "word": "jensen",
-      "count": 10,
-      "ko": null
-     },
-     {
-      "word": "china",
+      "word": "rally",
       "count": 9,
-      "ko": "중국"
+      "ko": "랠리"
      },
      {
       "word": "ceo",
@@ -6125,14 +6127,14 @@
       "ko": "CEO"
      },
      {
-      "word": "rally",
+      "word": "fed",
       "count": 8,
-      "ko": "랠리"
+      "ko": "연준"
      },
      {
-      "word": "fed",
-      "count": 7,
-      "ko": "연준"
+      "word": "jensen",
+      "count": 8,
+      "ko": null
      },
      {
       "word": "return",
@@ -6141,7 +6143,7 @@
      },
      {
       "word": "thanksgiving",
-      "count": 6,
+      "count": 5,
       "ko": null
      },
      {
@@ -6150,33 +6152,33 @@
       "ko": "아마존"
      },
      {
-      "word": "nasdaq",
-      "count": 4,
-      "ko": "나스닥"
-     },
-     {
-      "word": "putin",
+      "word": "biotech",
       "count": 4,
       "ko": null
      },
      {
-      "word": "reinstated",
+      "word": "friday",
       "count": 4,
       "ko": null
      },
      {
-      "word": "sales",
+      "word": "futures",
       "count": 4,
       "ko": null
+     },
+     {
+      "word": "investors",
+      "count": 4,
+      "ko": "투자자"
      }
     ],
-    "keyword_base_count": 107
+    "keyword_base_count": 114
    }
   },
   "calendar": {
    "status": "ok",
-   "attempted_at": "2026-11-24T06:16:59+00:00",
-   "last_success_at": "2026-11-24T06:16:59+00:00",
+   "attempted_at": "2026-11-24T10:18:42+00:00",
+   "last_success_at": "2026-11-24T10:18:42+00:00",
    "error": null,
    "data": {
     "today_et": "2026-11-24",

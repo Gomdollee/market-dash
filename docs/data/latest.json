@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-11-27T12:55:16+00:00",
+ "generated_at": "2026-11-27T21:50:17+00:00",
  "sections": {
   "fx": {
    "status": "ok",
-   "attempted_at": "2026-11-27T12:55:16+00:00",
-   "last_success_at": "2026-11-27T12:55:16+00:00",
+   "attempted_at": "2026-11-27T21:50:17+00:00",
+   "last_success_at": "2026-11-27T21:50:17+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-27",
-    "rate": 1334.52,
+    "rate": 1333.2,
     "prev_rate": 1342.97,
     "prev_date": "2026-11-26",
-    "change_pct": -0.63,
+    "change_pct": -0.73,
     "summary": [
-     "환율이 8원 내렸어요 (1달러 = 1,335원).",
+     "환율이 10원 내렸어요 (1달러 = 1,333원).",
      "달러가 싸지면, 미국 주식을 원화로 따진 가치는 줄어들어요."
     ],
     "source": "Yahoo Finance"
@@ -21,8 +21,8 @@
   },
   "nasdaq": {
    "status": "ok",
-   "attempted_at": "2026-11-27T12:55:16+00:00",
-   "last_success_at": "2026-11-27T12:55:16+00:00",
+   "attempted_at": "2026-11-27T21:50:17+00:00",
+   "last_success_at": "2026-11-27T21:50:17+00:00",
    "error": null,
    "data": {
     "name": "나스닥 종합",
@@ -30,12 +30,8 @@
     "kind": "index",
     "gold_krw": null,
     "five_year": {
-     "since": "2021-11-25",
+     "since": "2021-11-27",
      "weekly": [
-      [
-       "2021-11-26",
-       15491.66
-      ],
       [
        "2021-12-03",
        15085.47
@@ -1077,8 +1073,8 @@
        22617.73
       ],
       [
-       "2026-11-25",
-       23585.8
+       "2026-11-27",
+       24129.5
       ]
      ],
      "drawdowns": [
@@ -1239,9 +1235,9 @@
        "ongoing": true,
        "recovered": null,
        "current": {
-        "date": "2026-11-25",
-        "value": 23585.8,
-        "from_end_pct": 4.28
+        "date": "2026-11-27",
+        "value": 24129.5,
+        "from_end_pct": 6.68
        }
       },
       {
@@ -1697,42 +1693,42 @@
      "desc": "최고점보다 10% 이상 떨어지면 '조정'이라고 불러요."
     },
     "summary": [
-     "나스닥 지수는 지난 거래일에 0.62% 내렸어요.",
-     "최고점보다 14.5% 낮은 '조정' 상태예요.",
-     "'약세장' 단계(-20%)까지 5.5%p 더 떨어지면 도달해요."
+     "나스닥 지수는 지난 거래일에 2.31% 올랐어요.",
+     "최고점보다 12.6% 낮은 '조정' 상태예요.",
+     "'약세장' 단계(-20%)까지 7.4%p 더 떨어지면 도달해요."
     ],
     "symbol": "^IXIC",
-    "as_of": "2026-11-25",
-    "prev_date": "2026-11-24",
-    "close": 23585.8,
-    "prev_close": 23733.54,
-    "change_pct": -0.62,
+    "as_of": "2026-11-27",
+    "prev_date": "2026-11-25",
+    "close": 24129.5,
+    "prev_close": 23585.8,
+    "change_pct": 2.31,
     "peak": {
      "value": 27599.79,
      "date": "2026-10-06"
     },
-    "drawdown_pct": -14.54,
+    "drawdown_pct": -12.57,
     "gauge": {
      "prev_line": -10.0,
      "next_line": -20.0,
-     "remaining_pp": 5.46,
-     "progress": 0.4544
+     "remaining_pp": 7.43,
+     "progress": 0.2574
     },
     "krw": {
-     "change_pct": -0.5,
-     "fx_change_pct": 0.12,
-     "fx_now": 1342.65,
-     "fx_prev": 1341.02,
-     "summary": "원화로 투자했다면 나스닥 지수는 -0.50%예요 (달러 기준 -0.62% + 환율 +0.12% 효과)."
+     "change_pct": 1.59,
+     "fx_change_pct": -0.7,
+     "fx_now": 1333.2,
+     "fx_prev": 1342.65,
+     "summary": "원화로 투자했다면 나스닥 지수는 +1.59%예요 (달러 기준 +2.31% + 환율 -0.70% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-27T12:55:31+00:00"
+    "fetched_at": "2026-11-27T21:50:36+00:00"
    }
   },
   "sp500": {
    "status": "ok",
-   "attempted_at": "2026-11-27T12:55:16+00:00",
-   "last_success_at": "2026-11-27T12:55:16+00:00",
+   "attempted_at": "2026-11-27T21:50:17+00:00",
+   "last_success_at": "2026-11-27T21:50:17+00:00",
    "error": null,
    "data": {
     "name": "S&P 500",
@@ -1740,12 +1736,8 @@
     "kind": "index",
     "gold_krw": null,
     "five_year": {
-     "since": "2021-11-25",
+     "since": "2021-11-27",
      "weekly": [
-      [
-       "2021-11-26",
-       4594.62
-      ],
       [
        "2021-12-03",
        4538.43
@@ -2787,8 +2779,8 @@
        6910.39
       ],
       [
-       "2026-11-25",
-       7182.78
+       "2026-11-27",
+       7297.49
       ]
      ],
      "drawdowns": [
@@ -2884,9 +2876,9 @@
        "ongoing": true,
        "recovered": null,
        "current": {
-        "date": "2026-11-25",
-        "value": 7182.78,
-        "from_end_pct": 3.94
+        "date": "2026-11-27",
+        "value": 7297.49,
+        "from_end_pct": 5.6
        }
       },
       {
@@ -3255,50 +3247,50 @@
      "desc": "주식시장에서 흔히 있는 정도의 출렁임이에요."
     },
     "summary": [
-     "S&P 500 지수는 지난 거래일에 0.25% 내렸어요.",
-     "최고점보다 8.1% 낮은 '약한 하락' 상태예요.",
-     "'조정' 단계(-10%)까지 1.9%p 더 떨어지면 도달해요."
+     "S&P 500 지수는 지난 거래일에 1.60% 올랐어요.",
+     "최고점보다 6.7% 낮은 '약한 하락' 상태예요.",
+     "'조정' 단계(-10%)까지 3.3%p 더 떨어지면 도달해요."
     ],
     "symbol": "^GSPC",
-    "as_of": "2026-11-25",
-    "prev_date": "2026-11-24",
-    "close": 7182.78,
-    "prev_close": 7201.09,
-    "change_pct": -0.25,
+    "as_of": "2026-11-27",
+    "prev_date": "2026-11-25",
+    "close": 7297.49,
+    "prev_close": 7182.78,
+    "change_pct": 1.6,
     "peak": {
      "value": 7818.93,
      "date": "2026-10-06"
     },
-    "drawdown_pct": -8.14,
+    "drawdown_pct": -6.67,
     "gauge": {
      "prev_line": 0.0,
      "next_line": -10.0,
-     "remaining_pp": 1.86,
-     "progress": 0.8136
+     "remaining_pp": 3.33,
+     "progress": 0.6669
     },
     "krw": {
-     "change_pct": -0.13,
-     "fx_change_pct": 0.12,
-     "fx_now": 1342.65,
-     "fx_prev": 1341.02,
-     "summary": "원화로 투자했다면 S&P 500 지수는 -0.13%예요 (달러 기준 -0.25% + 환율 +0.12% 효과)."
+     "change_pct": 0.88,
+     "fx_change_pct": -0.7,
+     "fx_now": 1333.2,
+     "fx_prev": 1342.65,
+     "summary": "원화로 투자했다면 S&P 500 지수는 +0.88%예요 (달러 기준 +1.60% + 환율 -0.70% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-27T12:55:31+00:00"
+    "fetched_at": "2026-11-27T21:50:36+00:00"
    }
   },
   "gold": {
    "status": "ok",
-   "attempted_at": "2026-11-27T12:55:16+00:00",
-   "last_success_at": "2026-11-27T12:55:16+00:00",
+   "attempted_at": "2026-11-27T21:50:17+00:00",
+   "last_success_at": "2026-11-27T21:50:17+00:00",
    "error": null,
    "data": {
     "name": "국제 금값",
     "short": "금",
     "kind": "commodity",
     "gold_krw": {
-     "per_don": 594498,
-     "per_gram": 158533
+     "per_don": 589666,
+     "per_gram": 157244
     },
     "five_year": {
      "since": "2021-11-27",
@@ -4345,7 +4337,7 @@
       ],
       [
        "2026-11-27",
-       3694.9
+       3668.5
       ]
      ],
      "drawdowns": [
@@ -4419,8 +4411,8 @@
        "recovered": null,
        "current": {
         "date": "2026-11-27",
-        "value": 3694.9,
-        "from_end_pct": 5.11
+        "value": 3668.5,
+        "from_end_pct": 4.36
        }
       },
       {
@@ -4696,57 +4688,57 @@
      "desc": "역사적으로도 드문 큰 하락이에요."
     },
     "summary": [
-     "금 값은 지난 거래일에 4.50% 올랐어요.",
-     "최고점보다 30.5% 낮은 '깊은 약세장' 상태예요.",
-     "'역사적 폭락' 단계(-40%)까지 9.5%p 더 떨어지면 도달해요."
+     "금 값은 지난 거래일에 3.75% 올랐어요.",
+     "최고점보다 31.0% 낮은 '깊은 약세장' 상태예요.",
+     "'역사적 폭락' 단계(-40%)까지 9.0%p 더 떨어지면 도달해요."
     ],
     "symbol": "GC=F",
     "as_of": "2026-11-27",
     "prev_date": "2026-11-25",
-    "close": 3694.9,
+    "close": 3668.5,
     "prev_close": 3535.8,
-    "change_pct": 4.5,
+    "change_pct": 3.75,
     "peak": {
      "value": 5318.4,
      "date": "2026-01-29"
     },
-    "drawdown_pct": -30.53,
+    "drawdown_pct": -31.02,
     "gauge": {
      "prev_line": -30.0,
      "next_line": -40.0,
-     "remaining_pp": 9.47,
-     "progress": 0.0526
+     "remaining_pp": 8.98,
+     "progress": 0.1022
     },
     "krw": {
-     "change_pct": 3.87,
-     "fx_change_pct": -0.61,
-     "fx_now": 1334.52,
+     "change_pct": 3.02,
+     "fx_change_pct": -0.7,
+     "fx_now": 1333.2,
      "fx_prev": 1342.65,
-     "summary": "원화로 투자했다면 금 값은 +3.87%예요 (달러 기준 +4.50% + 환율 -0.61% 효과)."
+     "summary": "원화로 투자했다면 금 값은 +3.02%예요 (달러 기준 +3.75% + 환율 -0.70% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-27T12:55:31+00:00"
+    "fetched_at": "2026-11-27T21:50:36+00:00"
    }
   },
   "fear_greed": {
    "status": "ok",
-   "attempted_at": "2026-11-27T12:55:16+00:00",
-   "last_success_at": "2026-11-27T12:55:16+00:00",
+   "attempted_at": "2026-11-27T21:50:17+00:00",
+   "last_success_at": "2026-11-27T21:50:17+00:00",
    "error": null,
    "data": {
-    "score": 20.6,
-    "as_of": "2026-11-27T12:37:41+00:00",
+    "score": 24.89,
+    "as_of": "2026-11-27T21:33:20+00:00",
     "prev_close": 15.6,
     "week_ago": 18.59,
     "month_ago": 32.89,
     "year_ago": 17.66,
     "zone": {
-     "label": "극단적 공포",
-     "desc": "다들 겁먹고 팔고 있어요. 역사적으로는 이럴 때가 싸게 살 기회였던 적도 많아요.",
-     "level": 0
+     "label": "공포",
+     "desc": "불안한 분위기라 조심스럽게 사고파는 중이에요.",
+     "level": 1
     },
     "summary": [
-     "투자자 심리는 100점 만점에 21점, '극단적 공포' 상태예요."
+     "투자자 심리는 100점 만점에 25점, '공포' 상태예요."
     ],
     "history": [
      [
@@ -5119,37 +5111,37 @@
      ],
      [
       "2026-11-25",
-      20.57
+      20.91
      ],
      [
       "2026-11-26",
-      20.57
+      21.34
      ],
      [
       "2026-11-27",
-      20.6
+      24.89
      ]
     ]
    }
   },
   "vix": {
    "status": "ok",
-   "attempted_at": "2026-11-27T12:55:16+00:00",
-   "last_success_at": "2026-11-27T12:55:16+00:00",
+   "attempted_at": "2026-11-27T21:50:17+00:00",
+   "last_success_at": "2026-11-27T21:50:17+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-27",
-    "close": 25.38,
+    "close": 23.81,
     "prev_close": 26.8,
-    "change": -1.42,
-    "change_pct": -5.3,
+    "change": -2.99,
+    "change_pct": -11.16,
     "zone": {
      "label": "불안",
      "desc": "평소보다 크게 출렁일 거라고 보는 사람이 많아요.",
      "level": 2
     },
     "summary": [
-     "공포지수(VIX)는 25.4, '불안' 수준이에요."
+     "공포지수(VIX)는 23.8, '불안' 수준이에요."
     ],
     "history": [
      [
@@ -5418,342 +5410,318 @@
      ],
      [
       "2026-11-27",
-      25.38
+      23.81
      ]
     ],
     "live": false,
-    "fetched_at": "2026-11-27T12:55:31+00:00"
+    "fetched_at": "2026-11-27T21:50:36+00:00"
    }
   },
   "movers": {
    "status": "ok",
-   "attempted_at": "2026-11-27T12:55:16+00:00",
-   "last_success_at": "2026-11-27T12:55:16+00:00",
+   "attempted_at": "2026-11-27T21:50:17+00:00",
+   "last_success_at": "2026-11-27T21:50:17+00:00",
    "error": null,
    "data": {
     "universe": "나스닥-100",
     "universe_count": 100,
-    "as_of": "2026-11-25",
+    "as_of": "2026-11-27",
     "gainers": [
      {
-      "symbol": "AXON",
-      "name_ko": "액손",
-      "date": "2026-11-25",
-      "close": 343.05,
-      "change_pct": 7.43,
-      "volume": 2023100,
-      "reason": {
-       "title": "Axon Enterprise Inc (AXON) 주식 마감했습니다 상승 7.43%에 11월25일: 투자자가 알아야 할 정보",
-       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQelhCdXFybWwzM196cTZ4bkl3OW1NMW1BUEt0NU9idk53VkdtaXU5X3RkV3pSMWF6WDFlNlZyVkNDd2hTMGFuTGF6LWhuRlJlZjRKMTRwUy0zQmJubnM5eTZ4NGotLWdzbmxTdHJfNnAwa3c2cWtOS2ZSVVo5WkJqdktocFhqVUFMSmNhdmwtYw?oc=5",
-       "source": "TradingKey",
-       "published": "2026-11-25T21:17:30+00:00",
-       "lang": "ko"
-      },
-      "news": [
-       {
-        "title": "Is Axon Stock Priced Right Against Its Peers?",
-        "link": "https://www.trefis.com/stock/axon/articles/629349/is-axon-stock-priced-right-against-its-peers/2026-11-27?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-27T12:30:46+00:00",
-        "lang": "en",
-        "title_ko": "Axon 주식은 동료 기업에 비해 가격이 적절합니까?"
-       },
-       {
-        "title": "Ken Fisher and 5 Other Big Funds Sold Axon Enterprise Last Quarter, While 9 Bought. Who’s Right?",
-        "link": "https://www.tikr.com/blog/ken-fisher-and-5-other-big-funds-sold-axon-enterprise-last-quarter-while-9-bought-whos-right?ref=yahoofinance&tlnk=yf-261126-3rxw8h4v&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-26T18:41:47+00:00",
-        "lang": "en",
-        "title_ko": "Ken Fisher와 5개의 다른 대형 펀드가 지난 분기에 Axon Enterprise를 매각했고, 9개는 매입했습니다. 누가 맞나요?"
-       }
-      ]
-     },
-     {
-      "symbol": "ADI",
-      "name_ko": "아날로그디바이스",
-      "date": "2026-11-25",
-      "close": 333.11,
-      "change_pct": 6.44,
-      "volume": 9202700,
+      "symbol": "ALAB",
+      "name_ko": "아스테라랩스",
+      "date": "2026-11-27",
+      "close": 206.84,
+      "change_pct": 8.67,
+      "volume": 3291516,
       "reason": null,
       "news": [
        {
-        "title": "Analog Devices (ADI) Stock Fair Value Moves Lower After Mixed Analyst Target Revisions",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-stock-fair-042320733.html?.tsrc=rss",
+        "title": "Astera Labs is suddenly back in the AI spotlight after rough patch",
+        "link": "https://www.thestreet.com/investing/stocks/astera-labs-is-suddenly-back-in-the-ai-spotlight-after-rough-patch?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T04:23:20+00:00",
+        "published": "2026-11-27T19:17:00+00:00",
         "lang": "en",
-        "title_ko": "Analog Devices(ADI) 주식 공정 가치는 혼합 애널리스트 목표 수정 후 하락"
+        "title_ko": "Astera Labs는 거친 패치 이후 갑자기 AI 스포트라이트를 받았습니다."
        },
        {
-        "title": "Analog Devices keeps UBS target despite softer earnings guidance",
-        "link": "https://www.proactiveinvestors.com/companies/news/1102545/analog-devices-keeps-ubs-target-despite-softer-earnings-guidance-1102545.html?.tsrc=rss",
+        "title": "Is Astera Labs, Inc. (ALAB) One of the Best Oversold AI Semiconductor Stocks to Buy?",
+        "link": "https://finance.yahoo.com/technology/ai/articles/astera-labs-inc-alab-one-194946194.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-26T19:00:00+00:00",
+        "published": "2026-11-26T19:49:46+00:00",
         "lang": "en",
-        "title_ko": "Analog Devices, 수익 지침 완화에도 불구하고 UBS 목표 유지"
+        "title_ko": "Astera Labs, Inc.(ALAB)는 매수하기에 가장 좋은 과매도 AI 반도체 주식 중 하나입니까?"
        }
       ]
      },
      {
-      "symbol": "TXN",
-      "name_ko": "텍사스인스트루먼트",
-      "date": "2026-11-25",
-      "close": 270.19,
-      "change_pct": 4.55,
-      "volume": 10467000,
+      "symbol": "RKLB",
+      "name_ko": "로켓랩",
+      "date": "2026-11-27",
+      "close": 50.88,
+      "change_pct": 8.21,
+      "volume": 10313324,
       "reason": {
-       "title": "Texas Instruments Inc (TXN) 주식 움직였습니다 상승 3.75%에 11월25일: 어떤 신호인가요?",
-       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVC1NZ3dZTnFKOVVrR2tubmg3ZnhPamtNelZmRUxySlNLWW1zNzRhNy1rb3RfV0VTbVlXT3ZqcEljR0plY0lmSHp6MjRURERpY01RN3RNQmk5RkNWMWRPU0w0NjJLWXR4cUFSd1B6cEl3ZVpMckJQT0hLcWozWXRlRXFScWxBckY0MkEwNFJ3?oc=5",
-       "source": "TradingKey",
-       "published": "2026-11-25T19:17:03+00:00",
-       "lang": "ko"
+       "title": "Rocket Lab Corporation (RKLB) Stock: Rallies as Company Successfully Launches 14th Synspective Satellite",
+       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZk5IN3BEUTFVR01FVXVoTjY1eWZlb1VUWExUbldRenJ4Vi11b3lqTUNDR0Nzc3ZXMkVtRXhXeVhOeGZOTlkwVGxVMEpxWUFxdEV2dW40cEtmaklSYkJOVjNYRHQyRWNzYmpwYlFudjlkREJyRWhOcXUyaTBlRlAxUW9FVkROT3NrcXljM2ctZEh1TUp2czY3dXBDYUhvWG9WUzk0ZVNST1VmbElXQlBjMmZkZ2dCNTBKLXJuX2lwVzd1Zlk?oc=5",
+       "source": "Blockonomi",
+       "published": "2026-11-27T11:21:24+00:00",
+       "lang": "en",
+       "title_ko": "Rocket Lab Corporation(RKLB) 주식: 회사가 14번째 Synspective 위성을 성공적으로 발사하면서 상승세를 보이고 있습니다."
       },
       "news": [
        {
-        "title": "Why Is Texas Instruments Stock Climbing Today?",
-        "link": "https://investorshub.advfn.com/market-news/article/40796/why-is-texas-instruments-stock-climbing-today?.tsrc=rss",
+        "title": "Rocket Lab (RKLB) Completed Its 101st Electron Launch",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-completed-101st-151036962.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T11:57:22+00:00",
+        "published": "2026-11-27T15:10:36+00:00",
         "lang": "en",
-        "title_ko": "오늘 텍사스 인스트루먼트 주가가 상승하는 이유는 무엇입니까?"
+        "title_ko": "로켓 연구소(RKLB), 101번째 전자 발사 완료"
        },
        {
-        "title": "Is Texas Instruments (TXN) Trading At A Premium To Cash Flow?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-trading-premium-100658231.html?.tsrc=rss",
+        "title": "AST SpaceMobile Gains 2% Despite Berenberg’s Price Target Cut to $30, Rocket Lab Climbs 5% After Electron Launch; Cathie Wood-Backed SpaceX Rises 3%",
+        "link": "https://247wallst.com/investing/2026/11/27/ast-spacemobile-gains-2-despite-berenbergs-price-target-cut-to-30-rocket-lab-climbs-5-after-electron-launch-cathie-wood-backed-spacex-rises-3/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T10:06:58+00:00",
+        "published": "2026-11-27T14:04:52+00:00",
         "lang": "en",
-        "title_ko": "텍사스 인스트루먼트(TXN)는 현금 흐름 대비 프리미엄으로 거래됩니까?"
+        "title_ko": "AST SpaceMobile은 Berenberg의 목표 가격을 30달러로 인하했음에도 불구하고 2% 상승했고, Rocket Lab은 Electron 출시 후 5% 상승했습니다. Cathie Wood가 지원하는 SpaceX가 3% 상승"
        }
       ]
      },
      {
-      "symbol": "DASH",
-      "name_ko": "도어대시",
-      "date": "2026-11-25",
-      "close": 166.4,
-      "change_pct": 3.92,
-      "volume": 6405600,
+      "symbol": "LITE",
+      "name_ko": "루멘텀",
+      "date": "2026-11-27",
+      "close": 514.63,
+      "change_pct": 7.98,
+      "volume": 2568579,
       "reason": null,
       "news": [
        {
-        "title": "Is Grocery Delivery Worth the Cost? (2026): DoorDash Options, Fees, and Savings Reviewed by Consumer365",
-        "link": "https://finance.yahoo.com/small-business/articles/grocery-delivery-worth-cost-2026-113000676.html?.tsrc=rss",
+        "title": "Astera Labs is suddenly back in the AI spotlight after rough patch",
+        "link": "https://www.thestreet.com/investing/stocks/astera-labs-is-suddenly-back-in-the-ai-spotlight-after-rough-patch?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T11:30:00+00:00",
+        "published": "2026-11-27T19:17:00+00:00",
         "lang": "en",
-        "title_ko": "식료품 배달은 그만한 가치가 있나요? (2026): Consumer365가 검토한 DoorDash 옵션, 수수료 및 절감액"
+        "title_ko": "Astera Labs는 거친 패치 이후 갑자기 AI 스포트라이트를 받았습니다."
        },
        {
-        "title": "Bernstein’s $250 Target Says DoorDash’s Selloff Went Too Far",
-        "link": "https://www.tikr.com/blog/bernsteins-250-target-says-doordashs-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261125-vv699fp3&.tsrc=rss",
+        "title": "Marvell Technology (MRVL) Could Be 58% Undervalued Following Its Penguin Solutions Tie Up",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-could-58-190952326.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-25T16:49:56+00:00",
+        "published": "2026-11-27T19:09:52+00:00",
         "lang": "en",
-        "title_ko": "Bernstein의 250달러 목표는 DoorDash의 매각이 너무 멀리 갔다고 말합니다"
+        "title_ko": "Marvell Technology(MRVL)는 펭귄 솔루션 제휴로 인해 58% 저평가될 수 있습니다."
        }
       ]
      },
      {
-      "symbol": "META",
-      "name_ko": "메타",
-      "date": "2026-11-25",
-      "close": 609.89,
-      "change_pct": 3.4,
-      "volume": 18668200,
+      "symbol": "STX",
+      "name_ko": "시게이트",
+      "date": "2026-11-27",
+      "close": 509.66,
+      "change_pct": 7.9,
+      "volume": 2544281,
       "reason": {
-       "title": "[미국 특징주] 메타·엔비디아, AI 희비",
-       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4UzJXWlpsV0M3bHVfb09RS1l0QlQ2S2NsYzRkR1NSZUl3Y29QZmk4cWlxQjZjNThvN0tLM09jQWdBZG9GWkVna3VITHVMYTlxd0dCMDZXMFJqcmczUEZ0QWdRQzJWUEs2UUtQZA?oc=5",
-       "source": "센머니",
-       "published": "2026-11-27T01:05:36+00:00",
-       "lang": "ko"
+       "title": "Seagate Technology Holdings PLC Stock (STX) Moved Up by 7.91% on Nov 27: Drivers Behind the Movement",
+       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOU0JITjF1cjAzeV9yTnBOWXl3UWwzSFp3V2FGWWM3b0hydkt3VmQ2OGZKMzJHSGFPYm5od3NnaldtTVRlODFyc1hWOFlIX0tUNHJrM3BKaWxHMnkyZy02VFE1SVhKejY3b3pFbmQ1V19BWTVGTHlqZTBjWndFSVBvbkFLbFZnOUVVV2c?oc=5",
+       "source": "TradingKey",
+       "published": "2026-11-27T20:15:37+00:00",
+       "lang": "en",
+       "title_ko": "Seagate Technology Holdings PLC 주식(STX)은 11월 27일에 7.91% 상승했습니다: 이 움직임의 원동력"
       },
       "news": [
        {
-        "title": "Broadcom’s 2027 Bull Case: AI Revenue Doubles to $115B and $230B—Here’s What Finally Unlocks the Stock",
-        "link": "https://247wallst.com/investing/2026/11/27/broadcoms-2027-bull-case-ai-revenue-doubles-to-115b-and-230b-heres-what-finally-unlocks-the-stock/?.tsrc=rss",
+        "title": "SanDisk Stocks Jump 12.85% After Kioxia and Nvidia Stretch GPU Memory With SSDs",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stocks-jump-12-85-181316890.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T12:15:25+00:00",
+        "published": "2026-11-27T18:13:16+00:00",
         "lang": "en",
-        "title_ko": "Broadcom의 2027년 강세 사례: AI 수익이 1,150억 달러와 2,300억 달러로 두 배 증가 - 마침내 주식을 공개하는 방법은 다음과 같습니다."
+        "title_ko": "Kioxia와 Nvidia가 SSD로 GPU 메모리를 확장한 후 SanDisk 주가 12.85% 상승"
        },
        {
-        "title": "Broadcom Makes More AI Money Than AMD—So Why Is AMD’s Stock Crushing It?",
-        "link": "https://247wallst.com/investing/2026/11/27/broadcom-makes-more-ai-money-than-amd-so-why-is-amds-stock-crushing-it/?.tsrc=rss",
+        "title": "SanDisk Surges 16% as Memory Stocks Extend Their Rebound: Can SNDK Stock Blast Through $100 Before 2026 Ends?",
+        "link": "https://247wallst.com/investing/2026/11/27/sandisk-surges-16-as-memory-stocks-extend-their-rebound-can-sndk-stock-blast-through-100-before-2026-ends/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T12:15:06+00:00",
+        "published": "2026-11-27T18:03:05+00:00",
         "lang": "en",
-        "title_ko": "Broadcom은 AMD보다 AI에서 더 많은 수익을 창출합니다. 그렇다면 AMD의 주가가 AI를 압도하는 이유는 무엇입니까?"
-       }
-      ]
-     }
-    ],
-    "losers": [
-     {
-      "symbol": "LRCX",
-      "name_ko": "램리서치",
-      "date": "2026-11-25",
-      "close": 185.01,
-      "change_pct": -5.68,
-      "volume": 21505500,
-      "reason": {
-       "title": "램리서치 주가, 오늘 급락한 이유는?",
-       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxdjhvOTlka0tKcWhRZ2NFUE1RVUt3cEd2aHdhVXBBNWpqRzBJX1JURFQ0Z2xycnpHdUVYNE1DQnJZdVVkMnF3SEYzdFFJaldZWmJuM1pZSHIzaXhQUmhCc2hjVEJlVENjZm9xZkgtYWxRQ2NqWlVv?oc=5",
-       "source": "Investing.com 한국어",
-       "published": "2026-11-25T15:37:00+00:00",
-       "lang": "ko"
-      },
-      "news": [
-       {
-        "title": "What JPMorgan U.S. Tech Leaders ETF (JTEK) Bought: Synopsys Leads on Nov. 25",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-u-tech-leaders-etf-110516067.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-27T11:05:16+00:00",
-        "lang": "en",
-        "title_ko": "JPMorgan U.S. Tech Leaders ETF(JTEK)가 매입한 것: 11월 25일 Synopsys가 주도함"
-       },
-       {
-        "title": "Is Lam Research Corporation (LRCX) Oversold as Strong  AI Demand Supports Recovery?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/lam-research-corporation-lrcx-oversold-194754377.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-26T19:47:54+00:00",
-        "lang": "en",
-        "title_ko": "강력한 AI 수요가 회복을 지원함에 따라 Lam Research Corporation(LRCX)이 과매도되었습니까?"
+        "title_ko": "메모리 주식이 반등을 연장하면서 SanDisk가 16% 급등: SNDK 주식이 2026년이 끝나기 전에 100달러까지 폭등할 수 있습니까?"
        }
       ]
      },
      {
       "symbol": "MU",
       "name_ko": "마이크론",
-      "date": "2026-11-25",
-      "close": 601.25,
-      "change_pct": -4.53,
-      "volume": 52988400,
+      "date": "2026-11-27",
+      "close": 646.95,
+      "change_pct": 7.6,
+      "volume": 26547049,
       "reason": {
-       "title": "마이크론 주가 개장 전 6% 급등, 그러나 500달러 선까지 하락 위험 여전",
-       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQenlSUy1fT1Bzd1hSVGFVQjA0VmdLWTVXQ29zdFZJNU9xLXRxQzVNNXJHT2pKUG45YTBKMUZRcWJhVU80SlQ1dEswNFBtRjBCdXRTcThnc2I0ZkpkbzdDck1ucEcwYkFGSkEwSjhwdTE0bk15VHFheXl6WlA4cGk4TWxlTnZPRXBMNWwtQUR3SE5EUTVjcGpnS0FKNFJnbDZPZjhheWcyREhNeDhyei12V0pRSHg5VTdYd0lMeWF3?oc=5",
-       "source": "TradingKey",
-       "published": "2026-11-26T19:26:00+00:00",
+       "title": "뉴욕 증시, 반도체주 저가 매수에 반등…마이크론·마벨 7%대 급등",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10UnBkdHF1S3g4eGJpNGF3UHZqM2dpZ0d0SVMzWVFTY3VJMHo1WkZHdTdWLXdlUjhIcmRFeGdrSDF6QU53Z1hMTWR4ZDBNcDE1UlZDRlpwRnM1MlhVaTRNck1JczZJT1RRQ0ExWg?oc=5",
+       "source": "뉴시안",
+       "published": "2026-11-27T21:34:19+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "He was right about AI and still lost $35 billion",
-        "link": "https://finance.yahoo.com/video/ai-still-lost-35-billion-120000023.html?.tsrc=rss",
+        "title": "Micron CEO Expects Memory Shortages to Worsen in 2028, but TrendForce Sees Prices Falling",
+        "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63685667/micron-trendforce-memory-price-outlook?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T12:00:00+00:00",
+        "published": "2026-11-27T18:15:06+00:00",
         "lang": "en",
-        "title_ko": "그는 AI에 대해 옳았지만 여전히 350억 달러의 손실을 입었습니다."
+        "title_ko": "Micron CEO는 2028년에 메모리 부족이 악화될 것으로 예상하지만 TrendForce는 가격이 하락할 것으로 보고 있습니다."
        },
        {
-        "title": "Why Is Micron Technology Stock Surging Today?",
-        "link": "https://investorshub.advfn.com/market-news/article/40794/why-is-micron-technology-stock-surging-today?.tsrc=rss",
+        "title": "SanDisk Stocks Jump 12.85% After Kioxia and Nvidia Stretch GPU Memory With SSDs",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stocks-jump-12-85-181316890.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T11:55:42+00:00",
+        "published": "2026-11-27T18:13:16+00:00",
         "lang": "en",
-        "title_ko": "오늘 마이크론 테크놀로지 주식이 급등하는 이유는 무엇입니까?"
+        "title_ko": "Kioxia와 Nvidia가 SSD로 GPU 메모리를 확장한 후 SanDisk 주가 12.85% 상승"
        }
       ]
-     },
+     }
+    ],
+    "losers": [
      {
-      "symbol": "DDOG",
-      "name_ko": "데이터독",
-      "date": "2026-11-25",
-      "close": 158.25,
-      "change_pct": -4.31,
-      "volume": 5786000,
-      "reason": {
-       "title": "Datadog (NASDAQ:DDOG) Shares Down 4.9% Following Insider Selling",
-       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLU1EOEZYQ2hEczF4NlNyNTdaY3k0bjJHenE5dGRYQS1jQmxLSnd5MEJZYzh1SjhBOUdSME1Yb081d0ZkSHhlNUFFbVp3dWZwYzRfRnlGWjM4UGZFTWEycUpWRW1EWnBDS2wxYlUzRVN2Z1dlYkR3bWxNcXVEdWx2aDlTTXdqYVQyeURPTW9FUHdIU2NVZ0NmNVlLOGtCaUpxUkFZV0IzbW9aaDBLS09oNG90OUpadzFEcWdnNQ?oc=5",
-       "source": "MarketBeat",
-       "published": "2026-11-25T19:52:11+00:00",
-       "lang": "en",
-       "title_ko": "Datadog(NASDAQ:DDOG), 내부자 매도 이후 주가 4.9% 하락"
-      },
+      "symbol": "SNDK",
+      "name_ko": "샌디스크",
+      "date": "2026-11-27",
+      "close": 85.36,
+      "change_pct": -9.57,
+      "volume": 96234051,
+      "reason": null,
       "news": [
        {
-        "title": "Why Datadog (DDOG) Stock Is Down Today: Software Selloff on AI Fears",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/why-datadog-ddog-stock-down-171521066.html?.tsrc=rss",
+        "title": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
+        "link": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-indexes.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-25T17:15:21+00:00",
+        "published": "2026-11-27T19:10:43+00:00",
         "lang": "en",
-        "title_ko": "오늘 Datadog(DDOG) 주식이 하락한 이유: AI에 대한 두려움으로 인한 소프트웨어 매도"
+        "title_ko": "오늘의 주식 시장: 지수가 18년 만에 최고의 추수감사절 주간을 기록했습니다"
        },
        {
-        "title": "Datadog vs. Monday.com: Which Technology Stock Is a Better Buy for 2027?",
-        "link": "https://www.fool.com/coverage/better-buy/2026/11/24/datadog-vs-monday-com-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+        "title": "SanDisk Stocks Jump 12.85% After Kioxia and Nvidia Stretch GPU Memory With SSDs",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stocks-jump-12-85-181316890.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-24T17:20:02+00:00",
+        "published": "2026-11-27T18:13:16+00:00",
         "lang": "en",
-        "title_ko": "Datadog 대 Monday.com: 2027년에는 어느 기술주를 매수하는 것이 더 나은가요?"
+        "title_ko": "Kioxia와 Nvidia가 SSD로 GPU 메모리를 확장한 후 SanDisk 주가 12.85% 상승"
        }
       ]
      },
      {
-      "symbol": "NVDA",
-      "name_ko": "엔비디아",
-      "date": "2026-11-25",
-      "close": 149.3,
-      "change_pct": -3.91,
-      "volume": 366571900,
+      "symbol": "VRTX",
+      "name_ko": "버텍스",
+      "date": "2026-11-27",
+      "close": 534.57,
+      "change_pct": -5.24,
+      "volume": 2128236,
       "reason": {
-       "title": "31% 폭등→5% 하락, 엔비디아는 지켰는데...삼전닉스 '뚝', 왜 - 머니투데이",
-       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uSE1QZklFUWs2dUZBZTkzWXZDaG5NQWcwdk4xYm5PYjFESC1iTTIyTXN0dDRuMzl6ejM0aU13NWRKblR4RFpxR29iSW44TVBBbWNlZGk1aE92UTVSeWRKcVZFVnM1dkZF0gFuQVVfeXFMUGx0X0h1NGJ0Y3dEazhIV210eWVoWDNULXVEbFgwNndRUWVOUldGdTNHMnBXMW5DN1RnN09lWFg2cENmY2ltYjBzMmU3aUtDV2Q0S1h1Y3NkRS1mZ0JrZ1NxWEF3QmxCVllRWWt2Y2c?oc=5",
-       "source": "머니투데이",
-       "published": "2026-11-25T02:26:34+00:00",
+       "title": "뉴욕증시 개장 전 특징주...AI·반도체주 일제 반등 VS 버텍스파마슈티컬스·알트리아↓",
+       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5qbHJXNnZXcW9qUXZsTGpPY2tqS1pJaUpjcnNKc1lKbEtjYjZrZGZBanN1TEthUGdpNXJkXzNDQVF2ZXB0MHJfS190VXpub1ZoekhpRlhWbkEtMXp3?oc=5",
+       "source": "뉴스핌",
+       "published": "2026-11-27T13:29:00+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "Nvidia stock is still paying the price for the Jensen Huang CEO drama",
-        "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-is-still-paying-the-price-for-the-jensen-huang-ceo-drama-124902053.html?.tsrc=rss",
+        "title": "Vertex Stocks Fall 7.06% as FDA Pushes Kidney Drug Decision to 2027",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/vertex-stocks-fall-7-06-184516640.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T12:49:02+00:00",
+        "published": "2026-11-27T18:45:16+00:00",
         "lang": "en",
-        "title_ko": "엔비디아 주식은 여전히 ​​Jensen Huang CEO 드라마의 대가를 치르고 있습니다."
+        "title_ko": "FDA가 신장 약물 결정을 2027년으로 추진함에 따라 Vertex 주가는 7.06% 하락"
        },
        {
-        "title": "Nvidia Blackwell chips found in Shanghai data center tied to Alice Huang",
-        "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-blackwell-chips-found-shanghai-124008621.html?.tsrc=rss",
+        "title": "Here's Why Vera Therapeutics Stock Surged Today (Hint: It's Not Great News For Vertex Shareholders)",
+        "link": "https://www.fool.com/investing/2026/11/27/here-s-why-vera-therapeutics-stock-surged-today-hint-it-s-not-great-news-for-vertex-shareholders/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T12:40:08+00:00",
+        "published": "2026-11-27T18:27:13+00:00",
         "lang": "en",
-        "title_ko": "Alice Huang과 관련된 Nvidia Blackwell 칩이 상하이 데이터 센터에서 발견되었습니다."
+        "title_ko": "오늘 Vera Therapeutics 주식이 급등한 이유는 다음과 같습니다(힌트: Vertex 주주들에게는 좋은 소식이 아닙니다)."
        }
       ]
      },
      {
-      "symbol": "CEG",
-      "name_ko": "컨스텔레이션에너지",
-      "date": "2026-11-25",
-      "close": 235.28,
-      "change_pct": -3.9,
-      "volume": 4789800,
-      "reason": {
-       "title": "Constellation Energy (CEG) Stock: Drops 3.90% as LS Power Completes 4.4 GW Acquisition",
-       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZjB0dzlvY1pXcDJCN1FVU2lWeExpeTc2eXE5RVVBSW5zM2JpRFpud1NoNU00UW9pNHFKVl83M3lqWE41ck9aMVJ5eXAwRWhCQTZPN3dDZlV2eVRaSm1uVlYwcUlnLXQ5Q1FtYzV3MGV1cllhNmVpZjJYdnE3S3d2MkEyNGZ4TEY0Tm5RanNQYzg2cE44MW9WY1BVSGZsOVBmLTl0YzJXTEluZw?oc=5",
-       "source": "Blockonomi",
-       "published": "2026-11-25T22:29:44+00:00",
-       "lang": "en",
-       "title_ko": "Constellation Energy(CEG) 주가: LS파워 4.4GW 인수 완료로 3.90% 하락"
-      },
+      "symbol": "ALNY",
+      "name_ko": "앨나일람",
+      "date": "2026-11-27",
+      "close": 162.7,
+      "change_pct": -1.23,
+      "volume": 971365,
+      "reason": null,
       "news": [
        {
-        "title": "Constellation Energy Sinks 10% in a Week, NuScale 17%, as “the Jensen Huang Stock Put Is Fading”",
-        "link": "https://www.tikr.com/blog/constellation-energy-sinks-10-in-a-week-nuscale-17-as-the-jensen-huang-stock-put-is-fading?ref=yahoofinance&tlnk=yf-261127-7ffc6jh2&.tsrc=rss",
+        "title": "Why Did Alnylam Stock Move?",
+        "link": "https://www.trefis.com/stock/alny/articles/628630/why-did-alnylam-stock-move/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T12:33:40+00:00",
+        "published": "2026-11-25T20:32:02+00:00",
         "lang": "en",
-        "title_ko": "Constellation Energy는 \"Jensen Huang 주식 풋이 약해지고 있다\"면서 일주일 만에 10% 하락하고 NuScale은 17% 하락했습니다."
+        "title_ko": "Alnylam 주식이 왜 움직였습니까?"
        },
        {
-        "title": "NEE or CEG: Which Clean Energy Stock Is Better Positioned for Growth?",
-        "link": "https://finance.yahoo.com/energy/articles/nee-ceg-clean-energy-stock-154500861.html?.tsrc=rss",
+        "title": "Alnylam: 3 Key Takeaways for Long-Term Investors",
+        "link": "https://www.fool.com/earnings/takeaways/2026/11/24/alnylam-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-26T15:45:00+00:00",
+        "published": "2026-11-24T23:42:01+00:00",
         "lang": "en",
-        "title_ko": "NEE 또는 CEG: 어느 청정 에너지 주식이 성장에 더 유리한가요?"
+        "title_ko": "Alnylam: 장기 투자자를 위한 3가지 핵심 사항"
+       }
+      ]
+     },
+     {
+      "symbol": "KDP",
+      "name_ko": "큐리그닥터페퍼",
+      "date": "2026-11-27",
+      "close": 35.45,
+      "change_pct": -0.51,
+      "volume": 6713555,
+      "reason": null,
+      "news": [
+       {
+        "title": "Has PepsiCo Become A Different Stock To Own?",
+        "link": "https://www.trefis.com/stock/pep/articles/629392/has-pepsico-become-a-different-stock-to-own/2026-11-27?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-27T14:16:41+00:00",
+        "lang": "en",
+        "title_ko": "PepsiCo는 소유할 수 있는 다른 주식이 되었나요?"
+       },
+       {
+        "title": "Coca-Cola vs. Keurig Dr Pepper: Which Beverage Stock Looks Stronger?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-vs-keurig-dr-135000666.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-26T13:50:00+00:00",
+        "lang": "en",
+        "title_ko": "코카콜라 vs. 큐리그 닥터페퍼: 어느 음료수가 더 강해 보일까요?"
+       }
+      ]
+     },
+     {
+      "symbol": "ORLY",
+      "name_ko": "오라일리",
+      "date": "2026-11-27",
+      "close": 96.28,
+      "change_pct": -0.42,
+      "volume": 2458015,
+      "reason": null,
+      "news": [
+       {
+        "title": "O'Reilly Automotive (ORLY) Up 9.8% Since Last Earnings Report: Can It Continue?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/oreilly-automotive-orly-9-8-153028973.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-27T15:30:28+00:00",
+        "lang": "en",
+        "title_ko": "O'Reilly Automotive(ORLY)는 지난 수익 보고서 이후 9.8% 상승: 계속될 수 있을까요?"
+       },
+       {
+        "title": "Are Wall Street Analysts Predicting O'Reilly Automotive Stock Will Climb or Sink?",
+        "link": "https://www.barchart.com/story/news/9030252/are-wall-street-analysts-predicting-o-reilly-automotive-stock-will-climb-or-sink?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-27T10:55:21+00:00",
+        "lang": "en",
+        "title_ko": "월스트리트 분석가들은 O'Reilly 자동차 주가가 상승할 것인지 하락할 것인지 예측하고 있습니까?"
        }
       ]
      }
@@ -5762,404 +5730,393 @@
      {
       "symbol": "NVDA",
       "name_ko": "엔비디아",
-      "date": "2026-11-25",
-      "close": 149.3,
-      "change_pct": -3.91,
-      "volume": 366571900,
+      "date": "2026-11-27",
+      "close": 150.49,
+      "change_pct": 0.8,
+      "volume": 180940449,
       "reason": {
-       "title": "31% 폭등→5% 하락, 엔비디아는 지켰는데...삼전닉스 '뚝', 왜 - 머니투데이",
-       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uSE1QZklFUWs2dUZBZTkzWXZDaG5NQWcwdk4xYm5PYjFESC1iTTIyTXN0dDRuMzl6ejM0aU13NWRKblR4RFpxR29iSW44TVBBbWNlZGk1aE92UTVSeWRKcVZFVnM1dkZF0gFuQVVfeXFMUGx0X0h1NGJ0Y3dEazhIV210eWVoWDNULXVEbFgwNndRUWVOUldGdTNHMnBXMW5DN1RnN09lWFg2cENmY2ltYjBzMmU3aUtDV2Q0S1h1Y3NkRS1mZ0JrZ1NxWEF3QmxCVllRWWt2Y2c?oc=5",
-       "source": "머니투데이",
-       "published": "2026-11-25T02:26:34+00:00",
+       "title": "[美특징주]엔비디아, 개장 전 상승…\"당분간 변동성 극심\" 전망",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcFVwRHBxVmFVZF9KVm94dnh3X3hFNUUxaHIwRE50WGhIbkN0SEpBMWI3SUdNOWlGV2MxV3dLRzZNaHVUWGtzUGNsTE1LcjFEVXl2RUU5Q0NsTmZjdFMxX1hCOGc4VTE0Y3FsVEdrcG5UY0xiU2pybjlrcTR6Z0RkZw?oc=5",
+       "source": "이데일리",
+       "published": "2026-11-27T13:57:51+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "Nvidia stock is still paying the price for the Jensen Huang CEO drama",
-        "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-is-still-paying-the-price-for-the-jensen-huang-ceo-drama-124902053.html?.tsrc=rss",
+        "title": "TSLA Stock Clocks Best Week In 18 Months: Tesla Reportedly Eyes Buying German Toolmaker Amid Cybercab, Optimus Scaling Plans",
+        "link": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-clocks-best-week-in-18-months-tesla-reportedly-eyes-buying-german-toolmaker-amid-cybercab-optimus-scaling-plans/cNb6PBlR9VL?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T12:49:02+00:00",
+        "published": "2026-11-27T19:55:54+00:00",
         "lang": "en",
-        "title_ko": "엔비디아 주식은 여전히 ​​Jensen Huang CEO 드라마의 대가를 치르고 있습니다."
+        "title_ko": "TSLA 주식 시계는 18개월 만에 가장 좋은 주입니다: Tesla는 Cybercab, Optimus 확장 계획 속에서 독일 도구 제조업체 인수를 고려하고 있는 것으로 알려졌습니다."
        },
        {
-        "title": "Nvidia Blackwell chips found in Shanghai data center tied to Alice Huang",
-        "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-blackwell-chips-found-shanghai-124008621.html?.tsrc=rss",
+        "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
+        "link": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T12:40:08+00:00",
+        "published": "2026-11-27T19:54:29+00:00",
         "lang": "en",
-        "title_ko": "Alice Huang과 관련된 Nvidia Blackwell 칩이 상하이 데이터 센터에서 발견되었습니다."
-       }
-      ]
-     },
-     {
-      "symbol": "SPCX",
-      "name_ko": "스페이스X",
-      "date": "2026-11-25",
-      "close": 127.44,
-      "change_pct": 1.3,
-      "volume": 148279900,
-      "reason": {
-       "title": "[특징주] 스페이스X '우주 데이터센터' 위성 승인…관련주 급등(종합)",
-       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IaE1ueDFMbjJneDg2V2syMWN2Wllrc3BEcENwZnN3NWVuWEFJTDFRdUpTTmIzcDVMM2NXQTJVRFo5MGpuM1BFY2xXeGQ2c2d4S0EtOFBQTEJTRUnSAWBBVV95cUxNdkczbklPVWFocmttd2RxU0dGVENzQkg1akEtNVBYN1ZjYmpoNHdXMGRzWUY3VmNlUTZuWmNjVUdhWFVrS1ozTUNpZktzVURwQmxORjFhMHAyWmFvR295ajY?oc=5",
-       "source": "연합뉴스",
-       "published": "2026-11-26T06:45:39+00:00",
-       "lang": "ko"
-      },
-      "news": [
-       {
-        "title": "SpaceX Cratered 13.5% This Month: Near 300% Returns to Materialize at Today’s Price According to this Pro Analyst",
-        "link": "https://247wallst.com/investing/2026/11/27/spacex-cratered-13-5-this-month-near-300-returns-to-materialize-at-todays-price-according-to-this-pro-analyst/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-27T12:15:02+00:00",
-        "lang": "en",
-        "title_ko": "이번 달 SpaceX는 13.5% 하락했습니다: 이 프로 분석가에 따르면 거의 300%의 수익이 오늘 가격으로 실현됩니다."
-       },
-       {
-        "title": "What happens now after the US authorizes data centers in space",
-        "link": "https://www.cnn.com/2026/11/27/business/video/fcc-authorizes-spacex-data-centers-in-space?cid=external-feeds_iluminar_yahoo&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-27T11:33:12+00:00",
-        "lang": "en",
-        "title_ko": "미국이 우주 데이터 센터를 승인한 후 지금 무슨 일이 벌어지고 있는가?"
-       }
-      ]
-     },
-     {
-      "symbol": "INTC",
-      "name_ko": "인텔",
-      "date": "2026-11-25",
-      "close": 54.47,
-      "change_pct": -0.6,
-      "volume": 129277900,
-      "reason": {
-       "title": "인텔 주가, 오늘 하락하는 이유는?",
-       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zOVVxcUhCV2dhXzg0clBJakd6eWtIc1JmVUtNRmw1M2dxU21vMHVCRTdXUko5YjdaYXBNMC1FVjBHdWRpaDNSRWpSc3JvZHNzNXZqQ3NrMktKWVRUc2N1V0tGZ0NyWWFTVkFhSVpSeDdJbkp3NXpn?oc=5",
-       "source": "Investing.com 한국어",
-       "published": "2026-11-25T15:04:00+00:00",
-       "lang": "ko"
-      },
-      "news": [
-       {
-        "title": "How Much More Could You Lose In Intel Stock?",
-        "link": "https://www.trefis.com/stock/intc/articles/629327/how-much-more-could-you-lose-in-intel-stock/2026-11-27?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-27T11:59:07+00:00",
-        "lang": "en",
-        "title_ko": "인텔 주식에서 얼마나 더 잃을 수 있습니까?"
-       },
-       {
-        "title": "Why Is Intel Stock Rallying Today?",
-        "link": "https://investorshub.advfn.com/market-news/article/40792/why-is-intel-stock-rallying-today?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-27T11:54:08+00:00",
-        "lang": "en",
-        "title_ko": "오늘날 인텔 주식이 반등하는 이유는 무엇입니까?"
+        "title_ko": "다우존스 선물: 주식시장은 강세를 보이고 Tesla는 7건의 신규 매수를 주도합니다. Nvidia의 Jensen Huang이 국회의사당으로 향합니다"
        }
       ]
      },
      {
       "symbol": "SNDK",
       "name_ko": "샌디스크",
-      "date": "2026-11-19",
-      "close": 94.39,
-      "change_pct": -2.71,
-      "volume": 119852712,
+      "date": "2026-11-27",
+      "close": 85.36,
+      "change_pct": -9.57,
+      "volume": 96234051,
+      "reason": null,
+      "news": [
+       {
+        "title": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
+        "link": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-indexes.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-27T19:10:43+00:00",
+        "lang": "en",
+        "title_ko": "오늘의 주식 시장: 지수가 18년 만에 최고의 추수감사절 주간을 기록했습니다"
+       },
+       {
+        "title": "SanDisk Stocks Jump 12.85% After Kioxia and Nvidia Stretch GPU Memory With SSDs",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stocks-jump-12-85-181316890.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-27T18:13:16+00:00",
+        "lang": "en",
+        "title_ko": "Kioxia와 Nvidia가 SSD로 GPU 메모리를 확장한 후 SanDisk 주가 12.85% 상승"
+       }
+      ]
+     },
+     {
+      "symbol": "INTC",
+      "name_ko": "인텔",
+      "date": "2026-11-27",
+      "close": 57.4,
+      "change_pct": 5.38,
+      "volume": 76206386,
       "reason": {
-       "title": "뉴욕증시 개장 전 특징주...암바렐라·샌디스크·블룸에너지·앤스로픽·코닝↓",
-       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9yMmNTa0xWQS1LbUZ2aFU4ZEhicWZsajJ2TzJPelNLd1dFaHI2RVM3c2xLdklIX1BZZTZhRzJUZldneG5zS1RVQlJwQ1hwY284alM0YU9rMTBPV0U2?oc=5",
-       "source": "뉴스핌",
-       "published": "2026-11-25T13:45:00+00:00",
+       "title": "[특징주] 인텔리안테크, 우주항공 매수세 유입에 강세...LEO·MEO 위성통신 안테나 부각",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8ydmZPNEt0Y2U0bl8yTFFtakhKUEQ5cjJ0OWVwdnNlN1NNWElsYXpkM0FpbkFDOXU2dXkwNzNjSk9vV3JGZk5TcC0tU09MZFkxMVF3RlhqUGtvNzlWRHYzWWx4WERzbS1uXzBuSQ?oc=5",
+       "source": "와이드경제",
+       "published": "2026-11-27T00:48:02+00:00",
        "lang": "ko"
       },
       "news": [
        {
-        "title": "Micron vs. SanDisk: Which Is the Better AI Stock to Buy for 2027?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/micron-vs-sandisk-better-ai-111815853.html?.tsrc=rss",
+        "title": "Intel Stocks Climb 2.86% as Court Filings Detail Washington's 10% Stake Push",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stocks-climb-2-86-192124489.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T11:18:15+00:00",
+        "published": "2026-11-27T19:21:24+00:00",
         "lang": "en",
-        "title_ko": "Micron 대 SanDisk: 2027년에 매수하기에 더 나은 AI 주식은 무엇입니까?"
+        "title_ko": "인텔 주식은 법원 서류에 워싱턴의 10% 지분 추진이 자세히 설명되면서 2.86% 상승했습니다."
        },
        {
-        "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
-        "link": "https://finance.yahoo.com/m/977de44c-fcf5-3369-bcdd-0c3ddc7cfec9/sandisk%2C-bloom%2C-marvell%2C-amd%2C.html?.tsrc=rss",
+        "title": "I Tested More Than 100 Trading Strategies With AI. Most Of Them Failed, And The Reasons Why Were More Interesting Than The Winners",
+        "link": "https://finance.yahoo.com/markets/options/articles/tested-more-100-trading-strategies-171507159.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T10:22:00+00:00",
+        "published": "2026-11-27T17:15:07+00:00",
         "lang": "en",
-        "title_ko": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP 및 오늘날 시장을 설명하는 기타 주식"
+        "title_ko": "AI로 100개 이상의 거래 전략을 테스트했습니다. 대부분이 실패했고, 승자보다 더 흥미로웠던 이유"
+       }
+      ]
+     },
+     {
+      "symbol": "SPCX",
+      "name_ko": "스페이스X",
+      "date": "2026-11-27",
+      "close": 133.59,
+      "change_pct": 4.83,
+      "volume": 50851629,
+      "reason": {
+       "title": "[美증시 특징주] 테슬라·스페이스X 동반 급등…합병 기대감에 우주데이터센터까지",
+       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBadXRpeC1YMGZ5ZDFyWWZpanozeDJTaGdJazlTX3MxU0F1RjdoRFUxd3p0TGtwam9ySTdHLWtOLU9PR0ZhSW9heG1XdjdJMzVZeURxZdIBWEFVX3lxTE9QdjJEQXl4TENfb3p1Q294MGtETXJLTVY5RFdGamZvTl9STDRidmV6SmMzeUUyRHpVNUlJMFNpWDl5bG9JTTBiRUVLYlZEMkYtdUY1UnJOeVo?oc=5",
+       "source": "미디어펜",
+       "published": "2026-11-27T21:06:43+00:00",
+       "lang": "ko"
+      },
+      "news": [
+       {
+        "title": "SpaceX Stocks Climb 2.74% as FCC Clears One Million AI Satellites",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-stocks-climb-2-74-192236570.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-27T19:22:36+00:00",
+        "lang": "en",
+        "title_ko": "FCC가 100만 개의 AI 위성을 제거함에 따라 SpaceX 주가는 2.74% 상승"
+       },
+       {
+        "title": "Are billionaires gaining too much influence as they invest in Trump Accounts?",
+        "link": "https://finance.yahoo.com/video/are-billionaires-gaining-too-much-influence-as-they-invest-in-trump-accounts-181419307.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-27T18:14:19+00:00",
+        "lang": "en",
+        "title_ko": "억만장자들이 트럼프 계정에 투자하면서 너무 많은 영향력을 얻고 있는 걸까요?"
        }
       ]
      },
      {
       "symbol": "CRWV",
       "name_ko": "코어위브",
-      "date": "2026-11-25",
-      "close": 42.57,
-      "change_pct": -0.08,
-      "volume": 82504000,
-      "reason": {
-       "title": "[美특징주]코어위브, 메타 데이터센터 GPU 담보로 45억달러 조달 나서",
-       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc2xGVThIZHg2YjhhaG5iZGM4OHh2YmlMLUVsWURZcWZtZllqR3RBWGo2T3k1WURFLXNPYnp2N1RMdGRYMXlWMXFzM0V0V0lBMTNaQ0ZIdTEybUxLTXBKcERfbjRkNm01RE1rRlFmWEo3V2pBWFNONVRVNmowbWQ3OA?oc=5",
-       "source": "이데일리",
-       "published": "2026-11-25T22:32:00+00:00",
-       "lang": "ko"
-      },
+      "date": "2026-11-27",
+      "close": 44.15,
+      "change_pct": 3.71,
+      "volume": 41517676,
+      "reason": null,
       "news": [
        {
-        "title": "He was right about AI and still lost $35 billion",
-        "link": "https://finance.yahoo.com/video/ai-still-lost-35-billion-120000023.html?.tsrc=rss",
+        "title": "Dell's Strong Results Fail to Ease Concerns About AI Spending Durability, UBS Says",
+        "link": "https://finance.yahoo.com/technology/ai/articles/dell-apos-strong-results-fail-185100918.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T12:00:00+00:00",
+        "published": "2026-11-27T18:51:00+00:00",
         "lang": "en",
-        "title_ko": "그는 AI에 대해 옳았지만 여전히 350억 달러의 손실을 입었습니다."
+        "title_ko": "UBS는 Dell의 강력한 결과가 AI 지출 내구성에 대한 우려를 완화하지 못했다고 말합니다."
        },
        {
-        "title": "Wells Fargo Doubles Down on CoreWeave Stock Amid Selloff",
-        "link": "https://finance.yahoo.com/technology/ai/articles/wells-fargo-doubles-down-coreweave-173806688.html?.tsrc=rss",
+        "title": "CoreWeave Eyes $4.5B Loan, but Bankruptcy Odds Rise to 21% on Prediction Markets",
+        "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63685963/coreweave-wall-street-loan-bankruptcy?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-26T17:38:06+00:00",
+        "published": "2026-11-27T18:30:08+00:00",
         "lang": "en",
-        "title_ko": "Wells Fargo는 매도 중에 CoreWeave 주식을 두 배로 줄였습니다."
+        "title_ko": "CoreWeave는 45억 달러의 대출을 목표로 하고 있지만 예측 시장에서 파산 확률은 21%로 상승합니다."
        }
       ]
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-27T12:55:31+00:00"
+    "fetched_at": "2026-11-27T21:50:36+00:00"
    }
   },
   "sectors": {
    "status": "ok",
-   "attempted_at": "2026-11-27T12:55:16+00:00",
-   "last_success_at": "2026-11-27T12:55:16+00:00",
+   "attempted_at": "2026-11-27T21:50:17+00:00",
+   "last_success_at": "2026-11-27T21:50:17+00:00",
    "error": null,
    "data": {
-    "as_of": "2026-11-25",
+    "as_of": "2026-11-27",
     "items": [
      {
-      "symbol": "XLB",
+      "symbol": "SOXX",
       "name_ko": null,
-      "date": "2026-11-25",
-      "close": 51.21,
-      "change_pct": 2.07,
-      "volume": 14292500,
-      "name": "소재"
+      "date": "2026-11-27",
+      "close": 134.07,
+      "change_pct": 4.76,
+      "volume": 36082862,
+      "name": "반도체"
      },
      {
-      "symbol": "XLRE",
+      "symbol": "XLK",
       "name_ko": null,
-      "date": "2026-11-25",
-      "close": 43.86,
-      "change_pct": 0.92,
-      "volume": 8422600,
-      "name": "부동산"
+      "date": "2026-11-27",
+      "close": 160.15,
+      "change_pct": 2.8,
+      "volume": 6994065,
+      "name": "기술"
+     },
+     {
+      "symbol": "XLY",
+      "name_ko": null,
+      "date": "2026-11-27",
+      "close": 119.97,
+      "change_pct": 2.11,
+      "volume": 5353346,
+      "name": "임의소비재"
      },
      {
       "symbol": "XLC",
       "name_ko": null,
-      "date": "2026-11-25",
-      "close": 105.38,
-      "change_pct": 0.89,
-      "volume": 5584900,
+      "date": "2026-11-27",
+      "close": 107.48,
+      "change_pct": 1.99,
+      "volume": 2783493,
       "name": "통신"
+     },
+     {
+      "symbol": "XLB",
+      "name_ko": null,
+      "date": "2026-11-27",
+      "close": 52.15,
+      "change_pct": 1.84,
+      "volume": 10480261,
+      "name": "소재"
      },
      {
       "symbol": "XLI",
       "name_ko": null,
-      "date": "2026-11-25",
-      "close": 162.95,
-      "change_pct": 0.83,
-      "volume": 13052200,
+      "date": "2026-11-27",
+      "close": 165.56,
+      "change_pct": 1.6,
+      "volume": 6774991,
       "name": "산업재"
      },
      {
       "symbol": "XLE",
       "name_ko": null,
-      "date": "2026-11-25",
-      "close": 60.9,
-      "change_pct": 0.74,
-      "volume": 26534900,
+      "date": "2026-11-27",
+      "close": 61.67,
+      "change_pct": 1.26,
+      "volume": 20627193,
       "name": "에너지"
      },
      {
       "symbol": "XLF",
       "name_ko": null,
-      "date": "2026-11-25",
-      "close": 56.51,
-      "change_pct": 0.71,
-      "volume": 38669900,
+      "date": "2026-11-27",
+      "close": 57.16,
+      "change_pct": 1.15,
+      "volume": 21755235,
       "name": "금융"
      },
      {
-      "symbol": "XLU",
+      "symbol": "XLRE",
       "name_ko": null,
-      "date": "2026-11-25",
-      "close": 43.61,
-      "change_pct": 0.48,
-      "volume": 21655800,
-      "name": "유틸리티"
+      "date": "2026-11-27",
+      "close": 44.14,
+      "change_pct": 0.64,
+      "volume": 4214256,
+      "name": "부동산"
      },
      {
       "symbol": "XLP",
       "name_ko": null,
-      "date": "2026-11-25",
-      "close": 92.3,
-      "change_pct": 0.46,
-      "volume": 23074900,
+      "date": "2026-11-27",
+      "close": 92.68,
+      "change_pct": 0.41,
+      "volume": 12163028,
       "name": "필수소비재"
-     },
-     {
-      "symbol": "XLY",
-      "name_ko": null,
-      "date": "2026-11-25",
-      "close": 117.49,
-      "change_pct": -0.2,
-      "volume": 8579600,
-      "name": "임의소비재"
-     },
-     {
-      "symbol": "SOXX",
-      "name_ko": null,
-      "date": "2026-11-25",
-      "close": 127.98,
-      "change_pct": -0.5,
-      "volume": 48968300,
-      "name": "반도체"
      },
      {
       "symbol": "XLV",
       "name_ko": null,
-      "date": "2026-11-25",
-      "close": 183.68,
-      "change_pct": -0.56,
-      "volume": 15511400,
+      "date": "2026-11-27",
+      "close": 184.2,
+      "change_pct": 0.28,
+      "volume": 5053969,
       "name": "헬스케어"
      },
      {
-      "symbol": "XLK",
+      "symbol": "XLU",
       "name_ko": null,
-      "date": "2026-11-25",
-      "close": 155.79,
-      "change_pct": -0.83,
-      "volume": 19722400,
-      "name": "기술"
+      "date": "2026-11-27",
+      "close": 43.73,
+      "change_pct": 0.28,
+      "volume": 13876581,
+      "name": "유틸리티"
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-27T12:55:31+00:00"
+    "fetched_at": "2026-11-27T21:50:36+00:00"
    }
   },
   "news": {
    "status": "ok",
-   "attempted_at": "2026-11-27T12:55:16+00:00",
-   "last_success_at": "2026-11-27T12:55:16+00:00",
+   "attempted_at": "2026-11-27T21:50:17+00:00",
+   "last_success_at": "2026-11-27T21:50:17+00:00",
    "error": null,
    "data": {
     "items": [
      {
-      "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
-      "link": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-27T12:49:03+00:00",
-      "lang": "en",
-      "title_ko": "다우존스 선물 상승; 블랙 프라이데이의 강세 시장 신호를 찾아보세요"
-     },
-     {
-      "title": "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
-      "link": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
-      "source": "CNBC",
-      "published": "2026-11-27T12:47:08+00:00",
-      "lang": "en",
-      "title_ko": "S&P 500이 조정을 받고 있습니다. 약세장과 불황이 항상 따라오는 것은 아닙니다."
-     },
-     {
-      "title": "Premarket movers: AI stocks rebound, Vertex slides on FDA review",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-ai-stocks-rebound-123708136.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-27T12:37:08+00:00",
-      "lang": "en",
-      "title_ko": "시판 전 움직임: AI 주가 반등, Vertex는 FDA 검토에서 미끄러짐"
-     },
-     {
-      "title": "3 Stocks I'd Love to Buy at Black Friday Sale Prices",
-      "link": "https://www.fool.com/investing/2026/11/27/3-stocks-i-d-love-to-buy-at-black-friday-sale-prices/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-27T12:35:02+00:00",
-      "lang": "en",
-      "title_ko": "블랙 프라이데이 세일 가격에 사고 싶은 주식 3가지"
-     },
-     {
-      "title": "How Bad Would A Data Center Slowdown Be For Caterpillar Stock?",
-      "link": "https://www.trefis.com/stock/cat/articles/629352/how-bad-would-a-data-center-slowdown-be-for-caterpillar-stock/2026-11-27?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-27T12:32:53+00:00",
-      "lang": "en",
-      "title_ko": "데이터 센터 둔화는 Caterpillar 주식에 얼마나 나쁜 영향을 미칠까요?"
-     },
-     {
-      "title": "China’s Cabinet Stresses Market Support in Rare Midday Statement",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQak5CQ2hzYk9WT0pEN2JpTjdqdU81V2pWSkxEVmdVcy11NDhqX0RfRngwU3ZXczl6dXFkZXg3aEpPakM2ZTY4QXNJVlpiVEJ2MUs0bUF0MzVJUXd3dWtvWFJna2U2aVhYbTNmM3o1UmZBaGxZRzVCS0JwS1FMYVlUSmltWE1GTkkwdmhxMG5xYi1sNDBDLURIVExoODFYVVhHZkdaa1VyUnFTLTNw?oc=5",
-      "source": "Bloomberg.com",
-      "published": "2026-11-27T11:50:48+00:00",
-      "lang": "en",
-      "title_ko": "중국 내각, 드물게 정오 성명을 통해 시장 지원 강조"
-     },
-     {
-      "title": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
-      "source": "Reuters",
-      "published": "2026-11-27T11:46:24+00:00",
-      "lang": "en",
-      "title_ko": "독점: 해커들이 미 공군의 주력 Cloud One 컴퓨팅 플랫폼을 침해했습니다."
-     },
-     {
-      "title": "뉴욕증시 프리뷰, AI·반도체주 저가 매수에 나스닥 선물 2% 상승…금리 인상 우려 여전",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBaSXptMmh2d3Z0SjI1S0tYOHVocmNLdjNmRTF4amIxWEZqVVhWU2xmNEhvOWVQdU02Rmp2N1F5RUlYSkpjVXdPLVNtZVk3X2FIekFZMm1LTXhCbndx?oc=5",
-      "source": "뉴스핌",
-      "published": "2026-11-27T11:34:00+00:00",
+      "title": "뉴욕 증시, 반도체주 저가 매수에 반등…마이크론·마벨 7%대 급등",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10UnBkdHF1S3g4eGJpNGF3UHZqM2dpZ0d0SVMzWVFTY3VJMHo1WkZHdTdWLXdlUjhIcmRFeGdrSDF6QU53Z1hMTWR4ZDBNcDE1UlZDRlpwRnM1MlhVaTRNck1JczZJT1RRQ0ExWg?oc=5",
+      "source": "뉴시안",
+      "published": "2026-11-27T21:34:19+00:00",
       "lang": "ko"
      },
      {
-      "title": "나스닥100 선물, 장전 2.87% 상승",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wdlFMTFlqcUpWR0x4UXViYXhqNHduWTVSbkRIMTNkSXRrS01ucElENE92NjhhV3lvb2RVMDNwdUh1Z1lJdDNmZzdMV0xZZTZkRUJaajBB0gFbQVVfeXFMT09aSVRiY0psTE1ZRnkyZ09nbUNaNGxxOEtBbndHZVJWVHQtazBrQjdTU2Vwa09IeGlVUFRpWHJOZ1VaRmVWV2prZEtpZ1ZzcHRfSy1EWkJvdGl5SQ?oc=5",
-      "source": "토큰포스트",
-      "published": "2026-11-27T11:15:19+00:00",
+      "title": "[뉴욕채권] 블프 환호한 증시에 10년물 금리 8.8bp 상승",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51MHk4V2c3MGttNHY1SEl4c25mbmY0TkpYLVE1bnBCRWJnM2pjQWdUazBmNEgyR3l6UzdYZnJCYUFLMlVTd01RejRNbHByYVJjdUVZVmZkWmg0blBhSGZsbU5qdGwtbkZ0V1JLLTVoX0E?oc=5",
+      "source": "연합인포맥스",
+      "published": "2026-11-27T21:23:24+00:00",
       "lang": "ko"
      },
      {
-      "title": "뉴욕증시, 블랙프라이데이 맞아 조기 폐장…한국시간 28일 새벽 3시 종료",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBISVZqZjdwelRGaUducGdVbF83TzRYSUlDQlQ0eXlLa0oxWVl1aHlUdjZLZEllNThYcVoxZXlWWXJmdWcxVFVfMk5XX3p4ZmxORldlQzdJaVI2OGU0WTdKQS0yRXF6Zw?oc=5",
-      "source": "제민일보",
-      "published": "2026-11-27T09:59:37+00:00",
+      "title": "엔테그리스, 뉴욕 증시서 5.94% 상승 마감 : 기업주식정보",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90U0JUU1ZXZUMtRXBlTXZScldlTkNmaDh4YVJFbmZqMHJmMW9xTThtR3ctM0F1YXlCcU4yVFpXVFpGUzNIYTRjTFA3aw?oc=5",
+      "source": "재경일보",
+      "published": "2026-11-27T21:23:00+00:00",
       "lang": "ko"
+     },
+     {
+      "title": "예년만 못한 쇼핑 대목 블랙프라이데이...증시 영향",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KQUZYSzVKWTBBVUVfV0ZmUFpUWXhHNnBTbktnRklidnFFSGY0OERDX3Rnc2F0OVBpeXF1d1lQaWt0QzNlQTk0dzl3cC1lSDBuRk9PbmM5RnpOUTdoMnc?oc=5",
+      "source": "YTN",
+      "published": "2026-11-27T21:19:00+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "퀄컴 뉴욕 증시서 6%대 급등 179달러선 마감 : 기업주식정보",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE42aHV5cHBXY2dGUHNKcEViaXBLelJmSEVlc0lyS3FfOXBWcWhwTDNjZFE0YzR1ZEhqT3J2ZGlQemZPV2FTNDlGMzdKbw?oc=5",
+      "source": "재경일보",
+      "published": "2026-11-27T21:08:00+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "[속보] 뉴욕증시, AIㆍ반도체주 반등에 상승 마감⋯나스닥 2.3%↑",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1rYmFGOHl6TXJCdUVpaWNDbVJHS3FYVmp0VUJvSzJ5NnVqOFlwMm92NDNHNzNzN3A4aUlnZDdqR2xCVkNub1FKa3ZWYS1pZmU4cU1aRg?oc=5",
+      "source": "이투데이",
+      "published": "2026-11-27T20:59:00+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "Black Friday shopping on a budget? These deals are all under $50",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQUJseGdhY09CbHQ3bW5LZG5OYlo1bDktdUk3X1gxVms3b0J3bGVJSy1lQnJLd3RwV1d4NXNyOW5uOURfYV9WcHhEYVFiQTJFM2EyTUhzUlNXRm9pelhrV211eDZqLUlfaTRGaE1ycndONTZiT2VyRGlILUJNQXo2Uzk4M0NGM2JSMDN3?oc=5",
+      "source": "NBC News",
+      "published": "2026-11-27T20:58:07+00:00",
+      "lang": "en",
+      "title_ko": "예산에 맞춰 블랙 프라이데이 쇼핑을 하시나요? 이 거래는 모두 $50 미만입니다."
+     },
+     {
+      "title": "뉴욕증시, 상승세로 마감…나스닥 2.31%↑",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5QYXo0WkdpS1cxRmZIRFMzVnM5VzNoVWdVRTMzWEhGd1JRWkpZUlpza0t1QWVDb0ZiQlFJX1ZjdWtDbzVqX08wTTZtVmozcEJs?oc=5",
+      "source": "블루밍비트",
+      "published": "2026-11-27T20:51:41+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "Millions lose access to benefits and pensions services after 'cyber incident'",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kQmlaSUVrUGVEVDd6amNPQS05NExlYWRxaTJSdHVISmVTdDY5OVdGRFJUaFlpdHBfRU1kanl5WXhUQmZHNGZPM0stSWtFOWkyaVJVYlMxWENaMHM?oc=5",
+      "source": "BBC",
+      "published": "2026-11-27T20:42:44+00:00",
+      "lang": "en",
+      "title_ko": "수백만 명이 '사이버 사고' 이후 혜택과 연금 서비스를 이용할 수 없게 되었습니다."
+     },
+     {
+      "title": "The best Black Friday fashion deals, from Hoka sneakers to Kate Spade bags and Hanes basics",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNUm5aRWFfbHJxX18xTTdSNzdoZFpqdnM1UlA5cENWWFZxc2hpZldHMGNrRmg3NllmYjNSYkx1QnllUU1lYXdCdi1NaGxlSjV6M2g5RFJZWnlFRUlyTUV5ZXk4R3hqaTJaOU5ycEdZazBRNXBTMk0xYV81aUwxZVZWX3ljdlZBRVdFTUktMGs1Z0xHdTRCb0xwRjVIenNZU0xYbC1GY2VSbFYxVmpPSlVlYThSSjIweXJwRTRhNFhOQklBUXBXaUNCYkFYMWV0bmE2aHFNZzZZSHdlbWJVMUNkRFpiZmxQMUhlQ1hTNXpWbExfZw?oc=5",
+      "source": "Yahoo",
+      "published": "2026-11-27T20:36:35+00:00",
+      "lang": "en",
+      "title_ko": "Hoka 운동화부터 Kate Spade 가방, Hanes 기본 제품까지 최고의 블랙 프라이데이 패션 상품"
      }
     ],
     "keywords": [
      {
-      "word": "trump",
+      "word": "friday",
       "count": 13,
-      "ko": "트럼프"
-     },
-     {
-      "word": "china",
-      "count": 12,
-      "ko": "중국"
+      "ko": null
      },
      {
       "word": "nvidia",
-      "count": 12,
+      "count": 13,
       "ko": "엔비디아"
      },
      {
       "word": "black",
-      "count": 9,
+      "count": 12,
       "ko": null
      },
      {
-      "word": "friday",
-      "count": 9,
-      "ko": null
+      "word": "china",
+      "count": 11,
+      "ko": "중국"
+     },
+     {
+      "word": "tech",
+      "count": 10,
+      "ko": "기술주"
+     },
+     {
+      "word": "trump",
+      "count": 10,
+      "ko": "트럼프"
      },
      {
       "word": "huang",
@@ -6167,17 +6124,27 @@
       "ko": null
      },
      {
-      "word": "company",
+      "word": "jensen",
       "count": 7,
       "ko": null
      },
      {
-      "word": "jensen",
+      "word": "cramer",
       "count": 6,
       "ko": null
      },
      {
-      "word": "premarket",
+      "word": "deals",
+      "count": 6,
+      "ko": null
+     },
+     {
+      "word": "jim",
+      "count": 6,
+      "ko": null
+     },
+     {
+      "word": "return",
       "count": 6,
       "ko": null
      },
@@ -6187,38 +6154,23 @@
       "ko": "연준"
      },
      {
-      "word": "tech",
-      "count": 5,
-      "ko": "기술주"
-     },
-     {
       "word": "thanksgiving",
       "count": 5,
       "ko": null
      },
      {
-      "word": "chinese",
-      "count": 4,
-      "ko": null
-     },
-     {
-      "word": "chips",
-      "count": 4,
-      "ko": "반도체"
-     },
-     {
-      "word": "exclusive",
-      "count": 4,
-      "ko": null
+      "word": "trade",
+      "count": 5,
+      "ko": "무역"
      }
     ],
-    "keyword_base_count": 106
+    "keyword_base_count": 111
    }
   },
   "calendar": {
    "status": "ok",
-   "attempted_at": "2026-11-27T12:55:16+00:00",
-   "last_success_at": "2026-11-27T12:55:16+00:00",
+   "attempted_at": "2026-11-27T21:50:17+00:00",
+   "last_success_at": "2026-11-27T21:50:17+00:00",
    "error": null,
    "data": {
     "today_et": "2026-11-27",

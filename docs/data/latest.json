@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-11-27T04:26:34+00:00",
+ "generated_at": "2026-11-27T08:57:58+00:00",
  "sections": {
   "fx": {
    "status": "ok",
-   "attempted_at": "2026-11-27T04:26:34+00:00",
-   "last_success_at": "2026-11-27T04:26:34+00:00",
+   "attempted_at": "2026-11-27T08:57:58+00:00",
+   "last_success_at": "2026-11-27T08:57:58+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-27",
-    "rate": 1340.08,
+    "rate": 1334.18,
     "prev_rate": 1342.97,
     "prev_date": "2026-11-26",
-    "change_pct": -0.22,
+    "change_pct": -0.65,
     "summary": [
-     "환율이 3원 내렸어요 (1달러 = 1,340원).",
+     "환율이 9원 내렸어요 (1달러 = 1,334원).",
      "달러가 싸지면, 미국 주식을 원화로 따진 가치는 줄어들어요."
     ],
     "source": "Yahoo Finance"
@@ -21,8 +21,8 @@
   },
   "nasdaq": {
    "status": "ok",
-   "attempted_at": "2026-11-27T04:26:34+00:00",
-   "last_success_at": "2026-11-27T04:26:34+00:00",
+   "attempted_at": "2026-11-27T08:57:58+00:00",
+   "last_success_at": "2026-11-27T08:57:58+00:00",
    "error": null,
    "data": {
     "name": "나스닥 종합",
@@ -1726,13 +1726,13 @@
      "summary": "원화로 투자했다면 나스닥 지수는 -0.50%예요 (달러 기준 -0.62% + 환율 +0.12% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-27T04:26:53+00:00"
+    "fetched_at": "2026-11-27T08:58:12+00:00"
    }
   },
   "sp500": {
    "status": "ok",
-   "attempted_at": "2026-11-27T04:26:34+00:00",
-   "last_success_at": "2026-11-27T04:26:34+00:00",
+   "attempted_at": "2026-11-27T08:57:58+00:00",
+   "last_success_at": "2026-11-27T08:57:58+00:00",
    "error": null,
    "data": {
     "name": "S&P 500",
@@ -3284,29 +3284,25 @@
      "summary": "원화로 투자했다면 S&P 500 지수는 -0.13%예요 (달러 기준 -0.25% + 환율 +0.12% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-27T04:26:53+00:00"
+    "fetched_at": "2026-11-27T08:58:12+00:00"
    }
   },
   "gold": {
    "status": "ok",
-   "attempted_at": "2026-11-27T04:26:34+00:00",
-   "last_success_at": "2026-11-27T04:26:34+00:00",
+   "attempted_at": "2026-11-27T08:57:58+00:00",
+   "last_success_at": "2026-11-27T08:57:58+00:00",
    "error": null,
    "data": {
     "name": "국제 금값",
     "short": "금",
     "kind": "commodity",
     "gold_krw": {
-     "per_don": 592449,
-     "per_gram": 157986
+     "per_don": 596196,
+     "per_gram": 158986
     },
     "five_year": {
-     "since": "2021-11-26",
+     "since": "2021-11-27",
      "weekly": [
-      [
-       "2021-11-26",
-       1785.5
-      ],
       [
        "2021-12-03",
        1783.9
@@ -4348,8 +4344,8 @@
        3515.4
       ],
       [
-       "2026-11-26",
-       3659.0
+       "2026-11-27",
+       3706.4
       ]
      ],
      "drawdowns": [
@@ -4422,9 +4418,9 @@
        "ongoing": true,
        "recovered": null,
        "current": {
-        "date": "2026-11-26",
-        "value": 3659.0,
-        "from_end_pct": 4.08
+        "date": "2026-11-27",
+        "value": 3706.4,
+        "from_end_pct": 5.43
        }
       },
       {
@@ -4700,49 +4696,49 @@
      "desc": "역사적으로도 드문 큰 하락이에요."
     },
     "summary": [
-     "금 값은 지난 거래일에 3.48% 올랐어요.",
-     "최고점보다 31.2% 낮은 '깊은 약세장' 상태예요.",
-     "'역사적 폭락' 단계(-40%)까지 8.8%p 더 떨어지면 도달해요."
+     "금 값은 지난 거래일에 4.82% 올랐어요.",
+     "최고점보다 30.3% 낮은 '깊은 약세장' 상태예요.",
+     "'역사적 폭락' 단계(-40%)까지 9.7%p 더 떨어지면 도달해요."
     ],
     "symbol": "GC=F",
-    "as_of": "2026-11-26",
+    "as_of": "2026-11-27",
     "prev_date": "2026-11-25",
-    "close": 3659.0,
+    "close": 3706.4,
     "prev_close": 3535.8,
-    "change_pct": 3.48,
+    "change_pct": 4.82,
     "peak": {
      "value": 5318.4,
      "date": "2026-01-29"
     },
-    "drawdown_pct": -31.2,
+    "drawdown_pct": -30.31,
     "gauge": {
      "prev_line": -30.0,
      "next_line": -40.0,
-     "remaining_pp": 8.8,
-     "progress": 0.1201
+     "remaining_pp": 9.69,
+     "progress": 0.031
     },
     "krw": {
-     "change_pct": 3.51,
-     "fx_change_pct": 0.02,
-     "fx_now": 1342.97,
+     "change_pct": 4.16,
+     "fx_change_pct": -0.63,
+     "fx_now": 1334.18,
      "fx_prev": 1342.65,
-     "summary": "원화로 투자했다면 금 값은 +3.51%예요 (달러 기준 +3.48% + 환율 +0.02% 효과)."
+     "summary": "원화로 투자했다면 금 값은 +4.16%예요 (달러 기준 +4.82% + 환율 -0.63% 효과)."
     },
     "live": false,
-    "fetched_at": "2026-11-27T04:26:53+00:00"
+    "fetched_at": "2026-11-27T08:58:12+00:00"
    }
   },
   "fear_greed": {
    "status": "ok",
-   "attempted_at": "2026-11-27T04:26:34+00:00",
-   "last_success_at": "2026-11-27T04:26:34+00:00",
+   "attempted_at": "2026-11-27T08:57:58+00:00",
+   "last_success_at": "2026-11-27T08:57:58+00:00",
    "error": null,
    "data": {
-    "score": 15.0,
-    "as_of": "2026-11-26T01:59:59+00:00",
-    "prev_close": 15.23,
-    "week_ago": 15.87,
-    "month_ago": 29.83,
+    "score": 17.86,
+    "as_of": "2026-11-27T08:42:16+00:00",
+    "prev_close": 15.6,
+    "week_ago": 18.59,
+    "month_ago": 32.89,
     "year_ago": 17.66,
     "zone": {
      "label": "극단적 공포",
@@ -4750,13 +4746,9 @@
      "level": 0
     },
     "summary": [
-     "투자자 심리는 100점 만점에 15점, '극단적 공포' 상태예요."
+     "투자자 심리는 100점 만점에 18점, '극단적 공포' 상태예요."
     ],
     "history": [
-     [
-      "2026-07-16",
-      41.86
-     ],
      [
       "2026-07-17",
       37.0
@@ -5127,39 +5119,39 @@
      ],
      [
       "2026-11-25",
-      15.6
+      17.86
      ],
      [
       "2026-11-26",
-      15.0
+      17.86
+     ],
+     [
+      "2026-11-27",
+      17.86
      ]
     ]
    }
   },
   "vix": {
    "status": "ok",
-   "attempted_at": "2026-11-27T04:26:34+00:00",
-   "last_success_at": "2026-11-27T04:26:34+00:00",
+   "attempted_at": "2026-11-27T08:57:58+00:00",
+   "last_success_at": "2026-11-27T08:57:58+00:00",
    "error": null,
    "data": {
-    "as_of": "2026-11-26",
-    "close": 26.8,
-    "prev_close": 28.29,
-    "change": -1.49,
-    "change_pct": -5.27,
+    "as_of": "2026-11-27",
+    "close": 24.65,
+    "prev_close": 26.8,
+    "change": -2.15,
+    "change_pct": -8.02,
     "zone": {
      "label": "불안",
      "desc": "평소보다 크게 출렁일 거라고 보는 사람이 많아요.",
      "level": 2
     },
     "summary": [
-     "공포지수(VIX)는 26.8, '불안' 수준이에요."
+     "공포지수(VIX)는 24.6, '불안' 수준이에요."
     ],
     "history": [
-     [
-      "2026-08-26",
-      15.21
-     ],
      [
       "2026-08-27",
       14.51
@@ -5423,16 +5415,20 @@
      [
       "2026-11-26",
       26.8
+     ],
+     [
+      "2026-11-27",
+      24.65
      ]
     ],
     "live": false,
-    "fetched_at": "2026-11-27T04:26:53+00:00"
+    "fetched_at": "2026-11-27T08:58:12+00:00"
    }
   },
   "movers": {
    "status": "ok",
-   "attempted_at": "2026-11-27T04:26:34+00:00",
-   "last_success_at": "2026-11-27T04:26:34+00:00",
+   "attempted_at": "2026-11-27T08:57:58+00:00",
+   "last_success_at": "2026-11-27T08:57:58+00:00",
    "error": null,
    "data": {
     "universe": "나스닥-100",
@@ -5482,20 +5478,20 @@
       "reason": null,
       "news": [
        {
+        "title": "Analog Devices (ADI) Stock Fair Value Moves Lower After Mixed Analyst Target Revisions",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-stock-fair-042320733.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-27T04:23:20+00:00",
+        "lang": "en",
+        "title_ko": "Analog Devices(ADI) 주식 공정 가치는 혼합 애널리스트 목표 수정 후 하락"
+       },
+       {
         "title": "Analog Devices keeps UBS target despite softer earnings guidance",
         "link": "https://www.proactiveinvestors.com/companies/news/1102545/analog-devices-keeps-ubs-target-despite-softer-earnings-guidance-1102545.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-26T19:00:00+00:00",
         "lang": "en",
         "title_ko": "Analog Devices, 수익 지침 완화에도 불구하고 UBS 목표 유지"
-       },
-       {
-        "title": "Analog Devices Just Plunged After Earnings. Is Its Dividend Now a Bargain?",
-        "link": "https://247wallst.com/investing/2026/11/25/analog-devices-just-plunged-after-earnings-is-its-dividend-now-a-bargain/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-25T18:47:51+00:00",
-        "lang": "en",
-        "title_ko": "아나로그디바이스, 실적 후 급락. 배당금은 이제 할인인가?"
        }
       ]
      },
@@ -5515,20 +5511,20 @@
       },
       "news": [
        {
+        "title": "Best Income Stocks to Buy for November 27th",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/best-income-stocks-buy-november-063900516.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "2026-11-27T06:39:00+00:00",
+        "lang": "en",
+        "title_ko": "11월 27일에 매수할 수 있는 최고의 소득 주식"
+       },
+       {
         "title": "Can Capacity Expansion help Vicor Meet Rising AI Power Demand?",
         "link": "https://finance.yahoo.com/technology/ai/articles/capacity-expansion-help-vicor-meet-121300058.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "2026-11-26T12:13:00+00:00",
         "lang": "en",
         "title_ko": "용량 확장이 Vicor가 증가하는 AI 전력 수요를 충족하는 데 도움이 될 수 있습니까?"
-       },
-       {
-        "title": "Analog Devices Just Plunged After Earnings. Is Its Dividend Now a Bargain?",
-        "link": "https://247wallst.com/investing/2026/11/25/analog-devices-just-plunged-after-earnings-is-its-dividend-now-a-bargain/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "2026-11-25T18:47:51+00:00",
-        "lang": "en",
-        "title_ko": "아나로그디바이스, 실적 후 급락. 배당금은 이제 할인인가?"
        }
       ]
      },
@@ -5575,20 +5571,20 @@
       },
       "news": [
        {
-        "title": "George Soros and 64 Other Big Funds Bought Meta Last Quarter. David Tepper and 33 Others Sold. Who’s Right?",
-        "link": "https://www.tikr.com/blog/george-soros-and-64-other-big-funds-bought-meta-last-quarter-david-tepper-and-33-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261126-jj5cfjgh&.tsrc=rss",
+        "title": "Michael Burry Shares Stark Warning About AI Boom, as Nvidia, Oracle and Meta Face Surging Debt Insurance Costs",
+        "link": "https://finance.yahoo.com/technology/ai/articles/michael-burry-shares-stark-warning-063128312.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-26T18:09:59+00:00",
+        "published": "2026-11-27T06:31:28+00:00",
         "lang": "en",
-        "title_ko": "조지 소로스(George Soros)와 64개의 다른 대형 펀드가 지난 분기에 메타를 매입했습니다. David Tepper 외 33개 판매. 누가 맞나요?"
+        "title_ko": "Michael Burry는 Nvidia, Oracle 및 Meta가 부채 보험 비용 급증에 직면하면서 AI 붐에 대한 엄중한 경고를 공유합니다."
        },
        {
-        "title": "Meta Faces India Lawsuit Over 5.4 Million Content Restrictions",
-        "link": "https://finance.yahoo.com/technology/articles/meta-faces-india-lawsuit-over-180217910.html?.tsrc=rss",
+        "title": "Apple Enters the AI Agent Race as It Takes on OpenAI, Anthropic, and Meta. What That Means for AAPL Stock.",
+        "link": "https://www.barchart.com/story/news/9022924/apple-enters-the-ai-agent-race-as-it-takes-on-openai-anthropic-and-meta-what-that-means-for-aapl-stock?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-26T18:02:17+00:00",
+        "published": "2026-11-26T19:30:03+00:00",
         "lang": "en",
-        "title_ko": "Meta, 540만 개 이상의 콘텐츠 제한에 대한 인도 소송에 직면"
+        "title_ko": "Apple은 OpenAI, Anthropic 및 Meta를 대상으로 AI 에이전트 경쟁에 돌입합니다. AAPL 주식에 대한 의미"
        }
       ]
      }
@@ -5636,7 +5632,7 @@
       "volume": 52988400,
       "reason": {
        "title": "[美증시 특징주] 마이크론 급락, 메모리에 악재…BNP파리바 목표가 파격 하향",
-       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EWWpETXlUMFZPenRLX1lvcUFvcy1lZm90eVBTVGhsa3VCWUgtN3ZOZ25Gc0RjejdMQjkyNDNjWFRLMUFIMFY1QXg3VDRxZXdfbldrWNIBWEFVX3lxTFBjOVM5OV96WDRxQmhGZXRvQnhYY1VpRmV2VmxpekdqT1VfWi1VSmt1cmIzVnFKR3ozQTlvUndEdmdac0ltSVhieWt1OFkyWG9GeUliT0x1N0U?oc=5",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBjOVM5OV96WDRxQmhGZXRvQnhYY1VpRmV2VmxpekdqT1VfWi1VSmt1cmIzVnFKR3ozQTlvUndEdmdac0ltSVhieWt1OFkyWG9GeUliT0x1N0XSAVhBVV95cUxQYzlTOTlfelg0cUJoRmV0b0J4WGNVaUZldlZsaXpHak9VX1otVUprdXJiM1ZxSkd6M0E5b1J3RHZnWnNJbUlYYnlrdThZMlhvRnlJYk9MdTdF?oc=5",
        "source": "미디어펜",
        "published": "2026-11-25T19:55:09+00:00",
        "lang": "ko"
@@ -5710,20 +5706,20 @@
       },
       "news": [
        {
-        "title": "Singapore yet to confirm if Nvidia has halted advanced chip shipments- deputy PM",
-        "link": "https://finance.yahoo.com/technology/articles/singapore-yet-confirm-nvidia-halted-041419330.html?.tsrc=rss",
+        "title": "Berkshire Cut Chevron By About a Third This Year and Kept Occidental. What Does That Say About Oil Prices?",
+        "link": "https://www.fool.com/investing/2026/11/27/berkshire-cut-chevron-by-about-a-third-this-year-a/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T04:14:19+00:00",
+        "published": "2026-11-27T08:50:00+00:00",
         "lang": "en",
-        "title_ko": "싱가포르는 엔비디아가 첨단 칩 출하를 중단했는지 아직 확인하지 않았습니다. - 부총리"
+        "title_ko": "버크셔는 올해 쉐브론을 약 3분의 1로 줄이고 옥시덴탈을 유지했습니다. 유가에 대해 무엇을 말합니까?"
        },
        {
-        "title": "Amazon Lost 40 Satellites on a Boeing-Lockheed Rocket in November. SpaceX Is the Only Company That Can Fix Amazon’s Problem. Is the Stock a Buy Near $130?",
-        "link": "https://www.fool.com/investing/2026/11/26/amazon-lost-40-satellites-on-a-boeing-lockheed-rocket-in-november-spacex-is-the-only-company-that-can-fix-amazon-s-problem-is-the-stock-a-buy-near-usd130/?.tsrc=rss",
+        "title": "Prediction: This Will Be Anthropic’s Stock Price by the End of 2026",
+        "link": "https://www.fool.com/investing/2026/11/27/prediction-this-will-be-anthropic-s-stock-price-by-the-end-of-2026/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T03:53:02+00:00",
+        "published": "2026-11-27T07:23:02+00:00",
         "lang": "en",
-        "title_ko": "아마존은 지난 11월 보잉-록히드 로켓에서 위성 40개를 잃었습니다. SpaceX는 Amazon의 문제를 해결할 수 있는 유일한 회사입니다. 주식 매수가 $130에 가깝나요?"
+        "title_ko": "예측: 이는 2026년 말까지 Anthropic의 주가가 될 것입니다."
        }
       ]
      },
@@ -5779,20 +5775,20 @@
       },
       "news": [
        {
-        "title": "Singapore yet to confirm if Nvidia has halted advanced chip shipments- deputy PM",
-        "link": "https://finance.yahoo.com/technology/articles/singapore-yet-confirm-nvidia-halted-041419330.html?.tsrc=rss",
+        "title": "Berkshire Cut Chevron By About a Third This Year and Kept Occidental. What Does That Say About Oil Prices?",
+        "link": "https://www.fool.com/investing/2026/11/27/berkshire-cut-chevron-by-about-a-third-this-year-a/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T04:14:19+00:00",
+        "published": "2026-11-27T08:50:00+00:00",
         "lang": "en",
-        "title_ko": "싱가포르는 엔비디아가 첨단 칩 출하를 중단했는지 아직 확인하지 않았습니다. - 부총리"
+        "title_ko": "버크셔는 올해 쉐브론을 약 3분의 1로 줄이고 옥시덴탈을 유지했습니다. 유가에 대해 무엇을 말합니까?"
        },
        {
-        "title": "Amazon Lost 40 Satellites on a Boeing-Lockheed Rocket in November. SpaceX Is the Only Company That Can Fix Amazon’s Problem. Is the Stock a Buy Near $130?",
-        "link": "https://www.fool.com/investing/2026/11/26/amazon-lost-40-satellites-on-a-boeing-lockheed-rocket-in-november-spacex-is-the-only-company-that-can-fix-amazon-s-problem-is-the-stock-a-buy-near-usd130/?.tsrc=rss",
+        "title": "Prediction: This Will Be Anthropic’s Stock Price by the End of 2026",
+        "link": "https://www.fool.com/investing/2026/11/27/prediction-this-will-be-anthropic-s-stock-price-by-the-end-of-2026/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "2026-11-27T03:53:02+00:00",
+        "published": "2026-11-27T07:23:02+00:00",
         "lang": "en",
-        "title_ko": "아마존은 지난 11월 보잉-록히드 로켓에서 위성 40개를 잃었습니다. SpaceX는 Amazon의 문제를 해결할 수 있는 유일한 회사입니다. 주식 매수가 $130에 가깝나요?"
+        "title_ko": "예측: 이는 2026년 말까지 Anthropic의 주가가 될 것입니다."
        }
       ]
      },
@@ -5804,11 +5800,12 @@
       "change_pct": 1.3,
       "volume": 148279900,
       "reason": {
-       "title": "[특징주] 스페이스X '우주 데이터센터' 위성 승인…관련주 급등(종합)",
-       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IaE1ueDFMbjJneDg2V2syMWN2Wllrc3BEcENwZnN3NWVuWEFJTDFRdUpTTmIzcDVMM2NXQTJVRFo5MGpuM1BFY2xXeGQ2c2d4S0EtOFBQTEJTRUnSAWBBVV95cUxNdkczbklPVWFocmttd2RxU0dGVENzQkg1akEtNVBYN1ZjYmpoNHdXMGRzWUY3VmNlUTZuWmNjVUdhWFVrS1ozTUNpZktzVURwQmxORjFhMHAyWmFvR295ajY?oc=5",
-       "source": "연합뉴스",
-       "published": "2026-11-26T06:45:39+00:00",
-       "lang": "ko"
+       "title": "SpaceX Stock (SPCX) Rises 1.3% on FCC Satellite Approval (Nov 25)",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNlpNVE1hcGlzeWxSM3Y1ZGhfemNaVHRpa3d4TWNhYWNrNXVFbVNodWd2MWpsYWRMWGFwZGtmeTF3S1l1Yk5QejZjQXlwcW1MdlZMMURua0RHZzR2aVBrV19yOExYamhoanpDR085MHY2LTUxMnBpOXZ2RWkwQk1BTw?oc=5",
+       "source": "Gotrade",
+       "published": "2026-11-26T04:41:00+00:00",
+       "lang": "en",
+       "title_ko": "SpaceX 주식(SPCX)은 FCC 위성 승인으로 1.3% 상승합니다(11월 25일)"
       },
       "news": [
        {
@@ -5930,13 +5927,13 @@
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-27T04:26:53+00:00"
+    "fetched_at": "2026-11-27T08:58:12+00:00"
    }
   },
   "sectors": {
    "status": "ok",
-   "attempted_at": "2026-11-27T04:26:34+00:00",
-   "last_success_at": "2026-11-27T04:26:34+00:00",
+   "attempted_at": "2026-11-27T08:57:58+00:00",
+   "last_success_at": "2026-11-27T08:57:58+00:00",
    "error": null,
    "data": {
     "as_of": "2026-11-25",
@@ -6051,118 +6048,122 @@
      }
     ],
     "live": false,
-    "fetched_at": "2026-11-27T04:26:53+00:00"
+    "fetched_at": "2026-11-27T08:58:12+00:00"
    }
   },
   "news": {
    "status": "ok",
-   "attempted_at": "2026-11-27T04:26:34+00:00",
-   "last_success_at": "2026-11-27T04:26:34+00:00",
+   "attempted_at": "2026-11-27T08:57:58+00:00",
+   "last_success_at": "2026-11-27T08:57:58+00:00",
    "error": null,
    "data": {
     "items": [
      {
-      "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
-      "link": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-27T04:19:29+00:00",
-      "lang": "en",
-      "title_ko": "다우존스 선물 상승; 블랙 프라이데이의 강세 시장 신호를 찾아보세요"
-     },
-     {
-      "title": "We Found the Very Best Black Friday Deals So You Don’t Have To",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbC1JQWFXeXIyLS1PV0o3ZS01MGxmT1kzaHZ6WHh4MW9qNEE0VnVhY25ZdkRzeVBmdlVtZTdBbzY1S3JiQTdCd3VhTUhXM1NLelhyd05nczlqN0xIZklpREFoVGRzRGlQcWtLNU93c01nbFVOSTRMVUFBeDVkcXd5YQ?oc=5",
-      "source": "The New York Times",
-      "published": "2026-11-27T04:00:03+00:00",
-      "lang": "en",
-      "title_ko": "우리는 최고의 블랙 프라이데이 특가를 찾았으므로 그럴 필요가 없습니다."
+      "title": "TSMC($TSM), 25일 1.96% 하락",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tT25uMC1FVTR6QnF5aldQZnBzWXV0VEZ3SzdqWmJOUl9RSHh5dEVUSmRsTGNsbHZhY3pXM0NqTDJMNzZWUmtPMWVqdmprbEk0RzZJekln0gFbQVVfeXFMT2IyY1VLVC1NMXZvbWIwLVMyZFNueXh6NGk5MWVjdE41eFFqT3JQVC1Uam94LV9tRGpkaUFTR1Nabld2ekpJZnY2TWp4eGtLOGM5T2txdndPQWRSYw?oc=5",
+      "source": "토큰포스트",
+      "published": "2026-11-27T08:49:20+00:00",
+      "lang": "ko"
      },
      {
       "title": "Asian Stocks Rise for Second Day, Treasuries Slip: Markets Wrap",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd2ZFa0FGcTRjb19HbGxhWGxZc05LTXQ2WUJDTTQzc2hYNGVrbE5GQWtlcERpWGdVZmptNEFUM0ltY0ZobVhoaVo1Qzl4ZTFuNlBDSXFNaG9ETXFDOGdYSGppVVh1cW10TFJ5RG9sVVNYZmUzMHk2VlROMG9yVDM3UzRtM1VSbXlaYWlSN01McUlncVljREZvOGY5UzZaSjc3R3MzdWJUOF9oS3ZLU2c3bmV0MA?oc=5",
       "source": "Bloomberg.com",
-      "published": "2026-11-27T03:59:00+00:00",
+      "published": "2026-11-27T08:37:28+00:00",
       "lang": "en",
       "title_ko": "아시아 증시 이틀째 상승, 국채 하락: 시장 마감"
      },
      {
-      "title": "Stock futures tick higher as Wall Street gets set to wrap up a volatile holiday week: Live updates",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jcmRfRzk2ZGwtRmpwS3RZYlhaTHdzQUFsOUFMeWlmdUJoQjlSb2FDUFJyaWtFUGw3VmdQVVJRZTFzbHBybHV0T0xyQlFNUVB4SDlmbWk1V0pEQXcyVmwtenNJWE82dV9VUkVKVGJ3QVRCOXNpSEpr0gF8QVVfeXFMTjFBd1l1a2dUcEE1SjBNRGpXVkJBcVBLdjM3M04zVGJxUnNmVk1qejMxZm1WV0xYdi0tNW4tQ2xHSkpzNjhxZkZ0amRPeldHT2RRai11VlNxUXhWTHhQa3pianhxX0hoWnNMRzVKYXBrR2wwMW16UGc0dlpVbQ?oc=5",
+      "title": "We Found the Very Best Black Friday Deals So You Don’t Have To",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbC1JQWFXeXIyLS1PV0o3ZS01MGxmT1kzaHZ6WHh4MW9qNEE0VnVhY25ZdkRzeVBmdlVtZTdBbzY1S3JiQTdCd3VhTUhXM1NLelhyd05nczlqN0xIZklpREFoVGRzRGlQcWtLNU93c01nbFVOSTRMVUFBeDVkcXd5YQ?oc=5",
+      "source": "The New York Times",
+      "published": "2026-11-27T08:30:01+00:00",
+      "lang": "en",
+      "title_ko": "우리는 최고의 블랙 프라이데이 특가를 찾았으므로 그럴 필요가 없습니다."
+     },
+     {
+      "title": "Chinese shares soar after Beijing signals more support",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcWowSjlHYjJuRTFKeTM5LUJnVmRqMEtXVktHOFNUQjZrUXFwWVNWTEt1d0FSdHZObTEyWHA2d01pUklZMm5vNGplZUZyc25aTDREVGphS1dQck9Cb19lUVAwUkFxbjRPWEJKT1hXRUVCODBJSlBCY0p4emh1T29KMUVBS08?oc=5",
+      "source": "Financial Times",
+      "published": "2026-11-27T07:52:30+00:00",
+      "lang": "en",
+      "title_ko": "중국 증시는 중국이 추가 지원 신호를 보낸 후 급등했습니다."
+     },
+     {
+      "title": "History Says Investing $200 a Month in This Vanguard ETF Could Build Life-Changing Wealth Without a Single Stock Pick",
+      "link": "https://www.fool.com/investing/2026/11/27/history-says-investing-200-a-month-in-this-vanguard-etf-could-build-life-changing-wealth-without-a-single-stock-pick/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "published": "2026-11-27T07:20:02+00:00",
+      "lang": "en",
+      "title_ko": "역사에 따르면 이 Vanguard ETF에 한 달에 200달러를 투자하면 단일 주식 선택 없이 인생을 바꾸는 부를 쌓을 수 있다고 합니다."
+     },
+     {
+      "title": "[뉴욕증시 전략] 엔비디아 유통망, 중국 임대 전면 차단 통보",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WSlk4cHVKTzhoRjM5ZFo5QkFEajBrdVNpU19HVkNDTW9tU1hFM0t4T3JERzRoM29MbTc3REJNYWNWOU5PZjF3MjRrUmxyN25kNXhn0gFYQVVfeXFMUGNjOWQtTmxVSGxyc3IweXhvaFUxcktnQWN3WjExZEtTRnRvR2VzN2FIUFlfNnkyQnpadDBiWDFJUV9LRVdWanpSMlQ2Z0NjSEFUZGJQVDlxQQ?oc=5",
+      "source": "SBS Biz",
+      "published": "2026-11-27T07:04:00+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "혼돈의 월가…닷컴버블이냐 금리 쇼크냐",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93b2pXNnAtV2wyRUZtZWNOdE5KdlNDUzZDaklqOXJSaHI5cllzY2hCRDhiUnVPaHJxYmJjRDA0V2pfdl95VUtJTFlONFhtREZrNWlCMVlB?oc=5",
+      "source": "매일경제",
+      "published": "2026-11-27T06:54:08+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "美증시 쉬어도 선물은 돈다…\"韓증시가 추수감사절 美선물 좌우\"",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SQy1GLUEtNjZESENzdklXUlNyY0otXzMzbDlLTTE1X1lRZGlwejdIN3N6cFFfRzFyNGgxRmJ1U3YxRy1CbXRCX05WdVZWMWpUOG5uOUJxbDVNQ0xQXzlfWVMwQ09PMndxa051VkxvSUxGMUU?oc=5",
+      "source": "마켓인",
+      "published": "2026-11-27T06:38:32+00:00",
+      "lang": "ko"
+     },
+     {
+      "title": "Tech German software major SAP is reportedly weighing cutting at least 10,000 jobs in AI push",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lTGV4dzdlZWk5ZWE2am5QZkwxS3VDNW9ROHVRZ3hXQnd0VXlPR3FTRlg5R2RILVRhbE9iZWt6OTluU1Z3ZEpMa2xabXktU3UzN3FMZWpIVnVwd1FwVWMzSmZWYVFlOENLbzNJbWphMW5PLXJJ0gF6QVVfeXFMT3A5UHI3V21UaUdSbFhxV0s1Y2RCWk84cmhSaHlES3ZuUFZNdHN6cTJZQXRtbUZmR3NlN0RYS3hRZnVmSUhzYk1xTTN1MmpCMFVQRkV0SzR0NkQxck9xWE51VnJNcUJla1JHNFVmdFdPazEwQ3dpRXAxWmc?oc=5",
       "source": "CNBC",
-      "published": "2026-11-27T02:42:20+00:00",
+      "published": "2026-11-27T06:36:30+00:00",
       "lang": "en",
-      "title_ko": "월스트리트가 변동성이 큰 휴일 주간을 마무리하면서 주식 선물은 더 높아졌습니다. 라이브 업데이트"
+      "title_ko": "독일의 주요 소프트웨어 대기업 SAP가 AI 분야에서 최소 10,000명의 일자리를 줄이는 방안을 검토하고 있는 것으로 알려졌습니다."
      },
      {
-      "title": "Stocks Are Plunging Right Now. Here's What History Says Investors Should Do.",
-      "link": "https://www.fool.com/investing/2026/11/26/stocks-are-plunging-right-now-heres-what-history-s/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-27T02:20:00+00:00",
+      "title": "Asian Markets Rise as AI Sentiment Stabilizes",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcnRDczhFTDhaVXp4YmhscHNzZ3M3Z2JIVkNtdXJoQlJxai1BYnVtczd2Z3B6LThnRUVaWUxtVllXZnZWY0gzWVdTUlJSOFNMVXZfSWEwX2wyUVRnWUVtcVJlY1E4eXdaSk5wNDV2Z0lMSlBuUm13dy1saXp6ZlhLTTdBNHVLT1huOGpjYXNFbWtVdw?oc=5",
+      "source": "WSJ",
+      "published": "2026-11-27T05:53:00+00:00",
       "lang": "en",
-      "title_ko": "지금 주가가 폭락하고 있습니다. 역사가 말하는 투자자들이 해야 할 일은 다음과 같습니다."
-     },
-     {
-      "title": "Is Compass (COMP) Priced For Perfection After Its Big Run?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/compass-comp-priced-perfection-big-021334270.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "published": "2026-11-27T02:13:34+00:00",
-      "lang": "en",
-      "title_ko": "Compass(COMP)는 큰 성공을 거둔 후 완벽함을 위해 가격이 책정됩니까?"
-     },
-     {
-      "title": "[뉴욕 증시] AI주 매도세에 나스닥 0.62%↓...엔비디아 3.91%↓",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB2SE41ek92RzR6ZWRPUC05TnE4UEkxNFRCNXYyeGd0eVFqTGY0ZFBUME5oa0xtRGk0TnlWbS0xSl9Kdjk2bUc5S25uS0FQU25yQ1VpNm9xZ2N6dE1sZHVrLWpsWTFzOUJrWC1zV0VJajZwZw?oc=5",
-      "source": "한양경제",
-      "published": "2026-11-27T02:00:41+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "Denny's faces backlash over heartfelt tribute to reinstated Nvidia CEO Jensen Huang",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVGRpQVpRRU5rM3hDTnpTVU1oRGhRTTNwRzdtOXlKQzhBMmNnYkhiMHhzc1d3cHNjVzBVM1Q0R2Z6c3VsTTlFOHpPTXNsYV8zTEdzMWw3cnd1SzIyX0RPQWg5LVlDdGxCX2dxWkpONDd1TjRVc0pJZ3ZuVjlKQ0NzSnZ3d3BGZDBoamRCUndVMTRCLXlMSVpXNFluZFBfRUVSVEprbThfV0VWWkcyNTFDZnF5ZUxiTVF60gG-AUFVX3lxTE40VHY3Y2o1NmkyNUNQdk02UF9PZU5GQU1oTWl5UVNZQjkwbDE1Wkpkb1NkY1Nua1E3TXBWa0dGV2IxZG01M1pKOGJCUTZQQ0ZiUEdvR2tEbUlXSjRnTjNIT3o2UXdyUUo2M0s4d0NGRDJnWEtTTVU1Q1JEVGo2QTVzOUVKOTdJWW5fTzkwV1JhWWxkTm5tVkFnY2dlRHJVWUUtZnN3cnZ3NHlnd0xSc1BjNnF3T2xZb3hYSC1rZlE?oc=5",
-      "source": "Fox Business",
-      "published": "2026-11-27T01:57:00+00:00",
-      "lang": "en",
-      "title_ko": "Denny's는 복직된 Nvidia CEO Jensen Huang에 대한 진심어린 찬사로 인해 반발에 직면했습니다."
-     },
-     {
-      "title": "뉴욕증시, AI 투자 불확실성에 혼조…기술주 약세 지속",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yemUxb0VzRnh4M3NQYkxod1M3Zk5jTE9VWDJuUXNWNDF5Ykt3NVVQWXpadG9hMTRmOXNMbExNbEg0RTh5emV4Q2pKV3dWems2QTA3a2JrYWlLS2pYTGhNbTNUOUpSUzdZRF9tSg?oc=5",
-      "source": "센머니",
-      "published": "2026-11-27T01:43:00+00:00",
-      "lang": "ko"
-     },
-     {
-      "title": "트럼프, 美 증시 장중 하락에 “조금 걱정”",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96aHJtbUZjZllkNC11a3YyTlRmdlQtQjl5S0tYYUpELXFFNnJfQUpGWW9DZ01NOWFua0owVWpLS1JLNmxfdlppQ2F6Q3NXMGdYZVpuTXd30gFbQVVfeXFMTUVKbEZycnlSNGRNMlA0R1VqSlNrclNZRjJXRV9IZ3NPQVJweUpvelMzWF93RG1PdjNVV2tNS3gzR0xVcnN6dER1SEhsOXI4WkRWWEh3NmVHdFNyRQ?oc=5",
-      "source": "토큰포스트",
-      "published": "2026-11-27T01:28:56+00:00",
-      "lang": "ko"
+      "title_ko": "AI 정서가 안정되면서 아시아 시장 상승"
      }
     ],
     "keywords": [
      {
-      "word": "nvidia",
-      "count": 11,
-      "ko": "엔비디아"
-     },
-     {
       "word": "trump",
-      "count": 10,
+      "count": 11,
       "ko": "트럼프"
      },
      {
       "word": "china",
-      "count": 7,
+      "count": 10,
       "ko": "중국"
+     },
+     {
+      "word": "nvidia",
+      "count": 10,
+      "ko": "엔비디아"
+     },
+     {
+      "word": "black",
+      "count": 8,
+      "ko": null
+     },
+     {
+      "word": "friday",
+      "count": 8,
+      "ko": null
      },
      {
       "word": "huang",
       "count": 7,
-      "ko": null
-     },
-     {
-      "word": "black",
-      "count": 6,
       "ko": null
      },
      {
@@ -6171,24 +6172,24 @@
       "ko": "연준"
      },
      {
-      "word": "friday",
-      "count": 6,
-      "ko": null
-     },
-     {
       "word": "jensen",
       "count": 6,
       "ko": null
      },
      {
       "word": "tech",
-      "count": 5,
+      "count": 6,
       "ko": "기술주"
      },
      {
-      "word": "bank",
+      "word": "anthropic",
       "count": 4,
-      "ko": "은행"
+      "ko": "앤트로픽"
+     },
+     {
+      "word": "chinese",
+      "count": 4,
+      "ko": null
      },
      {
       "word": "high",
@@ -6196,36 +6197,31 @@
       "ko": null
      },
      {
-      "word": "inflation",
-      "count": 4,
-      "ko": "인플레이션"
-     },
-     {
-      "word": "investors",
-      "count": 4,
-      "ko": "투자자"
-     },
-     {
       "word": "officials",
       "count": 4,
       "ko": null
      },
      {
-      "word": "putin",
+      "word": "open",
       "count": 4,
       "ko": null
+     },
+     {
+      "word": "outlook",
+      "count": 4,
+      "ko": "전망"
      }
     ],
-    "keyword_base_count": 109
+    "keyword_base_count": 112
    }
   },
   "calendar": {
    "status": "ok",
-   "attempted_at": "2026-11-27T04:26:34+00:00",
-   "last_success_at": "2026-11-27T04:26:34+00:00",
+   "attempted_at": "2026-11-27T08:57:58+00:00",
+   "last_success_at": "2026-11-27T08:57:58+00:00",
    "error": null,
    "data": {
-    "today_et": "2026-11-26",
+    "today_et": "2026-11-27",
     "start": "2026-11-01",
     "end": "2027-01-31",
     "events": [
@@ -6334,12 +6330,6 @@
     "warnings": [],
     "sessions": [
      {
-      "date": "2026-11-25",
-      "open": "2026-11-25T23:30:00+09:00",
-      "close": "2026-11-26T06:00:00+09:00",
-      "early": false
-     },
-     {
       "date": "2026-11-27",
       "open": "2026-11-27T23:30:00+09:00",
       "close": "2026-11-28T03:00:00+09:00",
@@ -6421,6 +6411,12 @@
       "date": "2026-12-16",
       "open": "2026-12-16T23:30:00+09:00",
       "close": "2026-12-17T06:00:00+09:00",
+      "early": false
+     },
+     {
+      "date": "2026-12-17",
+      "open": "2026-12-17T23:30:00+09:00",
+      "close": "2026-12-18T06:00:00+09:00",
       "early": false
      }
     ]
